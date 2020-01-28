@@ -1,7 +1,7 @@
 from fit_just_early_lc import fit_lc
 import pandas as pd
 
-prep_df = pd.read_hdf('/projects/p30796/ZTF/SN2019yvq/first_light_2019yvq.h5')
+prep_df = pd.read_hdf('/projects/p30796/ZTF/SN2019yvq/first_light_4d_2019yvq.h5')
 t_data = prep_df.t_data.values
 f_data = prep_df.f_data.values
 f_unc_data = prep_df.f_unc_data.values
