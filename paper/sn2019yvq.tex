@@ -215,6 +215,24 @@ report suggested the SN was fading. Continued monitoring with ZTF, and
 follow-up with other telescopes, confirmed a spectacular decline in the early
 emission from \sn\ (Figure~\ref{fig:p48}).
 
+\begin{figure}
+    \centering
+    \includegraphics[width=3.5in]{./figures/P48_lc.pdf}
+    %
+    \caption{Photometric evolution of \sn, highlighting the initial decline
+    observed in the light curve. \gztf, \rztf, and \iztf\ observations are
+    shown as filled green circles, open red circles, and filled golden
+    crosses, respectively. UVOT $u$ and $uvw2$ are The lower axis shows time
+    measured in rest-frame days relative to \tfl, while the upper axis shows
+    time relative to B-band maximum. Note that the horizontal axis is shown
+    with a linear scale from $0\,\mathrm{d} \le t - t_\mathrm{fl} \le 3$\,d
+    and a log scale for $t - t_\mathrm{fl} > 3$\,d. Vertical black ticks show
+    epochs of spectroscopic observations. \todo{add marks for dates of
+    spectra}}
+    %
+    \label{fig:p48}
+\end{figure}
+
 The field of \sn\ was additionally observed by ZTF with nearly a nightly
 cadence as part of the ZTF partnership Uniform Depth Survey (ZUDS;
 D.~Goldstein et al., in prep.). Using images obtained as part of the ZUDS
@@ -237,18 +255,40 @@ For clarity, we only show the \textit{Swift} $u$ and $uvw2$ light curves in
 Figure~\ref{fig:p48}. \textit{Swift}/UVOT observations show that the initial
 decline seen in the optical is even more dramatic in the UV. 
 
+We use a second-order polynomial to model the UVOT $b$-band light curve near
+peak (including observations between JD$> 2,458,855.5$ and JD$<
+2,458,871.5$). From the fit we estimate the time of $B$-band maximum \tbmax$
+= 2,458,863.83 \pm 0.21$\,JD and that \sn\ peaked at $B = 14.98 \pm
+0.03$\,mag (this estimate has not been corrected for extinction).
 
+\subsection{Optical Spectroscopy}
 
-\aam{$\longrightarrow$ spectra (with help from Dan P)}
+Spectroscopic observations of \sn\ were taken with a variety of telescopes
+and instruments over multiple epochs beginning $\sim$3\,d after discovery and
+continuing through $\sim$3\,wk after \tbmax \todo{update these numbers}. An
+observing log is listed in Table~\ref{tab:spectra}. The spectra were reduced
+using standard procedures in \texttt{IDL}/\texttt{Python}/\texttt{Matlab}.
+The optical spectral evolution of \sn\ is illustrated in
+Figure~\ref{fig:spec_evo}.
 
 \begin{figure}
     \centering
-    \includegraphics[width=3.5in]{./figures/P48_lc.pdf}
+    \includegraphics[width=3.5in]{./figures/spec_evo.pdf}
     %
-    \caption{Photometric evolution of \sn.}
+    \caption{Observed spectral sequence of \sn. Spectra have been normalized
+    by their median flux between 7200 \AA\ and 7400 \AA. The phase of each
+    observation relative to \tbmax\ is shown to the right of the individual
+    spectra. Prominent spectral features from intermediate mass elements are
+    highlighted with vertical dashed lines. Some of the spectra feature
+    imperfect Telluric subtractions, giving rise to the non-smooth features
+    around $\lambda_\mathrm{obs} \approx 7600$\,\AA.}
     %
-    \label{fig:p48}
+    \label{fig:spec_evo}
 \end{figure}
+
+
+\section{Analysis}\label{sec:analysis}
+
 
 \begin{figure}
     \centering
@@ -259,16 +299,6 @@ decline seen in the optical is even more dramatic in the UV.
     \label{fig:colors}
 \end{figure}
 
-\begin{figure}
-    \centering
-    \includegraphics[width=3.5in]{./figures/spec_evo.pdf}
-    %
-    \caption{Spectral evolution of \sn.}
-    %
-    \label{fig:spec_evo}
-\end{figure}
-
-\section{Analysis}\label{sec:analysis}
 
 \begin{figure}
     \centering
