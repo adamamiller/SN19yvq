@@ -1,0 +1,365 @@
+%% using aastex version 6.3
+\documentclass[twocolumn]{aastex63}
+
+\newcommand{\vdag}{(v)^\dagger}
+\newcommand\aastex{AAS\TeX}
+\newcommand\latex{La\TeX}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%
+%% The following section defines new commands for comments from co-authors
+%%
+\definecolor{DarkOrange}{RGB}{204, 85, 0}
+\definecolor{LincolnGreen}{RGB}{17, 102, 0}
+\def\ion#1#2{#1$\;${\footnotesize\rm{#2}}\relax}
+
+\newcommand{\kate}[1]{{\color{red} KM: {#1}}}
+\newcommand{\steve}[1]{{\color{purple} SS: {#1}}}
+
+\newcommand{\abi}[1]{{\color{LincolnGreen} AP: {#1}}}
+\newcommand{\yy}[1]{{\color{blue} YY: {#1}}}
+\newcommand{\aam}[1]{{\color{DarkOrange} aam: {#1}}}
+\newcommand{\stockholm}[1]{{\color{cyan} stockholm: {#1}}}
+\newcommand{\todo}[1]{{\color{magenta} to-do: {#1}}}
+
+\newcommand{\rztf}{$r_\mathrm{ZTF}$}
+\newcommand{\gztf}{$g_\mathrm{ZTF}$}
+\newcommand{\tfl}{$t_\mathrm{fl}$}
+\newcommand{\trise}{$t_\mathrm{rise}$}
+\newcommand{\tbmax}{$t_{B,\mathrm{max}}$}
+
+\newcommand{\sn}{SN\,2019yvq}
+
+%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% Reintroduced the \received and \accepted commands from AASTeX v5.2
+\received{\today}
+\revised{}
+\accepted{}
+%% Command to document which AAS Journal the manuscript was submitted to.
+%% Adds "Submitted to " the argument.
+\submitjournal{ApJ}
+
+%% For manuscript that include authors in collaborations, AASTeX v6.3
+%% builds on the \collaboration command to allow greater freedom to 
+%% keep the traditional author+affiliation information but only show
+%% subsets. The \collaboration command now must appear AFTER the group
+%% of authors in the collaboration and it takes TWO arguments. The last
+%% is still the collaboration identifier. The text given in this
+%% argument is what will be shown in the manuscript. The first argument
+%% is the number of author above the \collaboration command to show with
+%% the collaboration text. If there are authors that are not part of any
+%% collaboration the \nocollaboration command is used. This command takes
+%% one argument which is also the number of authors above to show. A
+%% dashed line is shown to indicate no collaboration. This example manuscript
+%% shows how these commands work to display specific set of authors 
+%% on the front page.
+%%
+%% For manuscript without any need to use \collaboration the 
+%% \AuthorCollaborationLimit command from v6.2 can still be used to 
+%% show a subset of authors.
+%
+%\AuthorCollaborationLimit=2
+%
+%% will only show Schwarz & Muench on the front page of the manuscript
+%% (assuming the \collaboration and \nocollaboration commands are
+%% commented out).
+%%
+%% Note that all of the author will be shown in the published article.
+%% This feature is meant to be used prior to acceptance to make the
+%% front end of a long author article more manageable. Please do not use
+%% this functionality for manuscripts with less than 20 authors. Conversely,
+%% please do use this when the number of authors exceeds 40.
+%%
+%% Use \allauthors at the manuscript end to show the full author list.
+%% This command should only be used with \AuthorCollaborationLimit is used.
+
+%% The following command can be used to set the latex table counters.  It
+%% is needed in this document because it uses a mix of latex tabular and
+%% AASTeX deluxetables.  In general it should not be needed.
+%\setcounter{table}{1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%
+%% The following section outlines numerous optional output that
+%% can be displayed in the front matter or as running meta-data.
+%%
+%% If you wish, you may supply running head information, although
+%% this information may be modified by the editorial offices.
+\shorttitle{\sn\ is Fun and Cool}
+\shortauthors{Miller et al.}
+%%
+%% You can add a light gray and diagonal water-mark to the first page 
+%% with this command:
+\watermark{DRAFT}
+%% where "text", e.g. DRAFT, is the text to appear.  If the text is 
+%% long you can control the water-mark size with:
+%% \setwatermarkfontsize{dimension}
+%% where dimension is any recognized LaTeX dimension, e.g. pt, in, etc.
+%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\graphicspath{{./}{figures/}}
+%% This is the end of the preamble.  Indicate the beginning of the
+%% manuscript itself with \begin{document}.
+
+\begin{document}
+
+\title{\sn\  }
+
+%% LaTeX will automatically break titles if they run longer than
+%% one line. However, you may use \\ to force a line break if
+%% you desire. In v6.3 you can include a footnote in the title.
+
+%% A significant change from earlier AASTEX versions is in the structure for 
+%% calling author and affiliations. The change was necessary to implement 
+%% auto-indexing of affiliations which prior was a manual process that could 
+%% easily be tedious in large author manuscripts.
+%%
+%% The \author command is the same as before except it now takes an optional
+%% argument which is the 16 digit ORCID. The syntax is:
+%% \author[xxxx-xxxx-xxxx-xxxx]{Author Name}
+%%
+%% This will hyperlink the author name to the author's ORCID page. Note that
+%% during compilation, LaTeX will do some limited checking of the format of
+%% the ID to make sure it is valid. If the "orcid-ID.png" image file is 
+%% present or in the LaTeX pathway, the OrcID icon will appear next to
+%% the authors name.
+%%
+%% Use \affiliation for affiliation information. The old \affil is now aliased
+%% to \affiliation. AASTeX v6.3 will automatically index these in the header.
+%% When a duplicate is found its index will be the same as its previous entry.
+%%
+%% Note that \altaffilmark and \altaffiltext have been removed and thus 
+%% can not be used to document secondary affiliations. If they are used latex
+%% will issue a specific error message and quit. Please use multiple 
+%% \affiliation calls for to document more than one affiliation.
+%%
+%% The new \altaffiliation can be used to indicate some secondary information
+%% such as fellowships. This command produces a non-numeric footnote that is
+%% set away from the numeric \affiliation footnotes.  NOTE that if an
+%% \altaffiliation command is used it must come BEFORE the \affiliation call,
+%% right after the \author command, in order to place the footnotes in
+%% the proper location.
+%%
+%% Use \email to set provide email addresses. Each \email will appear on its
+%% own line so you can put multiple email address in one \email call. A new
+%% \correspondingauthor command is available in V6.3 to identify the
+%% corresponding author of the manuscript. It is the author's responsibility
+%% to make sure this name is also in the author list.
+%%
+%% While authors can be grouped inside the same \author and \affiliation
+%% commands it is better to have a single author for each. This allows for
+%% one to exploit all the new benefits and should make book-keeping easier.
+%%
+%% If done correctly the peer review system will be able to
+%% automatically put the author and affiliation information from the manuscript
+%% and save the corresponding author the trouble of entering it by hand.
+
+% \author[0000-0001-9515-478X]{A.~A.~Miller}
+% \affiliation{Center for Interdisciplinary Exploration and Research in Astrophysics (CIERA) and Department of Physics and Astronomy, Northwestern University, 2145 Sheridan Road, Evanston, IL 60208, USA}
+% \affiliation{The Adler Planetarium, Chicago, IL 60605, USA}
+% \email{amiller@northwestern.edu}
+
+\author{ZTF}
+
+\author{et al.}
+
+%% Note that the \and command from previous versions of AASTeX is now
+%% depreciated in this version as it is no longer necessary. AASTeX 
+%% automatically takes care of all commas and "and"s between authors names.
+
+%% Mark off the abstract in the ``abstract'' environment. 
+\begin{abstract}
+
+\todo{Write the abstract}
+
+\end{abstract}
+
+%% Keywords should appear after the \end{abstract} command. 
+%% See the online documentation for the full list of available subject
+%% keywords and the rules for their use.
+\keywords{}
+
+\section{Introduction} \label{sec:intro}
+
+\todo{write it}
+
+\section{Discovery and Observations}\label{sec:obs}
+
+\aam{\yy{$\longrightarrow$ ZTF light curve}}
+\subsection{ZTF Discovery and P48 photometry}
+SN\,2019yvq was first detected by ZTF using the Palomar Oschin Schmidt 48 inch (P48) telescope in a three-day cadence experiment. 
+On 2019 Dec 29 00:00:00 (${\rm JD}=2458846.9689$), a $r$-band detection at $20.66\pm0.34$ mag and J2000 coordinates $\alpha = 12^{\mathrm{h}}27^{\mathrm{m}}21.83^{\mathrm{s}}$, $\delta = +64^{\mathrm{d}}47^{\mathrm{m}}59.8^{\mathrm{s}}$ (J2000) met the machine-learning thresholds \citep{Mahabal19} and real-time alerts were generated (Patterson et al. 2019). 
+
+We perform forced PSF photometry on ZTF difference images following the steps illustrated in  \citet{Yao19}. 
+
+\steve{$\longrightarrow$ UVOT light curve}
+
+\aam{$\longrightarrow$ spectra (with help from Dan P)}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=3.5in]{./figures/P48_lc.pdf}
+    %
+    \caption{Photometric evolution of \sn.}
+    %
+    \label{fig:p48}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=3.5in]{./figures/P48_colors.pdf}
+    %
+    \caption{Color evolution of \sn.}
+    %
+    \label{fig:p48}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=3.5in]{./figures/spec_evo.pdf}
+    %
+    \caption{Spectral evolution of \sn.}
+    %
+    \label{fig:spec_evo}
+\end{figure}
+
+\section{Analysis}\label{sec:analysis}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=3.5in]{./figures/vel_evolution.pdf}
+    %
+    \caption{Velocity evolution of \sn.}
+    %
+    \label{fig:spec_evo}
+\end{figure}
+
+
+\aam{\kate{$\longrightarrow$ spectral comparison}}
+
+\begin{figure*}
+    \centering
+    \includegraphics[width=6.5in]{./figures/spec_comp.pdf}
+    %
+    \caption{Spectral comparison of \sn\ to other Cool and Broad Line SNe Ia.}
+    %
+    \label{fig:spec_comp}
+\end{figure*}
+
+\stockholm{Light curve fitting (SNOOPY, SALT2, etc?}
+
+\aam{\stockholm{Host Galaxy}}
+
+NGC\,4441 is the host galaxy of \sn. SDSS spectroscopic measurements yield $z = 0.00888$ \citep{Abolfathi18} for NGC\,4441, while \citet{Tonry01} estimate a distance modulus of $\mu = 31.40 \pm 0.45$\,mag ($D = 19.0$\,Mpc) based on surface brightness fluctuations. 
+%%% a more recent SBF from Tully et al says 19.3+-0.14 Mpc  /Jesper
+
+We estimate the total redenning towards \sn\ to be small. The line of sight extinction due to the Milky Way is small, $E(B-V) \approx 0.018$\,mag \citep{Schlafly11}. Figure~\ref{fig:NaD} shows \ion{Na}{I} D absorption in the spectrum of \sn\ due to gas in NGC\,4441 from our highest-resolution spectrum, obtained with the MMT on 2020-01-18 UT. The two \ion{Na}{I} D components are not blended, and we estimate an equivalent width (EW) $= 420$\,m\AA \todo{Add uncertainty, and propagate the results}. According to Equation~9 in \citet{Poznanski12}, this EW corresponds to $E(B-V) \approx 0.04$\,mag.\footnote{The EW of \ion{Na}{I} D is, at best, a noisy estimator of $E(B-V)$ \citep{Poznanski11}, and \citet{Poznanski12} caution that the linear relationship between these variables in their Equation~9 may provide biased estimates of $E(B-V)$.} Thus, we estimate the total extinction towards \sn\ to be $E(B-V) \approx 0.06$\,mag, due to dust in NGC\,4441 and the Milky Way. 
+
+\begin{figure}
+    \centering
+    \includegraphics[width=3.5in]{./figures/NaD.pdf}
+    %
+    \caption{\ion{Na}{I} D absorption in the spectrum of \sn, due to gas in the host galaxy NGC 4441. }
+    %
+    \label{fig:NaD}
+\end{figure}
+
+\section{Comparison to Models}\label{sec:models}
+
+\abi{Best matching double det models}
+
+
+\section{Rate of Thick He Shell Double Detonation Events}\label{sec:rates}
+
+\textbf{This may not actually be a thick shell}
+
+\aam{Use rough numbers from CLU and simple binomial calculation}
+
+\section{Discussion and Conclusion}\label{sec:conclusions}
+
+\todo{be clever}
+
+\acknowledgements
+
+This work is based on observations obtained with the Samuel Oschin Telescope
+48-inch and the 60-inch Telescope at the Palomar Observatory as part of the
+Zwicky Transient Facility project. ZTF is supported by the National Science
+Foundation under Grant No. AST-1440341 and a collaboration including Caltech,
+IPAC, the Weizmann Institute for Science, the Oskar Klein Center at Stockholm
+University, the University of Maryland, the University of Washington,
+Deutsches Elektronen-Synchrotron and Humboldt University, Los Alamos National
+Laboratories, the TANGO Consortium of Taiwan, the University of Wisconsin at
+Milwaukee, and Lawrence Berkeley National Laboratories. Operations are
+conducted by COO, IPAC, and UW.
+
+\software{
+          \texttt{astropy} \citep{Astropy-Collaboration13},
+          \texttt{scipy} \citep{Jones01}, 
+          \texttt{matplotlib} \citep{Hunter07},
+          \texttt{pandas} \citep{McKinney10},
+        %   \texttt{emcee} \citep{Foreman-Mackey13},
+        %   \texttt{corner} \citep{Foreman-Mackey16},
+          \texttt{SALT2} \citep{Guy07},
+          \texttt{sncosmo} \citep{Barbary16}
+          }
+
+%% For this sample we use BibTeX plus aasjournals.bst to generate the
+%% the bibliography. The sample63.bib file was populated from ADS. To
+%% get the citations to show in the compiled file do the following:
+%%
+%% pdflatex sample63.tex
+%% bibtext sample63
+%% pdflatex sample63.tex
+%% pdflatex sample63.tex
+
+\bibliography{papers}
+\bibliographystyle{aasjournal}
+
+%% This command is needed to show the entire author+affiliation list when
+%% the collaboration and author truncation commands are used.  It has to
+%% go at the end of the manuscript.
+%\allauthors
+
+%% Include this line if you are using the \added, \replaced, \deleted
+%% commands to see a summary list of all changes at the end of the article.
+%\listofchanges
+
+\begin{deluxetable}{ccccc}
+\tabletypesize{\scriptsize}
+\tablewidth{0pt}
+\tablecaption{Log of Spectroscopic Observations for SN~2019yvg.\label{tab:spectra}}
+\tablehead{
+\colhead{Date (UT)}&
+\colhead{MJD}&
+\colhead{Phase$^{*}$}&
+\colhead{Telescope+Instrument}&
+\colhead{Range}\\
+\colhead{}&
+\colhead{(days)}&
+\colhead{(days)}&
+\colhead{}&
+\colhead{(\AA)}}
+\startdata
+31 Dec 2019 &  58848.273298   &    &  LT+SPRAT$^{*}$ &  4000--9000?   \\
+03 Jan 2020 &     &     &  LT+SPRAT$^{*}$ &  4000--9000   \\
+04 Jan 2020 &     &     &  LT+SPRAT &  4000--9000   \\
+12 Jan 2020 &     &     &  LT+SPRAT &  4000--9000   \\
+12 Jan 2020 &     &     &  LT+SPRAT  &  4000--9000   \\
+15 Jan 2020 &     &     &  P60+SEDM$^{**}$ &  4000--9000   \\
+18 Jan 2020 &     &     &  P60+SEDM &  4000--9000   \\
+24 Jan 2020 &     &     &  MMT+Binospec$^{***}$ &  4000--9000   \\
+25 Jan 2020 &     &     &  Keck+LRIS$^{****}$ &  4000--9000   \\
+27 Jan 2020 &     &     &  P60+SEDM  &  4000--9000   \\
+29 Jan 2020 &     &     &  NOT+ALFOSC$^{******}$ &  4000--9000   \\
+01 Feb 2020 &     &     &  P60+SEDM &  4000--9000   \\
+\enddata
+\tablenotetext{*}{Liverpool Telescope}
+%\tablenotetext{**}{}
+%\tablenotetext{***}{}
+\end{deluxetable}
+
+
+
+\end{document}
