@@ -1,0 +1,203 @@
+\begin{thebibliography}{}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\providecommand{\url}[1]{\href{#1}{#1}}
+\providecommand{\dodoi}[1]{}
+\providecommand{\doarXiv}[1]{\href{https://arxiv.org/abs/#1}{\nolinkurl{https://arxiv.org/abs/#1}}}
+
+\bibitem[{{Abolfathi} {et~al.}(2018){Abolfathi}, {Aguado}, {Aguilar}, {Allende
+  Prieto}, {Almeida}, {Ananna}, {Anders}, {Anderson}, {Andrews}, {Anguiano},
+  {Arag{\'o}n-Salamanca}, {Argudo-Fern{\'a}ndez}, {Armengaud}, {Ata},
+  {Aubourg}, {Avila-Reese}, {Badenes}, {Bailey}, {Balland}, {Barger},
+  {Barrera-Ballesteros}, {Bartosz}, {Bastien}, {Bates}, {Baumgarten},
+  {Bautista}, {Beaton}, {Beers}, {Belfiore}, {Bender}, {Bernardi}, {Bershady},
+  {Beutler}, {Bird}, {Bizyaev}, {Blanc}, {Blanton}, {Blomqvist}, {Bolton},
+  {Boquien}, {Borissova}, {Bovy}, {Bradna Diaz}, {Brandt}, {Brinkmann},
+  {Brownstein}, {Bundy}, {Burgasser}, {Burtin}, {Busca}, {Ca{\~n}as},
+  {Cano-D{\'\i}az}, {Cappellari}, {Carrera}, {Casey}, {Cervantes Sodi}, {Chen},
+  {Cherinka}, {Chiappini}, {Choi}, {Chojnowski}, {Chuang}, {Chung}, {Clerc},
+  {Cohen}, {Comerford}, {Comparat}, {Correa do Nascimento}, {da Costa},
+  {Cousinou}, {Covey}, {Crane}, {Cruz-Gonzalez}, {Cunha}, {da Silva Ilha},
+  {Damke}, {Darling}, {Davidson}, {Dawson}, {de Icaza Lizaola}, {de la
+  Macorra}, {de la Torre}, {De Lee}, {de Sainte Agathe}, {Deconto Machado},
+  {Dell'Agli}, {Delubac}, {Diamond-Stanic}, {Donor}, {Downes}, {Drory}, {du Mas
+  des Bourboux}, {Duckworth}, {Dwelly}, {Dyer}, {Ebelke}, {Davis Eigenbrot},
+  {Eisenstein}, {Elsworth}, {Emsellem}, {Eracleous}, {Erfanianfar},
+  {Escoffier}, {Fan}, {Fern{\'a}ndez Alvar}, {Fernandez-Trincado}, {Fernand o
+  Cirolini}, {Feuillet}, {Finoguenov}, {Fleming}, {Font-Ribera}, {Freischlad},
+  {Frinchaboy}, {Fu}, {G{\'o}mez Maqueo Chew}, {Galbany}, {Garc{\'\i}a
+  P{\'e}rez}, {Garcia-Dias}, {Garc{\'\i}a-Hern{\'a}ndez}, {Garma Oehmichen},
+  {Gaulme}, {Gelfand }, {Gil-Mar{\'\i}n}, {Gillespie}, {Goddard}, {Gonz{\'a}lez
+  Hern{\'a}ndez}, {Gonzalez-Perez}, {Grabowski}, {Green}, {Grier}, {Gueguen},
+  {Guo}, {Guy}, {Hagen}, {Hall}, {Harding}, {Hasselquist}, {Hawley}, {Hayes},
+  {Hearty}, {Hekker}, {Hernand ez}, {Hernandez Toledo}, {Hogg},
+  {Holley-Bockelmann}, {Holtzman}, {Hou}, {Hsieh}, {Hunt}, {Hutchinson},
+  {Hwang}, {Jimenez Angel}, {Johnson}, {Jones}, {J{\"o}nsson}, {Jullo}, {Khan},
+  {Kinemuchi}, {Kirkby}, {Kirkpatrick}, {Kitaura}, {Knapp}, {Kneib},
+  {Kollmeier}, {Lacerna}, {Lane}, {Lang}, {Law}, {Le Goff}, {Lee}, {Li}, {Li},
+  {Lian}, {Liang}, {Lima}, {Lin}, {Long}, {Lucatello}, {Lundgren}, {Mackereth},
+  {MacLeod}, {Mahadevan}, {Maia}, {Majewski}, {Manchado}, {Maraston},
+  {Mariappan}, {Marques-Chaves}, {Masseron}, {Masters}, {McDermid}, {McGreer},
+  {Melendez}, {Meneses-Goytia}, {Merloni}, {Merrifield}, {Meszaros}, {Meza},
+  {Minchev}, {Minniti}, {Mueller}, {Muller-Sanchez}, {Muna}, {Mu{\~n}oz},
+  {Myers}, {Nair}, {Nand ra}, {Ness}, {Newman}, {Nichol}, {Nidever},
+  {Nitschelm}, {Noterdaeme}, {O'Connell}, {Oelkers}, {Oravetz}, {Oravetz},
+  {Ort{\'\i}z}, {Osorio}, {Pace}, {Padilla}, {Palanque-Delabrouille},
+  {Palicio}, {Pan}, {Pan}, {Parikh}, {P{\^a}ris}, {Park}, {Peirani},
+  {Pellejero-Ibanez}, {Penny}, {Percival}, {Perez-Fournon}, {Petitjean},
+  {Pieri}, {Pinsonneault}, {Pisani}, {Prada}, {Prakash}, {Queiroz}, {Raddick},
+  {Raichoor}, {Barboza Rembold}, {Richstein}, {Riffel}, {Riffel}, {Rix},
+  {Robin}, {Rodr{\'\i}guez Torres}, {Rom{\'a}n-Z{\'u}{\~n}iga}, {Ross},
+  {Rossi}, {Ruan}, {Ruggeri}, {Ruiz}, {Salvato}, {S{\'a}nchez}, {S{\'a}nchez},
+  {Sanchez Almeida}, {S{\'a}nchez-Gallego}, {Santana Rojas}, {Santiago},
+  {Schiavon}, {Schimoia}, {Schlafly}, {Schlegel}, {Schneider}, {Schuster},
+  {Schwope}, {Seo}, {Serenelli}, {Shen}, {Shen}, {Shetrone}, {Shull}, {Silva
+  Aguirre}, {Simon}, {Skrutskie}, {Slosar}, {Smethurst}, {Smith}, {Sobeck},
+  {Somers}, {Souter}, {Souto}, {Spindler}, {Stark}, {Stassun}, {Steinmetz},
+  {Stello}, {Storchi-Bergmann}, {Streblyanska}, {Stringfellow}, {Su{\'a}rez},
+  {Sun}, {Szigeti}, {Taghizadeh-Popp}, {Talbot}, {Tang}, {Tao}, {Tayar},
+  {Tembe}, {Teske}, {Thakar}, {Thomas}, {Tissera}, {Tojeiro}, {Tremonti},
+  {Troup}, {Urry}, {Valenzuela}, {van den Bosch}, {Vargas-Gonz{\'a}lez},
+  {Vargas-Maga{\~n}a}, {Vazquez}, {Villanova}, {Vogt}, {Wake}, {Wang},
+  {Weaver}, {Weijmans}, {Weinberg}, {Westfall}, {Whelan}, {Wilcots}, {Wild},
+  {Williams}, {Wilson}, {Wood-Vasey}, {Wylezalek}, {Xiao}, {Yan}, {Yang},
+  {Ybarra}, {Y{\`e}che}, {Zakamska}, {Zamora}, {Zarrouk}, {Zasowski}, {Zhang},
+  {Zhao}, {Zhao}, {Zheng}, {Zheng}, {Zhou}, {Zhu}, {Zinn}, \&
+  {Zou}}]{Abolfathi18}
+{Abolfathi}, B., {Aguado}, D.~S., {Aguilar}, G., {et~al.} 2018,
+  \href{http://dx.doi.org/10.3847/1538-4365/aa9e8a}{\color{magenta}\apjs},
+  \href{https://ui.adsabs.harvard.edu/abs/2018ApJS..235...42A}{\color{blue}235},
+  \href{https://ui.adsabs.harvard.edu/abs/2018ApJS..235...42A}{\color{blue}42}
+
+\bibitem[{{Astropy Collaboration} {et~al.}(2013){Astropy Collaboration},
+  {Robitaille}, {Tollerud}, {Greenfield}, {Droettboom}, {Bray}, {Aldcroft},
+  {Davis}, {Ginsburg}, {Price-Whelan}, {Kerzendorf}, {Conley}, {Crighton},
+  {Barbary}, {Muna}, {Ferguson}, {Grollier}, {Parikh}, {Nair}, {Unther},
+  {Deil}, {Woillez}, {Conseil}, {Kramer}, {Turner}, {Singer}, {Fox}, {Weaver},
+  {Zabalza}, {Edwards}, {Azalee Bostroem}, {Burke}, {Casey}, {Crawford},
+  {Dencheva}, {Ely}, {Jenness}, {Labrie}, {Lim}, {Pierfederici}, {Pontzen},
+  {Ptak}, {Refsdal}, {Servillat}, \& {Streicher}}]{Astropy-Collaboration13}
+{Astropy Collaboration}, {Robitaille}, T.~P., {Tollerud}, E.~J., {et~al.} 2013,
+  \href{http://dx.doi.org/10.1051/0004-6361/201322068}{\color{magenta}\aap},
+  \href{http://adsabs.harvard.edu/abs/2013A%26A...558A..33A}{\color{blue}558},
+  \href{http://adsabs.harvard.edu/abs/2013A%26A...558A..33A}{\color{blue}A33}
+
+\bibitem[{{Barbary} {et~al.}(2016){Barbary}, {Barclay}, {Biswas}, {Craig},
+  {Feindt}, {Friesen}, {Goldstein}, {Jha}, {Rodney}, {Sofiatti}, {Thomas}, \&
+  {Wood-Vasey}}]{Barbary16}
+{Barbary}, K., {Barclay}, T., {Biswas}, R., {et~al.} 2016, {SNCosmo: Python
+  library for supernova cosmology}
+
+\bibitem[{{Bellm} {et~al.}(2019){Bellm}, {Kulkarni}, {Barlow}, {Feindt},
+  {Graham}, {Goobar}, {Kupfer}, {Ngeow}, {Nugent}, {Ofek}, {Prince}, {Riddle},
+  {Walters}, \& {Ye}}]{Bellm19a}
+{Bellm}, E.~C., {Kulkarni}, S.~R., {Barlow}, T., {et~al.} 2019,
+  \href{http://dx.doi.org/10.1088/1538-3873/ab0c2a}{\color{magenta}\pasp},
+  \href{https://ui.adsabs.harvard.edu/abs/2019PASP..131f8003B}{\color{blue}131},
+  \href{https://ui.adsabs.harvard.edu/abs/2019PASP..131f8003B}{\color{blue}068003}
+
+\bibitem[{{Guy} {et~al.}(2007){Guy}, {Astier}, {Baumont}, {Hardin}, {Pain},
+  {Regnault}, {Basa}, {Carlberg}, {Conley}, {Fabbro}, {Fouchez}, {Hook},
+  {Howell}, {Perrett}, {Pritchet}, {Rich}, {Sullivan}, {Antilogus}, {Aubourg},
+  {Bazin}, {Bronder}, {Filiol}, {Palanque-Delabrouille}, {Ripoche}, \&
+  {Ruhlmann-Kleider}}]{Guy07}
+{Guy}, J., {Astier}, P., {Baumont}, S., {et~al.} 2007,
+  \href{http://dx.doi.org/10.1051/0004-6361:20066930}{\color{magenta}\aap},
+  \href{https://ui.adsabs.harvard.edu/abs/2007A&A...466...11G}{\color{blue}466},
+  \href{https://ui.adsabs.harvard.edu/abs/2007A&A...466...11G}{\color{blue}11}
+
+\bibitem[{Hunter(2007)}]{Hunter07}
+Hunter, J.~D. 2007,
+  \href{http://dx.doi.org/10.1109/MCSE.2007.55}{\color{magenta}Computing In
+  Science \& Engineering}, 9, 90
+
+\bibitem[{{Itagaki}(2019)}]{Itagaki19}
+{Itagaki}, K. 2019, Transient Name Server Discovery Report,
+  \href{https://ui.adsabs.harvard.edu/abs/2019TNSTR2720....1I}{\color{blue}2019-2720},
+  \href{https://ui.adsabs.harvard.edu/abs/2019TNSTR2720....1I}{\color{blue}1}
+
+\bibitem[{Jones {et~al.}(2001--)Jones, Oliphant, Peterson, {et~al.}}]{Jones01}
+Jones, E., Oliphant, T., Peterson, P., {et~al.} 2001--, {SciPy}: Open source
+  scientific tools for {Python}
+
+\bibitem[{{Kawabata}(2020)}]{Kawabata20}
+{Kawabata}, M. 2020, Transient Name Server Classification Report,
+  \href{https://ui.adsabs.harvard.edu/abs/2020TNSCR..24....1K}{\color{blue}2020-24},
+  \href{https://ui.adsabs.harvard.edu/abs/2020TNSCR..24....1K}{\color{blue}1}
+
+\bibitem[{{Mahabal} {et~al.}(2019){Mahabal}, {Rebbapragada}, {Walters},
+  {Masci}, {Blagorodnova}, {van Roestel}, {Ye}, {Biswas}, {Burdge}, {Chang},
+  {Duev}, {Golkhou}, {Miller}, {Nordin}, {Ward}, {Adams}, {Bellm}, {Branton},
+  {Bue}, {Cannella}, {Connolly}, {Dekany}, {Feindt}, {Hung}, {Fortson},
+  {Frederick}, {Fremling}, {Gezari}, {Graham}, {Groom}, {Kasliwal}, {Kulkarni},
+  {Kupfer}, {Lin}, {Lintott}, {Lunnan}, {Parejko}, {Prince}, {Riddle},
+  {Rusholme}, {Saunders}, {Sedaghat}, {Shupe}, {Singer}, {Soumagnac}, {Szkody},
+  {Tachibana}, {Tirumala}, {van Velzen}, \& {Wright}}]{Mahabal19}
+{Mahabal}, A., {Rebbapragada}, U., {Walters}, R., {et~al.} 2019,
+  \href{http://dx.doi.org/10.1088/1538-3873/aaf3fa}{\color{magenta}\pasp},
+  \href{https://ui.adsabs.harvard.edu/abs/2019PASP..131c8002M}{\color{blue}131},
+  \href{https://ui.adsabs.harvard.edu/abs/2019PASP..131c8002M}{\color{blue}038002}
+
+\bibitem[{{Masci} {et~al.}(2019){Masci}, {Laher}, {Rusholme}, {Shupe}, {Groom},
+  {Surace}, {Jackson}, {Monkewitz}, {Beck}, {Flynn}, {Terek}, {Landry},
+  {Hacopians}, {Desai}, {Howell}, {Brooke}, {Imel}, {Wachter}, {Ye}, {Lin},
+  {Cenko}, {Cunningham}, {Rebbapragada}, {Bue}, {Miller}, {Mahabal}, {Bellm},
+  {Patterson}, {Juri{\'c}}, {Golkhou}, {Ofek}, {Walters}, {Graham}, {Kasliwal},
+  {Dekany}, {Kupfer}, {Burdge}, {Cannella}, {Barlow}, {Van Sistine}, {Giomi},
+  {Fremling}, {Blagorodnova}, {Levitan}, {Riddle}, {Smith}, {Helou}, {Prince},
+  \& {Kulkarni}}]{Masci19}
+{Masci}, F.~J., {Laher}, R.~R., {Rusholme}, B., {et~al.} 2019,
+  \href{http://dx.doi.org/10.1088/1538-3873/aae8ac}{\color{magenta}\pasp},
+  \href{https://ui.adsabs.harvard.edu/abs/2019PASP..131a8003M}{\color{blue}131},
+  \href{https://ui.adsabs.harvard.edu/abs/2019PASP..131a8003M}{\color{blue}018003}
+
+\bibitem[{McKinney(2010)}]{McKinney10}
+McKinney, W. 2010, 51
+
+\bibitem[{{Patterson} {et~al.}(2019){Patterson}, {Bellm}, {Rusholme}, {Masci},
+  {Juric}, {Krughoff}, {Golkhou}, {Graham}, {Kulkarni}, {Helou}, \& {Zwicky
+  Transient Facility Collaboration}}]{Patterson19}
+{Patterson}, M.~T., {Bellm}, E.~C., {Rusholme}, B., {et~al.} 2019,
+  \href{http://dx.doi.org/10.1088/1538-3873/aae904}{\color{magenta}\pasp},
+  \href{https://ui.adsabs.harvard.edu/abs/2019PASP..131a8001P}{\color{blue}131},
+  \href{https://ui.adsabs.harvard.edu/abs/2019PASP..131a8001P}{\color{blue}018001}
+
+\bibitem[{{Poznanski} {et~al.}(2011){Poznanski}, {Ganeshalingam}, {Silverman},
+  \& {Filippenko}}]{Poznanski11}
+{Poznanski}, D., {Ganeshalingam}, M., {Silverman}, J.~M., \& {Filippenko},
+  A.~V. 2011,
+  \href{http://dx.doi.org/10.1111/j.1745-3933.2011.01084.x}{\color{magenta}\mnras},
+  \href{http://adsabs.harvard.edu/abs/2011MNRAS.415L..81P}{\color{blue}415},
+  \href{http://adsabs.harvard.edu/abs/2011MNRAS.415L..81P}{\color{blue}L81}
+
+\bibitem[{{Poznanski} {et~al.}(2012){Poznanski}, {Prochaska}, \&
+  {Bloom}}]{Poznanski12}
+{Poznanski}, D., {Prochaska}, J.~X., \& {Bloom}, J.~S. 2012,
+  \href{http://dx.doi.org/10.1111/j.1365-2966.2012.21796.x}{\color{magenta}\mnras},
+  \href{http://adsabs.harvard.edu/abs/2012MNRAS.426.1465P}{\color{blue}426},
+  \href{http://adsabs.harvard.edu/abs/2012MNRAS.426.1465P}{\color{blue}1465}
+
+\bibitem[{{Schlafly} \& {Finkbeiner}(2011)}]{Schlafly11}
+{Schlafly}, E.~F., \& {Finkbeiner}, D.~P. 2011,
+  \href{http://dx.doi.org/10.1088/0004-637X/737/2/103}{\color{magenta}\apj},
+  \href{http://adsabs.harvard.edu/abs/2011ApJ...737..103S}{\color{blue}737},
+  \href{http://adsabs.harvard.edu/abs/2011ApJ...737..103S}{\color{blue}103}
+
+\bibitem[{{Tonry} {et~al.}(2001){Tonry}, {Dressler}, {Blakeslee}, {Ajhar},
+  {Fletcher}, {Luppino}, {Metzger}, \& {Moore}}]{Tonry01}
+{Tonry}, J.~L., {Dressler}, A., {Blakeslee}, J.~P., {et~al.} 2001,
+  \href{http://dx.doi.org/10.1086/318301}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/2001ApJ...546..681T}{\color{blue}546},
+  \href{https://ui.adsabs.harvard.edu/abs/2001ApJ...546..681T}{\color{blue}681}
+
+\bibitem[{{Yao} {et~al.}(2019){Yao}, {Miller}, {Kulkarni}, {Bulla}, {Masci},
+  {Goldstein}, {Goobar}, {Nugent}, {Dugas}, {Blagorodnova}, {Neill}, {Rigault},
+  {Sollerman}, {Nordin}, {Bellm}, {Cenko}, {De}, {Dhawan}, {Feindt},
+  {Fremling}, {Gatkine}, {Graham}, {Graham}, {Ho}, {Hung}, {Kasliwal},
+  {Kupfer}, {Laher}, {Perley}, {Rusholme}, {Shupe}, {Soumagnac}, {Taggart},
+  {Walters}, \& {Yan}}]{Yao19}
+{Yao}, Y., {Miller}, A.~A., {Kulkarni}, S.~R., {et~al.} 2019,
+  \href{http://dx.doi.org/10.3847/1538-4357/ab4cf5}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/2019ApJ...886..152Y}{\color{blue}886},
+  \href{https://ui.adsabs.harvard.edu/abs/2019ApJ...886..152Y}{\color{blue}152}
+
+\end{thebibliography}

@@ -24,6 +24,7 @@
 
 \newcommand{\rztf}{$r_\mathrm{ZTF}$}
 \newcommand{\gztf}{$g_\mathrm{ZTF}$}
+\newcommand{\iztf}{$i_\mathrm{ZTF}$}
 \newcommand{\tfl}{$t_\mathrm{fl}$}
 \newcommand{\trise}{$t_\mathrm{rise}$}
 \newcommand{\tbmax}{$t_{B,\mathrm{max}}$}
@@ -183,18 +184,60 @@
 
 \section{Introduction} \label{sec:intro}
 
-\todo{write it}
+\todo{write it; define and include references for ZTF}
 
 \section{Discovery and Observations}\label{sec:obs}
 
-\aam{\yy{$\longrightarrow$ ZTF light curve}}
-\subsection{ZTF Discovery and P48 photometry}
-SN\,2019yvq was first detected by ZTF using the Palomar Oschin Schmidt 48 inch (P48) telescope in a three-day cadence experiment. 
-On 2019 Dec 29 00:00:00 (${\rm JD}=2458846.9689$), a $r$-band detection at $20.66\pm0.34$ mag and J2000 coordinates $\alpha = 12^{\mathrm{h}}27^{\mathrm{m}}21.83^{\mathrm{s}}$, $\delta = +64^{\mathrm{d}}47^{\mathrm{m}}59.8^{\mathrm{s}}$ (J2000) met the machine-learning thresholds \citep{Mahabal19} and real-time alerts were generated (Patterson et al. 2019). 
+\sn\ was discovered by K.~Itagaki, and detected at an unfiltered magnitude of
+16.7\,mag, in an image obtained on 2019 Dec 28.74 UT\footnote{UT times are
+used throughout this paper}. The transient candidate was announced
+$\sim$2\,hr later on the Transient Name Server (TNS), and given the
+designation AT\,2019yvq \citep{Itagaki19}. Susequent spectroscopic
+observations confirmed the SN nature of the transient, with initial reports
+that the event was a SN Ib/c \citep{Kawabata20}, but later reports classified
+the event as a SN Ia \todo{create refs for Prentice obs}. These spectroscopic
+observations also showed \sn\ to be at the same redshift as NGC\,4441, its
+host galaxy.
 
-We perform forced PSF photometry on ZTF difference images following the steps illustrated in  \citet{Yao19}. 
+\subsection{ZTF Photometric Observations}
 
-\steve{$\longrightarrow$ UVOT light curve}
+ZTF simulataneously conducts multiple time-domain surveys using the ZTF
+camera on the the Palomar Oschin Schmidt 48 inch (P48) telescope. \sn\ was
+first detected by ZTF on 2019 Dec 29.46, as part of the ZTF public survey
+(see \citealt{Bellm19a}). The automated ZTF pipeline \citep{Masci19}
+automatically detected \sn, which passed internal thresholds (e.g.,
+\citealt{Mahabal19}), leading to the production and disemination of a
+real-time alert \citep{Patterson19}. The public alert included the position,
+$\alpha = 12^{\mathrm{h}}27\arcmin21\farcs836$, $\delta =
++64\degr47\arcmin59\farcs87$ (J2000), and brightness, \rztf$ =
+17.14\pm0.05$\,mag, which, together with the \citet{Itagaki19} discovery
+report suggested the SN was fading. Continued monitoring with ZTF, and
+follow-up with other telescopes, confirmed a spectacular decline in the early
+emission from \sn\ (Figure~\ref{fig:p48}).
+
+The field of \sn\ was additionally observed by ZTF with nearly a nightly
+cadence as part of the ZTF partnership Uniform Depth Survey (ZUDS;
+D.~Goldstein et al., in prep.). Using images obtained as part of the ZUDS
+program, we perform forced PSF photometry at the location of \sn\ following
+the procedure described in \citet{Yao19}.\footnote{Images obtained as part of
+the ZTF public survey have not been released, preventing us from applying our
+forced-PSF measurements. We therefore only include forced-PSF measurements in
+the analysis described herein, though we note that our measurements are
+largely consistent with those provided in the public alerts.} The evolution
+of \sn\ in the \gztf, \rztf, and \iztf\ filters is shown in
+Figure~\ref{fig:p48}.
+
+\subsection{Other Photometric Observations}
+
+Ultraviolet (UV) observations of \sn\ were obtained with the
+Ultra-Violet/Optical Telescope (UVOT; \citet{Roming05}) onboard the Neil
+Gehrels Swift Observatory (hereafter \textit{Swift}; \citealt{Gehrels04})
+following a time-of-opportunity request by \todo{credit where credit is due}.
+For clarity, we only show the \textit{Swift} $u$ and $uvw2$ light curves in
+Figure~\ref{fig:p48}. \textit{Swift}/UVOT observations show that the initial
+decline seen in the optical is even more dramatic in the UV. 
+
+
 
 \aam{$\longrightarrow$ spectra (with help from Dan P)}
 
@@ -213,7 +256,7 @@ We perform forced PSF photometry on ZTF difference images following the steps il
     %
     \caption{Color evolution of \sn.}
     %
-    \label{fig:p48}
+    \label{fig:colors}
 \end{figure}
 
 \begin{figure}
@@ -233,7 +276,7 @@ We perform forced PSF photometry on ZTF difference images following the steps il
     %
     \caption{Velocity evolution of \sn.}
     %
-    \label{fig:spec_evo}
+    \label{fig:vel_evo}
 \end{figure}
 
 
@@ -314,7 +357,7 @@ conducted by COO, IPAC, and UW.
 %% pdflatex sample63.tex
 %% pdflatex sample63.tex
 
-\bibliography{papers}
+\bibliography{/Users/adamamiller/Documents/tex_stuff/papers}
 \bibliographystyle{aasjournal}
 
 %% This command is needed to show the entire author+affiliation list when
@@ -326,7 +369,7 @@ conducted by COO, IPAC, and UW.
 %% commands to see a summary list of all changes at the end of the article.
 %\listofchanges
 
-\begin{deluxetable}{ccccc}
+\begin{deluxetable*}{ccccc}
 \tabletypesize{\scriptsize}
 \tablewidth{0pt}
 \tablecaption{Log of Spectroscopic Observations for SN~2019yvg.\label{tab:spectra}}
@@ -358,7 +401,7 @@ conducted by COO, IPAC, and UW.
 \tablenotetext{*}{Liverpool Telescope}
 %\tablenotetext{**}{}
 %\tablenotetext{***}{}
-\end{deluxetable}
+\end{deluxetable*}
 
 
 
