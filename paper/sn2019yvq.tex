@@ -28,6 +28,7 @@
 \newcommand{\tfl}{$t_\mathrm{fl}$}
 \newcommand{\trise}{$t_\mathrm{rise}$}
 \newcommand{\tbmax}{$t_{B,\mathrm{max}}$}
+\newcommand{\kms}{km\,s$^{-1}$}
 
 \newcommand{\sn}{SN\,2019yvq}
 
@@ -289,6 +290,67 @@ Figure~\ref{fig:spec_evo}.
 
 \section{Analysis}\label{sec:analysis}
 
+\subsection{NGC\,4441: the Host of \sn}
+
+NGC\,4441 is the host galaxy of \sn. SDSS spectroscopic measurements of the
+nucleus of NGC\,4441 yield a heliocentric-recession velocity of 2663\,\kms\
+($z_\mathrm{helio} = 0.00888$; \citealt{Abolfathi18}) and a
+\texttt{STARBURST} classification for NGC\,4441. Using the 2M++ model of
+\citet{Carrick15}, we estimate a peculiar velocity towards NGC\,4441 of
+$+328.6$\,\kms, which combined with the recession velocity in the frame of
+the cosmic microwave background\footnote{See
+\url{https://ned.ipac.caltech.edu/velocity_calculator}} (CMB, $v_\mathrm{CMB}
+= 2770$\,\kms), yields a total recession velocity $\approx 3100$\,\kms. We
+note that this estimate is consistent, to within $\sim$5\%, with the Virgo
+and Great Attractor infall models of \citet{Mould00}. Adopting $H_0 =
+73$\,\kms\,Mpc$^{-1}$, we estimate the distance to NGC\,4441 to be 42.5\,Mpc,
+corresponding to a distance modulus of $\mu = 33.14 \pm 0.15$\,mag, where the
+uncertainty on $\mu$ is dominated by the uncertainty in the peculiar velocity
+correction. We hereafter adopt 33.14\,mag as the distance modulus to
+NGC\,4441.\footnote{\citet{Tonry01} estimate a significantly smaller distance
+to NGC\,4441 ($\mu = 31.40 \pm 0.45$\,mag; $D = 19.0$\,Mpc) based on surface
+brightness fluctuations (SBF). We do not adopt this estimate as SBF
+measurements are better suited to relative distance measurements.}
+
+
+We estimate the total redenning towards \sn\ to be small. There is relatively
+little line of sight extinction due to the Milky Way, $E(B-V) \approx
+0.018$\,mag \citep{Schlafly11}. Furthermore, we do not find significant
+evidence for strong extinction in NGC\,4441. Figure~\ref{fig:NaD} highlights
+the \ion{Na}{I} D absorption in the spectrum of \sn\ due to gas in NGC\,4441
+and the Milky Way from our highest-resolution spectrum, obtained with the
+1000 lines/mm grating on Binospec+MMT. The \ion{Na}{I} D absorption is weak,
+and we estimate a total equivalent width (EW) $= 390$\,m\AA\ for NGC\,4441
+and $220$\,m\AA\ for the Milky Way. There is a systematic uncertainty of
+$\sim$10\% on each of these estimates due to uncertainties in the
+continuum-fitting procedure. Assuming similar properties for the dust in
+NGC\,4441 and the Milky Way, we scale the color excess measurement for the
+Milky Way by the ratio \ion{Na}{I} D EWs to estimate $E(B-V) \approx
+0.032$\,mag for \sn\ due to absorption in NGC\,4441. This yields a total
+color excess towards \sn\ of $E(B-V) \approx 0.05$\,mag, which we adopt for
+the subsequent analysis in this study. We note that this estimate is
+consistent, to within the uncertainties, with the EW(\ion{Na}{I} D)--$E(B-V)$
+relations presented in \citet{Poznanski12}.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=3.5in]{./figures/NaD.pdf}
+    %
+    \caption{Zoom-in on our moderate resolution MMT+Binospec spectrum of \sn\
+    highlighting absoprtion due to \ion{Na}{I} D in the host galaxy,
+    NGC\,4441 (blue solid line), and the Milky Way (thin black line). The
+    velocity scale is centered on the D$_2$ line in NGC\,4441, with the SDSS
+    redshift shown via the vertical dashed line. No shift has been applied to
+    the Milky Way lines. The \ion{Na}{I} D lines, which serve as a proxy for
+    dust-obscuration along the line of sight (e.g.,
+    \citep{Poznanski12,Phillips13}) are weak, indicating a relatively small
+    amount of reddening. }
+    %
+    \label{fig:NaD}
+\end{figure}
+
+\subsection{}
+
 
 \begin{figure}
     \centering
@@ -325,19 +387,7 @@ Figure~\ref{fig:spec_evo}.
 
 \aam{\stockholm{Host Galaxy}}
 
-NGC\,4441 is the host galaxy of \sn. SDSS spectroscopic measurements yield $z = 0.00888$ \citep{Abolfathi18} for NGC\,4441, while \citet{Tonry01} estimate a distance modulus of $\mu = 31.40 \pm 0.45$\,mag ($D = 19.0$\,Mpc) based on surface brightness fluctuations. 
-%%% a more recent SBF from Tully et al says 19.3+-0.14 Mpc  /Jesper
 
-We estimate the total redenning towards \sn\ to be small. The line of sight extinction due to the Milky Way is small, $E(B-V) \approx 0.018$\,mag \citep{Schlafly11}. Figure~\ref{fig:NaD} shows \ion{Na}{I} D absorption in the spectrum of \sn\ due to gas in NGC\,4441 from our highest-resolution spectrum, obtained with the MMT on 2020-01-18 UT. The two \ion{Na}{I} D components are not blended, and we estimate an equivalent width (EW) $= 420$\,m\AA \todo{Add uncertainty, and propagate the results}. According to Equation~9 in \citet{Poznanski12}, this EW corresponds to $E(B-V) \approx 0.04$\,mag.\footnote{The EW of \ion{Na}{I} D is, at best, a noisy estimator of $E(B-V)$ \citep{Poznanski11}, and \citet{Poznanski12} caution that the linear relationship between these variables in their Equation~9 may provide biased estimates of $E(B-V)$.} Thus, we estimate the total extinction towards \sn\ to be $E(B-V) \approx 0.06$\,mag, due to dust in NGC\,4441 and the Milky Way. 
-
-\begin{figure}
-    \centering
-    \includegraphics[width=3.5in]{./figures/NaD.pdf}
-    %
-    \caption{\ion{Na}{I} D absorption in the spectrum of \sn, due to gas in the host galaxy NGC 4441. }
-    %
-    \label{fig:NaD}
-\end{figure}
 
 \section{Comparison to Models}\label{sec:models}
 

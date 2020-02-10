@@ -95,6 +95,30 @@
   \href{https://ui.adsabs.harvard.edu/abs/2019PASP..131f8003B}{\color{blue}131},
   \href{https://ui.adsabs.harvard.edu/abs/2019PASP..131f8003B}{\color{blue}068003}
 
+\bibitem[{{Carrick} {et~al.}(2015){Carrick}, {Turnbull}, {Lavaux}, \&
+  {Hudson}}]{Carrick15}
+{Carrick}, J., {Turnbull}, S.~J., {Lavaux}, G., \& {Hudson}, M.~J. 2015,
+  \href{http://dx.doi.org/10.1093/mnras/stv547}{\color{magenta}\mnras},
+  \href{https://ui.adsabs.harvard.edu/abs/2015MNRAS.450..317C}{\color{blue}450},
+  \href{https://ui.adsabs.harvard.edu/abs/2015MNRAS.450..317C}{\color{blue}317}
+
+\bibitem[{{Gehrels} {et~al.}(2004){Gehrels}, {Chincarini}, {Giommi}, {Mason},
+  {Nousek}, {Wells}, {White}, {Barthelmy}, {Burrows}, {Cominsky}, {Hurley},
+  {Marshall}, {M{\'e}sz{\'a}ros}, {Roming}, {Angelini}, {Barbier}, {Belloni},
+  {Campana}, {Caraveo}, {Chester}, {Citterio}, {Cline}, {Cropper}, {Cummings},
+  {Dean}, {Feigelson}, {Fenimore}, {Frail}, {Fruchter}, {Garmire}, {Gendreau},
+  {Ghisellini}, {Greiner}, {Hill}, {Hunsberger}, {Krimm}, {Kulkarni}, {Kumar},
+  {Lebrun}, {Lloyd-Ronning}, {Markwardt}, {Mattson}, {Mushotzky}, {Norris},
+  {Osborne}, {Paczynski}, {Palmer}, {Park}, {Parsons}, {Paul}, {Rees},
+  {Reynolds}, {Rhoads}, {Sasseen}, {Schaefer}, {Short}, {Smale}, {Smith},
+  {Stella}, {Tagliaferri}, {Takahashi}, {Tashiro}, {Townsley}, {Tueller},
+  {Turner}, {Vietri}, {Voges}, {Ward}, {Willingale}, {Zerbi}, \&
+  {Zhang}}]{Gehrels04}
+{Gehrels}, N., {Chincarini}, G., {Giommi}, P., {et~al.} 2004,
+  \href{http://dx.doi.org/10.1086/422091}{\color{magenta}\apj},
+  \href{http://adsabs.harvard.edu/abs/2004ApJ...611.1005G}{\color{blue}611},
+  \href{http://adsabs.harvard.edu/abs/2004ApJ...611.1005G}{\color{blue}1005}
+
 \bibitem[{{Guy} {et~al.}(2007){Guy}, {Astier}, {Baumont}, {Hardin}, {Pain},
   {Regnault}, {Basa}, {Carlberg}, {Conley}, {Fabbro}, {Fouchez}, {Hook},
   {Howell}, {Perrett}, {Pritchet}, {Rich}, {Sullivan}, {Antilogus}, {Aubourg},
@@ -153,6 +177,14 @@ Jones, E., Oliphant, T., Peterson, P., {et~al.} 2001--, {SciPy}: Open source
 \bibitem[{McKinney(2010)}]{McKinney10}
 McKinney, W. 2010, 51
 
+\bibitem[{{Mould} {et~al.}(2000){Mould}, {Huchra}, {Freedman}, {Kennicutt},
+  {Ferrarese}, {Ford}, {Gibson}, {Graham}, {Hughes}, {Illingworth}, {Kelson},
+  {Macri}, {Madore}, {Sakai}, {Sebo}, {Silbermann}, \& {Stetson}}]{Mould00}
+{Mould}, J.~R., {Huchra}, J.~P., {Freedman}, W.~L., {et~al.} 2000,
+  \href{http://dx.doi.org/10.1086/308304}{\color{magenta}\apj},
+  \href{http://adsabs.harvard.edu/abs/2000ApJ...529..786M}{\color{blue}529},
+  \href{http://adsabs.harvard.edu/abs/2000ApJ...529..786M}{\color{blue}786}
+
 \bibitem[{{Patterson} {et~al.}(2019){Patterson}, {Bellm}, {Rusholme}, {Masci},
   {Juric}, {Krughoff}, {Golkhou}, {Graham}, {Kulkarni}, {Helou}, \& {Zwicky
   Transient Facility Collaboration}}]{Patterson19}
@@ -161,13 +193,16 @@ McKinney, W. 2010, 51
   \href{https://ui.adsabs.harvard.edu/abs/2019PASP..131a8001P}{\color{blue}131},
   \href{https://ui.adsabs.harvard.edu/abs/2019PASP..131a8001P}{\color{blue}018001}
 
-\bibitem[{{Poznanski} {et~al.}(2011){Poznanski}, {Ganeshalingam}, {Silverman},
-  \& {Filippenko}}]{Poznanski11}
-{Poznanski}, D., {Ganeshalingam}, M., {Silverman}, J.~M., \& {Filippenko},
-  A.~V. 2011,
-  \href{http://dx.doi.org/10.1111/j.1745-3933.2011.01084.x}{\color{magenta}\mnras},
-  \href{http://adsabs.harvard.edu/abs/2011MNRAS.415L..81P}{\color{blue}415},
-  \href{http://adsabs.harvard.edu/abs/2011MNRAS.415L..81P}{\color{blue}L81}
+\bibitem[{{Phillips} {et~al.}(2013){Phillips}, {Simon}, {Morrell}, {Burns},
+  {Cox}, {Foley}, {Karakas}, {Patat}, {Sternberg}, {Williams}, {Gal-Yam},
+  {Hsiao}, {Leonard}, {Persson}, {Stritzinger}, {Thompson}, {Campillay},
+  {Contreras}, {Folatelli}, {Freedman}, {Hamuy}, {Roth}, {Shields}, {Suntzeff},
+  {Chomiuk}, {Ivans}, {Madore}, {Penprase}, {Perley}, {Pignata}, {Preston}, \&
+  {Soderberg}}]{Phillips13}
+{Phillips}, M.~M., {Simon}, J.~D., {Morrell}, N., {et~al.} 2013,
+  \href{http://dx.doi.org/10.1088/0004-637X/779/1/38}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/2013ApJ...779...38P}{\color{blue}779},
+  \href{https://ui.adsabs.harvard.edu/abs/2013ApJ...779...38P}{\color{blue}38}
 
 \bibitem[{{Poznanski} {et~al.}(2012){Poznanski}, {Prochaska}, \&
   {Bloom}}]{Poznanski12}
@@ -175,6 +210,17 @@ McKinney, W. 2010, 51
   \href{http://dx.doi.org/10.1111/j.1365-2966.2012.21796.x}{\color{magenta}\mnras},
   \href{http://adsabs.harvard.edu/abs/2012MNRAS.426.1465P}{\color{blue}426},
   \href{http://adsabs.harvard.edu/abs/2012MNRAS.426.1465P}{\color{blue}1465}
+
+\bibitem[{{Roming} {et~al.}(2005){Roming}, {Kennedy}, {Mason}, {Nousek}, {Ahr},
+  {Bingham}, {Broos}, {Carter}, {Hancock}, {Huckle}, {Hunsberger}, {Kawakami},
+  {Killough}, {Koch}, {McLelland}, {Smith}, {Smith}, {Soto}, {Boyd},
+  {Breeveld}, {Holland}, {Ivanushkina}, {Pryzby}, {Still}, \&
+  {Stock}}]{Roming05}
+{Roming}, P.~W.~A., {Kennedy}, T.~E., {Mason}, K.~O., {et~al.} 2005,
+  \href{http://dx.doi.org/10.1007/s11214-005-5095-4}{\color{magenta}Space
+  Science Reviews},
+  \href{http://adsabs.harvard.edu/abs/2005SSRv..120...95R}{\color{blue}120},
+  \href{http://adsabs.harvard.edu/abs/2005SSRv..120...95R}{\color{blue}95}
 
 \bibitem[{{Schlafly} \& {Finkbeiner}(2011)}]{Schlafly11}
 {Schlafly}, E.~F., \& {Finkbeiner}, D.~P. 2011,
