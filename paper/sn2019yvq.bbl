@@ -177,6 +177,14 @@ Jones, E., Oliphant, T., Peterson, P., {et~al.} 2001--, {SciPy}: Open source
 \bibitem[{McKinney(2010)}]{McKinney10}
 McKinney, W. 2010, 51
 
+\bibitem[{{Miller} {et~al.}(2020){Miller}, {Yao}, {Bulla}, {Pankow}, {Bellm},
+  {Cenko}, {Dekany}, {Fremling}, {Graham}, {Kupfer}, {Laher}, {Mahabal},
+  {Masci}, {Nugent}, {Riddle}, {Rusholme}, {Smith}, {Shupe}, {van Roestel}, \&
+  {Kulkarni}}]{Miller20}
+{Miller}, A.~A., {Yao}, Y., {Bulla}, M., {et~al.} 2020,
+  \href{https://arxiv.org/abs/2001.00598}{\color{magenta}arXiv},
+  \href{https://ui.adsabs.harvard.edu/abs/2020arXiv200100598M}{\color{blue}arXiv:2001.00598}
+
 \bibitem[{{Mould} {et~al.}(2000){Mould}, {Huchra}, {Freedman}, {Kennicutt},
   {Ferrarese}, {Ford}, {Gibson}, {Graham}, {Hughes}, {Illingworth}, {Kelson},
   {Macri}, {Madore}, {Sakai}, {Sebo}, {Silbermann}, \& {Stetson}}]{Mould00}
