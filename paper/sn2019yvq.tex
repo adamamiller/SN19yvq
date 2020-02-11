@@ -290,7 +290,7 @@ Figure~\ref{fig:spec_evo}.
 
 \section{Analysis}\label{sec:analysis}
 
-\subsection{NGC\,4441: the Host of \sn}
+\subsection{NGC\,4441: the Host of \sn}\label{sec:host}
 
 NGC\,4441 is the host galaxy of \sn. SDSS spectroscopic measurements of the
 nucleus of NGC\,4441 yield a heliocentric-recession velocity of 2663\,\kms\
@@ -394,8 +394,11 @@ also find that standard SN Ia fitting techniques, including \texttt{SALT2}
 evolution (Figure~\ref{fig:colors}). The top panel of Figure~\ref{fig:colors}
 shows the \gztf$ - $\rztf\ evolution of 35 normal SNe Ia with ZTF
 observations within 3\,d of \tfl\ (see \citealt{Bulla20}), with the color
-evolution of \sn\ over-plotted. While there is a large scatter shortly after
-\tfl\ there is a tight locus in \gztf$ - $\rztf\ around \tbmax. \sn\ is
+evolution of \sn\ over-plotted. \sn\ exhibits a prominent blue to red to
+blue, or ``red bump,'' evolution in the $\sim$week after \tfl. Similar red
+bumps are only seen in $\sim$10\% of the ZTF sample \citep{Bulla20}.
+Furthermore, while normal SNe Ia exhibit a large scatter in \gztf$ - $\rztf\
+shortly after \tfl\ they evolve to form a tight locus around \tbmax. \sn\ is
 redder at peak than each of the normal SNe Ia in the \citet{Bulla20} sample,
 and it exhibits a far more rapid decline in \gztf$ - $\rztf. In the
 $\sim$20\,d after \tbmax, the \gztf$ - $\rztf\ color of \sn\ increases by
@@ -405,46 +408,173 @@ colors of \sn\ at \tbmax\ are due to reddening, as suggested by the best-fit
 SNooPY model, the rapid evolution to the red would still distinguish \sn\
 relative to the other SNe in the sample.
 
-Based on its distinct photometric evolution (low luminosity, fast decline,
-lack of a near-infrared secondary maximum, red appearance at peak, and rapid
-evolution to red colors after \tbmax), we robustly conclude that \sn\ is not
-a normal SN Ia.
+Even if one ignores the striking initial bump in the light curve of \sn, we
+can still conclude that \sn\ is not a normal SN Ia based on its other
+photometric properties (e.g., low luminosity, fast decline, lack of a
+near-infrared secondary maximum, red appearance at peak, and rapid evolution
+to red colors after \tbmax).
 
 \begin{figure}
     \centering
     \includegraphics[width=3.5in]{./figures/P48_colors.pdf}
     %
-    \caption{Color evolution of \sn.}
+    \caption{Photometric color evolution of \sn. \textit{Top}: \gztf$ -
+    $\rztf\ evolution of \sn\ (solid green squares), corrected for the total
+    line of sight extinction (see \S\ref{sec:host}), and compared with the
+    evolution of 35 normal SNe Ia (open circles) observed within 3\,d of
+    \tfl\ by ZTF (from \citealt{Bulla20}). \sn\ is the reddest SN in the
+    group, and it exhibits the fastest evolution to red colors post-\tbmax.
+    \textit{Bottom}: the \bv\ (open, blue pentagons), \gztf$ - $\rztf\
+    (solid, green squares), and \rztf$ - $\iztf\ (open, red squares) color
+    evolution of \sn. The ``red bump'' can clearly be seen in all of the
+    optical colors.}
     %
     \label{fig:colors}
 \end{figure}
 
 \subsection{Spectral Evolution}\label{sec:spec}
 
+Our initial spectra of \sn\ are dominated by intermediate mass elements,
+primarily Si, Ca, and O, moving at extremely high velocities ($>
+20,000$\,\kms), as identified in Figure~\ref{fig:spec_evo}. In the spectra
+obtained $>$10\,d prior to \tbmax, there is also a strong absorption feature
+around 4200\,\AA\ that we tentatively identify as \ion{Mg}{II} $\lambda$
+4481. Though it is also possible that this feature corresponds to the Ti
+trough described in \citet{Polin19} for double-detonation SNe Ia. Another
+interesting feature of the early spectra is the relative prominence of
+\ion{Si}{II} $\lambda$5972 relative to \ion{Si}{II} $\lambda$6355. Prominent
+\ion{Si}{II} $\lambda$5972 absorption suggests a relatively cool photosphere,
+however, by the time of maximum light this feature has almost disappeared
+entirely. In our maximum-light spectrum of \sn, we estimate pseudo-equivalent
+widths (pEWs) of $183\pm1$\,\AA, and $13\pm2$\,\AA\ for \ion{Si}{II}
+$\lambda$6355 and $\lambda$5972, respectively. These pEW measurements
+unambiguously classify \sn\ as a broad-line SN Ia according to the
+classification scheme presented in \citet{Branch06}. The high velocities
+typically associated with this class also match the early evolution of \sn.
+
 \begin{figure}
     \centering
     \includegraphics[width=3.5in]{./figures/vel_evolution.pdf}
     %
-    \caption{Velocity evolution of \sn.}
+    \caption{Velocity evolution of \ion{Si}{II} $\lambda$6355\,\AA\
+    absorption in \sn\ (large, filled circles). For comparison we also show
+    the measurements for 264 SNe Ia observed by the Palomar Transient Factory
+    (PTF) as open circles, with PTF\,10ygu, the SN with the fastest moving
+    ejecta in the PTF sample, highlighted via orange crosses. We additionally
+    show the velocity evolution of SN\,2002bo, a SN that is very similar to
+    \sn, as open diamonds. The median velocity evolution of each of the
+    spectroscopic classes defined by \citet{Branch06} (Shallow Silicon, Core
+    Normal, Broad Line, and Cool) are shown via solid lines. It is clear that
+    \sn\ has exceptionally fast moving ejecta relative to typical SNe Ia.}
     %
     \label{fig:vel_evo}
 \end{figure}
 
+The velocity evolution of the \ion{Si}{II} $\lambda$6355 absorption feature
+in \sn\ is shown in Figure~\ref{fig:vel_evo}. These measurements have been
+made following the procedure described in \citet{Maguire14} (see their
+\S2.5). For comparison, we also show the \citet{Maguire14} measurements of
+the \ion{Si}{II} velocity evolution of 264 SNe Ia observed by the Palomar
+Transient Factory (PTF) as open circles in Figure~\ref{fig:vel_evo}, as well
+as the median velocity evolution of SNe belonging to the four different
+classes (Shallow Silicon, Core Normal, Broad Line, and Cool) identified in
+\citet{Branch06}.\footnote{The velocity measurements are from
+\citealt{Blondin12}, while the method to determine the median velocity is
+described in \citealt{Miller18}.} \sn\ stands out among other SNe Ia with
+some of the highest \ion{Si}{II} velocities that have ever been observed.
+Within the PTF sample, only PTF\,10ygu exhibits a \ion{Si}{II} absorption
+velocity as high as \sn\ at every phase in its evolution. \todo{discuss other
+BL with fast Si: sn1997bq , sn2002cd, sn2003W?}
 
-\aam{\kate{$\longrightarrow$ spectral comparison}}
+\citet{Benetti04} argue that \ion{S}{II} $\lambda$5640\,\AA, as a weak line,
+is more likely to be formed close to the continuum photosphere, and therefore
+serves as a better tracer of the photospheric velocity than \ion{Si}{II}
+$\lambda$6355\,\AA\. We measure the absorption velocity of this line using
+the same method described above, and find that the \ion{S}{II} absorption
+velocity is remarkably $\sim$3000\,\kms\ slower than \ion{Si}{II}
+$\lambda$6355\,\AA\ at all epochs where both features are measurable (from
+-12\,d to +0\,d relative to \tbmax). \kate{Is the assumption about saturation
+when fitting for the \ion{S}{II} velocities valid?} 
+
+In Figure~\ref{fig:r_evo} we show the ratio of the pEW for \ion{Si}{II}
+$\lambda$5972\,\AA\ to \ion{Si}{II} $\lambda$6355\,\AA\ [$\equiv
+\mathcal{R}($\ion{Si}{II}$)$] as a function of time. As first noted by
+\citet{Nugent95}, and later confirmed by \citet{Hachinger08},
+$\mathcal{R}($\ion{Si}{II}$)$ is a luminosity indicator, with larger values
+of $\mathcal{R}($\ion{Si}{II}$)$ corresponding to lower luminosities. As
+Figure~\ref{fig:r_evo} shows, \sn\ exhibits an interesting evolution in
+$\mathcal{R}($\ion{Si}{II}$)$: at early phases shortly after explosion, \sn\
+has $\mathcal{R}($\ion{Si}{II}$)$ among the highest values measured in the
+PTF sample of \citet{Maguire14}, yet, by maximum light
+$\mathcal{R}($\ion{Si}{II}$)$ has declined to be among the lowest values
+measured in the PTF sample. Qualitatively, this behavior is similar to
+SN\,2002bo (shown as open diamonds in Figure~\ref{fig:r_evo}). Such evolution
+is not typical, for reference the normal SN\,2011fe is also highlighted in
+Figure~\ref{fig:r_evo}. At face value, the $\mathcal{R}($\ion{Si}{II}$)$
+evolution suggests that the effective temperature of \sn\ increases
+significantly as it rises to maximum light. The optical colors (see
+Figure~\ref{fig:colors}), however, are nearly constant throughout this phase
+while the UV$ - $optical colors clearly decline during the same period,
+suggesting a decline in the effective temperature. \citet{Benetti04}
+interpret these competing effects as the result of significant \ion{Si}{II}
+mixing in the ejecta of SN\,2002bo. Mixing or producing Si in the outermost
+layers of the ejecta would (i) lead to larger \ion{Si}{II} velocities, (ii)
+produce \ion{Si}{II} line ratios that indicate cool temperatures (because
+there is less radioactive material to heat the ejecta), before eventually
+(iii) producing low values of $\mathcal{R}($\ion{Si}{II}$)$ as the
+photosphere recedes through the ejecta to higher temperature regions. If this
+interpretation is correct, this is the likely explanation for the line ratio
+evolution seen in \sn. \todo{Does TARDIS tell us anything about this? I have
+no idea...} \abi{Any chance this could somehow be related to burning He to Si in the shell?}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=3.4in]{./figures/R_evolution.pdf}
+    %
+    \caption{Evolution of the ratio of the pEW of \ion{Si}{II}
+    $\lambda$5972\,\AA\ to \ion{Si}{II} $\lambda$6355\,\AA,
+    $\mathcal{R}($\ion{Si}{II}$)$ in \sn\ (large, filled circles). For
+    comparison we also show the measurements for 264 SNe Ia observed by the
+    Palomar Transient Factory (PTF) as open circles. The velocity evolution
+    of SN\,2002bo and SN\,2011fe are highlighted as open diamonds and open
+    squares, respectively. \sn\ and SN\,2002bo exhibit an unusual inversion
+    in $\mathcal{R}($\ion{Si}{II}$)$ as they evolve toward maximum light.}
+    %
+    \label{fig:r_evo}
+\end{figure}
+
+
+\kate{do you want to say anything about \ion{Ca}{II}?}
+
+
+In Figure~\ref{fig:spec_comp} we compare the spectral evolution of \sn\ to
+other \citet{Branch06} Broad Line SNe at phases pre-, near-, and post-\tbmax.
+The left panel of Figure~\ref{fig:spec_comp} shows remarkably similar spectra
+for \sn\ and SN\,2002bo $\sim$12\,d before \tbmax. The only significant
+difference is that the absorption trough at $\sim$4800\,\AA, which is
+typically attributed to a combination of \ion{Fe}{II}, \ion{Fe}{III}, and
+\ion{Si}{II}, is significantly broader in SN\,2002bo than \sn. \todo{Argue
+that the difference is that the line is only due to Si in the \sn\ spectrum?}
+In these spectra the relatively strong absorption from \ion{Si}{II}
+$\lambda$5972\,\AA\ can clearly be seen. At this phase, the red line in the
+``W'' absorption feature at $\sim$5400\,\AA\ is much stronger than the blue
+line further suggesting cool temperatures at these phases \citep{Nugent95}.
+In this panel we also show a pre-maximum spectrum of SN\,1986G, a
+sub-luminous \citep{Phillips87}, \citet{Branch06} Cool SN Ia that has a
+similar value of $\mathcal{R}($\ion{Si}{II}$)$ as \sn\ and SN\,2002bo. While
+the velocity of the SN\,1986G ejecta is much lower than \sn, the strong
+similarity in the relative line strengths between these spectra further
+bolsters our argument for relatively cold temperatures in the \ion{Si}{II}
+line forming at this epoch in \sn.
 
 \begin{figure*}
     \centering
-    \includegraphics[width=6.5in]{./figures/spec_comp.pdf}
+    \includegraphics[width=7.25in]{./figures/spec_comp.pdf}
     %
-    \caption{Spectral comparison of \sn\ to other Cool and Broad Line SNe Ia.}
+    \caption{Spectral comparison of \sn\ to other Cool and Broad Line SNe Ia. \todo{Fix phase in middle panel}}
     %
     \label{fig:spec_comp}
 \end{figure*}
-
-\stockholm{Light curve fitting (SNOOPY, SALT2, etc?}
-
-\aam{\stockholm{Host Galaxy}}
 
 
 
