@@ -334,7 +334,7 @@ relations presented in \citet{Poznanski12}.
 
 \begin{figure}
     \centering
-    \includegraphics[width=3.5in]{./figures/NaD.pdf}
+    \includegraphics[width=3.4in]{./figures/NaD.pdf}
     %
     \caption{Zoom-in on our moderate resolution MMT+Binospec spectrum of \sn\
     highlighting absoprtion due to \ion{Na}{I} D in the host galaxy,
@@ -366,18 +366,49 @@ exclude observations from the first two nights of ZTF detection from the fit
 (this choice is conservative as it is unclear when the mechanism that powers
 the initial bump in \sn\ no longer significantly contributes to the flux in
 the \gztf\ and \rztf\ filters). From the fit we find \tfl$ = -17.5
-\pm^{1.0}{1.3}$\,d relative to \tbmax (we know \tfl$ < 17.4$\,d based on the
-discovery detection in \citealt{Itagaki19} meaning a portion of the posterior
-distribution for our model cannot be correct). We also find $\alpha_g = 2.15
-\pm^{0.49}{0.36}$ and $\alpha_g = 1.91 \pm^{0.42}{0.31}$. These values are
+\pm^{1.0}_{1.3}$\,d relative to \tbmax. We know that the time of explosion
+must be $< -17.4$\,d based on the discovery detection in \citealt{Itagaki19},
+and, by definition \tfl$> t_\mathrm{exp}$, meaning a portion of the posterior
+distribution for our model cannot be correct. We also find $\alpha_g = 2.15
+\pm^{0.49}_{0.36}$ and $\alpha_g = 1.91 \pm^{0.42}_{0.31}$. These values are
 typical of the normal SNe Ia studied in \citet{Miller20}. If we only exclude
 the first observation from the model fit we find significantly different
 results with a rise time that increases by $\sim$5\,d and power-law indicies
 that increase by $\gtrsim$1.
 
+While the rise time and power-law indicies of \sn\ are similar to other
+normal SNe Ia, the photometric evolution does not resemble normal SNe Ia.
+\sn\ is underluminous ($M_g \approx -18.48$\,mag), declines rapidly ($\Delta
+m_{15}(g) \approx 1.4$\,mag \todo{measure precisely and provide
+uncertainties}, and does not exhibit a ``shoulder'' in the \rztf\ or
+secondary maximum in the \iztf\ light curves post-maximum. For context, of
+the 127 SNe found by ZTF and studied in \citet{Yao19}, only 1, ZTF18abclfee
+(SN\,2018crl), a SN\,2002cx-like event, had a faster decline than \sn. The
+underluminous, fast-declining evolution of \sn\ is broadly consistent with
+the SN\,1991bg-like subclass of SNe Ia, however, we show that \sn\ is
+spectroscopically distinct relative to 91bg-like SNe (\S\ref{sec:spec}). We
+also find that standard SN Ia fitting techniques, including \texttt{SALT2}
+\citep{Guy07} and SNooPY \citep{Burns11}, cannot model the evolution of \sn.
 
-\sn\ does not exhibit 
+\sn\ is further distinguished from normal SNe Ia by its unusual color
+evolution (Figure~\ref{fig:colors}). The top panel of Figure~\ref{fig:colors}
+shows the \gztf$ - $\rztf\ evolution of 35 normal SNe Ia with ZTF
+observations within 3\,d of \tfl\ (see \citealt{Bulla20}), with the color
+evolution of \sn\ over-plotted. While there is a large scatter shortly after
+\tfl\ there is a tight locus in \gztf$ - $\rztf\ around \tbmax. \sn\ is
+redder at peak than each of the normal SNe Ia in the \citet{Bulla20} sample,
+and it exhibits a far more rapid decline in \gztf$ - $\rztf. In the
+$\sim$20\,d after \tbmax, the \gztf$ - $\rztf\ color of \sn\ increases by
+$\sim$1.1\,mag, whereas the typical normal SN Ia color only becomes
+$\sim$0.5\,mag redder over the same time frame. Therefore, even if the red
+colors of \sn\ at \tbmax\ are due to reddening, as suggested by the best-fit
+SNooPY model, the rapid evolution to the red would still distinguish \sn\
+relative to the other SNe in the sample.
 
+Based on its distinct photometric evolution (low luminosity, fast decline,
+lack of a near-infrared secondary maximum, red appearance at peak, and rapid
+evolution to red colors after \tbmax), we robustly conclude that \sn\ is not
+a normal SN Ia.
 
 \begin{figure}
     \centering
@@ -388,6 +419,7 @@ that increase by $\gtrsim$1.
     \label{fig:colors}
 \end{figure}
 
+\subsection{Spectral Evolution}\label{sec:spec}
 
 \begin{figure}
     \centering
