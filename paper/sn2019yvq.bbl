@@ -145,6 +145,14 @@
   \href{https://ui.adsabs.harvard.edu/abs/2015MNRAS.450..317C}{\color{blue}450},
   \href{https://ui.adsabs.harvard.edu/abs/2015MNRAS.450..317C}{\color{blue}317}
 
+\bibitem[{{Cristiani} {et~al.}(1992){Cristiani}, {Cappellaro}, {Turatto},
+  {Bergeron}, {Bues}, {Buson}, {Danziger}, {di Serego-Alighieri}, {Duerbeck},
+  {Heydari-Malayeri}, {Krautter}, {Schmutz}, \&
+  {Schulte-Ladbeck}}]{Cristiani92}
+{Cristiani}, S., {Cappellaro}, E., {Turatto}, M., {et~al.} 1992, \aap,
+  \href{https://ui.adsabs.harvard.edu/abs/1992A&A...259...63C}{\color{blue}259},
+  \href{https://ui.adsabs.harvard.edu/abs/1992A&A...259...63C}{\color{blue}63}
+
 \bibitem[{{Gehrels} {et~al.}(2004){Gehrels}, {Chincarini}, {Giommi}, {Mason},
   {Nousek}, {Wells}, {White}, {Barthelmy}, {Burrows}, {Cominsky}, {Hurley},
   {Marshall}, {M{\'e}sz{\'a}ros}, {Roming}, {Angelini}, {Barbier}, {Belloni},
@@ -327,6 +335,25 @@ McKinney, W. 2010, 51
   \href{http://adsabs.harvard.edu/abs/2011ApJ...737..103S}{\color{blue}737},
   \href{http://adsabs.harvard.edu/abs/2011ApJ...737..103S}{\color{blue}103}
 
+\bibitem[{{Silverman} {et~al.}(2011){Silverman}, {Ganeshalingam}, {Li},
+  {Filippenko}, {Miller}, \& {Poznanski}}]{Silverman11}
+{Silverman}, J.~M., {Ganeshalingam}, M., {Li}, W., {et~al.} 2011,
+  \href{http://dx.doi.org/10.1111/j.1365-2966.2010.17474.x}{\color{magenta}\mnras},
+  \href{http://adsabs.harvard.edu/abs/2011MNRAS.410..585S}{\color{blue}410},
+  \href{http://adsabs.harvard.edu/abs/2011MNRAS.410..585S}{\color{blue}585}
+
+\bibitem[{{Silverman} {et~al.}(2012){Silverman}, {Foley}, {Filippenko},
+  {Ganeshalingam}, {Barth}, {Chornock}, {Griffith}, {Kong}, {Lee}, {Leonard},
+  {Matheson}, {Miller}, {Steele}, {Barris}, {Bloom}, {Cobb}, {Coil},
+  {Desroches}, {Gates}, {Ho}, {Jha}, {Kandrashoff}, {Li}, {Mandel}, {Modjaz},
+  {Moore}, {Mostardi}, {Papenkova}, {Park}, {Perley}, {Poznanski}, {Reuter},
+  {Scala}, {Serduke}, {Shields}, {Swift}, {Tonry}, {Van Dyk}, {Wang}, \&
+  {Wong}}]{Silverman12}
+{Silverman}, J.~M., {Foley}, R.~J., {Filippenko}, A.~V., {et~al.} 2012,
+  \href{http://dx.doi.org/10.1111/j.1365-2966.2012.21270.x}{\color{magenta}\mnras},
+  \href{http://adsabs.harvard.edu/abs/2012MNRAS.425.1789S}{\color{blue}425},
+  \href{http://adsabs.harvard.edu/abs/2012MNRAS.425.1789S}{\color{blue}1789}
+
 \bibitem[{{Tonry} {et~al.}(2001){Tonry}, {Dressler}, {Blakeslee}, {Ajhar},
   {Fletcher}, {Luppino}, {Metzger}, \& {Moore}}]{Tonry01}
 {Tonry}, J.~L., {Dressler}, A., {Blakeslee}, J.~P., {et~al.} 2001,
@@ -344,5 +371,11 @@ McKinney, W. 2010, 51
   \href{http://dx.doi.org/10.3847/1538-4357/ab4cf5}{\color{magenta}\apj},
   \href{https://ui.adsabs.harvard.edu/abs/2019ApJ...886..152Y}{\color{blue}886},
   \href{https://ui.adsabs.harvard.edu/abs/2019ApJ...886..152Y}{\color{blue}152}
+
+\bibitem[{{Yaron} \& {Gal-Yam}(2012)}]{Yaron12}
+{Yaron}, O., \& {Gal-Yam}, A. 2012,
+  \href{http://dx.doi.org/10.1086/666656}{\color{magenta}\pasp},
+  \href{http://adsabs.harvard.edu/abs/2012PASP..124..668Y}{\color{blue}124},
+  \href{http://adsabs.harvard.edu/abs/2012PASP..124..668Y}{\color{blue}668}
 
 \end{thebibliography}
