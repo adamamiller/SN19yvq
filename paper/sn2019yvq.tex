@@ -14,6 +14,7 @@
 \def\ion#1#2{#1$\;${\footnotesize\rm{#2}}\relax}
 
 \newcommand{\kate}[1]{{\color{red} KM: {#1}}}
+\newcommand{\fromkate}[1]{{\color{brown} fromKM: {#1}}}
 \newcommand{\steve}[1]{{\color{purple} SS: {#1}}}
 
 \newcommand{\abi}[1]{{\color{LincolnGreen} AP: {#1}}}
@@ -489,12 +490,12 @@ BL with fast Si: sn1997bq , sn2002cd, sn2003W?}
 \citet{Benetti04} argue that \ion{S}{II} $\lambda$5640\,\AA, as a weak line,
 is more likely to be formed close to the continuum photosphere, and therefore
 serves as a better tracer of the photospheric velocity than \ion{Si}{II}
-$\lambda$6355\,\AA\. We measure the absorption velocity of this line using
+$\lambda$6355\,\AA. We measured the absorption velocity of this line using
 the same method described above, and find that the \ion{S}{II} absorption
 velocity is remarkably $\sim$3000\,\kms\ slower than \ion{Si}{II}
 $\lambda$6355\,\AA\ at all epochs where both features are measurable (from
 -12\,d to +0\,d relative to \tbmax). \kate{Is the assumption about saturation
-when fitting for the \ion{S}{II} velocities valid?} 
+when fitting for the \ion{S}{II} velocities valid?} \fromkate{The \ion{S}{II} is a weak line so yes I would it expect it not to be satuarated. I don't think this lower velocity is that remarkable, the Si II 5972 and 4130 A are also always lower than the Si II 6355 A feature because they are weaker lines and their line-forming regions are located further in. I think this only matters if the modelling can't produce spectra but since they do it's probably better just to use the Si II velocity that come of it and compare directly}.
 
 In Figure~\ref{fig:r_evo} we show the ratio of the pEW for \ion{Si}{II}
 $\lambda$5972\,\AA\ to \ion{Si}{II} $\lambda$6355\,\AA\ [$\equiv
@@ -527,6 +528,8 @@ interpretation is correct, this is the likely explanation for the line ratio
 evolution seen in \sn. \todo{Does TARDIS tell us anything about this? I have
 no idea...} \abi{Any chance this could somehow be related to burning He to Si in the shell?}
 
+\fromkate{Devil's advocate on this: if the idea is that the outer layers are cooler and the photosphere recedes then there's no reason why we wouldn't see this effect in all SNe Ia since all of their velocities decrease with time? }
+
 \begin{figure}
     \centering
     \includegraphics[width=3.4in]{./figures/R_evolution.pdf}
@@ -545,6 +548,7 @@ no idea...} \abi{Any chance this could somehow be related to burning He to Si in
 
 
 \kate{do you want to say anything about \ion{Ca}{II}?}
+
 
 
 In Figure~\ref{fig:spec_comp} we compare the spectral evolution of \sn\ to
@@ -612,6 +616,15 @@ forming region of the photosphere in \sn.
 
 
 \section{Comparison to Models}\label{sec:models}
+
+\begin{figure*}
+    \centering
+    \includegraphics[width=6.0in]{./figures/good_model_pl_10.pdf}
+    %
+    \caption{PRELIMINARY PRELIMINARY PRELIMINARY}
+    %
+    \label{fig:tardis}
+\end{figure*}
 
 \abi{Best matching double det models}
 
