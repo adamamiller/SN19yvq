@@ -30,6 +30,8 @@
 \newcommand{\trise}{$t_\mathrm{rise}$}
 \newcommand{\tbmax}{$t_{B,\mathrm{max}}$}
 \newcommand{\kms}{km\,s$^{-1}$}
+\newcommand{\RSiII}{$\mathcal{R}($\ion{Si}{II}$)$}
+\newcommand{\radni}{$^{56}$Ni}
 
 \newcommand{\sn}{SN\,2019yvq}
 
@@ -219,7 +221,7 @@ emission from \sn\ (Figure~\ref{fig:p48}).
 
 \begin{figure}
     \centering
-    \includegraphics[width=3.5in]{./figures/P48_lc.pdf}
+    \includegraphics[width=3.35in]{./figures/P48_lc.pdf}
     %
     \caption{Photometric evolution of \sn, highlighting the initial decline
     observed in the light curve. \gztf, \rztf, and \iztf\ observations are
@@ -285,7 +287,7 @@ Figure~\ref{fig:spec_evo}.
 
 \begin{figure}
     \centering
-    \includegraphics[width=3.5in]{./figures/spec_evo.pdf}
+    \includegraphics[width=3.35in]{./figures/spec_evo.pdf}
     %
     \caption{Observed spectral sequence of \sn. Spectra have been normalized
     by their median flux between 7200 \AA\ and 7400 \AA. The phase of each
@@ -349,7 +351,7 @@ relations presented in \citet{Poznanski12}.
 
 \begin{figure}
     \centering
-    \includegraphics[width=3.4in]{./figures/NaD.pdf}
+    \includegraphics[width=3.35in]{./figures/NaD.pdf}
     %
     \caption{Zoom-in on our moderate resolution MMT+Binospec spectrum of \sn\
     highlighting absoprtion due to \ion{Na}{I} D in the host galaxy,
@@ -364,7 +366,7 @@ relations presented in \citet{Poznanski12}.
     \label{fig:NaD}
 \end{figure}
 
-\subsection{Photometric Analysis}
+\subsection{Photometric Analysis}\label{sec:phot}
 
 We estimate the time of first light, \tfl, for \sn\ following the procedure
 described in \citet{Miller20}. Briefly, \citet{Miller20} model the early
@@ -423,7 +425,7 @@ $\sim$0.5\,mag redder over the same time frame.
 
 \begin{figure}
     \centering
-    \includegraphics[width=3.5in]{./figures/P48_colors.pdf}
+    \includegraphics[width=3.35in]{./figures/P48_colors.pdf}
     %
     \caption{Photometric color evolution of \sn. \textit{Top}: \gztf$ -
     $\rztf\ evolution of \sn\ (solid green squares), corrected for the total
@@ -479,7 +481,7 @@ obtained $>$10\,d prior to \tbmax, there is also a strong absorption feature
 around 4200\,\AA\ that we tentatively identify as \ion{Mg}{II} $\lambda$ 4481.
 Though it is also possible that this feature corresponds to the Ti trough
 described in \citet{Polin19} for double-detonation SNe Ia. \todo{Could this
-feature be \ion{Si}{3}? could explain small notch at ~4500 Ang} While the
+feature be \ion{Si}{III}? could explain small notch at ~4500 Ang} While the
 early spectra are dominated by IMEs, we find no evidence for \ion{C}{II}
 absorption in the spectra of \sn.
 
@@ -496,18 +498,19 @@ typically associated with this class also match the early evolution of \sn.
 
 \begin{figure}
     \centering
-    \includegraphics[width=3.5in]{./figures/vel_evolution.pdf}
+    \includegraphics[width=3.35in]{./figures/vel_evolution.pdf}
     %
-    \caption{Velocity evolution of \ion{Si}{II} $\lambda$6355\,\AA\
-    absorption in \sn\ (large, filled circles). For comparison we also show
-    the measurements for 264 SNe Ia observed by the Palomar Transient Factory
-    (PTF) as open circles, with PTF\,10ygu, the SN with the fastest moving
-    ejecta in the PTF sample, highlighted via orange crosses. We additionally
-    show the velocity evolution of SN\,2002bo, a SN that is very similar to
-    \sn, as open diamonds. The median velocity evolution of each of the
-    spectroscopic classes defined by \citet{Branch06} (Shallow Silicon, Core
-    Normal, Broad Line, and Cool) are shown via solid lines. It is clear that
-    \sn\ has exceptionally fast moving ejecta relative to typical SNe Ia.}
+    \caption{Velocity evolution of \ion{Si}{II} $\lambda$6355\,\AA\ absorption
+    in \sn\ (large, filled circles). For comparison we also show the
+    measurements for 264 SNe Ia observed by the Palomar Transient Factory
+    (PTF) as open circles, with SN\,2010jn (PTF\,10ygu), the SN with the
+    fastest moving ejecta in the PTF sample, highlighted via orange crosses.
+    We additionally show the velocity evolution of SN\,2002bo, a SN that is
+    very similar to \sn, as open diamonds. The median velocity evolution of
+    each of the spectroscopic classes defined by \citet{Branch06} (Shallow
+    Silicon, Core Normal, Broad Line, and Cool) are shown via solid lines. It
+    is clear that \sn\ has exceptionally fast moving ejecta relative to
+    typical SNe Ia.}
     %
     \label{fig:vel_evo}
 \end{figure}
@@ -524,7 +527,7 @@ classes (Shallow Silicon, Core Normal, Broad Line, and Cool) identified in
 \citet{Blondin12}, while the method to determine the median velocity is
 described in \citet{Miller18}.} \sn\ stands out among other SNe Ia with
 some of the highest \ion{Si}{II} velocities that have ever been observed.
-Within the PTF sample, only PTF\,10ygu exhibits a \ion{Si}{II} absorption
+Within the PTF sample, only SN\,2010jn exhibits a \ion{Si}{II} absorption
 velocity as high as \sn\ at every phase in its evolution. \todo{discuss other
 BL with fast Si: sn1997bq , sn2002cd, sn2003W?}
 
@@ -578,7 +581,7 @@ all SNe Ia since all of their velocities decrease with time? }
 
 \begin{figure}
     \centering
-    \includegraphics[width=3.4in]{./figures/R_evolution.pdf}
+    \includegraphics[width=3.35in]{./figures/R_evolution.pdf}
     %
     \caption{Evolution of the ratio of the pEW of \ion{Si}{II}
     $\lambda$5972\,\AA\ to \ion{Si}{II} $\lambda$6355\,\AA,
@@ -597,14 +600,14 @@ all SNe Ia since all of their velocities decrease with time? }
 
 
 In Figure~\ref{fig:spec_comp} we compare the spectral evolution of \sn\ to
-SN\,2002bo and iPTF\,10ygu (both \citet{Branch06} Broad Line SNe like \sn).
+SN\,2002bo and SN\,2010jn (both \citet{Branch06} Broad Line SNe like \sn).
 The evolution of \sn\ and SN\,2002bo is remarkably similar at all phases. The
 only significant difference between the two is the absorption trough at
 $\sim$4800\,\AA\ in pre- and maximum-light spectra. This feature, which is
 typically attributed to a combination of \ion{Fe}{II}, \ion{Fe}{III}, and
 \ion{Si}{II}, is extremely narrow in \sn. We believe this is due to a lack of
 Fe absorption as the spectra at this epoch show little evidence for iron group
-elements (IGEs). iPTF\,10ygu, which exhibits large \ion{Si}{II} velocities
+elements (IGEs). SN\,2010jn, which exhibits large \ion{Si}{II} velocities
 like \sn, shows weaker IME absorption and stronger IGE absorption than \sn.
 
 \begin{figure*}
@@ -617,7 +620,7 @@ like \sn, shows weaker IME absorption and stronger IGE absorption than \sn.
     Cool SN\,1986G spectrum are considerably lower than those in the Broad
     Line SNe, the relative ratios of the \ion{Si}{II} features are similar.
     \textit{Second panel}: Comparison of \sn\ to the Broad Line SNe\,2002bo
-    and PTF\,10ygu. These SNe all feature nearly identical maximum-light
+    and SN\,2010jn. These SNe all feature nearly identical maximum-light
     spectra. By this phase, the relative strength of the \ion{Si}{II}
     absorption features is no longer similar to \citet{Branch06} Cool SNe, as
     illustrated by SN\,2004eo. \textit{Third panel}: $\sim$1 week post-maximum
@@ -625,7 +628,8 @@ like \sn, shows weaker IME absorption and stronger IGE absorption than \sn.
     spectra have been downloaded from WISeREP \citep{Yaron12}, with spectra
     for individual SNe from the following sources: SN\,1986G --
     \citet{Cristiani92}, SN\,2002bo -- \citet{Benetti04,Silverman11},
-    PTF\,10ygu -- \citet{Maguire14}, SN\,2004eo -- \citet{Pastorello07}.}
+    SN\,2010jn (PTF\,10ygu) -- \citet{Hachinger13,Maguire14}, SN\,2004eo --
+    \citet{Pastorello07}. \todo{Should this be 2 figures?}}
     %
     \label{fig:spec_comp}
 \end{figure*}
@@ -644,21 +648,21 @@ also consistent with cool temperatures \citep{Nugent95}. \todo{86G had E(B-V)
 The maximum-light spectra shown in the second panel of
 Figure~\ref{fig:spec_comp} reveal much higher temperatures for \sn, as the
 \ion{Si}{II} $\lambda$5972\,\AA\ absorption has nearly disappeared by this
-epoch. The appearance of \sn, SN\,2002bo, and iPTF\,10ygu are all similar at
-this epoch, with the exception of the 4800\,\AA\ feature mentioned above. We
-also show a maximum light spectrum of the \citet{Branch06} Cool, transitional
-SN\,2004eo \citep{Pastorello07}. SN\,2004eo has a similar appearance to \sn,
-though the lower velocities and cooler temperatures (as traced by both
-\ion{Si}{II} $\lambda$5972\,\AA\ and \ion{S}{II}) more clearly reveal the IGE
-absorption around 4800\,\AA. \todo{anythingto say about differences at
-$\sim$4000\,\AA?}
+epoch. The appearance of \sn, SN\,2002bo, and SN\,2010jn (iPTF\,10ygu) are all
+similar at this epoch, with the exception of the 4800\,\AA\ feature mentioned
+above. We also show a maximum light spectrum of the \citet{Branch06} Cool,
+transitional SN\,2004eo \citep{Pastorello07}. SN\,2004eo has a similar
+appearance to \sn, though the lower velocities and cooler temperatures (as
+traced by both \ion{Si}{II} $\lambda$5972\,\AA\ and \ion{S}{II}) more clearly
+reveal the IGE absorption around 4800\,\AA. \todo{anythingto say about
+differences at $\sim$4000\,\AA?}
 
 The third panel of Figure~\ref{fig:spec_comp} shows spectra obtained roughly a
 week after maximum light. By this phase absorption due to IGE in \sn\ is
 clear. Additional differences between \sn\ and SN\,2002bo can be seen at this
 phase. There is stronger absorption in \sn\ blueward of \ion{Ca}{II} H\&K, and
 the \ion{S}{II} ``W'' absorption feature is still present in \sn\ and it
-cannot be identified in SN\,2002bo or iPTF\,10ygu. SN\,2004eo maintains an
+cannot be identified in SN\,2002bo or SN\,2010jn. SN\,2004eo maintains an
 appearance that is somewhat similar to \sn, though as before, the temperatures
 are cooler and the velocities lower.
 
@@ -669,10 +673,6 @@ similar modulo some minor differences in the relative line strengths of
 different features. \todo{add more discussion here? - I don't know a ton about
 this phase of evolution}
 
-
-
-\section{Comparison to Models}\label{sec:models}
-
 \begin{figure*}
     \centering
     \includegraphics[width=6.0in]{./figures/good_model_pl_10.pdf}
@@ -681,6 +681,98 @@ this phase of evolution}
     %
     \label{fig:tardis}
 \end{figure*}
+
+
+
+\section{A Physical Explanation for \sn}\label{sec:models}
+
+The most striking feature of \sn\ is the observed UV/optical peak that occurs
+shortly after discovery (Figure~\ref{fig:p48}). Any model to explain \sn\ must
+account for this highly unusual feature. A UV decline in the early phase of a
+SN\,Ia has previously only been observed in a single event, iPTF\,14atg
+\citep{Cao15}. Resolved ``bumps'' in the early optical emission of SNe\,Ia are
+also rare, having only been seen in a few events: SN\,2017cbv
+\citep{Hosseinzadeh17} and SN\,2018oh \citep{Shappee19,Dimitriadis19}.
+\todo{possibly other cases here, but not ``clearly resolved'' in the way these
+two are}
+
+\sn\ features other properties, in addition to the early maximum, that
+separate it from normal SNe\,Ia. A good model should be able to explain the
+following characteristics of \sn:
+%
+\begin{enumerate}
+    \item The early UV/optical ``flash'' (Figure~\ref{fig:p48}).
+    \item The low luminosity at maximum light (\S\ref{sec:phot}). 
+    \item The red optical colors at all epochs (Figure~\ref{fig:colors}). 
+    \item The lack of IGE in the early spectra (Figure~\ref{fig:spec_comp}).
+    \item The transition from large \RSiII\ values to low values (Figure~\ref{fig:r_evo}).
+    \item The large photospheric velocities (Figure~\ref{fig:vel_evo}).
+\end{enumerate}
+%
+\todo{Need to mention once again that 91bg is not a reasonable explanation for
+this SN} Ignoring the early flash, the remaining features (2--6 in the list
+above) can be understood if the explosion that gave rise to \sn\ produced a
+relatively small amount of \radni\ that is strongly confined to the inner
+regions of the SN ejeta. A low \radni\ yield could explain the underluminous
+light curve and red colors, while a highly stratified ejecta structure could
+explain the lack of IGE in the early spectra as the IGE would not have been
+mixed to these outter layers. Furthermore, with a highly stratified ejecta
+composition, the photosphere would transition somewhat rapidly from
+\radni-poor to \radni-rich, resulting in a significant change in the
+luminosity/temperature of the ejecta along the lines of what we see in the
+evolution of \RSiII. \todo{did not explain photospheric velocities}
+
+\citet{Magee20} developed a suite of models featuring different \radni\
+structures within the SN ejecta that they then compared to early observations
+of SNe\,Ia to see which models replicate what is observed in nature.
+Generally, it is found in \citet{Magee20} that highly stratified models do not
+match the early evolution of normal SNe\,Ia. However, when we model the early
+evolution of \sn\ using the models of \citet{Magee20}, we find that the
+observations are best matched by highly stratified models, as shown in
+Figure~\ref{fig:Ni_mixing}. For this modelling we have excluded the first two
+epochs of ZTF observations, as we consider the mechanism that produces the
+early UV flash to be different from the standard \radni\ decay that powers
+most SNe\,Ia. That the (normal) rising portion of the \sn\ light curve is best
+matched by stratified models strengthens the support for this interpretation.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=3.35in]{./figures/preliminary_Ni_mixing.png}
+    %
+    \caption{PRELIMINARY PRELIMINARY PRELIMINARY}
+    %
+    \label{fig:Ni_mixing}
+\end{figure}
+
+On their own, a low-\radni\ yield and highly stratified ejecta fail to explain
+the UV/optical flash seen in \sn. A large number of scenarios have been
+proposed to explain early ``bumps'' or ``flashes'' in SNe\,Ia light curves,
+including: interaction between the SN ejecta and the exploding WD binary
+companion \citep{Kasen10a}, interaction between the SN ejecta and
+circumstellar material (e.g., \citealt{Dessart14,Piro16}), shock cooling
+following the shock breakout from the surface of the WD (e.g.,
+\citealt{Piro10,Rabinak11}), double detonation explosions (e.g.,
+\citealt{Noebauer17,Polin19}), and extended clumps of \radni\ in the SN ejecta
+(e.g., \citealt{Shappee19,Dimitriadis19}). We discuss these models and their
+ability to replicate observations of \sn\ below.\footnote{We do not discuss
+shock breakout models as our initial detection of \sn\ occurred at $M_g
+\approx -16.3$\,mag. A progenitor radius of $\sim$10$\,R_\odot$ is needed to
+explain such a high luminosity \citep{Piro10,Rabinak11}, which we consider
+implausible for a WD.}
+
+\subsection{Companion Interaction}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=3.35in]{./figures/sn_companion_models.pdf}
+    %
+    \caption{}
+    %
+    \label{fig:companion}
+\end{figure}
+
+
+\subsection{Double Detonation Models}
 
 \abi{Best matching double det models}
 
