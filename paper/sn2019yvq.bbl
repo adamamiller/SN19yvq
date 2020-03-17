@@ -68,6 +68,12 @@
   \href{https://ui.adsabs.harvard.edu/abs/2018ApJS..235...42A}{\color{blue}235},
   \href{https://ui.adsabs.harvard.edu/abs/2018ApJS..235...42A}{\color{blue}42}
 
+\bibitem[{{Arnett}(1982)}]{Arnett82}
+{Arnett}, W.~D. 1982,
+  \href{http://dx.doi.org/10.1086/159681}{\color{magenta}\apj},
+  \href{http://adsabs.harvard.edu/abs/1982ApJ...253..785A}{\color{blue}253},
+  \href{http://adsabs.harvard.edu/abs/1982ApJ...253..785A}{\color{blue}785}
+
 \bibitem[{{Astropy Collaboration} {et~al.}(2013){Astropy Collaboration},
   {Robitaille}, {Tollerud}, {Greenfield}, {Droettboom}, {Bray}, {Aldcroft},
   {Davis}, {Ginsburg}, {Price-Whelan}, {Kerzendorf}, {Conley}, {Crighton},
@@ -112,6 +118,12 @@
   \href{http://adsabs.harvard.edu/abs/2012AJ....143..126B}{\color{blue}143},
   \href{http://adsabs.harvard.edu/abs/2012AJ....143..126B}{\color{blue}126}
 
+\bibitem[{{Branch} {et~al.}(2009){Branch}, {Chau Dang}, \& {Baron}}]{Branch09}
+{Branch}, D., {Chau Dang}, L., \& {Baron}, E. 2009,
+  \href{http://dx.doi.org/10.1086/597788}{\color{magenta}\pasp},
+  \href{http://adsabs.harvard.edu/abs/2009PASP..121..238B}{\color{blue}121},
+  \href{http://adsabs.harvard.edu/abs/2009PASP..121..238B}{\color{blue}238}
+
 \bibitem[{{Branch} {et~al.}(2006){Branch}, {Dang}, {Hall}, {Ketchum},
   {Melakayil}, {Parrent}, {Troxel}, {Casebeer}, {Jeffery}, \&
   {Baron}}]{Branch06}
@@ -119,6 +131,13 @@
   \href{http://dx.doi.org/10.1086/502778}{\color{magenta}\pasp},
   \href{http://adsabs.harvard.edu/abs/2006PASP..118..560B}{\color{blue}118},
   \href{http://adsabs.harvard.edu/abs/2006PASP..118..560B}{\color{blue}560}
+
+\bibitem[{{Brown} {et~al.}(2012){Brown}, {Dawson}, {Harris}, {Olmstead},
+  {Milne}, \& {Roming}}]{Brown12}
+{Brown}, P.~J., {Dawson}, K.~S., {Harris}, D.~W., {et~al.} 2012,
+  \href{http://dx.doi.org/10.1088/0004-637X/749/1/18}{\color{magenta}\apj},
+  \href{http://adsabs.harvard.edu/abs/2012ApJ...749...18B}{\color{blue}749},
+  \href{http://adsabs.harvard.edu/abs/2012ApJ...749...18B}{\color{blue}18}
 
 \bibitem[{{Brown} {et~al.}(2017){Brown}, {Landez}, {Milne}, \&
   {Stritzinger}}]{Brown17}
@@ -207,6 +226,13 @@
   \href{https://ui.adsabs.harvard.edu/abs/2019ApJ...870L...1D}{\color{blue}870},
   \href{https://ui.adsabs.harvard.edu/abs/2019ApJ...870L...1D}{\color{blue}L1}
 
+\bibitem[{{Foreman-Mackey} {et~al.}(2013){Foreman-Mackey}, {Hogg}, {Lang}, \&
+  {Goodman}}]{Foreman-Mackey13}
+{Foreman-Mackey}, D., {Hogg}, D.~W., {Lang}, D., \& {Goodman}, J. 2013,
+  \href{http://dx.doi.org/10.1086/670067}{\color{magenta}\pasp},
+  \href{http://adsabs.harvard.edu/abs/2013PASP..125..306F}{\color{blue}125},
+  \href{http://adsabs.harvard.edu/abs/2013PASP..125..306F}{\color{blue}306}
+
 \bibitem[{{Gehrels} {et~al.}(2004){Gehrels}, {Chincarini}, {Giommi}, {Mason},
   {Nousek}, {Wells}, {White}, {Barthelmy}, {Burrows}, {Cominsky}, {Hurley},
   {Marshall}, {M{\'e}sz{\'a}ros}, {Roming}, {Angelini}, {Barbier}, {Belloni},
@@ -223,6 +249,12 @@
   \href{http://dx.doi.org/10.1086/422091}{\color{magenta}\apj},
   \href{http://adsabs.harvard.edu/abs/2004ApJ...611.1005G}{\color{blue}611},
   \href{http://adsabs.harvard.edu/abs/2004ApJ...611.1005G}{\color{blue}1005}
+
+\bibitem[{{Goodman} \& {Weare}(2010)}]{Goodman10}
+{Goodman}, J., \& {Weare}, J. 2010,
+  \href{http://dx.doi.org/10.2140/camcos.2010.5.65}{\color{magenta}CAMCS},
+  \href{https://ui.adsabs.harvard.edu/abs/2010CAMCS...5...65G}{\color{blue}5},
+  \href{https://ui.adsabs.harvard.edu/abs/2010CAMCS...5...65G}{\color{blue}65}
 
 \bibitem[{{Guy} {et~al.}(2007){Guy}, {Astier}, {Baumont}, {Hardin}, {Pain},
   {Regnault}, {Basa}, {Carlberg}, {Conley}, {Fabbro}, {Fouchez}, {Hook},
@@ -450,6 +482,25 @@ McKinney, W. 2010, 51
   \href{http://adsabs.harvard.edu/abs/2005SSRv..120...95R}{\color{blue}120},
   \href{http://adsabs.harvard.edu/abs/2005SSRv..120...95R}{\color{blue}95}
 
+\bibitem[{{Scalzo} {et~al.}(2014{\natexlab{a}}){Scalzo}, {Aldering},
+  {Antilogus}, {Aragon}, {Bailey}, {Baltay}, {Bongard}, {Buton},
+  {Cellier-Holzem}, {Childress}, {Chotard}, {Copin}, {Fakhouri}, {Gangler},
+  {Guy}, {Kim}, {Kowalski}, {Kromer}, {Nordin}, {Nugent}, {Paech}, {Pain},
+  {Pecontal}, {Pereira}, {Perlmutter}, {Rabinowitz}, {Rigault}, {Runge},
+  {Saunders}, {Sim}, {Smadja}, {Tao}, {Taubenberger}, {Thomas}, {Weaver}, \&
+  {Nearby Supernova Factory}}]{Scalzo14}
+{Scalzo}, R., {Aldering}, G., {Antilogus}, P., {et~al.} 2014{\natexlab{a}},
+  \href{http://dx.doi.org/10.1093/mnras/stu350}{\color{magenta}\mnras},
+  \href{http://adsabs.harvard.edu/abs/2014MNRAS.440.1498S}{\color{blue}440},
+  \href{http://adsabs.harvard.edu/abs/2014MNRAS.440.1498S}{\color{blue}1498}
+
+\bibitem[{{Scalzo} {et~al.}(2014{\natexlab{b}}){Scalzo}, {Ruiter}, \&
+  {Sim}}]{Scalzo14a}
+{Scalzo}, R.~A., {Ruiter}, A.~J., \& {Sim}, S.~A. 2014{\natexlab{b}},
+  \href{http://dx.doi.org/10.1093/mnras/stu1808}{\color{magenta}\mnras},
+  \href{http://adsabs.harvard.edu/abs/2014MNRAS.445.2535S}{\color{blue}445},
+  \href{http://adsabs.harvard.edu/abs/2014MNRAS.445.2535S}{\color{blue}2535}
+
 \bibitem[{{Schlafly} \& {Finkbeiner}(2011)}]{Schlafly11}
 {Schlafly}, E.~F., \& {Finkbeiner}, D.~P. 2011,
   \href{http://dx.doi.org/10.1088/0004-637X/737/2/103}{\color{magenta}\apj},
@@ -470,6 +521,13 @@ McKinney, W. 2010, 51
   \href{http://dx.doi.org/10.1111/j.1365-2966.2010.17474.x}{\color{magenta}\mnras},
   \href{http://adsabs.harvard.edu/abs/2011MNRAS.410..585S}{\color{blue}410},
   \href{http://adsabs.harvard.edu/abs/2011MNRAS.410..585S}{\color{blue}585}
+
+\bibitem[{{Stritzinger} {et~al.}(2006){Stritzinger}, {Leibundgut}, {Walch}, \&
+  {Contardo}}]{Stritzinger06}
+{Stritzinger}, M., {Leibundgut}, B., {Walch}, S., \& {Contardo}, G. 2006,
+  \href{http://dx.doi.org/10.1051/0004-6361:20053652}{\color{magenta}\aap},
+  \href{http://adsabs.harvard.edu/abs/2006A%26A...450..241S}{\color{blue}450},
+  \href{http://adsabs.harvard.edu/abs/2006A%26A...450..241S}{\color{blue}241}
 
 \bibitem[{{Taubenberger}(2017)}]{Taubenberger17}
 {Taubenberger}, S. 2017, {The Extremes of Thermonuclear Supernovae},

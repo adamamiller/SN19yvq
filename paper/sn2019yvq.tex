@@ -28,7 +28,7 @@
 \newcommand{\iztf}{$i_\mathrm{ZTF}$}
 \newcommand{\tfl}{$t_\mathrm{fl}$}
 \newcommand{\trise}{$t_\mathrm{rise}$}
-\newcommand{\tbmax}{$t_{B,\mathrm{max}}$}
+\newcommand{\tbmax}{$T_{B,\mathrm{max}}$}
 \newcommand{\kms}{km\,s$^{-1}$}
 \newcommand{\RSiII}{$\mathcal{R}($\ion{Si}{II}$)$}
 \newcommand{\radni}{$^{56}$Ni}
@@ -470,7 +470,7 @@ photometric properties (e.g., low luminosity, fast decline, lack of a
 near-infrared secondary maximum, red appearance at peak, and rapid evolution
 to red colors after \tbmax).
 
-
+\todo{discussion of luminosity, teff, etc}
 
 \subsection{Spectral Evolution}\label{sec:spec}
 
@@ -696,23 +696,34 @@ also rare, having only been seen in a few events: SN\,2017cbv
 \todo{possibly other cases here, but not ``clearly resolved'' in the way these
 two are}
 
-\sn\ features other properties, in addition to the early maximum, that
-separate it from normal SNe\,Ia. A good model should be able to explain the
-following characteristics of \sn:
+\sn\ features other properties, in addition to an intial peak $\sim$17\,d
+prior to \tbmax, that separate it from normal SNe\,Ia. A good model should be
+able to explain the following characteristics of \sn:
 %
 \begin{enumerate}
     \item The early UV/optical ``flash'' (Figure~\ref{fig:p48}).
     \item The low luminosity at maximum light (\S\ref{sec:phot}). 
+    \item The rapid optical decline following \tbmax\ (\S\ref{sec:phot}). 
     \item The red optical colors at all epochs (Figure~\ref{fig:colors}). 
     \item The lack of IGE in the early spectra (Figure~\ref{fig:spec_comp}).
     \item The transition from large \RSiII\ values to low values (Figure~\ref{fig:r_evo}).
     \item The large photospheric velocities (Figure~\ref{fig:vel_evo}).
 \end{enumerate}
 %
-\todo{Need to mention once again that 91bg is not a reasonable explanation for
-this SN} Ignoring the early flash, the remaining features (2--6 in the list
-above) can be understood if the explosion that gave rise to \sn\ produced a
-relatively small amount of \radni\ that is strongly confined to the inner
+As noted in \S\ref{sec:phot}, the photometric evolution of \sn\ is similar to
+subluminous 91bg-like SNe, however, the spectra are missing the hallmark
+\ion{Ti}{II} absorption trough associated with 91bg-like SNe. Furthermore,
+around \tbmax, \RSiII\ is small in \sn, whereas 91bg-like SNe feature large
+values of \RSiII\ (e.g., \citealt{Branch09}). Similarly, while the spectral
+appearance and evolution of \sn\ is similar to SN\,2002bo, and other
+\citeauthor{Branch06} Broad Line SNe, the photometric properties are entirely
+different. SN\,2002bo features a relatively slow decline [$\Delta{m}_{15}(B) =
+1.13$\,mag] with a clear secondary maximum in the $I$ band \citep{Benetti04},
+which is wholey different from what is observed in \sn.
+
+If we otherwise ignore the early flash, the remaining features (2--6) in the
+list above can be understood if the explosion that gave rise to \sn\ produced
+a relatively small amount of \radni\ that is strongly confined to the inner
 regions of the SN ejeta. A low \radni\ yield could explain the underluminous
 light curve and red colors, while a highly stratified ejecta structure could
 explain the lack of IGE in the early spectra as the IGE would not have been
@@ -762,6 +773,40 @@ implausible for a WD.}
 
 \subsection{Companion Interaction}
 
+For SD progenitors of SNe\,Ia, the SN ejecta will shock on the surface of the
+non-degenerate companion giving rise to a short-lived transient in the days
+after explosion. \citet{Kasen10a} provided models for the appearance of this
+interaction, which is primarily dependent upon the binary separation of the
+system (assuming Roche lobe overflow for the non-degenerate companion). The
+observed emission following the ejecta-companion collision is dependent upon
+the orientation of the system at the time of explosion relative to the line of
+sight \citep{Kasen10a}.
+
+An analytic formulation for the luminosity and effective temperature of the
+emission from the companion shock is presented in \citet{Kasen10a} (see their
+Equations~22 and 25). \citet{Brown12} provide an analytic function to
+approximate the fractional decrease in the observed flux as a function of the
+orientation of the system. We combine equations from \citet{Kasen10a} and
+\citet{Brown12} to model the early emission from \sn\ as ejecta-companion
+collision. We assume the interaction emits as a blackbody, and that the
+electon scattering opacity $\kappa_e = 0.2$\,cm$^{2}$\,g$^{-1}$ (as in
+\citealt{Kasen10a}). Assuming $z_\mathrm{SN} = 0.0094$, $E(B-V)_\mathrm{MW} =
+0.018$\,mag, and $E(B-V)_\mathrm{host} = 0.032$\,mag, we compare observed flux
+measurements with those predicted by the \citet{Kasen10a} model in epochs with
+MJD$\,< 58849.2$ (i.e., the first $\sim$2.5\,d after discovery when emission
+from the companion interaction is significantly brighter than the luminosity
+due to radioactive decay).\footnote{Given that \sn\ is an unusual SN, we make
+no assumptions about the SN emission. The companion-interaction model should
+therefore \textit{underestimate} the observed flux as there will be a growing
+contribution due to radioactive decay with time.} The model parameters,
+including: the companion separation, $a$, the mass of the ejecta,
+$M_\mathrm{ej}$, the velocity of the ejecta, $v_\mathrm{ej}$, the angle
+between the observer, the SN, and the companion, $\theta$, and the time of
+explosion, $t_\mathrm{exp}$ are constrained via a Gaussian likelihood and flat
+priors (see Table~\ref{tab:priors}) using an affine-invariant
+\citep{Goodman10} Markov Chain Monte Carlo (MCMC) ensemble sampler
+\citep{Foreman-Mackey13}.
+
 \begin{figure}
     \centering
     \includegraphics[width=3.35in]{./figures/sn_companion_models.pdf}
@@ -770,6 +815,64 @@ implausible for a WD.}
     %
     \label{fig:companion}
 \end{figure}
+
+The results of this procedure are shown in Figure~\ref{fig:companion}, where
+it is clear that the model presented in \citet{Kasen10a} does an adequate job
+of explaining the early UV/optical emission from \sn. We find marginalized
+posterior values of $a = 9.1 \pm 0.7 \times 10^{11}$\,cm, $M_\mathrm{ej} = 1.0
+\pm 0.3\,M_\odot$, $v_\mathrm{ej} = 2.2 \pm^{0.5}_{0.3} \times 10^{4}$\,\kms,
+$\theta = 34 \pm^{28}_{24} \deg$, and $t_\mathrm{exp}(\mathrm{MJD}) = 58845.83
+\pm 0.05$ (all uncertainties are 68\% credible regions). Examination of a
+corner plot of the posterior samples shows that $M_\mathrm{ej}$ is largely
+unconstrained, while $v_\mathrm{ej}$ is degenerate with $\theta$ and $a$ is
+degenerate with $t_\mathrm{exp}$. 
+
+While the interaction models roughly approximate the SN emission in the
+$\sim$3\,d after explosion, they significantly \textit{overestimate} the flux
+immediately after the fitting window as shown in Figure~\ref{fig:companion}.
+This problem is exacerbated by the fact that the models do not include
+emission associated with radioactive decay, meaning the true discrepancy
+between what is predicted and what is observed is even larger than what is
+shown in Figure~\ref{fig:companion}. If we extend the fitting window to
+include the optical observations obtained $\sim$13.75\,d before \tbmax, the
+interaction models still overpredict the optical flux at this epoch. This
+overprediction of the optical flux poses a challenge for the companion
+interaction scenario; an inability to simultaneously match both UV and optical
+observations has been noted for other SNe\,Ia with early bumps or linear rises
+\citep{Hosseinzadeh17,Miller18}.
+
+Another challenge for the companion-interaction model is the relatively faint
+maximum brightness of \sn. The peak luminosity of a SN\,Ia is directly related
+to the total mass of \radni\ synthesized in the explosion \citep{Arnett82},
+which is, in turn, correlated with the total ejected mass (see
+\citealt{Stritzinger06,Scalzo14,Scalzo14a} and references therein). As an
+underluminous explosion, \sn\ likely has a relatively low (i.e.,
+sub-Chandrasekhar) $M_\mathrm{ej}$. The companion-interaction model features
+systems in Roche-lobe overflow; for H-rich companions thermonuclear runaway
+would only be expected as the mass of the WD approaches $M_\mathrm{Ch}$
+\todo{REF???}. This is clearly at odds with \sn. Sub-Chandrasekhar explosions
+are possible in the double detonation scenario, whereby the WD accretes He
+from the companion star. Double detonation explosions can naturally explain
+the early UV/optical flash seen in \sn\ (see below), and thus there is no need
+to invoke companion interaction in such a scenario. \todo{WHAT DOES EVERYTHING
+THINK ABOUT THE ARGUMENT IN THIS PARAGRAPH?}
+% inferred separation of the companion, $a \approx 9 \times 10^{11}$\,cm.
+% Assuming the WD is accreting material via Roche Lobe overflow, then the
+% companion radius is $\sim$0.35$a \approx 3.1 \times 10^{11}$\,cm $\approx
+% 4.5\,R_\odot$.
+
+For the reasons above, we do not favor the ejecta-companion interaction
+interpretation for \sn. \citet{Kasen10a} notes several assumptions and
+approximations in the derivation of the equations used to estimate the
+emission from the companion shock. It is possible that the inclusion of more
+detailed physics, or additional complexity in the analytic formulation of the
+models,\footnote{For example, \citet{Kasen10a} points out that the derived
+equation for the luminosity of the shock interaction does not account for the
+advected luminosity that would be seen in the observer frame.} could better
+reconcile companion interaction models with \sn. Such improvements are beyond
+the scope of this paper, leading us to explore other explanations for the
+early flash.
+
 
 
 \subsection{Double Detonation Models}
