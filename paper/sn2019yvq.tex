@@ -11,11 +11,13 @@
 %%
 \definecolor{DarkOrange}{RGB}{204, 85, 0}
 \definecolor{LincolnGreen}{RGB}{17, 102, 0}
+\definecolor{Rust}{HTML}{9B4F0F}
 \def\ion#1#2{#1$\;${\footnotesize\rm{#2}}\relax}
 
 \newcommand{\kate}[1]{{\color{red} KM: {#1}}}
 \newcommand{\fromkate}[1]{{\color{brown} fromKM: {#1}}}
 \newcommand{\steve}[1]{{\color{purple} SS: {#1}}}
+\newcommand{\magee}[1]{{\color{Rust} MM: {#1}}}
 
 \newcommand{\abi}[1]{{\color{LincolnGreen} AP: {#1}}}
 \newcommand{\yy}[1]{{\color{blue} YY: {#1}}}
@@ -884,7 +886,45 @@ reconcile companion interaction models with \sn. Such improvements are beyond
 the scope of this paper, leading us to explore other explanations for the
 early flash.
 
+\subsection{Ni Clumps in the SN Ejecta}
 
+SN\,2018oh was observed with an exquisite 30\,min cadence by the
+\textit{Kepler} spacecraft and showed a clearly delineated linear rise in
+flux followed by a ``standard'' $t^2$ power-law $\sim$4\,d after \tfl. Models
+with extended clumps of \radni\ just below the WD surface have been proposed
+as a possible explanation for the initial linear rise in SN\,2018oh
+\citep{Shappee19,Dimitriadis19}. The models considered in \citet{Shappee19}
+and \citet{Dimitriadis19}, which build on the work of \citet{Piro16}, only
+cover the first $\sim$10\,d after explosion and assume relatively simple grey
+opacities. To further investigate this possibility, Magee \& Maguire (2020)
+recently performed more detailed radiative transfer calculations for SNe\,Ia
+with extended clumps of \radni. They then compared these models to SN\,2018oh
+and SN\,2017cbv, another event with a clearly resolved bump in the early
+light curve \citep{Hosseinzadeh17}.
+
+For \sn\ we follow the procedure in Magee \& Maguire (2020) to model the
+early flash and rise of the SN. Briefly, we exclude the first two epochs of
+optical detections in ZTF, and identify the best-fit model to the later
+evolution of the SN from the grid of models created in \citet{Magee20}.
+Following the generation of this ``baseline'' model, we add clumps of \radni\
+to the outer layers of the SN ejecta, and perform full radiative transfer
+calculations using TURDLS+TARDIS \todo{ref}. We find that a model with
+\magee{please add the clump parameters} best matches the optical observations
+of \sn, as shown in Figure~\ref{fig:Ni_bullet}. While a clump of \radni\ can
+broadly replicate the observed flash in the optical, like Magee \& Maguire
+(2020), we find that the extended clump of \radni\ dramatically alters the
+appearance of the SN at maximum light in a way that is incompatible with
+observed spectra. We therefore conlcude that Ni clumps cannot explain the
+early flash seen in \sn.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=3.35in]{./figures/colour.pdf}
+    %
+    \caption{PRELIMINARY PRELIMINARY PRELIMINARY}
+    %
+    \label{fig:Ni_bullet}
+\end{figure}
 
 \subsection{Double Detonation Models}
 
@@ -903,6 +943,12 @@ early flash.
 
 \acknowledgements
 
+A.A.M.~is funded by the Large Synoptic Survey Telescope Corporation, the
+Brinson Foundation, and the Moore Foundation in support of the LSSTC Data
+Science Fellowship Program; he also receives support as a CIERA Fellow by the
+CIERA Postdoctoral Fellowship Program (Center for Interdisciplinary
+Exploration and Research in Astrophysics, Northwestern University).
+
 This work is based on observations obtained with the Samuel Oschin Telescope
 48-inch and the 60-inch Telescope at the Palomar Observatory as part of the
 Zwicky Transient Facility project. ZTF is supported by the National Science
@@ -913,6 +959,9 @@ Deutsches Elektronen-Synchrotron and Humboldt University, Los Alamos National
 Laboratories, the TANGO Consortium of Taiwan, the University of Wisconsin at
 Milwaukee, and Lawrence Berkeley National Laboratories. Operations are
 conducted by COO, IPAC, and UW.
+
+MMT Observatory access was supported by Northwestern University and the
+Center for Interdisciplinary Exploration and Research in Astrophysics (CIERA).
 
 \software{
           \texttt{astropy} \citep{Astropy-Collaboration13},
