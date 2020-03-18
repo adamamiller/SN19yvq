@@ -12,11 +12,13 @@
 \definecolor{DarkOrange}{RGB}{204, 85, 0}
 \definecolor{LincolnGreen}{RGB}{17, 102, 0}
 \definecolor{Rust}{HTML}{9B4F0F}
+\definecolor{Blueberry}{HTML}{063852}
+
 \def\ion#1#2{#1$\;${\footnotesize\rm{#2}}\relax}
 
 \newcommand{\kate}[1]{{\color{red} KM: {#1}}}
 \newcommand{\fromkate}[1]{{\color{brown} fromKM: {#1}}}
-\newcommand{\steve}[1]{{\color{purple} SS: {#1}}}
+\newcommand{\steve}[1]{{\color{Blueberry} Steve S: {#1}}}
 \newcommand{\magee}[1]{{\color{Rust} MM: {#1}}}
 
 \newcommand{\abi}[1]{{\color{LincolnGreen} AP: {#1}}}
@@ -30,7 +32,7 @@
 \newcommand{\iztf}{$i_\mathrm{ZTF}$}
 \newcommand{\tfl}{$t_\mathrm{fl}$}
 \newcommand{\trise}{$t_\mathrm{rise}$}
-\newcommand{\tbmax}{$t_{B,\mathrm{max}}$}
+\newcommand{\tbmax}{$T_{B,\mathrm{max}}$}
 \newcommand{\kms}{km\,s$^{-1}$}
 \newcommand{\RSiII}{$\mathcal{R}($\ion{Si}{II}$)$}
 \newcommand{\radni}{$^{56}$Ni}
@@ -230,9 +232,10 @@ emission from \sn\ (Figure~\ref{fig:p48}).
     shown as filled green circles, open red circles, and filled golden
     crosses, respectively. UVOT $uvw1$ and $uvm2$ are shown as filled and
     open squares, respectively. The lower axis shows time measured in
-    rest-frame days relative to \tfl, while the upper axis shows time
-    relative to \tbmax. Note that the horizontal axis is shown with a
-    linear scale from $0\,\mathrm{d} \le t - t_\mathrm{fl} \le 3$\,d and a
+    rest-frame days relative to the time of first light, \tfl (see
+    \S\ref{sec:phot}), while the upper axis shows time relative to the time
+    of $B$-band maximum, \tbmax. Note that the horizontal axis is shown with
+    a linear scale from $0\,\mathrm{d} \le t - t_\mathrm{fl} \le 3$\,d and a
     log scale for $t - t_\mathrm{fl} > 3$\,d. Vertical black ticks show
     epochs of spectroscopic observations. \todo{add marks for dates of
     spectra}}
@@ -257,12 +260,14 @@ Figure~\ref{fig:p48}.
 Ultraviolet (UV) observations of \sn\ were obtained with the
 Ultra-Violet/Optical Telescope (UVOT; \citet{Roming05}) onboard the Neil
 Gehrels Swift Observatory (hereafter \textit{Swift}; \citealt{Gehrels04})
-following a time-of-opportunity request by D.~Hiramatsu. Pre-SN UVOT
-reference images are limited to the $uvw1$, $uvm2$, and $uvw2$ filters. We
-estimate the flux in these filters using an aperture of size PPP pixels at
-the SN position, and subtract the flux measured using an identical procedure
-in the pre-SN images\todo{Steve add additional details}. For clarity, we only
-show the \textit{Swift} $uvw1$ and $uvm2$ light curves in
+following a time-of-opportunity request.\footnote{\textit{Swift} ToO requests
+for \sn\ (\textit{Swift} Target ID: 13037) have been submitted by
+D.~Hiramatsu, Burke \todo{what is Burke's first initial?}, and S.~Schulze.}
+Pre-SN UVOT reference images are limited to the $uvw1$, $uvm2$, and $uvw2$
+filters. We estimate the flux in these filters using an aperture of size
+\steve{PPP} pixels at the SN position, and subtract the flux measured using
+an identical procedure in the pre-SN images \steve{Is this all correct?}. For
+clarity, we only show the \textit{Swift} $uvw1$ and $uvm2$ light curves in
 Figure~\ref{fig:p48} (the $uvw2$ evolution is nearly identical to $uvm2$).
 \textit{Swift}/UVOT observations show that the initial decline seen in the
 optical is even more dramatic in the UV.
@@ -331,16 +336,15 @@ on these results at all? Port Z = 0.04 and Granada Z ~0.01, and do not agree,
 firefly ~ 0.6 0r 0.2 (solar?) depending on weighting, probably not a great
 idea}
 
-
-We estimate the total redenning towards \sn\ to be small. There is relatively 
+We estimate the total redenning towards \sn\ to be small. There is relatively
 little line of sight extinction due to the Milky Way, $E(B-V) \approx
-0.018$\,mag \citep{Schlafly11}. Furthermore, we do not find significant
-evidence for strong extinction in NGC\,4441. Figure~\ref{fig:NaD} highlights
-the \ion{Na}{I} D absorption in the spectrum of \sn\ due to gas in NGC\,4441
-and the Milky Way from our highest-resolution spectrum, obtained with the
-1000 lines/mm grating on Binospec+MMT. The \ion{Na}{I} D absorption is weak,
-and we estimate a total equivalent width (EW) $= 390$\,m\AA\ for NGC\,4441
-and $220$\,m\AA\ for the Milky Way. There is a systematic uncertainty of
+0.018$\,mag \citep{Schlafly11, Schlegel98}. Furthermore, we do not find
+significant evidence for strong extinction in NGC\,4441. Figure~\ref{fig:NaD}
+highlights the \ion{Na}{I} D absorption in the spectrum of \sn\ due to gas in
+NGC\,4441 and the Milky Way from our highest-resolution spectrum, $R \approx
+4000$, obtained with Binospec+MMT. The \ion{Na}{I} D absorption is weak, and
+we estimate a total equivalent width (EW) $= 390$\,m\AA\ for NGC\,4441 and
+$220$\,m\AA\ for the Milky Way. There is a systematic uncertainty of
 $\sim$10\% on each of these estimates due to uncertainties in the
 continuum-fitting procedure. Assuming similar properties for the dust in
 NGC\,4441 and the Milky Way, we scale the color excess measurement for the
@@ -349,24 +353,30 @@ Milky Way by the ratio of \ion{Na}{I} D EWs to estimate $E(B-V) \approx
 color excess towards \sn\ of $E(B-V) \approx 0.05$\,mag, which we adopt for
 the subsequent analysis in this study. We note that this estimate is
 consistent, to within the uncertainties, with the EW(\ion{Na}{I} D)--$E(B-V)$
-relations presented in \citet{Poznanski12}.
+relations presented in \citet{Poznanski12}. Further supporting the claim of
+low extinction is the lack of a detection of the \ion{K}{I}
+$\lambda\lambda$7665, 7699 interstellar lines or the diffuse interstellar
+band at 5780\,\AA, which also serve as proxies for extinction (e.g.,
+\citealt{Phillips13}).
 
 \begin{figure}
     \centering
     \includegraphics[width=3.35in]{./figures/NaD.pdf}
     %
-    \caption{Zoom-in on our moderate resolution MMT+Binospec spectrum of \sn\
-    highlighting absoprtion due to \ion{Na}{I} D in the host galaxy,
-    NGC\,4441 (blue solid line), and the Milky Way (thin black line). The
-    velocity scale is centered on the D$_2$ line in NGC\,4441, with the SDSS
-    redshift shown via the vertical dashed line. No shift has been applied to
-    the Milky Way lines. The \ion{Na}{I} D lines, which serve as a proxy for
-    dust-obscuration along the line of sight (e.g.,
-    \citealt{Poznanski12,Phillips13}) are weak, indicating a relatively small
-    amount of reddening.}
+    \caption{Zoom-in on our moderate resolution ($R \approx 4000$)
+    MMT+Binospec spectrum of \sn\ highlighting absoprtion due to \ion{Na}{I}
+    D in the host galaxy, NGC\,4441 (blue solid line), and the Milky Way
+    (thin black line). The velocity scale is centered on the D$_1$ line in
+    NGC\,4441, with the SDSS redshift shown via the vertical dashed line. No
+    shift has been applied to the Milky Way lines. The \ion{Na}{I} D lines,
+    which serve as a proxy for dust-obscuration along the line of sight
+    (e.g., \citealt{Poznanski12,Phillips13}) are weak, indicating a
+    relatively small amount of reddening.}
     %
     \label{fig:NaD}
 \end{figure}
+
+
 
 \subsection{Photometric Analysis}\label{sec:phot}
 
@@ -444,27 +454,28 @@ $\sim$0.5\,mag redder over the same time frame.
 \end{figure}
 
 The offset in the \gztf$ - $\rztf\ color evolution of \sn\ relative to normal
-SNe\,Ia would be reduced if the reddenning towards \sn\ has been significantly
-underestimated. A color excess of $E(B-V) \approx 0.25$\,mag, rather than the
-0.05\,mag adopted in \S\ref{sec:host}, would roughly align the pre-\tbmax\
-\gztf$ - $\rztf\ color of \sn\ with the tight locus seen in
+SNe\,Ia would be reduced if the reddenning towards \sn\ has been
+significantly underestimated. A color excess of $E(B-V) \approx 0.25$\,mag,
+rather than the 0.05\,mag adopted in \S\ref{sec:host}, would roughly align
+the pre-\tbmax\ \gztf$ - $\rztf\ color of \sn\ with the tight locus seen in
 Figure~\ref{fig:colors}. Such a correction would also bring the peak optical
-brightness of \sn\ in line with normal SNe\,Ia ($M_g \approx -19.25$\,mag and
-$M_r \approx -19.1$\,mag). Such a large reddening would dramatically change
-the appearance of \sn\ in the UV. The bottom panel of Figure~\ref{fig:colors}
-shows the $uvm2 - uvw1$ color evolution of \sn. At \tbmax, $uvm2 - uvw1
-\approx 1.2$\,mag, which would make it one of the most UV blue SNe\,Ia at
-maximum light (e.g., \citealt{Milne10,Brown17}). A color excess of $E(B-V)
-\approx 0.25$\,mag would result in $uvm2 - uvw1 \approx 0.7$\,mag at \tbmax,
-making \sn\ the most UV blue SN\,Ia observed by \textit{Swift}. Furthermore,
-this much extinction would dramatically increase the luminosity of the initial
-peak in emission by a factor of $\sim$5. We conservatively estimate the
-luminosity $\sim$1.2\,d after \tfl\ to be $\sim$2$\times
-10^{42}$\,erg\,s$^{-1}$. It is difficult to explain such a large luminosity
-(see below), increasing this by a factor of 5 and bringing it inline with the
-typical peak luminosity of SNe\,Ia, would be nearly impossible to explain. We
-therefore conclude that the color excess towards \sn\ is not underestimated,
-and that the SN is instead intrinsically red in the optical.
+brightness of \sn\ in line with normal SNe\,Ia (for $E(B-V) \approx
+0.25$\,mag, $M_g \approx -19.25$\,mag and $M_r \approx -19.1$\,mag for \sn).
+Such a large reddening would dramatically change the appearance of \sn\ in
+the UV. The bottom panel of Figure~\ref{fig:colors} shows the $uvm2 - uvw1$
+color evolution of \sn. At \tbmax, $uvm2 - uvw1 \approx 1.2$\,mag, making
+\sn\ one of the most UV blue SNe\,Ia at maximum light (e.g.,
+\citealt{Milne10,Brown17}). A color excess of $E(B-V) \approx 0.25$\,mag
+would result in $uvm2 - uvw1 \approx 0.7$\,mag at \tbmax, making \sn\ the
+most UV blue SN\,Ia observed by \textit{Swift}. Furthermore, this much
+extinction would dramatically increase the luminosity of the initial peak in
+emission by a factor of $\sim$5. We conservatively estimate the luminosity
+$\sim$1.2\,d after \tfl\ to be $\sim$2$\times 10^{42}$\,erg\,s$^{-1}$. It is
+difficult to explain such a large luminosity (see below), increasing this by
+a factor of 5 and bringing it inline with the typical peak luminosity of
+SNe\,Ia, would be nearly impossible to explain. We therefore conclude that
+the color excess towards \sn\ is not underestimated, and that the SN is
+instead intrinsically red in the optical.
 
 Even if one ignores the striking initial bump in the light curve of \sn, we
 can still conclude that \sn\ is not a normal SN Ia based on its other
@@ -962,6 +973,8 @@ conducted by COO, IPAC, and UW.
 
 MMT Observatory access was supported by Northwestern University and the
 Center for Interdisciplinary Exploration and Research in Astrophysics (CIERA).
+
+We acknowledge the use of public data from the \textit{Swift} data archive.
 
 \software{
           \texttt{astropy} \citep{Astropy-Collaboration13},
