@@ -226,6 +226,19 @@
   \href{https://ui.adsabs.harvard.edu/abs/2019ApJ...870L...1D}{\color{blue}870},
   \href{https://ui.adsabs.harvard.edu/abs/2019ApJ...870L...1D}{\color{blue}L1}
 
+\bibitem[{{Fink} {et~al.}(2007){Fink}, {Hillebrandt}, \& {R{\"o}pke}}]{Fink07}
+{Fink}, M., {Hillebrandt}, W., \& {R{\"o}pke}, F.~K. 2007,
+  \href{http://dx.doi.org/10.1051/0004-6361:20078438}{\color{magenta}\aap},
+  \href{https://ui.adsabs.harvard.edu/abs/2007A&A...476.1133F}{\color{blue}476},
+  \href{https://ui.adsabs.harvard.edu/abs/2007A&A...476.1133F}{\color{blue}1133}
+
+\bibitem[{{Fink} {et~al.}(2010){Fink}, {R{\"o}pke}, {Hillebrandt},
+  {Seitenzahl}, {Sim}, \& {Kromer}}]{Fink10}
+{Fink}, M., {R{\"o}pke}, F.~K., {Hillebrandt}, W., {et~al.} 2010,
+  \href{http://dx.doi.org/10.1051/0004-6361/200913892}{\color{magenta}\aap},
+  \href{https://ui.adsabs.harvard.edu/abs/2010A&A...514A..53F}{\color{blue}514},
+  \href{https://ui.adsabs.harvard.edu/abs/2010A&A...514A..53F}{\color{blue}A53}
+
 \bibitem[{{Foreman-Mackey} {et~al.}(2013){Foreman-Mackey}, {Hogg}, {Lang}, \&
   {Goodman}}]{Foreman-Mackey13}
 {Foreman-Mackey}, D., {Hogg}, D.~W., {Lang}, D., \& {Goodman}, J. 2013,
@@ -402,6 +415,18 @@ McKinney, W. 2010, 51
   \href{http://adsabs.harvard.edu/abs/2017MNRAS.472.2787N}{\color{blue}472},
   \href{http://adsabs.harvard.edu/abs/2017MNRAS.472.2787N}{\color{blue}2787}
 
+\bibitem[{{Nomoto}(1982{\natexlab{a}})}]{Nomoto82}
+{Nomoto}, K. 1982{\natexlab{a}},
+  \href{http://dx.doi.org/10.1086/159682}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/1982ApJ...253..798N}{\color{blue}253},
+  \href{https://ui.adsabs.harvard.edu/abs/1982ApJ...253..798N}{\color{blue}798}
+
+\bibitem[{{Nomoto}(1982{\natexlab{b}})}]{Nomoto82a}
+---. 1982{\natexlab{b}},
+  \href{http://dx.doi.org/10.1086/160031}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/1982ApJ...257..780N}{\color{blue}257},
+  \href{https://ui.adsabs.harvard.edu/abs/1982ApJ...257..780N}{\color{blue}780}
+
 \bibitem[{{Nugent} {et~al.}(1995){Nugent}, {Phillips}, {Baron}, {Branch}, \&
   {Hauschildt}}]{Nugent95}
 {Nugent}, P., {Phillips}, M., {Baron}, E., {et~al.} 1995,
@@ -546,6 +571,12 @@ McKinney, W. 2010, 51
   \href{http://dx.doi.org/10.1086/318301}{\color{magenta}\apj},
   \href{https://ui.adsabs.harvard.edu/abs/2001ApJ...546..681T}{\color{blue}546},
   \href{https://ui.adsabs.harvard.edu/abs/2001ApJ...546..681T}{\color{blue}681}
+
+\bibitem[{{Woosley} \& {Weaver}(1994)}]{Woosley94}
+{Woosley}, S.~E., \& {Weaver}, T.~A. 1994,
+  \href{http://dx.doi.org/10.1086/173813}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/1994ApJ...423..371W}{\color{blue}423},
+  \href{https://ui.adsabs.harvard.edu/abs/1994ApJ...423..371W}{\color{blue}371}
 
 \bibitem[{{Yao} {et~al.}(2019){Yao}, {Miller}, {Kulkarni}, {Bulla}, {Masci},
   {Goldstein}, {Goobar}, {Nugent}, {Dugas}, {Blagorodnova}, {Neill}, {Rigault},
