@@ -223,9 +223,9 @@ report suggested the SN was fading. Continued monitoring with ZTF, and
 follow-up with other telescopes, confirmed a spectacular decline in the early
 emission from \sn\ (Figure~\ref{fig:p48}).
 
-\begin{figure}
+\begin{figure*}
     \centering
-    \includegraphics[width=3.35in]{./figures/P48_lc.pdf}
+    \includegraphics[width=6in]{./figures/P48_lc.pdf}
     %
     \caption{Photometric evolution of \sn, highlighting the initial decline
     observed in the light curve. \gztf, \rztf, and \iztf\ observations are
@@ -236,12 +236,11 @@ emission from \sn\ (Figure~\ref{fig:p48}).
     \S\ref{sec:phot}), while the upper axis shows time relative to the time
     of $B$-band maximum, \tbmax. Note that the horizontal axis is shown with
     a linear scale from $0\,\mathrm{d} \le t - t_\mathrm{fl} \le 3$\,d and a
-    log scale for $t - t_\mathrm{fl} > 3$\,d. Vertical black ticks show
-    epochs of spectroscopic observations. \todo{add marks for dates of
-    spectra}}
+    log scale for $t - t_\mathrm{fl} > 3$\,d. Vertical grey ticks show
+    epochs of spectroscopic observations.}
     %
     \label{fig:p48}
-\end{figure}
+\end{figure*}
 
 The field of \sn\ was additionally observed by ZTF with nearly a nightly
 cadence as part of the ZTF partnership Uniform Depth Survey (ZUDS;
@@ -939,7 +938,71 @@ early flash seen in \sn.
 
 \subsection{Double Detonation Models}
 
-\abi{Best matching double det models}
+WDs that accrete a thin shell of He can explode via a ``double detonation''
+whereby explosive burning in the He shell drives a shock into the C/O core of
+the WD igniting explosive C burning, which leads to a detonation that
+disrupts the entire WD (e.g., \citealt{Nomoto82,Nomoto82a,Woosley94}). Such
+explosions are even possible in C/O WDs that are well below the Chandrasekhar
+mass (see \citealt{Fink07, Fink10} and references therein).
+
+Recent models of double detonation explosions presented in \citet{Polin19}
+show that such explosions can replicate several of the peculiar properties of
+\sn, including: the early UV/optical flash, a blue to red to blue color
+transition, the low optical luminosity, red colors at maximum, a lack of
+unburned C in the spectra, and a lack of IGE in the early spectra \abi{Is
+this last point actually true?}. However, there is no single model that
+replicates each of these individual features.
+
+The appearance of double detonation SNe\,Ia is broadly determined by two
+properties: the mass of the C/O core of the WD and the mass of the He shell.
+High mass WDs ($\gtrsim 1.1\,M_\odot$) produce large ($\gtrsim$14,000\,\kms)
+photospheric velocities, while low mass WDs ($\lesssim 0.9\,M_\odot$) produce
+less \radni\ and therefore are underluminous, relative to normal SNe\,Ia, at
+peak \citep{Polin19}. That we see both of these features in \sn\ presents a
+challenge for the \citet{Polin19} double detonation models. Furthermore,
+thick He shells ($M_\mathrm{He} \gtrsim 0.05\,M_\odot$) produce more
+pronounced UV/optical flashes shortly after explosion, particularly in
+conjunction with lower mass WDs, while thin He shells ($M_\mathrm{He}
+\lesssim 0.02\,M_\odot$) produce a more extreme color inversion in the days
+after explosion.
+
+We have attempted to model the evolution of \sn\ as a double detonation
+explosion, following the procedure in \citet{Polin19}. We have specifically
+focused on matching the photometric evolution (as noted above no models
+create high-velocity ejecta and underluminous optical peaks), with particular
+attention to the colors during the early flash and at maximum light. We find
+that a model with $M_\mathrm{WD} = 0.94\,M_\odot$ C/O core and a
+$M_\mathrm{He} = 0.04\,M_\odot$ He shell best match \sn, as shown in
+Figure~\ref{fig:double_det}.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=3.35in]{./figures/dd.png}
+    %
+    \caption{PRELIMINARY PRELIMINARY PRELIMINARY}
+    %
+    \label{fig:double_det}
+\end{figure}
+
+While this model adequately matches the evolution of \sn\ in the \rztf\
+filter, the \gztf\ and \iztf\ evolution do not match what is observed.
+Synthesized spectra from the double detonation models also do not match what
+is observed in \sn. The model spectra are dominated by \ion{Si}{II}
+absorption, and show high-velocity absorption due to \ion{O}{I} and
+\ion{Ca}{II}, similar to \sn. For this model, however, the \ion{Si}{II}
+velocities are too slow, the \ion{Si}{II} $\lambda$5972 absorption is too
+strong, the \ion{S}{II} absorption too weak, and there is strong \ion{Ti}{II}
+absorption trough blueward of $\sim$4400\,\AA\ (see e.g., Figure~8 in
+\citealt{Polin19}). Nuclear burning in the He shell creates heavy elemnts in
+the outermost ejecta of double detonation explosions, leading to deep
+\ion{Ti}{II} troughs and other blanketing in the blue-optical. As was the
+case for models with extended clumps of \radni, the lack of such absorption
+in \sn\ poses a challenge for the double detonation model.
+
+It is possible that improvements in the double detonation models could lead
+to better agreement with \sn. For instance, the nuclear reaction networks in
+the thick shells \abi{could be improved? 2D effects? please provide
+additional details here}
 
 
 \section{Rate of Thick He Shell Double Detonation Events}\label{sec:rates}
