@@ -223,24 +223,24 @@ report suggested the SN was fading. Continued monitoring with ZTF, and
 follow-up with other telescopes, confirmed a spectacular decline in the early
 emission from \sn\ (Figure~\ref{fig:p48}).
 
-\begin{figure}
+\begin{figure*}
     \centering
-    \includegraphics[width=3.35in]{./figures/P48_lc.pdf}
+    \includegraphics[width=6in]{./figures/P48_lc.pdf}
     %
     \caption{Photometric evolution of \sn, highlighting the initial decline
     observed in the light curve. \gztf, \rztf, and \iztf\ observations are
     shown as filled green circles, open red circles, and filled golden
     crosses, respectively. UVOT $uvw1$ and $uvm2$ are shown as filled and
     open squares, respectively. The lower axis shows time measured in
-    rest-frame days relative to \tfl, while the upper axis shows time
-    relative to \tbmax. Note that the horizontal axis is shown with a
-    linear scale from $0\,\mathrm{d} \le t - t_\mathrm{fl} \le 3$\,d and a
-    log scale for $t - t_\mathrm{fl} > 3$\,d. Vertical black ticks show
-    epochs of spectroscopic observations. \todo{add marks for dates of
-    spectra}}
+    rest-frame days relative to the time of first light \tfl\ (see
+    \S\ref{sec:phot}), while the upper axis shows time relative to the time
+    of $B$-band maximum, \tbmax. Note that the horizontal axis is shown with
+    a linear scale from $0\,\mathrm{d} \le t - t_\mathrm{fl} \le 3$\,d and a
+    log scale for $t - t_\mathrm{fl} > 3$\,d. Vertical grey ticks show
+    epochs of spectroscopic observations.}
     %
     \label{fig:p48}
-\end{figure}
+\end{figure*}
 %%% .  define t_fl here .  use tBB or TBB in Fig
 
 The field of \sn\ was additionally observed by ZTF with nearly a nightly
@@ -312,27 +312,33 @@ Figure~\ref{fig:spec_evo}.
 
 NGC\,4441 is the host galaxy of \sn. SDSS spectroscopic measurements of the
 nucleus of NGC\,4441 yield a heliocentric-recession velocity of 2663\,\kms\
-($z_\mathrm{helio} = 0.00888$; \citealt{Abolfathi18}) and a \texttt{STARBURST}
-classification for NGC\,4441. Using the 2M++ model of \citet{Carrick15}, we
-estimate a peculiar velocity towards NGC\,4441 of $+328.6$\,\kms, which
-combined with the recession velocity in the frame of the cosmic microwave
-background\footnote{See
-\url{https://ned.ipac.caltech.edu/velocity_calculator}} (CMB, $v_\mathrm{CMB}
-= 2770$\,\kms), yields a total recession velocity $\approx 3100$\,\kms \fromkate{The approx symbol is confusing because this the exact value you use to estimate the distance. I would quote as a value $\pm$ because the peculiar velocity is to one decimal place}.  We
-note that this estimate is consistent, to within $\sim$5\%, with the Virgo and
-Great Attractor infall models of \citet{Mould00}. Adopting $H_0 =
-73$\,\kms\,Mpc$^{-1}$, we estimate the distance to NGC\,4441 to be 42.5\,Mpc, \fromKate{$\pm$?}
-corresponding to a distance modulus of $\mu = 33.14 \pm 0.15$\,mag, where the
-uncertainty on $\mu$ is dominated by the uncertainty in the peculiar velocity
-correction .  We hereafter adopt 33.14\,mag as the distance modulus to
-NGC\,4441.\footnote{\citet{Tonry01} estimate a significantly smaller distance
-to NGC\,4441 ($\mu = 31.40 \pm 0.45$\,mag; $D = 19.0$\,Mpc) based on surface
-brightness fluctuations (SBF). We do not adopt this estimate as SBF
-measurements are better suited to relative distance measurements \fromkate{REF? SBF are commonly used for SN distance measurements. Also there is an updated value of  $\mu = 31.43 \pm 0.14$\,mag from Tonry et al. 2013}.} \todo{Lots
-of different catalogs provide metallicity for SDSS galaxies, should we report
-on these results at all? Port Z = 0.04 and Granada Z ~0.01, and do not agree,
-firefly ~ 0.6 0r 0.2 (solar?) depending on weighting, probably not a great
-idea} \fromkate{that's a reasonable spread in values but likely different calibrations. I don't know which one is best or the references for comparing this value to. }
+($z_\mathrm{helio} = 0.00888$; \citealt{Abolfathi18}) and a
+\texttt{STARBURST} classification for NGC\,4441. Using the 2M++ model of
+\citet{Carrick15}, we estimate a peculiar velocity towards NGC\,4441 of
+$+328.6$\,\kms, which combined with the recession velocity in the frame of
+the cosmic microwave background\footnote{See
+\url{https://ned.ipac.caltech.edu/velocity_calculator}} (CMB,
+$v_\mathrm{CMB} = 2770.6$\,\kms), yields a total recession velocity $=
+3099.2 \pm 150$\,\kms. The final uncertainty in the total recession velocity
+is dominated by systematic uncertainties in the 2M++ model. We also note
+that the 2M++ estimate is consistent, to within $\sim$5\%, with the Virgo
+and Great Attractor infall models of \citet{Mould00}. Adopting $H_0 =
+73$\,\kms\,Mpc$^{-1}$, we estimate the distance to NGC\,4441 to be $42.5 \pm
+2.1$\,Mpc, corresponding to a distance modulus of $\mu = 33.14 \pm
+0.11$\,mag, where the uncertainty on $\mu$ is dominated by the uncertainty
+in the peculiar velocity correction. We hereafter adopt 33.14\,mag as the
+distance modulus to NGC\,4441.\footnote{\citet{Tonry01} estimate a
+significantly smaller distance to NGC\,4441 ($\mu = 31.40 \pm 0.45$\,mag; $D
+= 19.0$\,Mpc) based on surface brightness fluctuations (SBF). We do not
+adopt this estimate as SBF measurements are better suited to relative
+distance measurements \fromkate{REF? SBF are commonly used for SN distance
+measurements. Also there is an updated value of $\mu = 31.43 \pm 0.14$\,mag
+from Tonry et al. 2013}.} \todo{Lots of different catalogs provide
+metallicity for SDSS galaxies, should we report on these results at all?
+Port Z = 0.04 and Granada Z ~0.01, and do not agree, firefly ~ 0.6 0r 0.2
+(solar?) depending on weighting, probably not a great idea} \fromkate{that's
+a reasonable spread in values but likely different calibrations. I don't
+know which one is best or the references for comparing this value to. }
 
 
 We estimate the total reddening towards \sn\ to be small. There is relatively 
