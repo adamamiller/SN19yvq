@@ -12,20 +12,24 @@
 \definecolor{DarkOrange}{RGB}{204, 85, 0}
 \definecolor{LincolnGreen}{RGB}{17, 102, 0}
 \definecolor{Rust}{HTML}{9B4F0F}
-\definecolor{Blueberry}{HTML}{063852}
+\definecolor{DarkCyan}{HTML}{008B8B}
+\definecolor{MediumAquaMarine}{HTML}{66CDAA}
+
 
 \def\ion#1#2{#1$\;${\footnotesize\rm{#2}}\relax}
 
-\newcommand{\kate}[1]{{\color{red} KM: {#1}}}
+\newcommand{\kate}[1]{{\color{red} KM: \textbf{#1}}}
+\newcommand{\steve}[1]{{\color{DarkCyan} Steve S: \textbf{#1}}}
+\newcommand{\magee}[1]{{\color{Rust} MM: \textbf{#1}}}
+\newcommand{\abi}[1]{{\color{LincolnGreen} AP: \textbf{#1}}}
+\newcommand{\yy}[1]{{\color{blue} YY: \textbf{#1}}}
+\newcommand{\aam}[1]{{\color{DarkOrange} aam: \textbf{#1}}}
+
 \newcommand{\fromkate}[1]{{\color{brown} fromKM: {#1}}}
-\newcommand{\steve}[1]{{\color{Blueberry} Steve S: {#1}}}
-\newcommand{\magee}[1]{{\color{Rust} MM: {#1}}}
 \newcommand{\frommark}[1]{{\color{orange} fromMM: {#1}}}
 \newcommand{\frommb}[1]{{\color{purple} fromMB: {#1}}}
+\newcommand{\fromabi}[1]{\color{MediumAquaMarine} fromAP: {#1}}
 
-\newcommand{\abi}[1]{{\color{LincolnGreen} AP: {#1}}}
-\newcommand{\yy}[1]{{\color{blue} YY: {#1}}}
-\newcommand{\aam}[1]{{\color{DarkOrange} aam: {#1}}}
 \newcommand{\stockholm}[1]{{\color{cyan} stockholm: {#1}}}
 \newcommand{\todo}[1]{{\color{magenta} to-do: {#1}}}
 
@@ -198,16 +202,19 @@
 
 \section{Discovery and Observations}\label{sec:obs}
 
-\sn\ was discovered by K.~Itagaki, and detected at an unfiltered magnitude of
-16.7\,mag, in an image obtained on 2019 Dec 28.74 UT\footnote{UT times are
-used throughout this paper}. The transient candidate was announced
+\sn\ was discovered by K.~Itagaki, and detected at an unfiltered magnitude
+of 16.7\,mag, in an image obtained on 2019 Dec 28.74 UT\footnote{UT times
+are used throughout this paper}. The transient candidate was announced
 $\sim$2\,hr later on the Transient Name Server (TNS), and given the
 designation AT\,2019yvq \citep{Itagaki19}. Susequent spectroscopic
-observations confirmed the SN nature of the transient, with initial reports
-that the event was a SN Ib/c \citep{Kawabata20}, but later reports classified
-the event as a SN Ia \todo{create refs for Prentice obs}. These spectroscopic
-observations also showed \sn\ to be at the same redshift as NGC\,4441, its
-host galaxy.
+observations confirmed the SN nature of the transient, with an initial
+report that the event was a SN Ib/c, and subsequent spectra confirming the
+event as a SN Ia.\footnote{The initial classification is from
+\citet{Kawabata20}, while the SN\,Ia classifications are from Prentice,
+Mazzali, Teffs \& Medler and Dahiwale \& Fremling (see
+\url{https://wis-tns.weizmann.ac.il/search?&name=SN2019yvq}).} These
+spectroscopic observations also showed \sn\ to be at the same redshift as
+NGC\,4441, its host galaxy.
 
 \subsection{ZTF Photometric Observations}
 
@@ -234,7 +241,7 @@ emission from \sn\ (Figure~\ref{fig:p48}).
     shown as filled green circles, open red circles, and filled golden
     crosses, respectively. UVOT $uvw1$ and $uvm2$ are shown as filled and
     open squares, respectively. The lower axis shows time measured in
-    rest-frame days relative to the time of first light, \tfl (see
+    rest-frame days relative to the time of first light, \tfl\ (see
     \S\ref{sec:phot}), while the upper axis shows time relative to the time
     of $B$-band maximum, \tbmax. Note that the horizontal axis is shown with
     a linear scale from $0\,\mathrm{d} \le t - t_\mathrm{fl} \le 3$\,d and a
@@ -259,29 +266,40 @@ Figure~\ref{fig:p48}.
 \subsection{Other Photometric Observations}
 
 Ultraviolet (UV) observations of \sn\ were obtained with the
-Ultra-Violet/Optical Telescope (UVOT; \citet{Roming05}) onboard the Neil
+Ultra-Violet/Optical Telescope (UVOT; \citealt{Roming05}) onboard the Neil
 Gehrels Swift Observatory (hereafter \textit{Swift}; \citealt{Gehrels04})
-following a time-of-opportunity request.\footnote{\textit{Swift} ToO requests
-for \sn\ (\textit{Swift} Target ID: 13037) have been submitted by
+following a time-of-opportunity request.\footnote{\textit{Swift} ToO
+requests for \sn\ (\textit{Swift} Target ID: 13037) have been submitted by
 D.~Hiramatsu, Burke \todo{what is Burke's first initial?}, and S.~Schulze.}
 Pre-SN UVOT reference images are limited to the $uvw1$, $uvm2$, and $uvw2$
-filters. We estimate the flux in these filters using an aperture of size
-\steve{PPP} pixels at the SN position, and subtract the flux measured using
-an identical procedure in the pre-SN images \steve{Is this all correct?}. For
-clarity, we only show the \textit{Swift} $uvw1$ and $uvm2$ light curves in
-Figure~\ref{fig:p48} (the $uvw2$ evolution is nearly identical to $uvm2$)  \fromkate{If it doesn't look completely terrible, I would include here}..
-\textit{Swift}/UVOT observations show that the initial decline seen in the
-optical is even more dramatic in the UV.
+filters. As a result we cannot provide accurate estimates of the SN flux in
+the \textit{Swift} $u$, $b$, and $v$ filters. We estimate the flux in the
+$uvw1$, $uvm2$, and $uvw2$ filters using an aperture of size \steve{PPP}
+pixels at the SN position, and subtract the flux measured using an identical
+procedure in the pre-SN images \steve{Is this all correct?}. For clarity, we
+only show the \textit{Swift} $uvw1$ and $uvm2$ light curves in
+Figure~\ref{fig:p48}.\footnote{The $uvw2$ evolution is nearly identical to
+$uvm2$. Furthermore, the red leak associated with the $uvw2$ filter (see
+e.g., \citealt{Breeveld11}), in combination with the relatively red spectral
+energy distribution of SNe\,Ia, make it very difficult to interpret $uvw2$
+light curves of SNe\,Ia (see \citealt{Brown17} and references therein).
+Therefore, unless otherwise noted, we exclude $uvw2$ measurements from the
+analysis below.} \textit{Swift}/UVOT observations show that the initial
+decline seen in the optical is even more dramatic in the UV.
 
-\fromkate{Why not include these? Lack of calibration? Should specify.} While we exclude flux measurements in the UVOT $u$, $b$, and $v$ filters in
-our analysis below, we can nevertheless estimate the time of $B$-band maximum
-\tbmax\ from the host-contaminated $b$-band light curve given that the host
-flux provides a constant offset at all epochs. Using a second-order
-polynomial, we model the $b$-band light curve near peak (including
-observations between JD$\,> \,$2,458,855.5 and JD$\,<\,$2,458,871.5). From
-this fit we estimate \tbmax$ = $2,458,863.83$ \,\pm \,0.21$\,JD.
+While absolute flux measurements in the UVOT $u$, $b$, and $v$ filters are
+not available, assuming the underlying flux from the host is constant, we
+can estimate the time of $B$-band maximum, \tbmax, from the relative
+$b$-band light curve. Using a second-order polynomial, we model the $b$-band
+light curve near peak (including observations between JD$\,> \,$2,458,855.5
+and JD$\,<\,$2,458,871.5). From this fit we estimate \tbmax$ =
+$2,458,863.83$ \,\pm \,0.21$\,JD.
 
-\todo{add paragraph about X-ray limits}
+In parallel with the UV observations, \textit{Swift} observed \sn\ in the
+X-rays with the X-ray Telescope \citep{Burrows05}. We do not detect variable
+X-ray emission at the position of \sn, as is expected in SNe\,Ia (e.g.,
+\citealt{Margutti12}). \todo{Note - if CSM interaction becomes the story of
+this SN, then this paragraph needs to be revisited.}
 
 \subsection{Optical Spectroscopy}
 
@@ -330,18 +348,23 @@ and Great Attractor infall models of \citet{Mould00}. Adopting $H_0 =
 2.1$\,Mpc, corresponding to a distance modulus of $\mu = 33.14 \pm
 0.11$\,mag, where the uncertainty on $\mu$ is dominated by the uncertainty
 in the peculiar velocity correction. We hereafter adopt 33.14\,mag as the
-distance modulus to NGC\,4441.\footnote{\citet{Tonry01} estimate a
-significantly smaller distance to NGC\,4441 ($\mu = 31.40 \pm 0.45$\,mag; $D
-= 19.0$\,Mpc) based on surface brightness fluctuations (SBF). We do not
-adopt this estimate as SBF measurements are better suited to relative
-distance measurements \fromkate{REF? SBF are commonly used for SN distance
-measurements. Also there is an updated value of $\mu = 31.43 \pm 0.14$\,mag
-from Tonry et al. 2013}.} \todo{Lots of different catalogs provide
-metallicity for SDSS galaxies, should we report on these results at all?
-Port Z = 0.04 and Granada Z ~0.01, and do not agree, firefly ~ 0.6 0r 0.2
-(solar?) depending on weighting, probably not a great idea} \fromkate{that's
-a reasonable spread in values but likely different calibrations. I don't
-know which one is best or the references for comparing this value to. }
+distance modulus to NGC\,4441.\footnote{\citet{Tully13} estimate a
+significantly smaller distance to NGC\,4441 ($\mu = 31.43 \pm 0.14$\,mag; $D
+= 19.0$\,Mpc) based on surface brightness fluctuation measurements from
+\citet{Tonry01}. If NGC\,4441 is at this distance, then \sn\ peaks at $M_g
+\approx -16.8$\,mag, which is significantly underluminous for a SN\,Ia.
+Given that \sn\ has a normal rise time $t_\mathrm{rise} \approx 18$\,d
+(\S\ref{sec:phot}), relatively normal spectra at peak (\S\ref{sec:spec}),
+and produced $\sim$0.4\,$M_\odot$ of \radni\ (\S\ref{sec:tardis}), it is
+highly unlikely that it is nearly a factor of 10 less luminous in the \gztf\
+filter than normal SNe\,Ia. We therefore adopt the larger kinematic distance
+to NGC\,4441.}
+% \todo{Lots of different catalogs provide
+% metallicity for SDSS galaxies, should we report on these results at all?
+% Port Z = 0.04 and Granada Z ~0.01, and do not agree, firefly ~ 0.6 0r 0.2
+% (solar?) depending on weighting, probably not a great idea} \fromkate{that's
+% a reasonable spread in values but likely different calibrations. I don't
+% know which one is best or the references for comparing this value to. }
 
 We estimate the total redenning towards \sn\ to be small. There is relatively
 little line of sight extinction due to the Milky Way, $E(B-V) \approx
