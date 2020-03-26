@@ -206,6 +206,11 @@
   \href{https://ui.adsabs.harvard.edu/abs/1992A&A...259...63C}{\color{blue}259},
   \href{https://ui.adsabs.harvard.edu/abs/1992A&A...259...63C}{\color{blue}63}
 
+\bibitem[{{de Vaucouleurs} {et~al.}(1991){de Vaucouleurs}, {de Vaucouleurs},
+  {Corwin}, {Buta}, {Paturel}, \& {Fouque}}]{de-Vaucouleurs91}
+{de Vaucouleurs}, G., {de Vaucouleurs}, A., {Corwin}, Herold~G., J., {et~al.}
+  1991, {Third Reference Catalogue of Bright Galaxies}
+
 \bibitem[{{Dessart} {et~al.}(2014){Dessart}, {Blondin}, {Hillier}, \&
   {Khokhlov}}]{Dessart14}
 {Dessart}, L., {Blondin}, S., {Hillier}, D.~J., \& {Khokhlov}, A. 2014,
@@ -347,6 +352,12 @@ Jones, E., Oliphant, T., Peterson, P., {et~al.} 2001--, {SciPy}: Open source
   \href{https://ui.adsabs.harvard.edu/abs/2020TNSCR..24....1K}{\color{blue}2020-24},
   \href{https://ui.adsabs.harvard.edu/abs/2020TNSCR..24....1K}{\color{blue}1}
 
+\bibitem[{{Kerzendorf} \& {Sim}(2014)}]{Kerzendorf14}
+{Kerzendorf}, W.~E., \& {Sim}, S.~A. 2014,
+  \href{http://dx.doi.org/10.1093/mnras/stu055}{\color{magenta}\mnras},
+  \href{https://ui.adsabs.harvard.edu/abs/2014MNRAS.440..387K}{\color{blue}440},
+  \href{https://ui.adsabs.harvard.edu/abs/2014MNRAS.440..387K}{\color{blue}387}
+
 \bibitem[{{Magee} {et~al.}(2020){Magee}, {Maguire}, {Kotak}, {Sim},
   {Gillanders}, {Prentice}, \& {Skillen}}]{Magee20}
 {Magee}, M.~R., {Maguire}, K., {Kotak}, R., {et~al.} 2020,
@@ -401,6 +412,14 @@ Jones, E., Oliphant, T., Peterson, P., {et~al.} 2001--, {SciPy}: Open source
   \href{http://dx.doi.org/10.1088/1538-3873/aae8ac}{\color{magenta}\pasp},
   \href{https://ui.adsabs.harvard.edu/abs/2019PASP..131a8003M}{\color{blue}131},
   \href{https://ui.adsabs.harvard.edu/abs/2019PASP..131a8003M}{\color{blue}018003}
+
+\bibitem[{{Mazzali} {et~al.}(2014){Mazzali}, {Sullivan}, {Hachinger}, {Ellis},
+  {Nugent}, {Howell}, {Gal-Yam}, {Maguire}, {Cooke}, {Thomas}, {Nomoto}, \&
+  {Walker}}]{Mazzali14}
+{Mazzali}, P.~A., {Sullivan}, M., {Hachinger}, S., {et~al.} 2014,
+  \href{http://dx.doi.org/10.1093/mnras/stu077}{\color{magenta}\mnras},
+  \href{https://ui.adsabs.harvard.edu/abs/2014MNRAS.439.1959M}{\color{blue}439},
+  \href{https://ui.adsabs.harvard.edu/abs/2014MNRAS.439.1959M}{\color{blue}1959}
 
 \bibitem[{McKinney(2010)}]{McKinney10}
 McKinney, W. 2010, 51
@@ -585,6 +604,13 @@ McKinney, W. 2010, 51
   \href{http://adsabs.harvard.edu/abs/2011MNRAS.410..585S}{\color{blue}410},
   \href{http://adsabs.harvard.edu/abs/2011MNRAS.410..585S}{\color{blue}585}
 
+\bibitem[{{Stehle} {et~al.}(2005){Stehle}, {Mazzali}, {Benetti}, \& {Hillebrand
+  t}}]{Stehle05}
+{Stehle}, M., {Mazzali}, P.~A., {Benetti}, S., \& {Hillebrand t}, W. 2005,
+  \href{http://dx.doi.org/10.1111/j.1365-2966.2005.09116.x}{\color{magenta}\mnras},
+  \href{https://ui.adsabs.harvard.edu/abs/2005MNRAS.360.1231S}{\color{blue}360},
+  \href{https://ui.adsabs.harvard.edu/abs/2005MNRAS.360.1231S}{\color{blue}1231}
+
 \bibitem[{{Stritzinger} {et~al.}(2006){Stritzinger}, {Leibundgut}, {Walch}, \&
   {Contardo}}]{Stritzinger06}
 {Stritzinger}, M., {Leibundgut}, B., {Walch}, S., \& {Contardo}, G. 2006,
@@ -633,5 +659,32 @@ McKinney, W. 2010, 51
   \href{http://dx.doi.org/10.1086/666656}{\color{magenta}\pasp},
   \href{http://adsabs.harvard.edu/abs/2012PASP..124..668Y}{\color{blue}124},
   \href{http://adsabs.harvard.edu/abs/2012PASP..124..668Y}{\color{blue}668}
+
+\bibitem[{{York} {et~al.}(2000){York}, {Adelman}, {Anderson}, {Anderson},
+  {Annis}, {Bahcall}, {Bakken}, {Barkhouser}, {Bastian}, {Berman}, {Boroski},
+  {Bracker}, {Briegel}, {Briggs}, {Brinkmann}, {Brunner}, {Burles}, {Carey},
+  {Carr}, {Castander}, {Chen}, {Colestock}, {Connolly}, {Crocker}, {Csabai},
+  {Czarapata}, {Davis}, {Doi}, {Dombeck}, {Eisenstein}, {Ellman}, {Elms},
+  {Evans}, {Fan}, {Federwitz}, {Fiscelli}, {Friedman}, {Frieman}, {Fukugita},
+  {Gillespie}, {Gunn}, {Gurbani}, {de Haas}, {Haldeman}, {Harris}, {Hayes},
+  {Heckman}, {Hennessy}, {Hindsley}, {Holm}, {Holmgren}, {Huang}, {Hull},
+  {Husby}, {Ichikawa}, {Ichikawa}, {Ivezi{\'c}}, {Kent}, {Kim}, {Kinney},
+  {Klaene}, {Kleinman}, {Kleinman}, {Knapp}, {Korienek}, {Kron}, {Kunszt},
+  {Lamb}, {Lee}, {Leger}, {Limmongkol}, {Lindenmeyer}, {Long}, {Loomis},
+  {Loveday}, {Lucinio}, {Lupton}, {MacKinnon}, {Mannery}, {Mantsch}, {Margon},
+  {McGehee}, {McKay}, {Meiksin}, {Merelli}, {Monet}, {Munn}, {Narayanan},
+  {Nash}, {Neilsen}, {Neswold}, {Newberg}, {Nichol}, {Nicinski}, {Nonino},
+  {Okada}, {Okamura}, {Ostriker}, {Owen}, {Pauls}, {Peoples}, {Peterson},
+  {Petravick}, {Pier}, {Pope}, {Pordes}, {Prosapio}, {Rechenmacher}, {Quinn},
+  {Richards}, {Richmond}, {Rivetta}, {Rockosi}, {Ruthmansdorfer}, {Sandford},
+  {Schlegel}, {Schneider}, {Sekiguchi}, {Sergey}, {Shimasaku}, {Siegmund},
+  {Smee}, {Smith}, {Snedden}, {Stone}, {Stoughton}, {Strauss}, {Stubbs},
+  {SubbaRao}, {Szalay}, {Szapudi}, {Szokoly}, {Thakar}, {Tremonti}, {Tucker},
+  {Uomoto}, {Vanden Berk}, {Vogeley}, {Waddell}, {Wang}, {Watanabe},
+  {Weinberg}, {Yanny}, {Yasuda}, \& {SDSS Collaboration}}]{York00}
+{York}, D.~G., {Adelman}, J., {Anderson}, Jr., J.~E., {et~al.} 2000,
+  \href{http://dx.doi.org/10.1086/301513}{\color{magenta}\aj},
+  \href{http://adsabs.harvard.edu/abs/2000AJ....120.1579Y}{\color{blue}120},
+  \href{http://adsabs.harvard.edu/abs/2000AJ....120.1579Y}{\color{blue}1579}
 
 \end{thebibliography}
