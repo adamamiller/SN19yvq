@@ -1,0 +1,39 @@
+\begin{deluxetable*}{lcrrccc}
+\tabletypesize{\scriptsize}
+\tablewidth{0pt}
+\tablecaption{\texttt{TARDIS} input parameters\label{tab:tardis}}
+\tablehead{
+\colhead{Date} &
+\colhead{MJD} &
+\colhead{Phase}\tablenotemark{a} &
+\colhead{$t - t_\mathrm{exp}$\tablenotemark{b}} &
+\colhead{$L$\tablenotemark{c}} &
+\colhead{$v_\mathrm{boundary}$\tablenotemark{d} }&
+\colhead{$T_\mathrm{boundary}$\tablenotemark{e} } \\
+\colhead{(UT) }&
+\colhead{} &
+\colhead{(d)} &
+\colhead{(d)} &
+\colhead{($\log L_{\odot}$)} &
+\colhead{(\kms) } &
+\colhead{(K)}
+}
+\startdata
+2019 Dec 31.277 & 58848.277 & $-14.9$ & 3.0 & 8.55 & 25,000 & 8208 \\
+2020 Jan 03.217 & 58851.217 & $-12.0$ & 6.0 & 8.60 & 16,500 & 7353 \\
+2020 Jan 15.392 & 58863.392 & $+0.0$ & 18.0 & 9.29 & 10,500 & 7917 \\
+\enddata
+\tablecomments{\magee{I calculated T myself, but it's possible I didn't
+understand your prescription}}
+\tablenotetext{a}{Rest-frame time relative to the time of $B$-band maximum,
+\tbmax.}
+\tablenotetext{b}{Rest-frame time relative to the \texttt{TARDIS} time of
+explosion, $t_\mathrm{exp}$.}
+\tablenotetext{c}{Emergent Luminosity.}
+\tablenotetext{d}{Ejecta velocity at the inner boundary of the photosphere.}
+\tablenotetext{e}{Temperature at the inner boundary of the photosphere. The
+inner boundary temperature is not explicitly an input parameter for
+\texttt{TARDIS}, it is derived from the luminosity, time since explosion, and
+inner boundary velocity.}
+
+\end{deluxetable*}
