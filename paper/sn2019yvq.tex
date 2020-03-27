@@ -442,7 +442,9 @@ $\alpha_g = 2.15 \pm^{0.49}_{0.36}$ and $\alpha_r = 1.91 \pm^{0.42}_{0.31}$.
 These values are typical of the normal SNe Ia studied in \citet{Miller20}. If
 we only exclude the first observation from the model fit we find
 significantly different results with a rise time that increases by $\sim$5\,d
-and power-law indicies that increase by $\gtrsim 1$.
+and power-law indicies that increase by $\gtrsim 1$. \textcolor{red}{We note however, that our estimate of \tfl\, is consistent with the explosion date inferred from our spectroscopic modelling (see Sect.~\ref{sec:tardis}) of $t_{\rm{exp}} \sim -17.9$\,d relative to \tbmax.}
+
+\fromkate{The rise time is long for its magnitude and stretch. From https://ui.adsabs.harvard.edu/abs/2012ApJ...745...44G/abstract, the risetime would suggest a high stretch event, their fig. 12. Likely just the impact of the early component but worth stressing. }
 
 \subsection{Luminosity of the Initial UV/optical Flash}
 
@@ -513,7 +515,7 @@ color evolution of \sn. At \tbmax, $uvm2 - uvw1 \approx 1.2$\,mag, making
 \sn\ one of the most UV blue SNe\,Ia at maximum light (e.g.,
 \citealt{Milne10,Brown17}). A color excess of $E(B-V)
 \approx 0.25$\,mag is equivalent to $E(uvm2 - uvw1)
-\approx 0.5$\,mag using the Fitzpatrick+ (1999) extinction law, $R_V = 3.1$, and the effective wavelengths of the \textit{Swift} filters from \citet{Brown17} \frommb{I get 0.65 mag, maybe double-check?}. This results in a $uvm2 - uvw1 \approx 0.XXX$\,mag at \tbmax,
+\approx 0.5$\,mag using the Fitzpatrick+ (1999) extinction law, $R_V = 3.1$, and the effective wavelengths of the \textit{Swift} filters from \citet{Brown17} \frommb{I get 0.65 mag, maybe double-check?}. \fromkate{I did this calc, I've checked and using method and values listed, I get 0.5 mag for the uvm2-uvw1 colour} This results in a $uvm2 - uvw1 \approx 0.XXX$\,mag at \tbmax,
 making \sn\ the most UV blue SN\,Ia observed by \textit{Swift} \fromkate{this needs to be updated because none of the objects in Brown sample are corrected for extinction}. Furthermore,
 this much extinction would dramatically increase the luminosity of the initial
 peak in emission by a factor of $\sim$5. We conservatively estimate the
@@ -548,23 +550,20 @@ mass elements (IMEs), primarily Si, Ca, and O, as well as iron-group elements
 To determine the structure of the ejecta and relative contributions of
 different ions at early and maximum light phases, we have modelled the spectra
 at $-$14.9\,d, $-12.0$\,d, and $+$0.0\,d using the 1D Monte Carlo radiative
-transfer code \texttt{TARDIS} \citep{Kerzendorf14}. Parameters of our TARDIS
-models are given in Table~\ref{tab:tardis}.
+transfer code \texttt{TARDIS} \citep{Kerzendorf14}. We note that \texttt{TARDIS} assumes a single, sharp photosphere between the optically thick and thin regions. Therefore, if there is a contribution to the spectrum from an underlying quasi-blackbody (at early times this could be due to interaction, for example; see Sect. XX), this will impact the ability of \texttt{TARDIS} to fully reproduce the observations. Nevertheless, our models should provide a reasonable approximation of the plasma state within the ejecta.
+Parameters of our \texttt{TARDIS} models are given in Table~\ref{tab:tardis}. 
 
 %%%Description of overall modelling results, velocities, features present, temperature. Then detailed discussion of Mg II vs Si III can be removed.
-The first spectrum of \sn\ at $-$14.9\,d (2.6\,d after \tfl) shows shallow
+The first spectrum of \sn\ at $-$14.9\,d (2.6\,d after \tfl, 3.0\,d after explosion) shows shallow
 features consistent with IMEs moving at extremely high velocities
 ($>$\,20,000\,\kms, Figure~\ref{fig:spec_evo}). The best-fitting
-\texttt{TARDIS} model is shown in Figure~\ref{fig:tardis}. Our model
+\texttt{TARDIS} model is shown in Figure~\ref{fig:tardis}, along with the contribution of individual elements to the spectral features. For this model, we have assumed a uniform composition of O, Mg, Si, and S. Our model
 demonstrates that the shallow absorption features observed at this phase can
 be reproduced solely by IMEs (predominantly \ion{Si}{II}), and that the
-presence of IGE is not required to match the data. In Figure~\ref{fig:tardis},
-we show the contribution of individual elements to the spectra. Our model also
+presence of IGE is not required to match the data. Our model also
 confirms the high velocities of the ejecta -- we find the spectral features
 and temperature are best reproduced with a photospheric velocity of
-$\sim$25,000\,\kms. Compared to modelling of the spectroscopically similar
-SN\,2002bo \citet{Stehle05}, see below, we find \sn\ has a lower photospheric
-temperature ($\sim$8,000\,K, compared to $\sim$9,500\,K for SN\,2002bo).
+$\sim$25,000\,\kms. %Compared to modelling of the spectroscopically similar SN\,2002bo \citep{Stehle05}, see below, we find \sn\ has a lower photospheric temperature ($\sim$8,500\,K, compared to $\sim$9,500\,K for SN\,2002bo).
 
 \begin{figure*}
     \centering
@@ -577,10 +576,14 @@ temperature ($\sim$8,000\,K, compared to $\sim$9,500\,K for SN\,2002bo).
 
 Similarly, for the $-12.0$\,d spectrum we find that a model that does not
 contain IGE above $\sim$16,500\,\kms\ reproduces the majority of the
-spectroscopic features. At this phase the model suggests the photospheric
-temperature has not significantly changed.
+spectroscopic features. Again, our model contains a uniform composition of O, Mg, Si, and S, and is shown in Fig.~\ref{fig:tardis}. At this phase the model suggests the photospheric
+temperature has not significantly changed, however the features have become much more prominent. Compared to modelling of the spectroscopically similar SN\,2002bo \citep{Stehle05} at the same epoch, see below, we find \sn\ has a lower photospheric temperature ($\sim$8,500\,K, compared to $\sim$9,500\,K for SN\,2002bo).
 
-\mark{Is there more to say about TARDIS models at maximum light?}
+Given that our maximum light spectrum occurs 12 days after our previous model spectrum, we assume a composition for the inner ejecta ($\textless$16,500\,\kms\ ) similar to that found for SN~2002bo \citep{Stehle05}. A more detailed ejecta structure could be achieved through modelling additional pre-maximum spectra, but is beyond the scope of the work presented here. As shown in Fig.~\ref{fig:tardis}, our model is able to broadly reproduce many of the features observed. Notable exceptions include the features around $\sim$4\,200 and 4\,900\,\AA, which we attribute to Fe. Better spectroscopic agreement could potentially be achieved if SN~2019yvq had a lower abundance of IGE within the inner ejecta relative to SN~2002bo. 
+
+Overall, our \texttt{TARDIS} modelling demonstrates that SN~2019yvq is consistent with a low (or zero) fraction of IGE in the outer ejecta. Additionally, the earliest phases show little change in temperature, as expected from the colour evolution. 
+
+\frommark{Figure coming shortly}
 
 \subsection{\ion{Si}{II} Evolution}\label{sec:SiII}
 
@@ -619,6 +622,7 @@ Core Normal, Broad Line, and Cool) identified in
 \citet{Branch06};\footnote{The velocity measurements are from
 \citet{Blondin12}, while the method to determine the median velocity is
 described in \citet{Miller18}.} hereafter, the \citeauthor{Branch06} class. 
+The ion{Si}{II} $\lambda$6355 velocity is $\sim$15000 \kms.  
 
 At \tbmax, the pEW measurements for the \ion{Si}{II} $\lambda$6355 and
 $\lambda$5972 features are $183\pm1$\,\AA, and $13\pm2$\,\AA, respectively,
@@ -714,6 +718,8 @@ weaker IME absorption and stronger IGE absorption than \sn. While the
 \sn, there is strong agreement in the relative \ion{Si}{II} line strengths of
 SN\,1986G and the earliest spectra of \sn. \todo{86G had E(B-V) $\sim$ 0.9,
 correct spectra for that?} \fromkate{yes.}
+
+\fromkate{On wiserep there are 86G spectra from a similar epoch as the first spectra that goes to below 4000 \AA. I think you've downloaded only the red arm for the observation. Also I would make 10ygu vs. 10jn consistent in the plots and text. I'd use 10jn in all the plot labels.}
 
 \begin{figure*}
     \centering
@@ -931,6 +937,8 @@ kinetic energy to boost to these velocities.}
 
 \section{A Physical Explanation for \sn}\label{sec:models}
 
+\fromkate{I've been looking at the violent merger models of Kromer+ 2013, 2016 to explain SN 2010lp and iPTF\,14atg. They don't explain the early flash but they can explain the red colours, the lack of secondary max, the intermediate peak brightness, lack of IGE in the early spectra and the high velocity and broad Si II lines. Early UV flash could come from CSM in the surrounds of the merger. I think this model is worth mentioning.}
+
 The most striking feature of \sn\ is the observed UV/optical peak that occurs
 shortly after discovery (Figure~\ref{fig:p48}). Any model to explain \sn\ must
 account for this highly unusual feature. A UV decline in the early phase of a
@@ -957,6 +965,8 @@ able to explain the following characteristics of \sn:
     \item The large photospheric velocities (Figure~\ref{fig:vel_evo}).
 \end{enumerate}
 %
+\fromkate{I don't think the optical decline is that fast, more intermediate between 91bg-like and normal SNe Ia. Same for the luminosity. }
+
 \fromabi{You mention a couple times in the paper that we also note a lack of C absorption. Is that a bullet point worth mentioning here?}
 As noted in \S\ref{sec:phot}, the photometric evolution of \sn\ is similar to
 subluminous 91bg-like SNe, however, the spectra are missing the hallmark
@@ -992,9 +1002,9 @@ Figure~\ref{fig:Ni_mixing}. For this modelling we have excluded the first two
 epochs of ZTF observations, as we consider the mechanism that produces the
 early UV flash to be different from the standard \radni\ decay that powers
 most SNe\,Ia. That the (normal) rising portion of the \sn\ light curve is best
-matched by stratified models strengthens the support for this interpretation.
+matched by stratified models strengthens the support for this interpretation. We note however, that \cite{Magee20} demonstrate how the time of first detection can dramatically alter the inferred model properties and it is unclear which epochs (if any) should be excluded. Nevertheless, a stratified ejecta is also consistent with our spectroscopic analysis.
 
-\frommark{Add caveat that we also showed in Magee+20 that not fitting the full light curve can affect the conclusions inferred, however we don't know exactly what epochs (if any) should be excluded}
+%\frommark{Add caveat that we also showed in Magee+20 that not fitting the full light curve can affect the conclusions inferred, however we don't know exactly what epochs (if any) should be excluded}
 
 \begin{figure}
     \centering
@@ -1157,14 +1167,14 @@ optical detections in ZTF, and identify the best-fit model to the later
 evolution of the SN from the grid of models created in \citet{Magee20}.
 Following the generation of this ``baseline'' model, we add clumps of \radni\
 to the outer layers of the SN ejecta, and perform full radiative transfer
-calculations using TURDLS+TARDIS \todo{ref}. We find that a model with
-\magee{please add the clump parameters} best matches the optical observations
+calculations using TURTLS \citep{Magee18}. We find that a model with
+a 0.02~$M_{\rm{\odot}}$ clump of \radni\ best matches the light curve shape
 of \sn, as shown in Figure~\ref{fig:Ni_bullet}. While a clump of \radni\ can
 broadly replicate the observed flash in the optical, like Magee \& Maguire
 (2020), we find that the extended clump of \radni\ dramatically alters the
 appearance of the SN at maximum light in a way that is incompatible with
-observed spectra. We therefore conlcude that Ni clumps cannot explain the
-early flash seen in \sn. \frommb{If clump has effects to max light observables, is the selection of a baseline model with no clump justified?}
+observed spectra. We therefore conclude that Ni clumps cannot explain the
+early flash seen in \sn. \frommb{If clump has effects to max light observables, is the selection of a baseline model with no clump justified?}\frommark{We have to make a pragmatic choice on which models to explore. The parameter space would be far too large to simultaneously vary the inner ejecta and clump parameters to find a good fit. I think it's valid to address whether you could just add a clump to reproduce the early bump without altering the max light properties. Nevertheless, it's a fair point. My feeling is that you wouldn't be able to get a good match even with altering the inner ejecta, unless you did something quite weird.}
 
 \begin{figure}
     \centering
