@@ -428,22 +428,28 @@ filters.
 
 An important caveat for \sn\ is that the observed early decline in the light
 curve clearly does not follow the simple power-law model, and thus these
-observations must be masked when performing the fit. We conservatively
-exclude observations from the first two nights of ZTF detection from the fit
-(this choice is conservative as it is unclear when the mechanism that powers
-the initial bump in \sn\ no longer significantly contributes to the flux in
-the \gztf\ and \rztf\ filters). From the fit we find \tfl$ = -17.5
+observations must be masked when performing the fit. We conservatively exclude
+observations from the first two nights of ZTF detection from the fit (this
+choice is conservative as it is unclear when the mechanism that powers the
+initial bump in \sn\ no longer significantly contributes to the flux in the
+\gztf\ and \rztf\ filters). From the fit we find \tfl$ = -17.5
 \pm^{1.0}_{1.3}$\,d relative to \tbmax. We know that the time of explosion
 must be $< -17.4$\,d based on the discovery detection in \citealt{Itagaki19},
 and, by definition $t_\mathrm{fl} \ge t_\mathrm{exp}$, meaning a portion of
 the posterior distribution for our model cannot be correct. We also find
 $\alpha_g = 2.15 \pm^{0.49}_{0.36}$ and $\alpha_r = 1.91 \pm^{0.42}_{0.31}$.
 These values are typical of the normal SNe Ia studied in \citet{Miller20}. If
-we only exclude the first observation from the model fit we find
-significantly different results with a rise time that increases by $\sim$5\,d
-and power-law indicies that increase by $\gtrsim 1$. \textcolor{red}{We note however, that our estimate of \tfl\, is consistent with the explosion date inferred from our spectroscopic modelling (see Sect.~\ref{sec:tardis}) of $t_{\rm{exp}} \sim -17.9$\,d relative to \tbmax.}
+we only exclude the first observation from the model fit we find significantly
+different results with a rise time that increases by $\sim$5\,d and power-law
+indicies that increase by $\gtrsim 1$. We note that such a long rise is
+unlikely, however, as our spectroscopic models (see \S\ref{sec:tardis})
+estimate the time of explosion, $t_\mathrm{exp}$, to be $\sim$17.9\,d prior to
+\tbmax, fully consistent with our estimate of \tfl.
 
-\fromkate{The rise time is long for its magnitude and stretch. From https://ui.adsabs.harvard.edu/abs/2012ApJ...745...44G/abstract, the risetime would suggest a high stretch event, their fig. 12. Likely just the impact of the early component but worth stressing. }
+\fromkate{The rise time is long for its magnitude and stretch. From
+\citet{Gonzalez-Gaitan12}, the risetime would suggest a high stretch event,
+their fig. 12. Likely just the impact of the early component but worth
+stressing. }
 
 \subsection{Luminosity of the Initial UV/optical Flash}
 
@@ -627,12 +633,12 @@ evolution of SNe\,Ia belonging to the four different classes (Shallow Silicon,
 Core Normal, Broad Line, and Cool) identified in
 \citet{Branch06};\footnote{The velocity measurements are from
 \citet{Blondin12}, while the method to determine the median velocity is
-described in \citet{Miller18}.} hereafter, the \citeauthor{Branch06} class. 
+described in \citet{Miller18}.} hereafter, the \citeauthor{Branch06}~class. 
 The ion{Si}{II} $\lambda$6355 velocity is $\sim$15000 \kms.  
 
 At \tbmax, the pEW measurements for the \ion{Si}{II} $\lambda$6355 and
 $\lambda$5972 features are $183\pm1$\,\AA, and $13\pm2$\,\AA, respectively,
-unambiguously classifying \sn\ as a \citeauthor{Branch06} Broad Line SN\,Ia.
+unambiguously classifying \sn\ as a \citeauthor{Branch06}~Broad Line SN\,Ia.
 \sn\ stands out in Figure~\ref{fig:vel_evo} with some of the highest
 \ion{Si}{II} velocities that have ever been observed. Within the PTF sample,
 only SN\,2010jn (PTF10ygu) exhibits a \ion{Si}{II} absorption velocity as high
@@ -676,7 +682,7 @@ modelling also does not require a significant increase in temperature towards
 maximum light from the temperature of $\sim$8,000\,K required at early times.
 This stands in contrast to SN\,200bo, which increases in temperature from
 $\sim$9,500\,K at $-12.9$\,d to $\sim$14,000\,K at maximum light
-\citep{Stehle05}. This temperature is similar to \citeauthor{Branch06} Core
+\citep{Stehle05}. This temperature is similar to \citeauthor{Branch06}~Core
 Normal SNe, such as SN\,2011fe, which typically have temperatures of
 $\sim$14,500--15,000\,K at maximum light \citep{Mazzali14}.
 
@@ -720,22 +726,24 @@ agreement with the \texttt{TARDIS} modelling results where no Fe is required
 in the outer ejecta of \sn\ to match the observed spectra at early times.
 SN\,2010jn, which exhibits large \ion{Si}{II} velocities like \sn, shows
 weaker IME absorption and stronger IGE absorption than \sn. While the
-\citeauthor{Branch06}Cool SNe\,1986G and 2004eo feature lower velocities than
+\citeauthor{Branch06}~Cool SNe\,1986G and 2004eo feature lower velocities than
 \sn, there is strong agreement in the relative \ion{Si}{II} line strengths of
-SN\,1986G and the earliest spectra of \sn. \todo{86G had E(B-V) $\sim$ 0.9,
-correct spectra for that?} \fromkate{yes.}
-
-\fromkate{On wiserep there are 86G spectra from a similar epoch as the first spectra that goes to below 4000 \AA. I think you've downloaded only the red arm for the observation. Also I would make 10ygu vs. 10jn consistent in the plots and text. I'd use 10jn in all the plot labels.}
+SN\,1986G and the earliest spectra of \sn.
 
 \begin{figure*}
     \centering
-    \includegraphics[width=7.25in]{./figures/spec_comp.pdf}
+    \includegraphics[width=7.25in]{./figures/spec_comp_extinction.pdf}
     %
-    \caption{Spectral comparison of \sn\ to \citet{Branch06} Broad Line and
-    Cool SNe\,Ia. \textit{Left panel}: pre-maximum spectra showing the
-    similarity of \sn\ and SN\,2002bo. While the expansion velocities in the
-    Cool SN\,1986G spectrum are considerably lower than those in the Broad
-    Line SNe, the relative ratios of the \ion{Si}{II} features are similar.
+    \caption{Spectral comparison of \sn\ to \citeauthor{Branch06}~Broad Line
+    and Cool SNe\,Ia. All spectra have been corrected for the total
+    line-of-sight extinction with adopted $E(B-V)$ values of 0.9\,mag,
+    0.38\,mag, 0.39\,mag, 0.109\,mag, and 0.05\,mag for SNe\,1986G
+    \citep{Phillips87}, 2002bo \citep{Stehle05}, 2010jn \citep{Hachinger13},
+    2004eo \citep{Pastorello07}, and \sn\ (this work), respectively.
+    \textit{Left panel}: pre-maximum spectra showing the similarity of \sn\
+    and SN\,2002bo. While the expansion velocities in the Cool SN\,1986G
+    spectrum are considerably lower than those in the Broad Line SNe, the
+    relative ratios of the \ion{Si}{II} features are similar to \sn.
     \textit{Second panel}: Comparison of \sn\ to the Broad Line SNe\,2002bo
     and SN\,2010jn. These SNe all feature nearly identical maximum-light
     spectra. By this phase, the relative strength of the \ion{Si}{II}
@@ -980,7 +988,7 @@ subluminous 91bg-like SNe, however, the spectra are missing the hallmark
 around \tbmax, \RSiII\ is small in \sn, whereas 91bg-like SNe feature large
 values of \RSiII\ (e.g., \citealt{Branch09}). Similarly, while the spectral
 appearance and evolution of \sn\ is similar to SN\,2002bo, and other
-\citeauthor{Branch06} Broad Line SNe, the photometric properties are entirely
+\citeauthor{Branch06}~Broad Line SNe, the photometric properties are entirely
 different. SN\,2002bo features a relatively slow decline [$\Delta{m}_{15}(B) =
 1.13$\,mag] with a clear secondary maximum in the $I$ band \citep{Benetti04},
 which is wholey different from what is observed in \sn.
