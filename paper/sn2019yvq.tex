@@ -512,29 +512,39 @@ $\sim$0.5\,mag redder over the same time frame.
 \end{figure}
 
 The offset in the \gztf$ - $\rztf\ color evolution of \sn\ relative to normal
-SNe\,Ia would be reduced if the reddenning towards \sn\ has been
-significantly underestimated. A color excess of $E(B-V) \approx 0.25$\,mag,
-rather than the 0.05\,mag adopted in \S\ref{sec:host}, would roughly align
-the pre-\tbmax\ \gztf$ - $\rztf\ color of \sn\ with the tight locus seen in
+SNe\,Ia would be reduced if the reddenning towards \sn\ has been significantly
+underestimated. A color excess of $E(B-V) \approx 0.25$\,mag, rather than the
+0.05\,mag adopted in \S\ref{sec:host}, would roughly align the pre-\tbmax\
+\gztf$ - $\rztf\ color of \sn\ with the tight locus seen in
 Figure~\ref{fig:colors}. Such a correction would also bring the peak optical
 brightness of \sn\ in line with normal SNe\,Ia (for $E(B-V) \approx
 0.25$\,mag, $M_g \approx -19.25$\,mag and $M_r \approx -19.1$\,mag for \sn).
-Such a large reddening would dramatically change the appearance of \sn\ in
-the UV. The bottom panel of Figure~\ref{fig:colors} shows the $uvm2 - uvw1$
-color evolution of \sn. At \tbmax, $uvm2 - uvw1 \approx 1.2$\,mag, making
-\sn\ one of the most UV blue SNe\,Ia at maximum light (e.g.,
-\citealt{Milne10,Brown17}). A color excess of $E(B-V)
-\approx 0.25$\,mag is equivalent to $E(uvm2 - uvw1)
-\approx 0.5$\,mag using the Fitzpatrick+ (1999) extinction law, $R_V = 3.1$, and the effective wavelengths of the \textit{Swift} filters from \citet{Brown17} \frommb{I get 0.65 mag, maybe double-check?}. \fromkate{I did this calc, I've checked and using method and values listed, I get 0.5 mag for the uvm2-uvw1 colour} This results in a $uvm2 - uvw1 \approx 0.XXX$\,mag at \tbmax,
-making \sn\ the most UV blue SN\,Ia observed by \textit{Swift} \fromkate{this needs to be updated because none of the objects in Brown sample are corrected for extinction}. Furthermore,
-this much extinction would dramatically increase the luminosity of the initial
-peak in emission by a factor of $\sim$5. We conservatively estimate the
-luminosity $\sim$1.2\,d after \tfl\ to be $\sim$2$\times
-10^{42}$\,erg\,s$^{-1}$. It is difficult to explain such a large luminosity
-(see below), increasing this by a factor of 5 and bringing it inline with the
-typical peak luminosity of SNe\,Ia, would be nearly impossible to explain \fromkate{luminosity in which band? what would be nearly impossible to explain?} \frommb{The factor of 5 is likely for UV filters, while optical should have a factor of $\sim$2 for ebv=0.25 mag. So if you are referring to total luminosity, the increase would be smaller than 5. Also, note that some models from e.g. Polin predict bumps to be brighter than peak (although these thick helium models are likely ruled out anyway)}. We
-therefore conclude that the color excess towards \sn\ is not underestimated,
-and that the SN is instead intrinsically red in the optical.
+Such a large reddening would dramatically change the appearance of \sn\ in the
+UV. The bottom panel of Figure~\ref{fig:colors} shows the $uvm2 - uvw1$ color
+evolution of \sn. At \tbmax, $uvm2 - uvw1 \approx 1.2$\,mag, making \sn\ one
+of the most UV blue SNe\,Ia at maximum light (e.g.,
+\citealt{Milne10,Brown17}). A color excess of $E(B-V) \approx 0.25$\,mag is
+equivalent to $E(uvm2 - uvw1) \approx 0.5$\,mag using the Fitzpatrick+ (1999)
+extinction law, $R_V = 3.1$, and the effective wavelengths of the
+\textit{Swift} filters from \citet{Brown17} \frommb{I get 0.65 mag, maybe
+double-check?}. \fromkate{I did this calc, I've checked and using method and
+values listed, I get 0.5 mag for the uvm2-uvw1 colour} This results in a $uvm2
+- uvw1 \approx 0.XXX$\,mag at \tbmax, making \sn\ the most UV blue SN\,Ia
+observed by \textit{Swift} \fromkate{this needs to be updated because none of
+the objects in Brown sample are corrected for extinction}. Furthermore, this
+much extinction would dramatically increase the luminosity of the initial peak
+in emission by a factor of $\sim$5. We conservatively estimate the luminosity
+$\sim$1.2\,d after \tfl\ to be $\sim$2$\times 10^{42}$\,erg\,s$^{-1}$. It is
+difficult to explain such a large luminosity (see below), increasing this by a
+factor of 5 and bringing it inline with the typical peak luminosity of
+SNe\,Ia, would be nearly impossible to explain \fromkate{luminosity in which
+band? what would be nearly impossible to explain?} \frommb{The factor of 5 is
+likely for UV filters, while optical should have a factor of $\sim$2 for
+ebv=0.25 mag. So if you are referring to total luminosity, the increase would
+be smaller than 5. Also, note that some models from e.g. Polin predict bumps
+to be brighter than peak (although these thick helium models are likely ruled
+out anyway)}. We therefore conclude that the color excess towards \sn\ is not
+underestimated, and that the SN is instead intrinsically red in the optical.
 
 Even if one ignores the striking initial bump in the light curve of \sn, we
 can still conclude that \sn\ is not a normal SN Ia based on its other
@@ -560,21 +570,30 @@ mass elements (IMEs), primarily Si, Ca, and O, as well as iron-group elements
 To determine the structure of the ejecta and relative contributions of
 different ions at early and maximum light phases, we have modelled the spectra
 at $-$14.9\,d, $-12.0$\,d, and $+$0.0\,d using the 1D Monte Carlo radiative
-transfer code \texttt{TARDIS} \citep{Kerzendorf14}. We note that \texttt{TARDIS} assumes a single, sharp photosphere between the optically thick and thin regions. Therefore, if there is a contribution to the spectrum from an underlying quasi-blackbody (at early times this could be due to interaction, for example; see Sect. XX), this will impact the ability of \texttt{TARDIS} to fully reproduce the observations. Nevertheless, our models should provide a reasonable approximation of the plasma state within the ejecta.
-Parameters of our \texttt{TARDIS} models are given in Table~\ref{tab:tardis}. 
+transfer code \texttt{TARDIS} \citep{Kerzendorf14}. We note that
+\texttt{TARDIS} assumes a single, sharp photosphere between the optically
+thick and thin regions. Therefore, if there is a contribution to the spectrum
+from an underlying quasi-blackbody (at early times this could be due to
+interaction, for example; see Sect. XX), this will impact the ability of
+\texttt{TARDIS} to fully reproduce the observations. Nevertheless, our models
+should provide a reasonable approximation of the plasma state within the
+ejecta. Parameters of our \texttt{TARDIS} models are given in
+Table~\ref{tab:tardis}.
 
 \input{./tables/tardis.tex}
 
 %%%Description of overall modelling results, velocities, features present, temperature. Then detailed discussion of Mg II vs Si III can be removed.
-The first spectrum of \sn\ at $-$14.9\,d (2.6\,d after \tfl, 3.0\,d after explosion) shows shallow
-features consistent with IMEs moving at extremely high velocities
-($>$\,20,000\,\kms, Figure~\ref{fig:spec_evo}). The best-fitting
-\texttt{TARDIS} model is shown in Figure~\ref{fig:tardis}, along with the contribution of individual elements to the spectral features. For this model, we have assumed a uniform composition of O, Mg, Si, and S. Our model
-demonstrates that the shallow absorption features observed at this phase can
-be reproduced solely by IMEs (predominantly \ion{Si}{II}), and that the
-presence of IGE is not required to match the data. Our model also
-confirms the high velocities of the ejecta -- we find the spectral features
-and temperature are best reproduced with a photospheric velocity of
+The first spectrum of \sn\ at $-$14.9\,d (2.6\,d after \tfl, 3.0\,d after
+explosion) shows shallow features consistent with IMEs moving at extremely
+high velocities ($>$\,20,000\,\kms, Figure~\ref{fig:spec_evo}). The
+best-fitting \texttt{TARDIS} model is shown in Figure~\ref{fig:tardis}, along
+with the contribution of individual elements to the spectral features. For
+this model, we have assumed a uniform composition of O, Mg, Si, and S. Our
+model demonstrates that the shallow absorption features observed at this phase
+can be reproduced solely by IMEs (predominantly \ion{Si}{II}), and that the
+presence of IGE is not required to match the data. Our model also confirms the
+high velocities of the ejecta -- we find the spectral features and temperature
+are best reproduced with a photospheric velocity of
 $\sim$25,000\,\kms. %Compared to modelling of the spectroscopically similar SN\,2002bo \citep{Stehle05}, see below, we find \sn\ has a lower photospheric temperature ($\sim$8,500\,K, compared to $\sim$9,500\,K for SN\,2002bo).
 
 \begin{figure*}
@@ -588,12 +607,34 @@ $\sim$25,000\,\kms. %Compared to modelling of the spectroscopically similar SN\,
 
 Similarly, for the $-12.0$\,d spectrum we find that a model that does not
 contain IGE above $\sim$16,500\,\kms\ reproduces the majority of the
-spectroscopic features. Again, our model contains a uniform composition of O, Mg, Si, and S, and is shown in Fig.~\ref{fig:tardis}. At this phase the model suggests the photospheric
-temperature has not significantly changed, however the features have become much more prominent. Compared to modelling of the spectroscopically similar SN\,2002bo \citep{Stehle05} at the same epoch, see below, we find \sn\ has a lower photospheric temperature ($\sim$8,500\,K, compared to $\sim$9,500\,K for SN\,2002bo).
+spectroscopic features. Again, our model contains a uniform composition of O,
+Mg, Si, and S, and is shown in Fig.~\ref{fig:tardis}. At this phase the model
+suggests the photospheric temperature has not significantly changed, however
+the features have become much more prominent. Compared to modelling of the
+spectroscopically similar SN\,2002bo \citep{Stehle05} at the same epoch, see
+below, we find \sn\ has a lower photospheric temperature ($\sim$8,500\,K,
+compared to $\sim$9,500\,K for SN\,2002bo).
 
-Given that our maximum light spectrum occurs 12 days after our previous model spectrum, we assume a composition for the inner ejecta ($\textless$16,500\,\kms\ ) similar to that found for SN~2002bo \citep{Stehle05}. A more detailed ejecta structure could be achieved through modelling additional pre-maximum spectra, but is beyond the scope of the work presented here. As shown in Fig.~\ref{fig:tardis}, our model is able to broadly reproduce many of the features observed. Notable exceptions include the features around $\sim$4\,200 and 4\,900\,\AA, which we attribute to Fe. Better spectroscopic agreement could potentially be achieved if SN~2019yvq had a lower abundance of IGE within the inner ejecta relative to SN~2002bo. 
+\magee{Can you confirm the following details about Carbon?} While the early
+spectra of \sn\ are dominated by IMEs, we do not find evidence for \ion{C}{II}
+absorption. This finding is supported by the fact that the \texttt{TARDIS}
+models do not improve when C is added to the ejecta composition.
 
-Overall, our \texttt{TARDIS} modelling demonstrates that SN~2019yvq is consistent with a low (or zero) fraction of IGE in the outer ejecta. Additionally, the earliest phases show little change in temperature, as expected from the colour evolution. 
+Given that our maximum light spectrum occurs 12 days after our previous model
+spectrum, we assume a composition for the inner ejecta
+($\textless$16,500\,\kms\ ) similar to that found for SN\,2002bo
+\citep{Stehle05}. A more detailed ejecta structure could be achieved through
+modelling additional pre-maximum spectra, but is beyond the scope of the work
+presented here. As shown in Fig.~\ref{fig:tardis}, our model is able to
+broadly reproduce many of the features observed. Notable exceptions include
+the features around $\sim$4200 and 4900\,\AA, which we attribute to Fe.
+Better spectroscopic agreement could potentially be achieved if \sn\ had
+a lower abundance of IGE within the inner ejecta relative to SN\,2002bo.
+
+Overall, our \texttt{TARDIS} modelling demonstrates that \sn\ is consistent
+with a low (or zero) fraction of IGE in the outer ejecta. Additionally, the
+earliest phases show little change in temperature, as expected from the colour
+evolution.
 
 \frommark{Figure coming shortly}
 
@@ -730,6 +771,16 @@ weaker IME absorption and stronger IGE absorption than \sn. While the
 \sn, there is strong agreement in the relative \ion{Si}{II} line strengths of
 SN\,1986G and the earliest spectra of \sn.
 
+% The left panel of Figure~\ref{fig:spec_comp} also shows the spectrum of
+% SN\,1986G, a \citet{Branch06} Cool SN that is sometimes referred to as
+% ``transitional'' given its intermediate properties between normal SNe\,Ia and
+% the sub-luminous SN\,1991bg-like population (e.g., \citealt{Pastorello07}).
+% The \ion{Si}{II} line ratios, and narrow $\sim$4800\,\AA\ feature in SN\,1986G
+% are similar to \sn, confirming the cool nature of the photosphere at this
+% early epoch. The $-12.0$\,d spectrum of \sn\ additionally shows a weaker blue
+% line in the \ion{S}{II} ``W'' absorption feature at $\sim$5400\,\AA, which is
+% also consistent with cool temperatures \citep{Nugent95}.
+
 \begin{figure*}
     \centering
     \includegraphics[width=7.25in]{./figures/spec_comp_extinction.pdf}
@@ -790,164 +841,7 @@ I could get my hands on and I think this is worth stating, because it is hard
 to come up with something that has little Ni (low luminosity) but has enough
 kinetic energy to boost to these velocities.}
 
-%%%%%%%%%%%%END KM/MM rewrite %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
-
-
-
-
-
-
-
-% Our initial spectra of \sn\ are dominated by intermediate mass elements
-% (IMEs), primarily Si, Ca, and O, moving at extremely high velocities ($>
-% 20,000$\,\kms), as identified in Figure~\ref{fig:spec_evo}. In the spectra
-% obtained $>$10\,d prior to \tbmax, there is also a strong absorption feature
-% around 4200\,\AA\ that we tentatively identify as \ion{Mg}{II} $\lambda$ 4481. \fromkate{Mark on spectral plot with `?'}\frommark{Also supported by TARDIS modelling, which does not include Ti}.
-% Though it is also possible that this feature corresponds to the Ti trough
-% described in \citet{Polin19} for double-detonation SNe Ia. \todo{Could this
-% feature be \ion{Si}{III}? could explain small notch at ~4500 Ang} \frommark{For both the 31/12 and 03/01 spectra, there are no strong indications of Si III from the TARDIS modelling. The temperature throughout is less than 8500 K in both spectra, which is about 1000 K less than 02bo (Stehle+05). As noted by Adam, if there is an underlying contribution from e.g. interaction, this would affect our ability to model with TARDIS and deserves mentioning} While the
-% early spectra are dominated by IMEs, we find no evidence for \ion{C}{II}
-% absorption in the spectra of \sn. \fromkate{I think the TARDIS modelling should be introduced early on in this section so that the speculation is more grounded and based on the modelling results}
-%
-% Another interesting feature of the early spectra is the relative prominence of
-% \ion{Si}{II} $\lambda$5972 relative to \ion{Si}{II} $\lambda$6355. Prominent
-% \ion{Si}{II} $\lambda$5972 absorption suggests a relatively cool photosphere,
-% however, by the time of maximum light this feature has almost disappeared
-% entirely. In our maximum-light spectrum of \sn, we estimate pseudo-equivalent
-% widths (pEWs) of $183\pm1$\,\AA, and $13\pm2$\,\AA\ for \ion{Si}{II}
-% $\lambda$6355 and $\lambda$5972, respectively. These pEW measurements
-% unambiguously classify \sn\ as a broad-line SN Ia according to the
-% classification scheme presented in \citet{Branch06}. The high velocities
-% typically associated with this class also match the early evolution of \sn.
-
-
-
-% The velocity evolution of the \ion{Si}{II} $\lambda$6355 absorption feature
-% in \sn\ is shown in Figure~\ref{fig:vel_evo}. These measurements have been
-% made following the procedure described in \citet{Maguire14} (see their
-% \S2.5). For comparison, we also show the \citet{Maguire14} measurements of
-% the \ion{Si}{II} velocity evolution of 264 SNe Ia observed by the Palomar
-% Transient Factory (PTF) as open circles in Figure~\ref{fig:vel_evo}, as well
-% as the median velocity evolution of SNe belonging to the four different
-% classes (Shallow Silicon, Core Normal, Broad Line, and Cool) identified in
-% \citet{Branch06}.\footnote{The velocity measurements are from
-% \citet{Blondin12}, while the method to determine the median velocity is
-% described in \citet{Miller18}.} \sn\ stands out among other SNe Ia with
-% some of the highest \ion{Si}{II} velocities that have ever been observed.
-% Within the PTF sample, only SN\,2010jn exhibits a \ion{Si}{II} absorption
-% velocity as high as \sn\ at every phase in its evolution. \todo{discuss other
-% BL with fast Si: sn1997bq , sn2002cd, sn2003W?} \fromkate{I wouldn't worry too much about the discussion of these objects since they're now old}
-
-% \citet{Benetti04} argue that \ion{S}{II} $\lambda$5640\,\AA, as a weak line,
-% is more likely to be formed close to the continuum photosphere, and therefore
-% serves as a better tracer of the photospheric velocity than \ion{Si}{II}
-% $\lambda$6355\,\AA. We measured the absorption velocity of this line using
-% the same method described above, and find that the \ion{S}{II} absorption
-% velocity is remarkably $\sim$3000\,\kms\ slower than \ion{Si}{II}
-% $\lambda$6355\,\AA\ at all epochs where both features are measurable (from
-% -12\,d to +0\,d relative to \tbmax). \todo{cut this paragraph?}
-%
-% In Figure~\ref{fig:r_evo} we show the ratio of the pEW for \ion{Si}{II}
-% $\lambda$5972\,\AA\ to \ion{Si}{II} $\lambda$6355\,\AA\ [$\equiv
-% \mathcal{R}($\ion{Si}{II}$)$; see \citealt{Hachinger08} for the updated
-% definition relative to \citealt{Nugent95}] as a function of time. As first
-% noted by \citet{Nugent95}, and later confirmed by \citet{Hachinger08},
-% $\mathcal{R}($\ion{Si}{II}$)$ is a luminosity indicator, with larger values of
-% $\mathcal{R}($\ion{Si}{II}$)$ corresponding to lower luminosities.
-
-% Shortly after explosion, \sn\ exhibits large values of
-% $\mathcal{R}($\ion{Si}{II}$)$, yet, by maximum light
-% $\mathcal{R}($\ion{Si}{II}$)$ declines to low values. Compared to the PTF
-% spectroscopic sample (\citealt{Maguire14}; open circles in
-% Figure~\ref{fig:r_evo}), \sn\ has one of the largest values of
-% $\mathcal{R}($\ion{Si}{II}$)$ after explosion before evoloving to have one of
-% the lowest values around \tbmax. Qualitatively, this behavior is similar to
-% SN\,2002bo (open diamonds in Figure~\ref{fig:r_evo}). Such evolution is
-% atypical, for reference the normal SN\,2011fe is also highlighted in
-% Figure~\ref{fig:r_evo} (open squares). At face value, the
-% $\mathcal{R}($\ion{Si}{II}$)$ evolution suggests that the effective
-% temperature of \sn\ increases significantly as it rises to maximum light. The
-% optical colors (see Figure~\ref{fig:colors}), however, are nearly constant
-% throughout this phase while the UV$ - $optical colors clearly decline during
-% the same period, suggesting a decline in the effective temperature.
-%
-% \citet{Benetti04} interpret these competing effects as the result of
-% significant \ion{Si}{II} mixing in the ejecta of SN\,2002bo. Mixing or
-% producing Si in the outermost layers of the ejecta would (i) lead to larger
-% \ion{Si}{II} velocities, (ii) produce \ion{Si}{II} line ratios that indicate
-% cool temperatures (because there is less radioactive material to heat the
-% ejecta), before eventually (iii) producing low values of
-% $\mathcal{R}($\ion{Si}{II}$)$ as the photosphere recedes through the ejecta to
-% higher temperature regions. If this interpretation is correct, this is the
-% likely explanation for the line ratio evolution seen in \sn. \todo{Does TARDIS
-% tell us anything about this? I have no idea...} \frommark{Not really. The TARDIS modelling verifies Si in the outer ejecta and low temperatures but more detailed modelling would be needed to test the evolution} \abi{Any chance this could
-% somehow be related to burning He to Si in the shell?} \fromabi{Yes. I think it's not unreasonable to postulate that since the He shell produces IMEs that its perhaps possible a lot of that can sit in Si. Especially once you invoke that my shells are maximally burned because of our nuclear network and 1D methods so we only expect to see more IMEs as we examine a more careful handling of the nucleosynthesis and look at line of sight differences. However this would require more Si in the shell ashes than I see currently in my models, but it's defineitly a way to get in in the outer layers} \fromkate{Devil's
-% advocate on this: if the idea is that the outer layers are cooler and the
-% photosphere recedes then there's no reason why we wouldn't see this effect in
-% all SNe Ia since all of their velocities decrease with time? }
-
-
-
-
 \kate{do you want to say anything about \ion{Ca}{II}?}
-
-
-% In Figure~\ref{fig:spec_comp} we compare the spectral evolution of \sn\ to
-% SN\,2002bo and SN\,2010jn (both \citet{Branch06} Broad Line SNe like \sn).
-% The evolution of \sn\ and SN\,2002bo is remarkably similar at all phases. The
-% only significant difference between the two is the absorption trough at
-% $\sim$4800\,\AA\ in pre- and maximum-light spectra. This feature, which is
-% typically attributed to a combination of \ion{Fe}{II}, \ion{Fe}{III}, and
-% \ion{Si}{II}, is extremely narrow in \sn. We believe this is due to a lack of
-% Fe absorption as the spectra at this epoch show little evidence for iron group
-% elements (IGEs). \frommark{As Kate mentioned previously, I would include discussion of TARDIS models earlier because we can also say here that there is no Fe in the outer ejecta of the model}. SN\,2010jn, which exhibits large \ion{Si}{II} velocities
-% like \sn, shows weaker IME absorption and stronger IGE absorption than \sn.
-
-
-
-% The left panel of Figure~\ref{fig:spec_comp} also shows the spectrum of
-% SN\,1986G, a \citet{Branch06} Cool SN that is sometimes referred to as
-% ``transitional'' given its intermediate properties between normal SNe\,Ia and
-% the sub-luminous SN\,1991bg-like population (e.g., \citealt{Pastorello07}).
-% The \ion{Si}{II} line ratios, and narrow $\sim$4800\,\AA\ feature in SN\,1986G
-% are similar to \sn, confirming the cool nature of the photosphere at this
-% early epoch. The $-12.0$\,d spectrum of \sn\ additionally shows a weaker blue
-% line in the \ion{S}{II} ``W'' absorption feature at $\sim$5400\,\AA, which is
-% also consistent with cool temperatures \citep{Nugent95}. \todo{86G had E(B-V)
-% ~ 0.9, correct spectra for that?} \fromkate{yes.}
-%
-% The maximum-light spectra shown in the second panel of
-% Figure~\ref{fig:spec_comp} reveal much higher temperatures for \sn, as the
-% \ion{Si}{II} $\lambda$5972\,\AA\ absorption has nearly disappeared by this
-% epoch. The appearance of \sn, SN\,2002bo, and SN\,2010jn (iPTF\,10ygu) are all
-% similar at this epoch, with the exception of the 4800\,\AA\ feature mentioned
-% above. We also show a maximum light spectrum of the \citet{Branch06} Cool,
-% transitional SN\,2004eo \citep{Pastorello07}. SN\,2004eo has a similar
-% appearance to \sn, though the lower velocities and cooler temperatures (as
-% traced by both \ion{Si}{II} $\lambda$5972\,\AA\ and \ion{S}{II}) more clearly
-% reveal the IGE absorption around 4800\,\AA. \todo{anythingto say about
-% differences at $\sim$4000\,\AA?}
-%
-% The third panel of Figure~\ref{fig:spec_comp} shows spectra obtained roughly a
-% week after maximum light. By this phase absorption due to IGE in \sn\ is
-% clear. Additional differences between \sn\ and SN\,2002bo can be seen at this
-% phase. There is stronger absorption in \sn\ blueward of \ion{Ca}{II} H\&K, and
-% the \ion{S}{II} ``W'' absorption feature is still present in \sn\ and it
-% cannot be identified in SN\,2002bo or SN\,2010jn. SN\,2004eo maintains an
-% appearance that is somewhat similar to \sn, though as before, the temperatures
-% are cooler and the velocities lower.
-%
-% Spectra obtained $\sim$6 weeks after maximum light are shown in the fourth
-% panel of Figure~\ref{fig:spec_comp}. At this phase, as the SNe are
-% transitioning into a nebular appearance, the appearance of each spectrum is
-% similar modulo some minor differences in the relative line strengths of
-% different features. \todo{add more discussion here? - I don't know a ton about
-% this phase of evolution}
-
-
 
 \section{A Physical Explanation for \sn}\label{sec:models}
 
