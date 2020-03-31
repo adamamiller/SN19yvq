@@ -291,11 +291,6 @@ Hunter, J.~D. 2007, Computing In Science \& Engineering, 9, 90,
 \bibitem[{{Itagaki}(2019)}]{Itagaki19}
 {Itagaki}, K. 2019, Transient Name Server Discovery Report, 2019-2720, 1
 
-\bibitem[{Jones {et~al.}(2001--)Jones, Oliphant, Peterson, {et~al.}}]{Jones01}
-Jones, E., Oliphant, T., Peterson, P., {et~al.} 2001--, {SciPy}: Open source
-  scientific tools for {Python}.
-\newblock \url{http://www.scipy.org/}
-
 \bibitem[{{Kasen}(2010)}]{Kasen10a}
 {Kasen}, D. 2010, \apj, 708, 1025, \dodoi{10.1088/0004-637X/708/2/1025}
 
@@ -381,13 +376,6 @@ McKinney, W. 2010, in Proceedings of the 9th Python in Science Conference, ed.
   arXiv:2001.00598.
 \newblock \doarXiv{2001.00598}
 
-\bibitem[{{Milne} {et~al.}(2010){Milne}, {Brown}, {Roming}, {Holland},
-  {Immler}, {Filippenko}, {Ganeshalingam}, {Li}, {Stritzinger}, {Phillips},
-  {Hicken}, {Kirshner}, {Challis}, {Mazzali}, {Schmidt}, {Bufano}, {Gehrels},
-  \& {Vanden Berk}}]{Milne10}
-{Milne}, P.~A., {Brown}, P.~J., {Roming}, P.~W.~A., {et~al.} 2010, \apj, 721,
-  1627, \dodoi{10.1088/0004-637X/721/2/1627}
-
 \bibitem[{{Mould} {et~al.}(2000){Mould}, {Huchra}, {Freedman}, {Kennicutt},
   {Ferrarese}, {Ford}, {Gibson}, {Graham}, {Hughes}, {Illingworth}, {Kelson},
   {Macri}, {Madore}, {Sakai}, {Sebo}, {Silbermann}, \& {Stetson}}]{Mould00}
@@ -425,6 +413,9 @@ McKinney, W. 2010, in Proceedings of the 9th Python in Science Conference, ed.
   Transient Facility Collaboration}}]{Patterson19}
 {Patterson}, M.~T., {Bellm}, E.~C., {Rusholme}, B., {et~al.} 2019, \pasp, 131,
   018001, \dodoi{10.1088/1538-3873/aae904}
+
+\bibitem[{{Phillips}(1993)}]{Phillips93}
+{Phillips}, M.~M. 1993, \apjl, 413, L105, \dodoi{10.1086/186970}
 
 \bibitem[{{Phillips} {et~al.}(1987){Phillips}, {Phillips}, {Heathcote},
   {Blanco}, {Geisler}, {Hamilton}, {Suntzeff}, {Jablonski}, {Steiner},
@@ -531,6 +522,16 @@ McKinney, W. 2010, in Proceedings of the 9th Python in Science Conference, ed.
   {Mitronova}, {Rizzi}, {Shaya}, {Sorce}, \& {Wu}}]{Tully13}
 {Tully}, R.~B., {Courtois}, H.~M., {Dolphin}, A.~E., {et~al.} 2013, \aj, 146,
   86, \dodoi{10.1088/0004-6256/146/4/86}
+
+\bibitem[{{Virtanen} {et~al.}(2020){Virtanen}, {Gommers}, {Oliphant},
+  {Haberland}, {Reddy}, {Cournapeau}, {Burovski}, {Peterson}, {Weckesser},
+  {Bright}, {van der Walt}, {Brett}, {Wilson}, {Jarrod Millman}, {Mayorov},
+  {Nelson}, {Jones}, {Kern}, {Larson}, {Carey}, {Polat}, {Feng}, {Moore}, {Vand
+  erPlas}, {Laxalde}, {Perktold}, {Cimrman}, {Henriksen}, {Quintero}, {Harris},
+  {Archibald}, {Ribeiro}, {Pedregosa}, {van Mulbregt}, \&
+  {Contributors}}]{2020SciPy-NMeth}
+{Virtanen}, P., {Gommers}, R., {Oliphant}, T.~E., {et~al.} 2020, Nature
+  Methods, 17, 261, \dodoi{https://doi.org/10.1038/s41592-019-0686-2}
 
 \bibitem[{{Woosley} \& {Weaver}(1994)}]{Woosley94}
 {Woosley}, S.~E., \& {Weaver}, T.~A. 1994, \apj, 423, 371,
