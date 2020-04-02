@@ -304,6 +304,24 @@ Hunter, J.~D. 2007, Computing In Science \& Engineering, 9, 90,
 {Kerzendorf}, W.~E., \& {Sim}, S.~A. 2014, \mnras, 440, 387,
   \dodoi{10.1093/mnras/stu055}
 
+\bibitem[{{Kromer} {et~al.}(2013{\natexlab{a}}){Kromer}, {Pakmor},
+  {Taubenberger}, {Pignata}, {Fink}, {R{\"o}pke}, {Seitenzahl}, {Sim}, \&
+  {Hillebrandt}}]{Kromer13a}
+{Kromer}, M., {Pakmor}, R., {Taubenberger}, S., {et~al.} 2013{\natexlab{a}},
+  \apjl, 778, L18, \dodoi{10.1088/2041-8205/778/1/L18}
+
+\bibitem[{{Kromer} {et~al.}(2013{\natexlab{b}}){Kromer}, {Fink}, {Stanishev},
+  {Taubenberger}, {Ciaraldi-Schoolman}, {Pakmor}, {R{\"o}pke}, {Ruiter},
+  {Seitenzahl}, {Sim}, {Blanc}, {Elias-Rosa}, \& {Hillebrandt}}]{Kromer13}
+{Kromer}, M., {Fink}, M., {Stanishev}, V., {et~al.} 2013{\natexlab{b}}, \mnras,
+  429, 2287, \dodoi{10.1093/mnras/sts498}
+
+\bibitem[{{Kromer} {et~al.}(2016){Kromer}, {Fremling}, {Pakmor},
+  {Taubenberger}, {Amanullah}, {Cenko}, {Fransson}, {Goobar}, {Leloudas},
+  {Taddia}, {R{\"o}pke}, {Seitenzahl}, {Sim}, \& {Sollerman}}]{Kromer16}
+{Kromer}, M., {Fremling}, C., {Pakmor}, R., {et~al.} 2016, \mnras, 459, 4428,
+  \dodoi{10.1093/mnras/stw962}
+
 \bibitem[{{Magee} {et~al.}(2020){Magee}, {Maguire}, {Kotak}, {Sim},
   {Gillanders}, {Prentice}, \& {Skillen}}]{Magee20}
 {Magee}, M.~R., {Maguire}, K., {Kotak}, R., {et~al.} 2020, \aap, 634, A37,
@@ -401,6 +419,21 @@ McKinney, W. 2010, in Proceedings of the 9th Python in Science Conference, ed.
 {Nugent}, P., {Phillips}, M., {Baron}, E., {Branch}, D., \& {Hauschildt}, P.
   1995, \apjl, 455, L147, \dodoi{10.1086/309846}
 
+\bibitem[{{Pakmor} {et~al.}(2011){Pakmor}, {Hachinger}, {R{\"o}pke}, \&
+  {Hillebrand t}}]{Pakmor11}
+{Pakmor}, R., {Hachinger}, S., {R{\"o}pke}, F.~K., \& {Hillebrand t}, W. 2011,
+  \aap, 528, A117, \dodoi{10.1051/0004-6361/201015653}
+
+\bibitem[{{Pakmor} {et~al.}(2010){Pakmor}, {Kromer}, {R{\"o}pke}, {Sim},
+  {Ruiter}, \& {Hillebrandt}}]{Pakmor10}
+{Pakmor}, R., {Kromer}, M., {R{\"o}pke}, F.~K., {et~al.} 2010, \nat, 463, 61,
+  \dodoi{10.1038/nature08642}
+
+\bibitem[{{Pakmor} {et~al.}(2012){Pakmor}, {Kromer}, {Taubenberger}, {Sim},
+  {R{\"o}pke}, \& {Hillebrandt}}]{Pakmor12}
+{Pakmor}, R., {Kromer}, M., {Taubenberger}, S., {et~al.} 2012, \apjl, 747, L10,
+  \dodoi{10.1088/2041-8205/747/1/L10}
+
 \bibitem[{{Pastorello} {et~al.}(2007){Pastorello}, {Mazzali}, {Pignata},
   {Benetti}, {Cappellaro}, {Filippenko}, {Li}, {Meikle}, {Arkharov}, {Blanc},
   {Bufano}, {Derekas}, {Dolci}, {Elias-Rosa}, {Foley}, {Ganeshalingam},
@@ -457,6 +490,10 @@ McKinney, W. 2010, in Proceedings of the 9th Python in Science Conference, ed.
 \bibitem[{{Rabinak} \& {Waxman}(2011)}]{Rabinak11}
 {Rabinak}, I., \& {Waxman}, E. 2011, \apj, 728, 63,
   \dodoi{10.1088/0004-637X/728/1/63}
+
+\bibitem[{{Raskin} \& {Kasen}(2013)}]{Raskin13}
+{Raskin}, C., \& {Kasen}, D. 2013, \apj, 772, 1,
+  \dodoi{10.1088/0004-637X/772/1/1}
 
 \bibitem[{{Roming} {et~al.}(2005){Roming}, {Kennedy}, {Mason}, {Nousek}, {Ahr},
   {Bingham}, {Broos}, {Carter}, {Hancock}, {Huckle}, {Hunsberger}, {Kawakami},

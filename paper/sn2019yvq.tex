@@ -632,13 +632,15 @@ $\sim$25,000\,\kms.
     \centering
     \includegraphics[width=\textwidth]{./figures/tardis.pdf}
     %
-    \caption{Comparison of \texttt{TARDIS} models to \sn at $-$14.9\,d (left),
-    $-12.0$\,d (middle), and $+$0.0\,d (right), relative to \tbmax. For each
-    model, we colour code a histogram showing the contribution of each element
-    to the spectroscopic features, based on the last element with which a
-    Monte Carlo packet experienced an interaction. Those packets which
+    \caption{Comparison of \texttt{TARDIS} models to \sn\ at $-$14.9\,d
+    (left), $-12.0$\,d (middle), and $+$0.0\,d (right), relative to \tbmax.
+    For each model, we colour code a histogram showing the contribution of
+    each element to the spectroscopic features, based on the last element with
+    which a Monte Carlo packet experienced an interaction. Those packets which
     underwent only electron scattering are shown in grey, while those that did
-    not interact are shown in black. }
+    not interact are shown in black. \magee{I think positive contibutions are
+    additive, while the ``reflected'' component is just the elements
+    themselves? Can you clarify this in the caption?}}
     %
     \label{fig:tardis}
 \end{figure*}
@@ -674,8 +676,6 @@ Overall, our \texttt{TARDIS} modelling demonstrates that \sn\ is consistent
 with a low (or zero) fraction of IGE in the outer ejecta. Additionally, the
 earliest phases show little change in temperature, as expected from the
 colour evolution.
-
-\frommark{Figure coming shortly}
 
 \subsection{\ion{Si}{II} Evolution}\label{sec:SiII}
 
@@ -884,8 +884,6 @@ kinetic energy to boost to these velocities.}
 
 \section{A Physical Explanation for \sn}\label{sec:models}
 
-\fromkate{I've been looking at the violent merger models of Kromer+ 2013, 2016 to explain SN 2010lp and iPTF\,14atg. They don't explain the early flash but they can explain the red colours, the lack of secondary max, the intermediate peak brightness, lack of IGE in the early spectra and the high velocity and broad Si II lines. Early UV flash could come from CSM in the surrounds of the merger. I think this model is worth mentioning.}\frommark{Also related is the DOM scenario of e.g. Levanon \& Soker 2019}
-
 The most striking feature of \sn\ is the observed UV/optical peak that occurs
 shortly after discovery (Figure~\ref{fig:p48}). Any model to explain \sn\ must
 account for this highly unusual feature. A UV decline in the early phase of a
@@ -909,7 +907,6 @@ able to explain the following characteristics of \sn:
     \item The lack of C in the early spectra (\S\ref{sec:tardis})
 \end{enumerate}
 %
-
 As noted in \S\ref{sec:phot}, the photometric evolution of \sn\ is similar to
 subluminous 91bg-like SNe, however, the spectra are missing the hallmark
 \ion{Ti}{II} absorption trough associated with 91bg-like SNe
@@ -1195,8 +1192,58 @@ UV?}
 \subsection{Violent Mergers and Circumstellar
 Interaction}\label{sec:merger_csm}
 
-\citet{Piro16} show that circumstellar material in the vicinity of a WD at the time of explosion can give rise to 
+\frommark{Also related is the DOM scenario of e.g. \citep{Levanon19}.}
 
+\citet{Piro16} show that circumstellar material in the vicinity of a WD at the
+time of explosion can give rise to an early flash or bump in the SN\,Ia light
+curve. Using a 1D toy model, with an assumed circumstellar density profile
+$\propto r^{-3}$ and grey opacities, \citet{Piro16} find that the peak of the
+early emission is roughly proportional to the extent of the circumstellar
+material, while the duration of the flash is proportional to the square root
+of the circumstellar mass. While the brightest model from \citet{Piro16} has a
+flash brightness that peaks at $M_V \approx -15$\,mag, circumstellar material
+that extends beyond $\sim$10$^{12}$\,cm could give rise to a flash that peaks
+at $M_g \lesssim 16.4$\,mag, as is observed in \sn.
+
+There are few proposed WD explosion models that produce dense circumstellar
+material in the vicinity of the WD at the time of explosion, however. A
+noteable exception is the violent merger, so called because the thermonuclear
+explosion happens while the merger is still ongoing, of two C/O WDs
+\citep{Pakmor10,Pakmor11,Pakmor12}. DD mergers should be produce a wide
+variety of circumstellar configurations depending on the initial parameters of
+the inspiralling binary, which would, in turn, produce different signals
+shortly after explosion (e.g., \citealt{Raskin13}).\footnote{Indeed, the large
+number of potential configurations makes it very difficult to rule out or
+select any specific circumstellar interaction scenario.}
+
+Given the vast parameter space populated by different circumstellar
+configurations, we are going to proceed under the (potentially poor)
+assumption that such interaction could reproduce the UV/optical flash seen in
+\sn. Following this assumption, a relevant question is -- can violent mergers
+reproduce the properties of \sn\ in the days before and weeks after \tbmax?
+
+In \citet{Kromer16}, the violent merger of two C/O WDs with masses of 0.9 and
+0.76\,$M_\odot$ was simulated to recreate the properties of iPTF\,14atg, the
+other SN\,Ia to show an early UV flash. The resulting light curves from this
+model feature several properties consistent with \sn: (i) a moderately faint
+peak in the optical ($-17.5\,\mathrm{mag} \gtrsim M_g \gtrsim -18.5$\,mag,
+depending on the viewing angle), (ii) red $g - r$ colors at peak, and (iii) a
+lack of a secondary maxmium in the $i$-band. Furthermore, the low metallicity
+model in \citet{Kromer16} ($Z = 0.1 Z_\odot$), lacks significant IGE
+absorption in the days after explosion, as is observed in \sn. A critical
+difference between \sn\ and violent merger models, is that the merger models
+tend to produce relatively low expansion velocities (e.g.,
+\citealt{Pakmor10,Kromer13a,Kromer16}). Indeed, this is one of the stark
+differences between \sn\ and iPTF\,14atg, as iPTF\,14atg had a \ion{Si}{II}
+$\lambda$6355 absorption velocity of $\sim$7,500\,\kms\ at peak, or roughly
+half that observed in \sn. Nevertheless, there are some sightlines in violent
+merger models in which \ion{Si}{II} is accelerated to speeds $> 20$,000\,\kms\
+(e.g., \citealt{Kromer13}), and so it may be possible for such explosions to
+reproduce the velocity structure seen in \sn. It is clear that additional
+modelling, capable of tracking both the unbound material following the DD
+merger and the thermonuclear explosion, is needed to better understand whether
+or not a violent merger is responsible for \sn. \todo{update this section
+after getting models from M.~Kromer}
 
 \section{Rate of Thick He Shell Double Detonation Events}\label{sec:rates}
 
