@@ -636,11 +636,13 @@ $\sim$25,000\,\kms.
     (left), $-12.0$\,d (middle), and $+$0.0\,d (right), relative to \tbmax.
     For each model, we colour code a histogram showing the contribution of
     each element to the spectroscopic features, based on the last element with
-    which a Monte Carlo packet experienced an interaction. Those packets which
-    underwent only electron scattering are shown in grey, while those that did
-    not interact are shown in black. \magee{I think positive contibutions are
-    additive, while the ``reflected'' component is just the elements
-    themselves? Can you clarify this in the caption?}}
+    which a Monte Carlo packet experienced an interaction. Packets may be
+    absorbed and re-emitted at different wavelengths, with the exception of
+    those packets that only experience electron scattering. During electron
+    scattering, only the direction of propagation is changed. These packets
+    are shown in grey. Packets that did not interact during the simulation are
+    shown in black. Contributions above/below zero demonstrate the sum of
+    packet luminosities after/before their last interaction.}
     %
     \label{fig:tardis}
 \end{figure*}
@@ -655,11 +657,13 @@ spectroscopically similar SN\,2002bo \citep{Stehle05} at the same epoch, see
 below, we find \sn\ has a lower photospheric temperature ($\sim$8,000\,K,
 compared to $\sim$9,500\,K for SN\,2002bo).
 
-\magee{Can you confirm the following details about Carbon?} While the early
-spectra of \sn\ are dominated by IMEs, we do not find evidence for
-\ion{C}{II} absorption. This finding is supported by the fact that the
-\texttt{TARDIS} models do not improve when C is added to the ejecta
-composition.
+\magee{Can you confirm the following details about Carbon?} \frommark{I've
+updated this a bit. The following is true of at least the first spectrum, will
+check the second} While the early spectra of \sn\ are dominated by IMEs, we do
+not find evidence for \ion{C}{II} absorption. Even increasing the carbon
+abundance to relatively large amounts (50\%), we do not find strong
+\ion{C}{II} features produced. Therefore we are unable to place meaningful
+constraints on the carbon abundance in the very outermost ejecta.
 
 Given that our maximum light spectrum occurs 12 days after our previous model
 spectrum, we assume a composition for the inner ejecta
@@ -1203,7 +1207,7 @@ material, while the duration of the flash is proportional to the square root
 of the circumstellar mass. While the brightest model from \citet{Piro16} has a
 flash brightness that peaks at $M_V \approx -15$\,mag, circumstellar material
 that extends beyond $\sim$10$^{12}$\,cm could give rise to a flash that peaks
-at $M_g \lesssim 16.4$\,mag, as is observed in \sn.
+at $M_g \lesssim -16.4$\,mag, as is observed in \sn.
 
 There are few proposed WD explosion models that produce dense circumstellar
 material in the vicinity of the WD at the time of explosion, however. A
