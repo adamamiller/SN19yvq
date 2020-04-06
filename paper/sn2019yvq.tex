@@ -492,23 +492,49 @@ $\sim$4$\times 10^{42}$\,erg.
 \subsection{Maximum Light and Decline}\label{sec:max_decline}
 
 While the rise time and power-law indicies of \sn\ are similar to other normal
-SNe Ia, the full photometric evolution does not resemble a normal SN\,Ia. \sn\
-is somewhat underluminous ($M_{g,\mathrm{max}} \approx -18.5$\,mag), declines
-rapidly ($\Delta m_{15}(g) = 1.30\pm^{0.01}_{0.02}$\,mag, uncertainties
-represent the 68\% credible region), and does not exhibit a ``shoulder'' in
-the \rztf\ or a secondary maximum in the \iztf\ light curves post-maximum
-\fromkate{A plot of the light curves comparing to the Yao sample would be good
-to compare brightness, secondary max and deltam15}. For context, of the 127
-SNe\,Ia observed by ZTF and studied in \citet{Yao19}, only 1, ZTF18abclfee
-(SN\,2018crl), a SN\,2002cx-like event, had a faster decline than \sn. The
-underluminous, fast-declining evolution of \sn\ is broadly consistent with the
-SN\,1991bg-like subclass of SNe Ia (e.g., \citealt{Taubenberger17}),
-% and, according to the new photometric classification scheme presented in \citet{Ashall20}, \sn\ is consistent with  91bg-like SNe.
-however, we show that \sn\ is spectroscopically distinct relative to 91bg-like
-SNe (\S\ref{sec:spec}). We also find that standard SN Ia fitting techniques,
+SNe Ia, the full photometric evolution does not resemble a normal SN\,Ia. The
+photometric evolution of \sn\ is highlighted in Figure~\ref{fig:lc_comp},
+where \sn\ is compared to 121 normal SNe\,Ia from \citet{Yao19}.\footnote{For
+the purposes of this comparison we consider SN\,1991T-like, SN\,1999a-like,
+and SN\,1986G-like events to all be normal SNe\,Ia.} \sn\ is somewhat
+underluminous ($M_{g,\mathrm{max}} \approx -18.5$\,mag), declines rapidly
+($\Delta m_{15}(g) = 1.30\pm^{0.01}_{0.02}$\,mag, uncertainties represent the
+68\% credible region), and does not exhibit a ``shoulder'' in the \rztf\ or a
+strong secondary maximum in the \iztf\ light curves post-maximum. The slightly
+underluminous and moderately fast decline of \sn\ are very similar to the
+SN\,1986G-like SNe\,Ia, which represent a transitional group between normal
+SNe\,Ia and the underluminous SN\,1991bg-like class (e.g.,
+\citealt{Taubenberger17} and references therein). While the photometric
+evolution of \sn\ is similar to 86G-like SNe, we show that \sn\ is
+spectroscopically distinct from these transitiional SNe
+(\S\ref{sec:spec_comp}).
+
+\begin{figure}
+    \centering
+    \includegraphics[width=3.35in]{./figures/abs_mag_host_ebv_kcorr.pdf}
+    %
+    \caption{Photometric evolution of \sn\ compared to 121 normal SNe\,Ia
+    observed by ZTF \citep{Yao19} in the \gztf\ (\textit{top}) and \rztf\
+    (\textit{bottom}) filters. The normal SNe are shown as open grey circles,
+    while the symbols for \sn\ are the same as Figure~\ref{fig:p48}. Relative
+    to normal SNe\,Ia, \sn\ is fainter, declines faster in \gztf, and lacks
+    the ``shoulder'' typically seen in the \rztf\ filter. Normal SNe light
+    curves have been corrected for host-galaxy reddening and $K$-corrections
+    have been applied, with both determined via \texttt{SNOOPY} (see
+    \citealt{Bulla20} for details of our implementation). $K$-corrections have
+    not been applied to the light curve of \sn.}
+    %
+    \label{fig:lc_comp}
+\end{figure}
+
+% For context, of the 127 SNe\,Ia observed by ZTF and studied in \citet{Yao19}, only 1, ZTF18abclfee (SN\,2018crl), a SN\,2002cx-like event, had a faster decline than \sn. and, according to the new photometric classification scheme presented in \citet{Ashall20}, \sn\ is consistent with  91bg-like SNe.
+
+We also find that standard SN Ia fitting techniques,
 including \texttt{SALT2} \citep{Guy07} and \texttt{SNooPY} \citep{Burns11}, do
 not provide good matches to the evolution of \sn. \fromkate{Explain briefly
 why they don't work.}
+
+
 
 \subsection{Color Evolution}
 
