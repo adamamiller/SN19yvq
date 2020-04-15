@@ -98,6 +98,11 @@
 {Benetti}, S., {Meikle}, P., {Stehle}, M., {et~al.} 2004, \mnras, 348, 261,
   \dodoi{10.1111/j.1365-2966.2004.07357.x}
 
+\bibitem[{{Blackburn}(1995)}]{Blackburn95}
+{Blackburn}, J.~K. 1995, Astronomical Society of the Pacific Conference Series,
+  Vol.~77, {FTOOLS: A FITS Data Processing and Analysis Software Package}, ed.
+  R.~A. {Shaw}, H.~E. {Payne}, \& J.~J.~E. {Hayes}, 367
+
 \bibitem[{{Blondin} {et~al.}(2012){Blondin}, {Matheson}, {Kirshner}, {Mandel},
   {Berlind}, {Calkins}, {Challis}, {Garnavich}, {Jha}, {Modjaz}, {Riess}, \&
   {Schmidt}}]{Blondin12}
@@ -216,6 +221,19 @@
   {Bilinski}}]{Dimitriadis19}
 {Dimitriadis}, G., {Foley}, R.~J., {Rest}, A., {et~al.} 2019, \apjl, 870, L1,
   \dodoi{10.3847/2041-8213/aaedb0}
+
+\bibitem[{{Evans} {et~al.}(2007){Evans}, {Beardmore}, {Page}, {Tyler},
+  {Osborne}, {Goad}, {O'Brien}, {Vetere}, {Racusin}, {Morris}, {Burrows},
+  {Capalbi}, {Perri}, {Gehrels}, \& {Romano}}]{Evans07}
+{Evans}, P.~A., {Beardmore}, A.~P., {Page}, K.~L., {et~al.} 2007, \aap, 469,
+  379, \dodoi{10.1051/0004-6361:20077530}
+
+\bibitem[{{Evans} {et~al.}(2009){Evans}, {Beardmore}, {Page}, {Osborne},
+  {O'Brien}, {Willingale}, {Starling}, {Burrows}, {Godet}, {Vetere}, {Racusin},
+  {Goad}, {Wiersema}, {Angelini}, {Capalbi}, {Chincarini}, {Gehrels}, {Kennea},
+  {Margutti}, {Morris}, {Mountford}, {Pagani}, {Perri}, {Romano}, \&
+  {Tanvir}}]{Evans09}
+---. 2009, \mnras, 397, 1177, \dodoi{10.1111/j.1365-2966.2009.14913.x}
 
 \bibitem[{{Filippenko} {et~al.}(1992){Filippenko}, {Richmond}, {Branch},
   {Gaskell}, {Herbst}, {Ford}, {Treffers}, {Matheson}, {Ho}, {Dey}, {Sargent},
