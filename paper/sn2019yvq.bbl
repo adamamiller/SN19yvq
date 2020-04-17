@@ -250,6 +250,10 @@
 {Fink}, M., {R{\"o}pke}, F.~K., {Hillebrandt}, W., {et~al.} 2010, \aap, 514,
   A53, \dodoi{10.1051/0004-6361/200913892}
 
+\bibitem[{Foreman-Mackey(2016)}]{Foreman-Mackey16}
+Foreman-Mackey, D. 2016, The Journal of Open Source Software, 24,
+  \dodoi{10.21105/joss.00024}
+
 \bibitem[{{Foreman-Mackey} {et~al.}(2013){Foreman-Mackey}, {Hogg}, {Lang}, \&
   {Goodman}}]{Foreman-Mackey13}
 {Foreman-Mackey}, D., {Hogg}, D.~W., {Lang}, D., \& {Goodman}, J. 2013, \pasp,
@@ -319,17 +323,10 @@ Hunter, J.~D. 2007, Computing In Science \& Engineering, 9, 90,
 {Kerzendorf}, W.~E., \& {Sim}, S.~A. 2014, \mnras, 440, 387,
   \dodoi{10.1093/mnras/stu055}
 
-\bibitem[{{Kromer} {et~al.}(2013{\natexlab{a}}){Kromer}, {Pakmor},
-  {Taubenberger}, {Pignata}, {Fink}, {R{\"o}pke}, {Seitenzahl}, {Sim}, \&
-  {Hillebrandt}}]{Kromer13a}
-{Kromer}, M., {Pakmor}, R., {Taubenberger}, S., {et~al.} 2013{\natexlab{a}},
-  \apjl, 778, L18, \dodoi{10.1088/2041-8205/778/1/L18}
-
-\bibitem[{{Kromer} {et~al.}(2013{\natexlab{b}}){Kromer}, {Fink}, {Stanishev},
-  {Taubenberger}, {Ciaraldi-Schoolman}, {Pakmor}, {R{\"o}pke}, {Ruiter},
-  {Seitenzahl}, {Sim}, {Blanc}, {Elias-Rosa}, \& {Hillebrandt}}]{Kromer13}
-{Kromer}, M., {Fink}, M., {Stanishev}, V., {et~al.} 2013{\natexlab{b}}, \mnras,
-  429, 2287, \dodoi{10.1093/mnras/sts498}
+\bibitem[{{Kromer} {et~al.}(2013){Kromer}, {Pakmor}, {Taubenberger}, {Pignata},
+  {Fink}, {R{\"o}pke}, {Seitenzahl}, {Sim}, \& {Hillebrandt}}]{Kromer13a}
+{Kromer}, M., {Pakmor}, R., {Taubenberger}, S., {et~al.} 2013, \apjl, 778, L18,
+  \dodoi{10.1088/2041-8205/778/1/L18}
 
 \bibitem[{{Kromer} {et~al.}(2016){Kromer}, {Fremling}, {Pakmor},
   {Taubenberger}, {Amanullah}, {Cenko}, {Fransson}, {Goobar}, {Leloudas},
