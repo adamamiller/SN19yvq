@@ -519,6 +519,9 @@ McKinney, W. 2010, in Proceedings of the 9th Python in Science Conference, ed.
 {Roming}, P.~W.~A., {Kennedy}, T.~E., {Mason}, K.~O., {et~al.} 2005, Space
   Science Reviews, 120, 95, \dodoi{10.1007/s11214-005-5095-4}
 
+\bibitem[{{Savitzky} \& {Golay}(1964)}]{Savitzky64}
+{Savitzky}, A., \& {Golay}, M.~J.~E. 1964, Analytical Chemistry, 36, 1627
+
 \bibitem[{{Schlafly} \& {Finkbeiner}(2011)}]{Schlafly11}
 {Schlafly}, E.~F., \& {Finkbeiner}, D.~P. 2011, \apj, 737, 103,
   \dodoi{10.1088/0004-637X/737/2/103}
