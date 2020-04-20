@@ -300,7 +300,7 @@ and 10\,keV in the photon counting mode. We analysed the data with the
 online-service of the UK \textit{Swift}
 team\footnote{\href{https://www.swift.ac.uk/user_objects/}{\url{https://www.swift.ac.uk/user_objects/}}} that uses the methods described in \citet{Evans07}
 and \citet{Evans09} and the software package \texttt{HEASOFT}\footnote{
-\href{https://heasarc.gsfc.nasa.gov/docs/software/heasoft/}{\url{https://heasarc.gsfc.nasa.gov/docs/software/heasoft/}}} version 6.26.1 \citep{Blackburn95}.
+\href{https://heasarc.gsfc.nasa.gov/docs/software/heasoft/}{\url{https://heasarc.gsfc.nasa.gov/docs/software/heasoft/}}} version 6.26.1 \citep{Heasarc}.
 
 \input{./tables/XRT.tex}
 
@@ -546,7 +546,7 @@ spectroscopically distinct from these transitiional SNe
     to normal SNe\,Ia, \sn\ is fainter, declines faster in \gztf, and lacks
     the ``shoulder'' typically seen in the \rztf\ filter. Normal SNe light
     curves have been corrected for host-galaxy reddening and $K$-corrections
-    have been applied, with both determined via \texttt{SNOOPY} (see
+    have been applied, with both determined via \texttt{SNooPY} (see
     \citealt{Bulla20} for details of our implementation). $K$-corrections have
     not been applied to the light curve of \sn.}
     %
@@ -714,14 +714,13 @@ spectroscopically similar SN\,2002bo \citep{Stehle05} at the same epoch, see
 below, we find \sn\ has a lower photospheric temperature ($\sim$8,000\,K,
 compared to $\sim$9,500\,K for SN\,2002bo).
 
-\magee{Can you confirm the following details about Carbon?} \frommark{I've
-updated this a bit.} While the early spectra of \sn\ are dominated by IMEs, we
-do not find evidence for \ion{C}{II} absorption. Even increasing the carbon
-abundance to relatively large amounts (50\%), we do not find strong
-\ion{C}{II} features produced in our earliest spectra. The presence of notable
-\ion{C}{II} features is likely affected by the extremely high velocities of
-\sn, causing blends with \ion{Si}{ii}. Therefore we are unable to place
-meaningful constraints on the carbon abundance in the very outermost ejecta.
+While the early spectra of \sn\ are dominated by IMEs, we do not find evidence
+for \ion{C}{II} absorption. Even increasing the carbon abundance to relatively
+large amounts (50\%), we do not find strong \ion{C}{II} features produced in
+our earliest spectra. The presence of notable \ion{C}{II} features is likely
+affected by the extremely high velocities of \sn, causing blends with
+\ion{Si}{ii}. Therefore we are unable to place meaningful constraints on the
+carbon abundance in the very outermost ejecta.
 
 Given that our maximum light spectrum occurs 12 days after our previous model
 spectrum, we assume a composition for the inner ejecta
@@ -752,17 +751,16 @@ updated definition relative to \citet{Nugent95}.
     \centering
     \includegraphics[width=3.35in]{./figures/vel_evolution.pdf}
     %
-    \caption{Velocity evolution of \ion{Si}{II} $\lambda$6355\,\AA\
-    absorption in \sn\ (large, filled circles). For comparison we also show
-    the measurements for 264 SNe Ia observed by the Palomar Transient
-    Factory (PTF) as open circles, with SN\,2010jn (PTF\,10ygu), the SN with
-    the fastest moving ejecta in the PTF sample, highlighted via orange
-    crosses. We additionally show the velocity evolution of SN\,2002bo, a SN
-    that is very similar to \sn, as open diamonds. The median velocity
-    evolution of each of the spectroscopic classes defined by
-    \citet{Branch06} (Shallow Silicon, Core Normal, Broad Line, and Cool)
-    are shown via solid lines. It is clear that \sn\ has exceptionally fast
-    moving ejecta relative to typical SNe Ia.}
+    \caption{Velocity evolution of \ion{Si}{II} $\lambda$6355 absorption in
+    \sn\ (large, filled circles). For comparison we also show the measurements
+    for 264 SNe Ia observed by the Palomar Transient Factory (PTF) as open
+    circles, with SN\,2010jn (PTF\,10ygu), the SN with the fastest moving
+    ejecta in the PTF sample, highlighted via orange crosses. We additionally
+    show the velocity evolution of SN\,2002bo, a SN that is very similar to
+    \sn, as open diamonds. The median velocity evolution of each of the
+    spectroscopic classes defined by \citet{Branch06} (Shallow Silicon, Core
+    Normal, Broad Line, and Cool) are shown via solid lines. It is clear that
+    \sn\ has exceptionally fast moving ejecta relative to typical SNe Ia.}
     %
     \label{fig:vel_evo}
 \end{figure}
@@ -803,14 +801,15 @@ different to that of SN\,2011fe and the majority of the PTF SN\,Ia sample.
     \includegraphics[width=3.35in]{./figures/R_evolution.pdf}
     %
     \caption{Evolution of the ratio of the pEW of \ion{Si}{II}
-    $\lambda$5972\,\AA\ to \ion{Si}{II} $\lambda$6355\,\AA,
-    $\mathcal{R}($\ion{Si}{II}$)$ in \sn\ (large, filled circles). For
-    comparison we also show the measurements for 264 SNe Ia observed by the
-    Palomar Transient Factory (PTF) as open circles. The
+    $\lambda$5972 to \ion{Si}{II} $\lambda$6355,
+    $\mathcal{R}($\ion{Si}{II}$)$, in \sn\ (large, filled circles). The
     $\mathcal{R}($\ion{Si}{II}$)$ evolution of SN\,2002bo and SN\,2011fe are
-    highlighted as open diamonds and open squares, respectively. \sn\ and
-    SN\,2002bo exhibit an unusual inversion in $\mathcal{R}($\ion{Si}{II}$)$
-    as they evolve toward maximum light.}
+    highlighted as open diamonds and open squares, respectively. For
+    comparison we also show the $\mathcal{R}($\ion{Si}{II}$)$ for 5 PTF
+    SNe\,Ia (10mwb, 10qjq, 10tce, 10wof, 11hub) with $> 3$ measures over a
+    duration $> 8$\,d as connected, open circles (data from
+    \citealt{Maguire14}). \sn\ and SN\,2002bo exhibit an unusual inversion in
+    $\mathcal{R}($\ion{Si}{II}$)$ as they evolve toward maximum light.}
     %
     \label{fig:r_evo}
 \end{figure}
@@ -1158,17 +1157,18 @@ light curve \citep{Hosseinzadeh17}.
 For \sn\ we follow the procedure in Magee \& Maguire (2020) to model the early
 flash and rise of the SN. Briefly, we exclude the first two epochs of optical
 detections in ZTF, and identify the best-fit model to the later evolution of
-the SN from the grid of models created in \citet{Magee20}, see
-Figure~\ref{fig:Ni_mixing}. Following the generation of this ``baseline''
-model, we add clumps of \radni\ to the outer layers of the SN ejecta, and
-perform full radiative transfer calculations using TURTLS \citep{Magee18}. We
-find that a model with a 0.02~$M_{\rm{\odot}}$ clump of \radni\ best matches
-the light curve shape of \sn, as shown in Figure~\ref{fig:Ni_bullet}. While a
-clump of \radni\ can broadly replicate the observed flash in the optical, like
-Magee \& Maguire (2020), we find that the extended clump of \radni\
-dramatically alters the appearance of the SN at maximum light in a way that is
-incompatible with observed spectra. We therefore conclude that Ni clumps
-cannot explain the early flash seen in \sn.
+the SN from the grid of models created in \citet{Magee20}. Following the
+generation of this ``baseline'' model, we add clumps of \radni\ to the outer
+layers of the SN ejecta, and perform full radiative transfer calculations
+using \texttt{TURTLS} \citep{Magee18}. We find that a model with a
+0.02~$M_{\rm{\odot}}$ clump of \radni\ adequately matches the early optical
+evolution of \sn. As found in Magee \& Maguire (2020), however, such models
+face a significant challenge in that the extended clump of \radni\
+dramatically alters the appearance of the SN at maximum light.
+Figure~\ref{fig:Ni_bullet} shows a comparison of the observed spectra with our
+calculated models. The Ni clump models feature strong blanketing in the
+blue-optical, which is simply not present in the observed spectra of \sn. We
+therefore conclude that Ni clumps cannot explain the early flash seen in \sn.
 
 \subsection{Double Detonation Models}
 
@@ -1281,8 +1281,6 @@ easily boost the model flux in the UV.
 \subsection{Violent Mergers and Circumstellar
 Interaction}\label{sec:merger_csm}
 
-\frommark{Also related is the DOM scenario of e.g. \citep{Levanon19}.}
-
 \citet{Piro16} show that circumstellar material in the vicinity of a WD at the
 time of explosion can give rise to an early flash or bump in the SN\,Ia light
 curve. Using a 1D toy model, with an assumed circumstellar density profile
@@ -1321,27 +1319,28 @@ model from \citet{Kromer16}, which was tuned for iPTF\,14atg, \textit{and not
     \centering
     \includegraphics[width=\textwidth]{./figures/violent_merger.pdf}
     %
-    \caption{Comparison of \sn\ to the low metallicity ($Z = 0.1 Z_\odot$)
+    \caption{Comparison of \sn\ to the low metallicity ($Z = 0.01 Z_\odot$)
     violent merger model of a 0.9\,$M_\odot$ WD and 0.76\,$M_\odot$ WD from
     \citet{Kromer16}. For the comparison we have adopted a model explosion
-    time $t_\mathrm{exp} = t_\mathrm{fl} - 3.44$\,d \todo{time needs to be
-    confirmed}. \textit{Left}: Photometric comparison between \sn\ and the
-    model. Symbols are the same as Figure~\ref{fig:p48}. This particular
-    violent merger model under-predicts the flux in the \gztf\ and \rztf\
-    filters. The qualitative behavior, however, including red \gztf$ - $\rztf\
-    colors at peak and a lack of secondary maximum in the \iztf-band.
-    \textit{Right}: Spectroscopic comparison between \sn\ and the violent
-    merger model. Observed spectra of \sn\ are shown in blue, with phases
-    marked relative to \tbmax, whereas the model spectra are shown as thin
-    grey lines. The thick black line highlights a specific viewing angle. The
-    modelled spectra have been smoothed with a Savitzky-Golay filter
-    \citep{Savitzky64}. The photospheric velocity in the violent merger model
-    is lower than what is observed in \sn, while the strength of the the IME
-    absorption is weaker in the models than what is observed.}
+    time $t_\mathrm{exp} = t_\mathrm{fl} - 1.92$\,d. Thin lines represent one
+    of 25 sightlines, while the bold lines represent a single sightline for
+    illustrative purposes. \textit{Left}: Photometric comparison between \sn\
+    and the model. Symbols are the same as Figure~\ref{fig:p48}. This
+    particular violent merger model under-predicts the optical flux,
+    especially in the \gztf\ and \rztf\ filters. The qualitative behavior,
+    however, including red \gztf$ - $\rztf\ colors at peak and a lack of
+    secondary maximum in the \iztf-band do match \sn. \textit{Right}:
+    Spectroscopic comparison between \sn\ and the violent merger model.
+    Observed spectra of \sn\ are shown in blue, with phases marked relative to
+    \tbmax, whereas the model spectra are shown as thin grey lines. The thick
+    black line highlights a specific viewing angle. The modelled spectra have
+    been smoothed with a Savitzky-Golay filter \citep{Savitzky64}. The
+    photospheric velocity in the violent merger model features lower
+    velocities than \sn, while the strength of the the IME absorption is
+    weaker in the models than what is observed.}
     %
     \label{fig:violent_merger}
 \end{figure*}
-
 
 The photometric evolution of this violent merger model qualitatively matches
 \sn: (i) a moderately faint peak in the optical ($-17.6\,\mathrm{mag} \gtrsim
@@ -1409,7 +1408,10 @@ Centre at the University of Leicester.
           \texttt{emcee} \citep{Foreman-Mackey13},
           \texttt{corner} \citep{Foreman-Mackey16},
           \texttt{SALT2} \citep{Guy07},
-          \texttt{sncosmo} \citep{Barbary16}
+          \texttt{sncosmo} \citep{Barbary16},
+          \texttt{SNooPY} \citep{Burns11},
+          \texttt{TURTLS} \citep{Magee18},
+          \texttt{TARDIS} \citep{Kerzendorf14}
           }
 
 %% For this sample we use BibTeX plus aasjournals.bst to generate the

@@ -98,11 +98,6 @@
 {Benetti}, S., {Meikle}, P., {Stehle}, M., {et~al.} 2004, \mnras, 348, 261,
   \dodoi{10.1111/j.1365-2966.2004.07357.x}
 
-\bibitem[{{Blackburn}(1995)}]{Blackburn95}
-{Blackburn}, J.~K. 1995, Astronomical Society of the Pacific Conference Series,
-  Vol.~77, {FTOOLS: A FITS Data Processing and Analysis Software Package}, ed.
-  R.~A. {Shaw}, H.~E. {Payne}, \& J.~J.~E. {Hayes}, 367
-
 \bibitem[{{Blondin} {et~al.}(2012){Blondin}, {Matheson}, {Kirshner}, {Mandel},
   {Berlind}, {Calkins}, {Challis}, {Garnavich}, {Jha}, {Modjaz}, {Riess}, \&
   {Schmidt}}]{Blondin12}
@@ -298,6 +293,10 @@ Foreman-Mackey, D. 2016, The Journal of Open Source Software, 24,
   {Laher}, {Parrent}, {Surace}, {Yaron}, \& {Walker}}]{Hachinger13}
 {Hachinger}, S., {Mazzali}, P.~A., {Sullivan}, M., {et~al.} 2013, \mnras, 429,
   2228, \dodoi{10.1093/mnras/sts492}
+
+\bibitem[{HEASARC(2014)}]{Heasarc}
+HEASARC. 2014, HEAsoft: Unified Release of FTOOLS and XANADU, Astrophysics
+  Source Code Library, ascl
 
 \bibitem[{{Hosseinzadeh} {et~al.}(2017){Hosseinzadeh}, {Sand}, {Valenti},
   {Brown}, {Howell}, {McCully}, {Kasen}, {Arcavi}, {Azalee Bostroem},
