@@ -493,9 +493,15 @@ McKinney, W. 2010, in Proceedings of the 9th Python in Science Conference, ed.
 {Piro}, A.~L., \& {Morozova}, V.~S. 2016, \apj, 826, 96,
   \dodoi{10.3847/0004-637X/826/1/96}
 
-\bibitem[{{Polin} {et~al.}(2019){Polin}, {Nugent}, \& {Kasen}}]{Polin19}
-{Polin}, A., {Nugent}, P., \& {Kasen}, D. 2019, \apj, 873, 84,
+\bibitem[{{Polin} {et~al.}(2019{\natexlab{a}}){Polin}, {Nugent}, \&
+  {Kasen}}]{Polin19}
+{Polin}, A., {Nugent}, P., \& {Kasen}, D. 2019{\natexlab{a}}, \apj, 873, 84,
   \dodoi{10.3847/1538-4357/aafb6a}
+
+\bibitem[{{Polin} {et~al.}(2019{\natexlab{b}}){Polin}, {Nugent}, \&
+  {Kasen}}]{Polin19a}
+---. 2019{\natexlab{b}}, arXiv e-prints, arXiv:1910.12434.
+\newblock \doarXiv{1910.12434}
 
 \bibitem[{{Poznanski} {et~al.}(2012){Poznanski}, {Prochaska}, \&
   {Bloom}}]{Poznanski12}
@@ -570,6 +576,10 @@ McKinney, W. 2010, in Proceedings of the 9th Python in Science Conference, ed.
   {Contributors}}]{2020SciPy-NMeth}
 {Virtanen}, P., {Gommers}, R., {Oliphant}, T.~E., {et~al.} 2020, Nature
   Methods, 17, 261, \dodoi{https://doi.org/10.1038/s41592-019-0686-2}
+
+\bibitem[{{Wheeler} {et~al.}(1975){Wheeler}, {Lecar}, \& {McKee}}]{Wheeler75}
+{Wheeler}, J.~C., {Lecar}, M., \& {McKee}, C.~F. 1975, \apj, 200, 145,
+  \dodoi{10.1086/153771}
 
 \bibitem[{{Woosley} \& {Weaver}(1994)}]{Woosley94}
 {Woosley}, S.~E., \& {Weaver}, T.~A. 1994, \apj, 423, 371,
