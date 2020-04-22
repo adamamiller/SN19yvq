@@ -465,6 +465,16 @@ McKinney, W. 2010, in Proceedings of the 9th Python in Science Conference, ed.
 {Patterson}, M.~T., {Bellm}, E.~C., {Rusholme}, B., {et~al.} 2019, \pasp, 131,
   018001, \dodoi{10.1088/1538-3873/aae904}
 
+\bibitem[{{Pereira} {et~al.}(2013){Pereira}, {Thomas}, {Aldering}, {Antilogus},
+  {Baltay}, {Benitez-Herrera}, {Bongard}, {Buton}, {Canto}, {Cellier-Holzem},
+  {Chen}, {Childress}, {Chotard}, {Copin}, {Fakhouri}, {Fink}, {Fouchez},
+  {Gangler}, {Guy}, {Hillebrandt}, {Hsiao}, {Kerschhaggl}, {Kowalski},
+  {Kromer}, {Nordin}, {Nugent}, {Paech}, {Pain}, {P{\'e}contal}, {Perlmutter},
+  {Rabinowitz}, {Rigault}, {Runge}, {Saunders}, {Smadja}, {Tao},
+  {Taubenberger}, {Tilquin}, \& {Wu}}]{Pereira13}
+{Pereira}, R., {Thomas}, R.~C., {Aldering}, G., {et~al.} 2013, \aap, 554, A27,
+  \dodoi{10.1051/0004-6361/201221008}
+
 \bibitem[{{Phillips}(1993)}]{Phillips93}
 {Phillips}, M.~M. 1993, \apjl, 413, L105, \dodoi{10.1086/186970}
 
@@ -515,6 +525,11 @@ McKinney, W. 2010, in Proceedings of the 9th Python in Science Conference, ed.
 \bibitem[{{Raskin} \& {Kasen}(2013)}]{Raskin13}
 {Raskin}, C., \& {Kasen}, D. 2013, \apj, 772, 1,
   \dodoi{10.1088/0004-637X/772/1/1}
+
+\bibitem[{{Riess} {et~al.}(1998){Riess}, {Nugent}, {Filippenko}, {Kirshner}, \&
+  {Perlmutter}}]{Riess98a}
+{Riess}, A.~G., {Nugent}, P., {Filippenko}, A.~V., {Kirshner}, R.~P., \&
+  {Perlmutter}, S. 1998, \apj, 504, 935, \dodoi{10.1086/306106}
 
 \bibitem[{{Roming} {et~al.}(2005){Roming}, {Kennedy}, {Mason}, {Nousek}, {Ahr},
   {Bingham}, {Broos}, {Carter}, {Hancock}, {Huckle}, {Hunsberger}, {Kawakami},
