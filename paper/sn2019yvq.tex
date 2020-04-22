@@ -366,27 +366,26 @@ center of the galaxy.
 Using the 2M++ model of \citet{Carrick15}, we estimate a peculiar velocity
 towards NGC\,4441 of $+328.6$\,\kms, which combined with the recession
 velocity in the frame of the cosmic microwave background\footnote{See
-\url{https://ned.ipac.caltech.edu/velocity_calculator}} (CMB,
-$v_\mathrm{CMB} = 2770.6$\,\kms), yields a total recession velocity $=
-3099.2 \pm 150$\,\kms. The final uncertainty in the total recession velocity
-is dominated by systematic uncertainties in the 2M++ model. We also note
-that the 2M++ estimate is consistent, to within $\sim$5\%, with the Virgo
-and Great Attractor infall models of \citet{Mould00}. Adopting $H_0 =
+\url{https://ned.ipac.caltech.edu/velocity_calculator}} (CMB, $v_\mathrm{CMB}
+= 2770.6$\,\kms), yields a total recession velocity $= 3099.2 \pm 150$\,\kms.
+The final uncertainty in the total recession velocity is dominated by
+systematic uncertainties in the 2M++ model. We also note that the 2M++
+estimate is consistent, to within $\sim$5\%, with the Virgo and Great
+Attractor infall models of \citet{Mould00}. Adopting $H_0 =
 73$\,\kms\,Mpc$^{-1}$, we estimate the distance to NGC\,4441 to be $42.5 \pm
-2.1$\,Mpc, corresponding to a distance modulus of $\mu = 33.14 \pm
-0.11$\,mag, where the uncertainty on $\mu$ is dominated by the uncertainty
-in the peculiar velocity correction. We hereafter adopt 33.14\,mag as the
-distance modulus to NGC\,4441.\footnote{\citet{Tully13} estimate a
-significantly smaller distance to NGC\,4441 ($\mu = 31.43 \pm 0.14$\,mag; $D
-= 19.0$\,Mpc) based on surface brightness fluctuation measurements from
-\citet{Tonry01}. If NGC\,4441 is at this distance, then \sn\ peaks at $M_g
-\approx -16.8$\,mag, which is significantly underluminous for a SN\,Ia.
-Given that \sn\ has a normal rise time $t_\mathrm{rise} \approx 18$\,d
-(\S\ref{sec:phot}), relatively normal spectra at peak (\S\ref{sec:spec}),
-and produced $\sim$0.4\,$M_\odot$ of \radni\ (\S\ref{sec:tardis}), it is
-highly unlikely that it is nearly a factor of 10 less luminous in the \gztf\
-filter than normal SNe\,Ia. We therefore adopt the larger kinematic distance
-to NGC\,4441.}
+2.1$\,Mpc, corresponding to a distance modulus of $\mu = 33.14 \pm 0.11$\,mag,
+where the uncertainty on $\mu$ is dominated by the uncertainty in the peculiar
+velocity correction. We hereafter adopt 33.14\,mag as the distance modulus to
+NGC\,4441.\footnote{\citet{Tully13} estimate a significantly smaller distance
+to NGC\,4441 ($\mu = 31.43 \pm 0.14$\,mag; $D = 19.0$\,Mpc) based on surface
+brightness fluctuation measurements from \citet{Tonry01}. If NGC\,4441 is at
+this distance, then \sn\ peaks at $M_g \approx -16.8$\,mag, which is
+significantly underluminous for a SN\,Ia. Given that \sn\ has a normal rise
+time $t_\mathrm{rise} \approx 18$\,d (\S\ref{sec:phot}), relatively normal
+spectra at peak (\S\ref{sec:spec}), and lacks the spectral signatures of
+intrinsically faint SNe\,Ia (\S\ref{sec:spec_comp}), it is highly unlikely
+that it is a factor of $\sim$10 less luminous in the \gztf\ filter than normal
+SNe\,Ia. We therefore adopt the larger kinematic distance to NGC\,4441.}
 % \todo{Lots of different catalogs provide
 % metallicity for SDSS galaxies, should we report on these results at all?
 % Port Z = 0.04 and Granada Z ~0.01, and do not agree, firefly ~ 0.6 0r 0.2
@@ -815,10 +814,11 @@ rapidly decrease to very low values between $\sim$10 and $\sim$5\,d before
     SN\,2011fe \citep[data from][]{Pereira13} are also highlighted as open
     diamonds and open squares, respectively. For comparison we also show the
     $\mathcal{R}($\ion{Si}{II}$)$ evolution for 5 PTF SNe\,Ia (10mwb, 10qjq,
-    10tce, 10wof, 11hub) with $> 3$ measurements over a duration $> 8$\,d as
-    connected, open circles (data from \citealt{Maguire14}). \sn\ and
-    SN\,2002bo exhibit an unusual inversion in $\mathcal{R}($\ion{Si}{II}$)$
-    as they evolve toward maximum light.}
+    10tce, 10wof, 11hub) with $> 3$ measurements over a duration $> 8$\,d
+    (data from \citealt{Maguire14}) and SN\,2017erp \citep[data
+    from][]{Brown19} as connected, open circles. \sn\ and SN\,2002bo exhibit
+    an unusual inversion in $\mathcal{R}($\ion{Si}{II}$)$ as they evolve
+    toward maximum light.}
     %
     \label{fig:r_evo}
 \end{figure}
@@ -944,13 +944,6 @@ transitioning into a nebular phase, the appearance of each spectrum is similar
 modulo some minor differences in the relative line strengths of different
 features.
 
-\frommb{I wonder if somewhere in Section 3 we should point out that
-low-luminosity and high velocities are unprecedented (see data in Figure 11 of
-Polin et al. 2019)...} \fromabi{I agree. This is unlike any of the data point
-I could get my hands on and I think this is worth stating, because it is hard
-to come up with something that has little Ni (low luminosity) but has enough
-kinetic energy to boost to these velocities.}
-
 \kate{do you want to say anything about \ion{Ca}{II}?}
 
 \section{A Physical Explanation for \sn}\label{sec:models}
@@ -965,7 +958,7 @@ SNe\,Ia are also rare, having only been seen in a few events: SN\,2017cbv
 
 \sn\ features other properties, in addition to an intial peak $\sim$17\,d
 prior to \tbmax, that separate it from normal SNe\,Ia. A good model should be
-able to explain the following characteristics of \sn:
+able to explain the properties:
 %
 \begin{enumerate}
     \item The early UV/optical ``flash'' (Figure~\ref{fig:p48}).
@@ -975,27 +968,30 @@ able to explain the following characteristics of \sn:
     \item The lack of IGE in the early spectra (\S\ref{sec:tardis}).
     \item The evolution in \RSiII\ (\S\ref{sec:SiII} and Figure~\ref{fig:r_evo}).
     \item The large photospheric velocities (Figure~\ref{fig:vel_evo}).
-    \item The lack of C in the early spectra (\S\ref{sec:tardis}) \todo{check all discussions of Carbon}
+    % \item The lack of C in the early spectra (\S\ref{sec:tardis}) \todo{check all discussions of Carbon}
 \end{enumerate}
 %
-As noted in \S\ref{sec:phot}, the photometric evolution of \sn\ is similar to
-subluminous 91bg-like SNe, however, the spectra are missing the hallmark
-\ion{Ti}{II} absorption trough associated with 91bg-like SNe
-\citep{Filippenko92}. Furthermore, around \tbmax, \RSiII\ is small in \sn,
-whereas 91bg-like SNe feature large values of \RSiII\ (e.g.,
-\citealt{Nugent95,Branch09}). Similarly, while the spectral appearance and
-evolution of \sn\ is similar to SN\,2002bo, and other
-\citeauthor{Branch06}~Broad Line SNe, the photometric properties are entirely
-different. SN\,2002bo features a relatively slow decline [$\Delta{m}_{15}(B) =
-1.13$\,mag] with a clear secondary maximum in the $I$ band \citep{Benetti04},
-which is wholey different from what is observed in \sn.
+The moderately faint peak combined with the large \ion{Si}{II} velocity is
+particularly rare (see e.g., Figure~11 in \citealt{Polin19}, where \sn\ would
+be well isolated from all the other SNe\,Ia). This suggests that \sn\ has a
+relatively high kinetic energy despite a relatively low \radni\ yield.
+
+As noted in \S\ref{sec:max_decline}, the photometric evolution of \sn\ is
+similar to intermediate 86G-like SNe, however, the spectra feature much weaker
+\ion{Si}{II} $\lambda$5972 absorption and larger expansion velocities than
+what is seen in 86G-like SNe (see Figure~\ref{fig:spec_comp}). Similarly,
+while the spectral appearance and evolution of \sn\ is similar to SN\,2002bo,
+and other \citeauthor{Branch06}~Broad Line SNe, the photometric properties are
+entirely different. SN\,2002bo features a relatively slow decline
+[$\Delta{m}_{15}(B) = 1.13$\,mag] with a clear secondary maximum in the $I$
+band \citep{Benetti04}, which stands in constrast to what is observed in \sn.
 
 If we otherwise ignore the early flash, several of the remaining features
 (2--6) in the list above can be understood if the explosion that gave rise to
 \sn\ produced a relatively small amount of \radni\ that is strongly confined
 to the inner regions of the SN ejeta. A low \radni\ yield could explain the
 underluminous light curve and red colors, while a highly stratified ejecta
-structure could explain the lack of IGE in the early spectra as the IGE would
+structure could explain the lack of IGE in the early spectra, as the IGE would
 not have been mixed to these outer layers. Furthermore, with a highly
 stratified ejecta composition, the photosphere would transition somewhat
 rapidly from \radni-poor to \radni-rich, resulting in a significant change in
@@ -1022,18 +1018,18 @@ spectroscopic analysis (see \S\ref{sec:tardis}).
 On their own, a low-\radni\ yield and highly stratified ejecta fail to explain
 the blue UV/optical flash seen in \sn. A large number of scenarios have been
 proposed to explain early ``bumps'' or ``flashes'' in SNe\,Ia light curves,
-including: interaction between the SN ejecta and WD binary
-companion \citep{Kasen10a}, interaction between the SN ejecta and
-circumstellar material (e.g., \citealt{Dessart14,Piro16}), shock cooling
-following the shock breakout from the surface of the WD (e.g.,
-\citealt{Piro10,Rabinak11}), double detonation explosions (e.g.,
-\citealt{Noebauer17,Polin19}), and extended clumps of \radni\ in the SN ejecta
-(e.g., \citealt{Shappee19,Dimitriadis19}). We discuss these models and their
-ability to replicate observations of \sn\ below.\footnote{We do not discuss
-shock breakout models as our initial detection of \sn\ occurred at $M_g
-\approx -16.3$\,mag. A progenitor radius of $\sim$10$\,R_\odot$ is needed to
-explain such a high luminosity \citep{Piro10,Rabinak11}, which we consider
-implausible for a WD.}
+including: interaction between the SN ejecta and the WD binary companion
+\citep{Kasen10a}, interaction between the SN ejecta and circumstellar material
+(e.g., \citealt{Dessart14,Piro16,Levanon17}), shock cooling following the
+shock breakout from the surface of the WD (e.g., \citealt{Piro10,Rabinak11}),
+double detonation explosions (e.g., \citealt{Noebauer17,Polin19}), and
+extended clumps of \radni\ in the SN ejecta (e.g.,
+\citealt{Shappee19,Dimitriadis19}). We discuss these models and their ability
+to replicate observations of \sn\ below.\footnote{We do not discuss shock
+breakout models as our initial detection of \sn\ occurred at $M_g \approx
+-16.3$\,mag. A progenitor radius of $\sim$10$\,R_\odot$ is needed to explain
+such a high luminosity \citep{Piro10,Rabinak11}, which we consider implausible
+for a WD.}
 
 \subsection{Companion Interaction}
 
@@ -1484,16 +1480,16 @@ This work made use of data supplied by the UK \textit{Swift} Science Data
 Centre at the University of Leicester.
 
 \software{\texttt{astropy} \citep{Astropy-Collaboration13}, 
-          \texttt{scipy} \citep{2020SciPy-NMeth}, 
+          \texttt{corner} \citep{Foreman-Mackey16},
+          \texttt{emcee} \citep{Foreman-Mackey13},
           \texttt{matplotlib} \citep{Hunter07}, 
           \texttt{pandas} \citep{McKinney10},
-          \texttt{emcee} \citep{Foreman-Mackey13},
-          \texttt{corner} \citep{Foreman-Mackey16},
           \texttt{SALT2} \citep{Guy07},
+          \texttt{scipy} \citep{2020SciPy-NMeth}, 
           \texttt{sncosmo} \citep{Barbary16},
           \texttt{SNooPY} \citep{Burns11},
-          \texttt{TURTLS} \citep{Magee18},
-          \texttt{TARDIS} \citep{Kerzendorf14}
+          \texttt{TARDIS} \citep{Kerzendorf14},
+          \texttt{TURTLS} \citep{Magee18}
           }
 
 %% For this sample we use BibTeX plus aasjournals.bst to generate the

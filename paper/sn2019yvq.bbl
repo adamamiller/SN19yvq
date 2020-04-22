@@ -104,10 +104,6 @@
 {Blondin}, S., {Matheson}, T., {Kirshner}, R.~P., {et~al.} 2012, \aj, 143, 126,
   \dodoi{10.1088/0004-6256/143/5/126}
 
-\bibitem[{{Branch} {et~al.}(2009){Branch}, {Chau Dang}, \& {Baron}}]{Branch09}
-{Branch}, D., {Chau Dang}, L., \& {Baron}, E. 2009, \pasp, 121, 238,
-  \dodoi{10.1086/597788}
-
 \bibitem[{{Branch} {et~al.}(2006){Branch}, {Dang}, {Hall}, {Ketchum},
   {Melakayil}, {Parrent}, {Troxel}, {Casebeer}, {Jeffery}, \&
   {Baron}}]{Branch06}
@@ -130,6 +126,13 @@
   {Stritzinger}}]{Brown17}
 {Brown}, P.~J., {Landez}, N.~J., {Milne}, P.~A., \& {Stritzinger}, M.~D. 2017,
   \apj, 836, 232, \dodoi{10.3847/1538-4357/aa5f5a}
+
+\bibitem[{{Brown} {et~al.}(2019){Brown}, {Hosseinzadeh}, {Jha}, {Sand},
+  {Vieira}, {Wang}, {Dai}, {Dettman}, {Mould}, {Uddin}, {Wang}, {Arcavi},
+  {Bento}, {Burns}, {Diamond}, {Hiramatsu}, {Howell}, {Hsiao}, {Marion},
+  {McCully}, {Milne}, {Mirzaqulov}, {Ruiter}, {Valenti}, \& {Xiang}}]{Brown19}
+{Brown}, P.~J., {Hosseinzadeh}, G., {Jha}, S.~W., {et~al.} 2019, \apj, 877,
+  152, \dodoi{10.3847/1538-4357/ab1a3f}
 
 \bibitem[{{Bulla} {et~al.}(2020){Bulla}, {Miller}, {Yao}, {Dessart}, {Dhawan},
   {Papadogiannakis}, {Biswas}, {Goobar}, {Kulkarni}, {Nordin}, {Nugent},
@@ -230,12 +233,6 @@
   {Tanvir}}]{Evans09}
 ---. 2009, \mnras, 397, 1177, \dodoi{10.1111/j.1365-2966.2009.14913.x}
 
-\bibitem[{{Filippenko} {et~al.}(1992){Filippenko}, {Richmond}, {Branch},
-  {Gaskell}, {Herbst}, {Ford}, {Treffers}, {Matheson}, {Ho}, {Dey}, {Sargent},
-  {Small}, \& {van Breugel}}]{Filippenko92}
-{Filippenko}, A.~V., {Richmond}, M.~W., {Branch}, D., {et~al.} 1992, \aj, 104,
-  1543, \dodoi{10.1086/116339}
-
 \bibitem[{{Fink} {et~al.}(2007){Fink}, {Hillebrandt}, \& {R{\"o}pke}}]{Fink07}
 {Fink}, M., {Hillebrandt}, W., \& {R{\"o}pke}, F.~K. 2007, \aap, 476, 1133,
   \dodoi{10.1051/0004-6361:20078438}
@@ -333,9 +330,12 @@ Hunter, J.~D. 2007, Computing In Science \& Engineering, 9, 90,
 {Kromer}, M., {Fremling}, C., {Pakmor}, R., {et~al.} 2016, \mnras, 459, 4428,
   \dodoi{10.1093/mnras/stw962}
 
+\bibitem[{{Levanon} \& {Soker}(2017)}]{Levanon17}
+{Levanon}, N., \& {Soker}, N. 2017, \mnras, 470, 2510,
+  \dodoi{10.1093/mnras/stx1387}
+
 \bibitem[{{Levanon} \& {Soker}(2019)}]{Levanon19}
-{Levanon}, N., \& {Soker}, N. 2019, \apjl, 872, L7,
-  \dodoi{10.3847/2041-8213/ab0285}
+---. 2019, \apjl, 872, L7, \dodoi{10.3847/2041-8213/ab0285}
 
 \bibitem[{{Magee} {et~al.}(2020){Magee}, {Maguire}, {Kotak}, {Sim},
   {Gillanders}, {Prentice}, \& {Skillen}}]{Magee20}
