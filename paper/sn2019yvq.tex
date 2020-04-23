@@ -120,7 +120,7 @@
 
 \begin{document}
 
-\title{\sn\  }
+\title{The Spectracular Ultraviolet Flash From the \\ Type Ia Supernova 2019yvq}
 
 %% LaTeX will automatically break titles if they run longer than
 %% one line. However, you may use \\ to force a line break if
@@ -198,13 +198,77 @@
 
 \section{Introduction} \label{sec:intro}
 
-\todo{write it; define and include references for ZTF}
+\todo{it is possible/likely I did not cite your favorite paper below, feel
+free to add suggestions}
+
+There is now no doubt that Type Ia supernovae (SNe\,Ia) are the result of
+thermonuclear explosions in C/O white dwarfs (WDs) in multiple star systems
+\citep[see e.g.,][and references therein]{Maoz14}. Despite this certainty, the
+nature of the binary companion, which plays an essential role in driving the
+primary WD towards explosion, remains highly uncertain.
+
+Historically, most studies have focused on whether or not the companion is
+also a WD, the double degenerate (DD) scenario \citep[e.g.,][]{Webbink84}, or
+some other non-degenerate star, the single degenerate (SD) scenairo
+\citep[e.g.,][]{Whelan73}. In addition to this fundamental question, recent
+efforts have also focused on whether or not sub-Chandrasekhar mass WDs can
+explode \citep[e.g.,][]{Fink10,Shen14,Scalzo14a,Polin19} and the specific
+scenario in which the WD explodes \citep[see][and references
+therein]{Hillebrandt13,Ropke18}.
+
+Unfortunately, maximum light observations of SNe\,Ia have not provided the
+discriminatory power necessary to answer these questions and infer the
+progenitor system.\footnote{Indeed, SNe Ia are standardizable candles
+precisely because they are so uniform at this phase.} It has recently been
+recognized that extremely early observations, in the hours to days after
+explosion, may help to constrain which progenitor scenarios are viable and
+which are not. In particular, \citet{Kasen10a} showed that for favorable
+configurations in the SD scenario, the SN ejecta will collide with the
+non-degenerate companion producing a shock that gives rise to an
+ultraviolet/optical flash in excess of the typical emission from a SN\,Ia.
+
+The findings in \citet{Kasen10a} launched a bevy of studies to search for
+such a signal \citep[e.g.,][]{Hayden10,Ganeshalingam11,Bianco11,Olling15},
+including several claims of a detection of the interaction with a
+nondegenerate companion (e.g.,
+\citealt{Cao15,Marion16,Hosseinzadeh17,Dimitriadis19}; though see also
+\citealt{Kromer16,Shappee16a,Shappee19} for alternative explanations). In the
+meantime, it has been found that an early optical bump, or flash, in the light
+curves of SNe\,Ia is not uniquely limited to the SD scenario
+\citep[e.g.,][]{Raskin13,Piro16,Levanon17,Noebauer17,Polin19,Magee20a}.
+
+Despite some observational degeneracies, early observations have and will
+continue to play a critical role in understanding the progenitors of SNe\,Ia
+\citep[e.g., early photometry of SN\,2011fe constrained the size of the
+exploding star to be $\lesssim 0.02$\,$R_\odot$, providing the most direct
+evidence to date that SNe\,Ia come from WDs;][]{Bloom12a}.
+
+Here we present X-ray, ultraviolet (UV), and optical observations of the
+spectacular \sn, only the second ever SN\,Ia, after iPTF\,14atg \citep{Cao15},
+to exhibit an early UV flash.\footnote{``Excess'' emission or early optical
+bumps have been observed and claimed in many other SNe\,Ia
+\citep[e.g.,][]{Marion16,Hosseinzadeh17,Shappee19,Dimitriadis19}. These events
+lack a distinct early decline in the UV, however, which distinguishes
+iPTF\,14atg and \sn.} \sn\ declined by $\sim$2.5\,mag in the UV in the
+$\sim$3\,d after discovery followed by a more gradual rise and fall, typical
+of SNe\,Ia, in the ensuing weeks. Our observations and analysis show that,
+even if the early flash had been observationally missed, we would conclude
+that \sn\ is unusual relative to normal SNe\,Ia. We consider several distinct
+models to explain the origin of \sn\ and find that they all have considerable
+shortcomings. Spectroscopic observations of \sn\ obtained during the nebular
+phase will narrow the range of potential explanations for this highly unsual
+explosion.
+
+Alongside this paper, we have released our open-source analysis and the data
+utilized in this study. These are available online at
+\href{https://github.com/adamamiller/SN19yvq}{\url{https://github.com/adamami
+ller/SN19yvq}}.
 
 \section{Discovery and Observations}\label{sec:obs}
 
 \sn\ was discovered by K.~Itagaki, and detected at an unfiltered magnitude
-of 16.7\,mag, in an image obtained on 2019 Dec 28.74 UT\footnote{UT times
-are used throughout this paper}. The transient candidate was announced
+of 16.7\,mag, in an image obtained on 2019 Dec 28.74 UT.\footnote{UT times
+are used throughout this paper.} The transient candidate was announced
 $\sim$2\,hr later on the Transient Name Server (TNS), and given the
 designation AT\,2019yvq \citep{Itagaki19}. Susequent spectroscopic
 observations confirmed the SN nature of the transient, with an initial
@@ -218,15 +282,16 @@ NGC\,4441, its host galaxy.
 
 \subsection{ZTF Photometric Observations}
 
-ZTF simulataneously conducts multiple time-domain surveys using the ZTF
-camera on the the Palomar Oschin Schmidt 48 inch (P48) telescope. \sn\ was
-first detected by ZTF on 2019 Dec 29.46, as part of the ZTF public survey
-(see \citealt{Bellm19a}). The automated ZTF pipeline \citep{Masci19}
-automatically detected \sn, which passed internal thresholds (e.g.,
-\citealt{Mahabal19}), leading to the production and disemination of a
-real-time alert \citep{Patterson19}. The public alert included the position,
-$\alpha = 12^{\mathrm{h}}27\arcmin21\farcs836$, $\delta =
-+64\degr47\arcmin59\farcs87$ (J2000), and brightness, \rztf$ =
+The Zwicky Transient Facility (ZTF; \citealt{Bellm19,Graham19,Dekany20})
+simulataneously conducts multiple time-domain surveys using the ZTF camera on
+the the Palomar Oschin Schmidt 48 inch (P48) telescope. \sn\ was first
+detected by ZTF on 2019 Dec 29.46, as part of the ZTF public survey (see
+\citealt{Bellm19a}). The automated ZTF pipeline \citep{Masci19} automatically
+detected \sn, which passed internal thresholds (e.g., \citealt{Mahabal19}),
+leading to the production and disemination of a real-time alert
+\citep{Patterson19} and the internal designation ZTF\,19adcecwu. The public
+alert included the position, $\alpha = 12^{\mathrm{h}}27\arcmin21\farcs836$,
+$\delta = +64\degr47\arcmin59\farcs87$ (J2000), and brightness, \rztf$ =
 17.14\pm0.05$\,mag, which, together with the \citet{Itagaki19} discovery
 report suggested the SN was fading. Continued monitoring with ZTF, and
 follow-up with other telescopes, confirmed a spectacular decline in the early
