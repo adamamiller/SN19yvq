@@ -45,6 +45,10 @@
 
 \newcommand{\sn}{SN\,2019yvq}
 
+\usepackage{lineno}
+\linenumbers
+
+
 %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -120,7 +124,7 @@
 
 \begin{document}
 
-\title{The Spectracular Ultraviolet Flash From the \\ Type Ia Supernova 2019yvq}
+\title{The Spectacular Ultraviolet Flash From the \\ Type Ia Supernova 2019yvq}
 
 %% LaTeX will automatically break titles if they run longer than
 %% one line. However, you may use \\ to force a line break if
@@ -187,7 +191,27 @@
 %% Mark off the abstract in the ``abstract'' environment. 
 \begin{abstract}
 
-\todo{Write the abstract}
+Early observations of Type Ia supernovae (SNe\,Ia) provide essential clues for
+understanding the progenitor system that gave rise to the terminal
+thermonuclear explosion. We present exquisite observations of \sn, the second
+ever SN\,Ia, after iPTF\,14atg, to display an early flash of emission in the
+ultraviolet (UV) and optical. Our analysis finds that \sn\ was unusual, even
+when ignoring the initial flash, in that it was moderately underluminous for a
+SN\,Ia ($M_g \approx -18.5$\,mag at peak) yet featured very high absorption
+velocities ($v \approx 15,000$\kms\ for \ion{Si}{II} $\lambda$6355 at peak).
+We find that many of the observational features of \sn, aside from the flash,
+can be explained if the explosive yield of radioactive \radni\ is relatively
+low and is highly stratified and constrained to the innermost layers of the
+ejecta. To explain both the UV/optical flash and peak properties of \sn\ we
+consider four different models: interaction between the SN ejecta and a
+non-degenerate companion, extended clumps of \radni\ in the outer ejecta, a
+double detonation explosion, and the violent merger of two white dwarfs. Each
+of these models has shortcomings when compared to the observations, though we
+favor either a double detonation or white dwarf merger as the most likely
+explanation for \sn, as they are more likely to match the observations with
+minor tuning. In closing, we predict that the nebular spectra of \sn\ will
+feature strong [\ion{Ca}{II}] emission, if it was a double detonation, or
+narrow [\ion{O}{I}] emission, if it was due to a violent merger.
 
 \end{abstract}
 
@@ -199,7 +223,7 @@
 \section{Introduction} \label{sec:intro}
 
 \todo{it is possible/likely I did not cite your favorite paper below, feel
-free to add suggestions}
+free to provide suggestions}
 
 There is now no doubt that Type Ia supernovae (SNe\,Ia) are the result of
 thermonuclear explosions in C/O white dwarfs (WDs) in multiple star systems
@@ -209,7 +233,7 @@ primary WD towards explosion, remains highly uncertain.
 
 Historically, most studies have focused on whether or not the companion is
 also a WD, the double degenerate (DD) scenario \citep[e.g.,][]{Webbink84}, or
-some other non-degenerate star, the single degenerate (SD) scenairo
+some other non-degenerate star, the single degenerate (SD) scenario
 \citep[e.g.,][]{Whelan73}. In addition to this fundamental question, recent
 efforts have also focused on whether or not sub-Chandrasekhar mass WDs can
 explode \citep[e.g.,][]{Fink10,Shen14,Scalzo14a,Polin19} and the specific
@@ -230,7 +254,7 @@ ultraviolet/optical flash in excess of the typical emission from a SN\,Ia.
 The findings in \citet{Kasen10a} launched a bevy of studies to search for
 such a signal \citep[e.g.,][]{Hayden10,Ganeshalingam11,Bianco11,Olling15},
 including several claims of a detection of the interaction with a
-nondegenerate companion (e.g.,
+non-degenerate companion (e.g.,
 \citealt{Cao15,Marion16,Hosseinzadeh17,Dimitriadis19}; though see also
 \citealt{Kromer16,Shappee16a,Shappee19} for alternative explanations). In the
 meantime, it has been found that an early optical bump, or flash, in the light
@@ -256,13 +280,12 @@ even if the early flash had been observationally missed, we would conclude
 that \sn\ is unusual relative to normal SNe\,Ia. We consider several distinct
 models to explain the origin of \sn\ and find that they all have considerable
 shortcomings. Spectroscopic observations of \sn\ obtained during the nebular
-phase will narrow the range of potential explanations for this highly unsual
+phase will narrow the range of potential explanations for this highly unusual
 explosion.
 
 Alongside this paper, we have released our open-source analysis and the data
 utilized in this study. These are available online at
-\href{https://github.com/adamamiller/SN19yvq}{\url{https://github.com/adamami
-ller/SN19yvq}}.
+\href{https://github.com/adamamiller/SN19yvq}{\url{https://github.com/adamamiller/SN19yvq}}.
 
 \section{Discovery and Observations}\label{sec:obs}
 
@@ -270,7 +293,7 @@ ller/SN19yvq}}.
 of 16.7\,mag, in an image obtained on 2019 Dec 28.74 UT.\footnote{UT times
 are used throughout this paper.} The transient candidate was announced
 $\sim$2\,hr later on the Transient Name Server (TNS), and given the
-designation AT\,2019yvq \citep{Itagaki19}. Susequent spectroscopic
+designation AT\,2019yvq \citep{Itagaki19}. Subsequent spectroscopic
 observations confirmed the SN nature of the transient, with an initial
 report that the event was a SN\,Ib/c, and subsequent spectra confirming the
 event as a SN\,Ia.\footnote{The initial classification is from
@@ -283,12 +306,12 @@ NGC\,4441, its host galaxy.
 \subsection{ZTF Photometric Observations}
 
 The Zwicky Transient Facility (ZTF; \citealt{Bellm19,Graham19,Dekany20})
-simulataneously conducts multiple time-domain surveys using the ZTF camera on
+simultaneously conducts multiple time-domain surveys using the ZTF camera on
 the the Palomar Oschin Schmidt 48 inch (P48) telescope. \sn\ was first
 detected by ZTF on 2019 Dec 29.46, as part of the ZTF public survey (see
 \citealt{Bellm19a}). The automated ZTF pipeline \citep{Masci19} automatically
 detected \sn, which passed internal thresholds (e.g., \citealt{Mahabal19}),
-leading to the production and disemination of a real-time alert
+leading to the production and dissemination of a real-time alert
 \citep{Patterson19} and the internal designation ZTF\,19adcecwu. The public
 alert included the position, $\alpha = 12^{\mathrm{h}}27\arcmin21\farcs836$,
 $\delta = +64\degr47\arcmin59\farcs87$ (J2000), and brightness, \rztf$ =
@@ -361,7 +384,7 @@ $2,458,863.83$ \,\pm \,0.21$\,JD.
 
 In parallel with the \textit{Swift}/UVOT observations, \textit{Swift} observed
 \sn\ with its onboard X-ray telescope \citep[XRT;][]{Burrows05} between 0.3
-and 10\,keV in the photon counting mode. We analysed the data with the
+and 10\,keV in the photon counting mode. We analyzed the data with the
 online-service of the UK \textit{Swift}
 team\footnote{\href{https://www.swift.ac.uk/user_objects/}{\url{https://www.swift.ac.uk/user_objects/}}} that uses the methods described in \citet{Evans07}
 and \citet{Evans09} and the software package \texttt{HEASOFT}\footnote{
@@ -380,7 +403,7 @@ and model the data as an absorbed power-law. In this model, the absorption
 components reflect the Galactic absorption towards \sn\ ($N_{\rm
 H,\,X}=2.28\times10^{20}\,{\rm cm}^{-2}$)) (unclear where this value comes
 from. doesn't match nH column density calculator) and the absorption in the
-host galaxy. The photon index $\Gamma$ of the powerlaw ($f \propto
+host galaxy. The photon index $\Gamma$ of the power law ($f \propto
 E^{-\Gamma}$) is $2.0^{+0.9}_{-0.5}$ and the host absorption is
 $7^{+207}_{-7}\times10^{20}\,{\rm cm}^{-2}$ (90\% confidence). The goodness of
 fit is $\chi^2=30.33$ for 31 degrees of freedom
@@ -389,7 +412,7 @@ $3.5\times10^{-11}~\mathrm{erg\,cm}^{-2}\,\mathrm{ct}^{-1}$.
 
 Given the constant X-ray emission (to within the uncertainties, see
 Table~\ref{tab:xrt}), we conclude that this emission is from a background
-souce, and not \sn. A lack of X-ray emission is consistent with SNe\,Ia (e.g.,
+source, and not \sn. A lack of X-ray emission is consistent with SNe\,Ia (e.g.,
 \citealt{Margutti12}). \todo{Note - if CSM interaction becomes the story of
 this SN, then this paragraph needs to be revisited.}
 
@@ -458,7 +481,7 @@ SNe\,Ia. We therefore adopt the larger kinematic distance to NGC\,4441.}
 % a reasonable spread in values but likely different calibrations. I don't
 % know which one is best or the references for comparing this value to. }
 
-We estimate the total redenning towards \sn\ to be small. There is relatively
+We estimate the total reddening towards \sn\ to be small. There is relatively
 little line of sight extinction due to the Milky Way, $E(B-V) \approx
 0.018$\,mag \citep{Schlafly11, Schlegel98}. Furthermore, we do not find
 significant evidence for strong extinction in NGC\,4441. Figure~\ref{fig:NaD}
@@ -487,7 +510,7 @@ also serve as proxies for extinction (e.g., \citealt{Phillips13}).
     \includegraphics[width=3.35in]{./figures/NaD.pdf}
     %
     \caption{Zoom-in on our moderate resolution ($R \approx 4000$)
-    MMT+Binospec spectrum of \sn\ highlighting absoprtion due to \ion{Na}{I}
+    MMT+Binospec spectrum of \sn\ highlighting absorption due to \ion{Na}{I}
     D in the host galaxy, NGC\,4441 (blue solid line), and the Milky Way
     (thin black line). The velocity scale is centered on the D$_1$ line in
     NGC\,4441, with the SDSS redshift shown via the vertical dashed line. No
@@ -528,7 +551,7 @@ $\alpha_g = 2.15 \pm^{0.49}_{0.36}$ and $\alpha_r = 1.91 \pm^{0.42}_{0.31}$.
 These values are typical of the normal SNe Ia studied in \citet{Miller20}. If
 we only exclude the first observation from the model fit we find significantly
 different results with a rise time that increases by $\sim$5\,d and power-law
-indicies that increase by $\gtrsim 1$. We note that such a long rise is
+indices that increase by $\gtrsim 1$. We note that such a long rise is
 unlikely, however, as our spectroscopic models (see \S\ref{sec:tardis})
 estimate the time of explosion, $t_\mathrm{exp}$, to be $\sim$17.9\,d prior to
 \tbmax, fully consistent with our estimate of \tfl.
@@ -540,7 +563,7 @@ estimate the time of explosion, $t_\mathrm{exp}$, to be $\sim$17.9\,d prior to
 
 \subsection{Luminosity of the Initial UV/optical Flash}\label{sec:luminosity}
 
-To estimate the luminosity and temperature of the intial UV/optical flash from
+To estimate the luminosity and temperature of the initial UV/optical flash from
 \sn, we model the broadband spectral energy distribution (SED) as a blackbody.
 The assumed distance and reddening towards \sn\ are taken from
 \S\ref{sec:host}. The ZTF optical and \textit{Swift} UV observations were not
@@ -548,7 +571,7 @@ simultaneous, so we therefore interpolate the optical light curves to estimate
 the flux during the same epochs as \textit{Swift} observations. While SNe\,Ia
 do not emit as pure blackbodies, this assumption is reasonable for the early
 flash from \sn, which is distinctly different from normal SNe. Furthermore,
-our intial spectrum of \sn\ shows a blue and nearly featureless continuum
+our initial spectrum of \sn\ shows a blue and nearly featureless continuum
 largely consistent with blackbody emission.
 
 Following interpolation to an epoch 1.24~rest-frame~d after \tfl\
@@ -572,7 +595,7 @@ temperature to have fallen to $L = (7.0 \pm ^{0.9}_{0.6}) \times
 respectively. For this epoch we have excluded the $uvw2$ flux from the
 blackbody model due to the significantly lower temperature, and known red leak
 for that filter (see \S\ref{sec:swift}). This measurement of $t_\mathrm{eff}$
-is consistent with spectral modelling at a similar epoch (see
+is consistent with spectral modeling at a similar epoch (see
 \S\ref{sec:tardis}). If we assume that the early flash peaked 1\,d after \tfl,
 and effectively ended 3\,d after \tfl\ (note -- both of these assumptions are
 highly uncertain), then the initial flash emitted a total integrated energy of
@@ -581,7 +604,7 @@ $\sim$4$\times 10^{42}$\,erg.
 
 \subsection{Maximum Light and Decline}\label{sec:max_decline}
 
-While the rise time and power-law indicies of \sn\ are similar to other normal
+While the rise time and power-law indices of \sn\ are similar to other normal
 SNe Ia, the full photometric evolution does not resemble a normal SN\,Ia. The
 photometric evolution of \sn\ is highlighted in Figure~\ref{fig:lc_comp},
 where \sn\ is compared to 121 normal SNe\,Ia from \citet{Yao19}.\footnote{For
@@ -596,7 +619,7 @@ SN\,1986G-like SNe\,Ia, which represent a transitional group between normal
 SNe\,Ia and the underluminous SN\,1991bg-like class (e.g.,
 \citealt{Taubenberger17} and references therein). While the photometric
 evolution of \sn\ is similar to 86G-like SNe, we show that \sn\ is
-spectroscopically distinct from these transitiional SNe
+spectroscopically distinct from these transitional SNe
 (\S\ref{sec:spec_comp}).
 
 \begin{figure}
@@ -666,7 +689,7 @@ reddest between $\sim$+10--15\,d \citet{Burns14}. \sn\ reaches a
 \end{figure}
 
 The offset in the \gztf$ - $\rztf\ color evolution of \sn\ relative to normal
-SNe\,Ia would be reduced if the reddenning towards \sn\ has been significantly
+SNe\,Ia would be reduced if the reddening towards \sn\ has been significantly
 underestimated. A color excess of $E(B-V) \approx 0.25$\,mag, rather than the
 0.05\,mag adopted in \S\ref{sec:host}, would roughly align the pre-\tbmax\
 \gztf$ - $\rztf\ color of \sn\ with the tight locus seen in
@@ -685,7 +708,7 @@ be largely unprecedented.\footnote{Only 2 normal SNe\,Ia in the \citet{Yao19}
 sample decline faster than \sn\ as measured by $\Delta m_{15}(g)$. While the
 lack of \textit{Swift} $b$-band templates prevents us from measuring $\Delta
 m_{15}(B)$, the relationship between that and $\Delta m_{15}(g)$ for normal
-ZTF SNe\,Ia suggets $\Delta m_{15}(B) \gtrsim 1.6$\,mag for \sn.} We therefore
+ZTF SNe\,Ia suggests $\Delta m_{15}(B) \gtrsim 1.6$\,mag for \sn.} We therefore
 conclude that the color excess towards \sn\ is not underestimated, and that
 the SN\,Is instead intrinsically red in the optical.
 
@@ -725,7 +748,7 @@ as well as iron-group elements (IGEs).
 \subsection{TARDIS Models}\label{sec:tardis}
 
 To determine the structure of the ejecta and relative contributions of
-different ions at early and maximum light phases, we have modelled the spectra
+different ions at early and maximum light phases, we have modeled the spectra
 at $-$14.9\,d, $-12.0$\,d, and $+$0.0\,d using the 1D Monte Carlo radiative
 transfer code \texttt{TARDIS} \citep{Kerzendorf14}. We note that
 \texttt{TARDIS} assumes a single, sharp photosphere between the optically
@@ -759,7 +782,7 @@ $\sim$25,000\,\kms.
     %
     \caption{Comparison of \texttt{TARDIS} models to \sn\ at $-$14.9\,d
     (left), $-12.0$\,d (middle), and $+$0.0\,d (right), relative to \tbmax.
-    For each model, we colour code a histogram showing the contribution of
+    For each model, we color code a histogram showing the contribution of
     each element to the spectroscopic features, based on the last element with
     which a Monte Carlo packet experienced an interaction. Packets may be
     absorbed and re-emitted at different wavelengths, with the exception of
@@ -777,7 +800,7 @@ contain IGE above $\sim$16,500\,\kms\ reproduces the majority of the
 spectroscopic features. Again, our model contains a uniform composition of O,
 Mg, Si, and S, and is shown in Fig.~\ref{fig:tardis}. At this phase the model
 suggests the photospheric temperature has not significantly changed, however
-the features have become much more prominent. Compared to modelling of the
+the features have become much more prominent. Compared to modeling of the
 spectroscopically similar SN\,2002bo \citep{Stehle05} at the same epoch, see
 below, we find \sn\ has a lower photospheric temperature ($\sim$8,000\,K,
 compared to $\sim$9,500\,K for SN\,2002bo).
@@ -794,17 +817,17 @@ Given that our maximum light spectrum occurs 12 days after our previous model
 spectrum, we assume a composition for the inner ejecta
 ($\textless$16,500\,\kms\ ) similar to that found for SN\,2002bo
 \citep{Stehle05}. A more detailed ejecta structure could be achieved through
-modelling additional pre-maximum spectra, but is beyond the scope of the work
+modeling additional pre-maximum spectra, but is beyond the scope of the work
 presented here. As shown in Fig.~\ref{fig:tardis}, our model is able to
 broadly reproduce many of the features observed. Notable exceptions include
 the features around $\sim$4200 and 4900\,\AA, which we attribute to Fe.
 Better spectroscopic agreement could potentially be achieved if \sn\ had
 a lower abundance of IGE within the inner ejecta relative to SN\,2002bo.
 
-Overall, our \texttt{TARDIS} modelling demonstrates that \sn\ is consistent
+Overall, our \texttt{TARDIS} modeling demonstrates that \sn\ is consistent
 with a low (or zero) fraction of IGE in the outer ejecta. Additionally, the
 earliest phases show little change in temperature, as expected from the
-colour evolution.
+color evolution.
 
 \subsection{\ion{Si}{II} Evolution}\label{sec:SiII}
 
@@ -850,7 +873,7 @@ $\lambda$5972 features are $183\pm1$\,\AA, and $13\pm2$\,\AA, respectively,
 unambiguously classifying \sn\ as a \citeauthor{Branch06}~Broad Line SN\,Ia.
 \sn\ stands out in Figure~\ref{fig:vel_evo} with some of the highest
 \ion{Si}{II} velocities that have ever been observed. Within the PTF sample,
-only SN\,2010jn (PTF10ygu) exhibits a \ion{Si}{II} absorption velocity as
+only SN\,2010jn (PTF\,10ygu) exhibits a \ion{Si}{II} absorption velocity as
 high as \sn\ at every phase in its evolution.
 
 As first noted by \citet{Nugent95}, and later confirmed by
@@ -894,9 +917,9 @@ increases significantly as it rises to maximum light. The optical colors (see
 Figure~\ref{fig:colors}), however, are nearly constant throughout this phase
 while the UV$ - $optical colors clearly decline during the same period,
 suggesting a decline in the effective temperature. The \texttt{TARDIS}
-modelling also does not require a significant increase in temperature towards
+modeling also does not require a significant increase in temperature towards
 maximum light from the temperature of $\sim$8,000\,K required at early times.
-This stands in contrast to SN\,200bo, which increases in temperature from
+This stands in contrast to SN\,2002bo, which increases in temperature from
 $\sim$9,500\,K at $-12.9$\,d to $\sim$14,000\,K at maximum light
 \citep{Stehle05}. This temperature is similar to \citeauthor{Branch06}~Core
 Normal SNe, such as SN\,2011fe, which typically have temperatures of
@@ -918,7 +941,7 @@ our \texttt{TARDIS} models do not show evidence for a significant increase
 in the photospheric temperature at maximum light. Our \texttt{TARDIS} models
 are, unlike SN\,2002bo, consistent with no IGEs in the outer layers of the
 \sn\ ejecta. A possible explanation for the evolution of
-$\mathcal{R}($\ion{Si}{II}$)$ in \sn\ is that as the photosphere receeds to
+$\mathcal{R}($\ion{Si}{II}$)$ in \sn\ is that as the photosphere recedes to
 regions with more \radni, increased Si ionization occurs leading to a
 relative decrease in \ion{Si}{II} $\lambda$5972 absorption despite
 relatively small changes in the photospheric temperature.
@@ -938,7 +961,7 @@ phases. The only significant difference between the two is the absorption
 trough at $\sim$4800\,\AA\ in the pre- and maximum-light spectra. This
 feature, which is typically attributed to a combination of \ion{Fe}{II},
 \ion{Fe}{III}, and \ion{Si}{II}, is extremely narrow in \sn. This is in
-agreement with the \texttt{TARDIS} modelling results where no Fe is required
+agreement with the \texttt{TARDIS} modeling results where no Fe is required
 in the outer ejecta of \sn\ to match the observed spectra at early times.
 SN\,2010jn, which exhibits large \ion{Si}{II} velocities like \sn, shows
 weaker IME absorption and stronger IGE absorption than \sn. While the
@@ -1021,7 +1044,7 @@ SN\,Ia has previously only been observed in a single event, iPTF\,14atg
 SNe\,Ia are also rare, having only been seen in a few events: SN\,2017cbv
 \citep{Hosseinzadeh17} and SN\,2018oh \citep{Shappee19,Dimitriadis19}.
 
-\sn\ features other properties, in addition to an intial peak $\sim$17\,d
+\sn\ features other properties, in addition to an initial peak $\sim$17\,d
 prior to \tbmax, that separate it from normal SNe\,Ia. A good model should be
 able to explain the properties:
 %
@@ -1049,12 +1072,12 @@ while the spectral appearance and evolution of \sn\ is similar to SN\,2002bo,
 and other \citeauthor{Branch06}~Broad Line SNe, the photometric properties are
 entirely different. SN\,2002bo features a relatively slow decline
 [$\Delta{m}_{15}(B) = 1.13$\,mag] with a clear secondary maximum in the $I$
-band \citep{Benetti04}, which stands in constrast to what is observed in \sn.
+band \citep{Benetti04}, which stands in contrast to what is observed in \sn.
 
 If we otherwise ignore the early flash, several of the remaining features
 (2--6) in the list above can be understood if the explosion that gave rise to
 \sn\ produced a relatively small amount of \radni\ that is strongly confined
-to the inner regions of the SN ejeta. A low \radni\ yield could explain the
+to the inner regions of the SN ejecta. A low \radni\ yield could explain the
 underluminous light curve and red colors, while a highly stratified ejecta
 structure could explain the lack of IGE in the early spectra, as the IGE would
 not have been mixed to these outer layers. Furthermore, with a highly
