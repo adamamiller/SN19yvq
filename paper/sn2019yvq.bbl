@@ -128,6 +128,13 @@
 {Bianco}, F.~B., {Howell}, D.~A., {Sullivan}, M., {et~al.} 2011, \apj, 741, 20,
   \dodoi{10.1088/0004-637X/741/1/20}
 
+\bibitem[{{Blagorodnova} {et~al.}(2018){Blagorodnova}, {Neill}, {Walters},
+  {Kulkarni}, {Fremling}, {Ben-Ami}, {Dekany}, {Fucik}, {Konidaris}, {Nash},
+  {Ngeow}, {Ofek}, {O{\rsquo} Sullivan}, {Quimby}, {Ritter}, \&
+  {Vyhmeister}}]{Blagorodnova18}
+{Blagorodnova}, N., {Neill}, J.~D., {Walters}, R., {et~al.} 2018, \pasp, 130,
+  035003, \dodoi{10.1088/1538-3873/aaa53f}
+
 \bibitem[{{Blondin} {et~al.}(2012){Blondin}, {Matheson}, {Kirshner}, {Mandel},
   {Berlind}, {Calkins}, {Challis}, {Garnavich}, {Jha}, {Modjaz}, {Riess}, \&
   {Schmidt}}]{Blondin12}
@@ -276,6 +283,13 @@
   {Margutti}, {Morris}, {Mountford}, {Pagani}, {Perri}, {Romano}, \&
   {Tanvir}}]{Evans09}
 ---. 2009, \mnras, 397, 1177, \dodoi{10.1111/j.1365-2966.2009.14913.x}
+
+\bibitem[{{Fabricant} {et~al.}(2019){Fabricant}, {Fata}, {Epps}, {Gauron},
+  {Mueller}, {Zajac}, {Amato}, {Barberis}, {Bergner}, {Brennan}, {Brown},
+  {Chilingarian}, {Geary}, {Kradinov}, {McLeod}, {Smith}, \&
+  {Woods}}]{Fabricant19}
+{Fabricant}, D., {Fata}, R., {Epps}, H., {et~al.} 2019, \pasp, 131, 075004,
+  \dodoi{10.1088/1538-3873/ab1d78}
 
 \bibitem[{{Fink} {et~al.}(2007){Fink}, {Hillebrandt}, \& {R{\"o}pke}}]{Fink07}
 {Fink}, M., {Hillebrandt}, W., \& {R{\"o}pke}, F.~K. 2007, \aap, 476, 1133,
@@ -527,6 +541,13 @@ McKinney, W. 2010, in Proceedings of the 9th Python in Science Conference, ed.
 {Nugent}, P., {Phillips}, M., {Baron}, E., {Branch}, D., \& {Hauschildt}, P.
   1995, \apjl, 455, L147, \dodoi{10.1086/309846}
 
+\bibitem[{{Oke} \& {Gunn}(1982)}]{Oke82}
+{Oke}, J.~B., \& {Gunn}, J.~E. 1982, \pasp, 94, 586, \dodoi{10.1086/131027}
+
+\bibitem[{{Oke} {et~al.}(1995){Oke}, {Cohen}, {Carr}, {Cromer}, {Dingizian},
+  {Harris}, {Labrecque}, {Lucinio}, {Schaal}, {Epps}, \& {Miller}}]{Oke95}
+{Oke}, J.~B., {Cohen}, J.~G., {Carr}, M., {et~al.} 1995, \pasp, 107, 375
+
 \bibitem[{{Olling} {et~al.}(2015){Olling}, {Mushotzky}, {Shaya}, {Rest},
   {Garnavich}, {Tucker}, {Kasen}, {Margheim}, \& {Filippenko}}]{Olling15}
 {Olling}, R.~P., {Mushotzky}, R., {Shaya}, E.~J., {et~al.} 2015, \nat, 521,
@@ -628,6 +649,12 @@ McKinney, W. 2010, in Proceedings of the 9th Python in Science Conference, ed.
   {Perlmutter}}]{Riess98a}
 {Riess}, A.~G., {Nugent}, P., {Filippenko}, A.~V., {Kirshner}, R.~P., \&
   {Perlmutter}, S. 1998, \apj, 504, 935, \dodoi{10.1086/306106}
+
+\bibitem[{{Rigault} {et~al.}(2019){Rigault}, {Neill}, {Blagorodnova}, {Dugas},
+  {Feeney}, {Walters}, {Brinnel}, {Copin}, {Fremling}, {Nordin}, \&
+  {Sollerman}}]{Rigault19}
+{Rigault}, M., {Neill}, J.~D., {Blagorodnova}, N., {et~al.} 2019, \aap, 627,
+  A115, \dodoi{10.1051/0004-6361/201935344}
 
 \bibitem[{{Roming} {et~al.}(2005){Roming}, {Kennedy}, {Mason}, {Nousek}, {Ahr},
   {Bingham}, {Broos}, {Carter}, {Hancock}, {Huckle}, {Hunsberger}, {Kawakami},
@@ -758,5 +785,9 @@ McKinney, W. 2010, in Proceedings of the 9th Python in Science Conference, ed.
   {Weinberg}, {Yanny}, {Yasuda}, \& {SDSS Collaboration}}]{York00}
 {York}, D.~G., {Adelman}, J., {Anderson}, Jr., J.~E., {et~al.} 2000, \aj, 120,
   1579, \dodoi{10.1086/301513}
+
+\bibitem[{{Zackay} {et~al.}(2016){Zackay}, {Ofek}, \& {Gal-Yam}}]{Zackay16}
+{Zackay}, B., {Ofek}, E.~O., \& {Gal-Yam}, A. 2016, \apj, 830, 27,
+  \dodoi{10.3847/0004-637X/830/1/27}
 
 \end{thebibliography}
