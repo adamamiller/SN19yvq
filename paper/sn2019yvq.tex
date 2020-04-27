@@ -192,10 +192,10 @@
 %              The University of Dublin,
 %              Dublin 2, Ireland}
 
-% \author[]{A.~Polin}
-% \affiliation{Departments of Physics and Astronomy,
-%              University of California, Berkeley,
-%              Berkley, CA 94720, USA}
+\author[]{A.~Polin}
+\affiliation{Departments of Physics and Astronomy,
+             University of California, Berkeley,
+             Berkley, CA 94720, USA}
 
 % \author[]{K.~Maguire}
 % \affiliation{School of Physics,
@@ -203,14 +203,16 @@
 %              The University of Dublin,
 %              Dublin 2, Ireland}
 
-% \author[0000-0001-6747-8509]{Y.~Yao}
-% \affiliation{Cahill Center for Astrophysics,
-%              California Institute of Technology,
-%              1200 E.~California Boulevard, Pasadena, CA 91125, USA}
-%
-% \author[0000-0002-8255-5127]{M.~Bulla}
-% \affiliation{Nordita, KTH Royal Institute of Technology and Stockholm
-% University, Roslagstullsbacken 23, SE-106 91 Stockholm, Sweden}
+\author[0000-0001-6747-8509]{Y.~Yao}
+\affiliation{Cahill Center for Astrophysics,
+             California Institute of Technology,
+             1200 E.~California Boulevard, Pasadena, CA 91125, USA}
+
+\author[0000-0002-8255-5127]{M.~Bulla}
+\affiliation{Nordita Fellow, 
+             KTH Royal Institute of Technology and Stockholm University, 
+             Roslagstullsbacken 23, SE-106 91 Stockholm, Sweden}
+
 
 \author[0000-0002-3389-0586]{P.~E.~Nugent}
 \affiliation{Computational Cosmology Center, 
@@ -235,7 +237,18 @@
              California Institute of Technology,
              1200 E.~California Boulevard, Pasadena, CA 91125, USA}
 
+\author[0000-0002-2376-6979]{S.~Dhawan}
+\affiliation{The Oskar Klein Centre, 
+             Department of Physics, 
+             Stockholm University, AlbaNova, SE-10691 Stockholm, Sweden}
+
 \author[0000-0002-4223-103X]{C.~Fremling}
+\affiliation{Cahill Center for Astrophysics,
+             California Institute of Technology,
+             1200 E.~California Boulevard, Pasadena, CA 91125, USA}
+
+\author[0000-0003-3461-8661]{D.~A.~Goldstein}
+\altaffiliation{Hubble Fellow}
 \affiliation{Cahill Center for Astrophysics,
              California Institute of Technology,
              1200 E.~California Boulevard, Pasadena, CA 91125, USA}
@@ -482,8 +495,7 @@ $3.5\times10^{-11}~\mathrm{erg\,cm}^{-2}\,\mathrm{ct}^{-1}$.
 Given the constant X-ray emission (to within the uncertainties, see
 Table~\ref{tab:xrt}), we conclude that this emission is from a background
 source, and not \sn. A lack of X-ray emission is consistent with SNe\,Ia (e.g.,
-\citealt{Margutti12}). \todo{Note - if CSM interaction becomes the story of
-this SN, then this paragraph needs to be revisited.}
+\citealt{Margutti12}).
 
 \subsection{Optical Spectroscopy}
 
@@ -945,7 +957,14 @@ unambiguously classifying \sn\ as a \citeauthor{Branch06}~Broad Line SN\,Ia.
 \sn\ stands out in Figure~\ref{fig:vel_evo} with some of the highest
 \ion{Si}{II} velocities that have ever been observed. Within the PTF sample,
 only SN\,2010jn (PTF\,10ygu) exhibits a \ion{Si}{II} absorption velocity as
-high as \sn\ at every phase in its evolution.
+high as \sn\ at every phase in its evolution. Furthermore, we also find that
+the \ion{Ca}{II} infrared triplet (IRT) velocities are also high (we first
+detect this feature in the $-3.0$\,d SEDm spectrum; see
+Table~\ref{tab:spectra}), with a photospheric component velocity of
+$\sim$13,200\,\kms\ and a clear high-velocity component with a velocity of
+$\sim$23,500\,\kms. Within the PTF sample only one other SN (PTF\,09dnp) has a
+\ion{Ca}{II} high-velocity component with a similarly large velocity at the
+same phase.
 
 As first noted by \citet{Nugent95}, and later confirmed by
 \citet{Hachinger08}, $\mathcal{R}($\ion{Si}{II}$)$ is a luminosity indicator,
@@ -1016,8 +1035,6 @@ $\mathcal{R}($\ion{Si}{II}$)$ in \sn\ is that as the photosphere recedes to
 regions with more \radni, increased Si ionization occurs leading to a
 relative decrease in \ion{Si}{II} $\lambda$5972 absorption despite
 relatively small changes in the photospheric temperature.
-
-\kate{and} \magee{This still seems like an unexplained puzzle to me...}
 
 \subsection{Spectral Comparison}\label{sec:spec_comp}
 
@@ -1102,8 +1119,6 @@ panel of Figure~\ref{fig:spec_comp}. By this time, as the SNe are
 transitioning into a nebular phase, the appearance of each spectrum is similar
 modulo some minor differences in the relative line strengths of different
 features.
-
-\kate{do you want to say anything about \ion{Ca}{II}?}
 
 \section{A Physical Explanation for \sn}\label{sec:models}
 
@@ -1521,14 +1536,17 @@ half that observed in \sn. It is also clear from
 Figure~\ref{fig:violent_merger} that the violent merger model from
 \citet{Kromer16} exhibits weaker IME absorption than what is seen in \sn.
 
-It is clear that additional modelling, likely of a different WD binary
-configuration, is needed to better match \sn. For example, it is known that
-higher mass WDs can produce a brighter peak \citep[e.g.,][]{Pakmor12}, which
-would be more in line with \sn. It would also be beneficial to track the
-unbound material following the DD merger, to see if the collision between this
-material and the SN ejecta can replicate the early UV/optical flash seen in
-\sn. If this feature can readily be recreated, it is possible that a violent
-merger is responsible for \sn.
+It is clear that additional modeling, likely of a different WD binary
+configuration, is needed to better match \sn. For example, it is known that a
+higher mass primary WD can produce more \radni, and hence a brighter optical
+peak \citep[e.g.,][]{Pakmor12}, which would be more in line with \sn. If, at
+the same time the mass of the secondary were slightly decreased, then the
+kinetic energy of the ejecta would increase, perhaps bringing the model
+velocity of \ion{Si}{II} and other IMEs in line with \sn. It would also be
+beneficial to track the unbound material following the DD merger, to see if
+the collision between this material and the SN ejecta can replicate the early
+UV/optical flash seen in \sn. If this feature can readily be recreated, it is
+possible that a violent merger is responsible for \sn.
 
 % \section{Rate of Thick He Shell Double Detonation Events}\label{sec:rates}
 %
@@ -1592,12 +1610,15 @@ these various scenarios. If the ejecta have collided with a nondegenerate
 companion, then they will have stripped some surface material from the
 companion, which will be revealed via narrow Balmer lines in the nebular phase
 \citep[e.g.,][]{Wheeler75}. Alternatively, \citet{Polin19a} recently showed
-that double detonation explosions with $M_\mathrm{WD} \lesssim 1.0\,M_\odot$
-produce strong [\ion{Ca}{II}] $\lambda\lambda$7291, 7324 emission in the
-nebular phase. Finally, violent mergers are expected to exhibit narrow
-[\ion{O}{I}] $\lambda\lambda$6300, 6364 emission in their nebular spectra, as
-unburned O from the disrupted WD is present at low velocities in the central
-ejecta \citep{Kromer16}. Each of these predictions are unique to the scenarios
+that low mass ($M_\mathrm{WD} \lesssim 1.0\,M_\odot$) double detonation
+explosions do not create a significant amount of IGEs in their core. This
+relative lack of IGEs means that [\ion{Ca}{II}] provides the best pathway for
+the ejecta to cool, and as a result strong [\ion{Ca}{II}]
+$\lambda\lambda$7291, 7324 emission is expected in the nebular phase. Finally,
+violent mergers are expected to exhibit narrow [\ion{O}{I}]
+$\lambda\lambda$6300, 6364 emission in their nebular spectra, as unburned O
+from the disrupted WD is present at low velocities in the central ejecta
+\citep{Kromer16}. Each of these predictions are unique to the scenarios
 discussed here.
 
 The critical challenge moving forward in understanding \sn-like events is the
@@ -1649,6 +1670,7 @@ Centre at the University of Leicester.
           \texttt{emcee} \citep{Foreman-Mackey13},
           \texttt{matplotlib} \citep{Hunter07}, 
           \texttt{pandas} \citep{McKinney10},
+          \texttt{pysedm} \citep{Rigault19}
           \texttt{SALT2} \citep{Guy07},
           \texttt{scipy} \citep{2020SciPy-NMeth}, 
           \texttt{sncosmo} \citep{Barbary16},
