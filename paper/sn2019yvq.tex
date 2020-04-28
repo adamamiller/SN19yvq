@@ -186,22 +186,22 @@
 \affiliation{The Adler Planetarium, Chicago, IL 60605, USA}
 \email{amiller@northwestern.edu}
 
-% \author[]{M.~.R.~Magee}
-% \affiliation{School of Physics,
-%              Trinity College Dublin,
-%              The University of Dublin,
-%              Dublin 2, Ireland}
+\author{M.~.R.~Magee}
+\affiliation{School of Physics,
+             Trinity College Dublin,
+             The University of Dublin,
+             Dublin 2, Ireland}
 
-\author[]{A.~Polin}
+\author{A.~Polin}
 \affiliation{Departments of Physics and Astronomy,
              University of California, Berkeley,
              Berkley, CA 94720, USA}
 
-% \author[]{K.~Maguire}
-% \affiliation{School of Physics,
-%              Trinity College Dublin,
-%              The University of Dublin,
-%              Dublin 2, Ireland}
+\author{K.~Maguire}
+\affiliation{School of Physics,
+             Trinity College Dublin,
+             The University of Dublin,
+             Dublin 2, Ireland}
 
 \author[0000-0001-6747-8509]{Y.~Yao}
 \affiliation{Cahill Center for Astrophysics,
@@ -213,6 +213,10 @@
              KTH Royal Institute of Technology and Stockholm University, 
              Roslagstullsbacken 23, SE-106 91 Stockholm, Sweden}
 
+\author[0000-0002-4163-4996]{A.~Goobar}
+\affiliation{The Oskar Klein Centre for Cosmoparticle Physics,
+             Department of Physics, Stockholm University
+             AlbaNova University Center, SE-106 91 Stockholm, Sweden}
 
 \author[0000-0002-3389-0586]{P.~E.~Nugent}
 \affiliation{Computational Cosmology Center, 
@@ -225,12 +229,17 @@
 \author[0000-0003-1546-6615]{J.~Sollerman}
 \affiliation{Department of Astronomy, 
              The Oskar Klein Center, Stockholm University, 
-             AlbaNova, 10691 Stockholm, Sweden}
+             AlbaNova, SE-10691 Stockholm, Sweden}
 
 \author[0000-0002-8977-1498]{I.~Andreoni}
 \affiliation{Cahill Center for Astrophysics,
              California Institute of Technology,
              1200 E.~California Boulevard, Pasadena, CA 91125, USA}
+
+\author[0000-0001-8018-5348]{Eric C. Bellm}
+\affiliation{DIRAC Institute, 
+             Department of Astronomy, University of Washington, 
+             3910 15th Avenue NE, Seattle, WA 98195, USA} 
 
 \author[0000-0002-8989-0542]{K.~De}
 \affiliation{Cahill Center for Astrophysics,
@@ -258,11 +267,32 @@
              California Institute of Technology,
              1200 E.~California Boulevard, Pasadena, CA 91125, USA}
 
+\author[0000-0003-2451-5482]{R.~R.~Laher}
+\affiliation{IPAC, California Institute of Technology, 
+             1200 E. California Blvd, 
+             Pasadena, CA 91125, USA}
+
+\author[0000-0002-8532-9395]{F.~J.~Masci}
+\affiliation{IPAC, California Institute of Technology, 
+             1200 E. California Blvd, 
+             Pasadena, CA 91125, USA}
+
 \author{S.~J.~Prentice}
 \affiliation{School of Physics,
              Trinity College Dublin,
              The University of Dublin,
              Dublin 2, Ireland}
+
+\author[0000-0001-7648-4142]{B.~Rusholme}
+\affiliation{IPAC, California Institute of Technology, 
+             1200 E. California Blvd, 
+             Pasadena, CA 91125, USA}
+
+\author[0000-0003-4401-0430]{D.~L.~Shupe}
+\affiliation{IPAC, California Institute of Technology, 
+             1200 E. California Blvd, 
+             Pasadena, CA 91125, USA}
+
 
 
 %% Note that the \and command from previous versions of AASTeX is now
@@ -352,17 +382,17 @@ Here we present X-ray, ultraviolet (UV), and optical observations of the
 spectacular \sn, only the second ever SN\,Ia, after iPTF\,14atg \citep{Cao15},
 to exhibit an early UV flash.\footnote{``Excess'' emission or early optical
 bumps have been observed and claimed in many other SNe\,Ia
-\citep[e.g.,][]{Marion16,Hosseinzadeh17,Shappee19,Dimitriadis19}. These events
-lack a distinct early decline in the UV, however, which distinguishes
-iPTF\,14atg and \sn.} \sn\ declined by $\sim$2.5\,mag in the UV in the
-$\sim$3\,d after discovery followed by a more gradual rise and fall, typical
-of SNe\,Ia, in the ensuing weeks. Our observations and analysis show that,
-even if the early flash had been observationally missed, we would conclude
-that \sn\ is unusual relative to normal SNe\,Ia. We consider several distinct
-models to explain the origin of \sn\ and find that they all have considerable
-shortcomings. Spectroscopic observations of \sn\ obtained during the nebular
-phase will narrow the range of potential explanations for this highly unusual
-explosion.
+\citep[e.g.,][]{Goobar15,Marion16,Hosseinzadeh17,Shappee19,Dimitriadis19}.
+These events lack a distinct early decline in the UV, however, which
+distinguishes iPTF\,14atg and \sn.} \sn\ declined by $\sim$2.5\,mag in the UV
+in the $\sim$3\,d after discovery followed by a more gradual rise and fall,
+typical of SNe\,Ia, in the ensuing weeks. Our observations and analysis show
+that, even if the early flash had been observationally missed, we would
+conclude that \sn\ is unusual relative to normal SNe\,Ia. We consider several
+distinct models to explain the origin of \sn\ and find that they all have
+considerable shortcomings. Spectroscopic observations of \sn\ obtained during
+the nebular phase will narrow the range of potential explanations for this
+highly unusual explosion.
 
 Alongside this paper, we have released our open-source analysis and the data
 utilized in this study. These are available online at
@@ -567,40 +597,38 @@ SNe\,Ia. We therefore adopt the larger kinematic distance to NGC\,4441.}
 We estimate the total reddening towards \sn\ to be small. There is relatively
 little line of sight extinction due to the Milky Way, $E(B-V) \approx
 0.018$\,mag \citep{Schlafly11, Schlegel98}. Furthermore, we do not find
-significant evidence for strong extinction in NGC\,4441. Figure~\ref{fig:NaD}
-highlights the \ion{Na}{I} D absorption in the spectrum of \sn\ due to gas in
-NGC\,4441 and the Milky Way from our highest-resolution spectrum, $R \approx
-4000$, obtained with Binospec+MMT. The \ion{Na}{I} D absorption is weak, and
-we estimate a total equivalent width (EW) $= 390$\,m\AA\ for NGC\,4441 and
-$220$\,m\AA\ for the Milky Way. There is a systematic uncertainty of
-$\sim$10\% on each of these estimates due to uncertainties in the
-continuum-fitting procedure. Assuming similar properties for the dust in
-NGC\,4441 and the Milky Way, we scale the color excess measurement for the
-Milky Way by the ratio of \ion{Na}{I} D EWs to estimate $E(B-V) \approx
-0.032$\,mag for \sn\ due to absorption in NGC\,4441. This yields a total color
-excess towards \sn\ of $E(B-V) \approx 0.05$\,mag, which we adopt for the
-subsequent analysis in this study. We note that this estimate is consistent,
-to within the uncertainties, with the EW(\ion{Na}{I} D)--$E(B-V)$ relations
-presented in \citet{Poznanski12}. Further supporting the claim of low
-extinction is the lack of a detection of the \ion{K}{I} $\lambda\lambda$7665,
-7699 interstellar lines or the diffuse interstellar band at 5780\,\AA, which
-also serve as proxies for extinction (e.g., \citealt{Phillips13}).
-% \frommb{Maybe worth noting how estimate below would change for peculiar dust
-% as that seen in some SNe (e.g. SN 2014J, Rv=1.4)}
+significant evidence for strong interstellar extinction in NGC\,4441.
+Figure~\ref{fig:NaD} highlights the \ion{Na}{I} D absorption in the spectrum
+of \sn\ due to gas in NGC\,4441 and the Milky Way from our highest-resolution
+spectrum, $R \approx 4000$, obtained with Binospec+MMT. The \ion{Na}{I} D
+absorption is weak, and we estimate a total equivalent width (EW) $=
+390$\,m\AA\ for NGC\,4441 and $220$\,m\AA\ for the Milky Way. There is a
+systematic uncertainty of $\sim$10\% on each of these estimates due to
+uncertainties in the continuum-fitting procedure. Assuming similar properties
+for the dust in NGC\,4441 and the Milky Way, we scale the color excess
+measurement for the Milky Way by the ratio of \ion{Na}{I} D EWs to estimate
+$E(B-V) \approx 0.032$\,mag for \sn\ due to interstellar absorption in
+NGC\,4441. This yields a total color excess towards \sn\ of $E(B-V) \approx
+0.05$\,mag, which we adopt for the subsequent analysis in this study. We note
+that this estimate is consistent, to within the uncertainties, with the
+EW(\ion{Na}{I} D)--$E(B-V)$ relations presented in \citet{Poznanski12}.
+Further supporting the claim of low interstellar extinction in NGC\,4441 is
+the lack of a detection of the \ion{K}{I} $\lambda\lambda$7665, 7699
+interstellar lines or the diffuse interstellar band at 5780\,\AA, which also
+serve as proxies for extinction (e.g., \citealt{Phillips13}).
 
-\begin{figure}
-    \centering
-    \includegraphics[width=3.35in]{./figures/NaD.pdf}
+\begin{figure} \centering \includegraphics[width=3.35in]{./figures/NaD.pdf}
     %
-    \caption{Zoom-in on our moderate resolution ($R \approx 4000$)
-    MMT+Binospec spectrum of \sn\ highlighting absorption due to \ion{Na}{I}
-    D in the host galaxy, NGC\,4441 (blue solid line), and the Milky Way
-    (thin black line). The velocity scale is centered on the D$_1$ line in
-    NGC\,4441, with the SDSS redshift shown via the vertical dashed line. No
-    shift has been applied to the Milky Way lines. The \ion{Na}{I} D lines,
-    which serve as a proxy for dust-obscuration along the line of sight
-    (e.g., \citealt{Poznanski12,Phillips13}) are weak, indicating a
-    relatively small amount of reddening.}
+    \caption{Zoom in on our moderate resolution ($R \approx 4000$)
+    MMT+Binospec spectrum of \sn\ highlighting absorption due to \ion{Na}{I} D
+    in the host galaxy, NGC\,4441 (blue solid line), and the Milky Way (thin
+    black line). The velocity scale is centered on the D$_1$ line in
+    NGC\,4441, with the SDSS redshift shown via the vertical dashed line. The
+    velocity scale is centered on 5895.92\,\AA\ for the Milky Way absorption
+    lines. The \ion{Na}{I} D lines, which serve as a proxy for interstellar
+    dust-obscuration along the line of sight (e.g.,
+    \citealt{Poznanski12,Phillips13}) are weak, indicating a relatively small
+    amount of reddening.}
     %
     \label{fig:NaD}
 \end{figure}
@@ -740,33 +768,38 @@ SNe\,Ia.
 
 \sn\ is further distinguished from normal SNe Ia by its unusual color
 evolution (Figure~\ref{fig:colors}). The top panel of Figure~\ref{fig:colors}
-shows the \gztf$ - $\rztf\ evolution of 35 normal SNe Ia with ZTF observations
-within 3\,d of \tfl\ (see \citealt{Bulla20}), with the color evolution of \sn\
-over-plotted. \sn\ exhibits a prominent blue to red to blue, or ``red bump,''
-evolution in the $\sim$week after \tfl. Similar red bumps are only seen in
-$\sim$10\% of the ZTF sample \citep{Bulla20}. Furthermore, while normal SNe Ia
-exhibit a large scatter in \gztf$ - $\rztf\ shortly after \tfl\ they evolve to
-form a tight locus around \tbmax. \sn\ is redder at peak than each of the
-normal SNe Ia in the \citet{Bulla20} sample, and it exhibits a far more rapid
-decline in \gztf$ - $\rztf. In this way, \sn\ is again intermediate between
-normal SNe\,Ia and underluminous 91bg-like SNe. Figure~\ref{fig:colors} shows
-that normal SNe\,Ia are reddest at $\sim$+30\,d, while 91bg-like SNe are
-reddest between $\sim$+10--15\,d \citet{Burns14}. \sn\ reaches a
-\gztf$-$\rztf\ maximum at an intermediate time of $\sim$+20\,d.
+shows the \gztf$ - $\rztf\ evolution of 60 spectroscopically normal SNe Ia
+with ZTF observations within 5\,d of \tfl\ (see \citealt{Bulla20}), with the
+color evolution of \sn\ over-plotted. The initially blue colors in \sn\
+rapidly evolve to the red over the first few days of observation before
+gradually becoming more blue in the time leading up to \tbmax\ (this behavior
+is deemed an early ``red bump'' in \citealt{Bulla20}). Similar red bumps are
+only seen in 6 of the 60 normal SNe\,Ia ($\sim$10\%) in the ZTF sample
+\citep{Bulla20}. Furthermore, while normal SNe Ia exhibit a large scatter in
+\gztf$ - $\rztf\ shortly after \tfl\ they evolve to form a tight locus between
+$\sim$10--30\,d after \tfl. \sn\ is redder at peak than each of the normal SNe
+Ia in the \citet{Bulla20} sample. Post maximum, only 1 normal SN\,Ia,
+ZTF\,18abeegsl (SN\,2018eag), exhibits a similarly radid decline in \gztf$ -
+$\rztf\ color. The \gztf$ - $\rztf\ color evolution of \sn\ is again
+intermediate between normal SNe\,Ia and underluminous 91bg-like SNe.
+Figure~\ref{fig:colors} shows that normal SNe\,Ia are reddest at $\sim$+30\,d,
+while 91bg-like SNe are reddest between $\sim$+10--15\,d \citet{Burns14}. \sn\
+reaches a \gztf$-$\rztf\ maximum at an intermediate time of $\sim$+20\,d.
 
 \begin{figure}
     \centering
     \includegraphics[width=3.35in]{./figures/P48_colors.pdf}
     %
-    \caption{Photometric color evolution of \sn. \textit{Top}: \gztf$ -
-    $\rztf\ evolution of \sn\ (solid green squares), corrected for the total
-    line of sight extinction (see \S\ref{sec:host}), and compared with the
-    evolution of 65 normal SNe Ia (open circles) observed within 3\,d of \tfl\
-    by ZTF (from \citealt{Bulla20}). \sn\ is the reddest SN\,In the group, and
-    it exhibits the fastest evolution to red colors post-\tbmax.
-    \textit{Bottom}: the $uvm2 - uvw1$ (purple crosses), \gztf$ - $\rztf\
-    (solid, green squares), and \rztf$ - $\iztf\ (open, red squares) color
-    evolution of \sn. The ``red bump'' can clearly be seen in the optical.}
+    \caption{Photometric color evolution of \sn\ relative to \tfl\ (the
+    timescale relative to \tbmax\ shown along the top axis only applies to
+    \sn). \textit{Top}: \gztf$ - $\rztf\ evolution of \sn\ (solid green
+    squares), corrected for the total interstellar extinction (see
+    \S\ref{sec:host}), and compared with the evolution of 60 normal SNe Ia
+    (open circles) observed within 5\,d of \tfl\ by ZTF (from
+    \citealt{Bulla20}). \sn\ is the reddest SN\,Ia the group, and it exhibits
+    the fastest evolution to red colors post-\tbmax. \textit{Bottom}: the
+    $uvm2 - uvw1$ (purple crosses), \gztf$ - $\rztf\ (solid, green squares),
+    and \rztf$ - $\iztf\ (open, red squares) color evolution of \sn.}
     %
     \label{fig:colors}
 \end{figure}
@@ -824,9 +857,13 @@ appearance at peak).
 Optical spectra of \sn\ were obtained at phases from $-$14.9\,d (2.6\,d after
 \tfl) to 66.5\,d after \tbmax. Details of the spectra are presented in
 Table~\ref{tab:spectra} and the spectral evolution is shown in
-Figure~\ref{fig:spec_evo}. The absorption features in \sn\ are typical of
-SNe\,Ia, including intermediate mass elements (IMEs), primarily Si, Ca, and O,
-as well as iron-group elements (IGEs).
+Figure~\ref{fig:spec_evo}. Many of the spectra were obtained with the Spectral
+Energy Density Machine \citep[SEDM;][]{Blagorodnova18,Rigault19}, which was
+designed specifically for SN classification \citep[e.g.,][]{Fremling19a}, yet
+for \sn\ the quality is high enough to provide detailed absorption line
+measurements (see \S\ref{sec:SiII}). The absorption features in \sn\ are
+typical of SNe\,Ia, including intermediate mass elements (IMEs), primarily Si,
+Ca, and O, as well as iron-group elements (IGEs).
 
 \subsection{TARDIS Models}\label{sec:tardis}
 
@@ -837,11 +874,11 @@ transfer code \texttt{TARDIS} \citep{Kerzendorf14}. We note that
 \texttt{TARDIS} assumes a single, sharp photosphere between the optically
 thick and thin regions. Therefore, if there is a contribution to the spectrum
 from an underlying quasi-blackbody (at early times this could be due to
-interaction, for example; see Sect. XX), this will impact the ability of
-\texttt{TARDIS} to fully reproduce the observations. Nevertheless, our models
-should provide a reasonable approximation of the plasma state within the
-ejecta. Parameters of our \texttt{TARDIS} models are given in
-Table~\ref{tab:tardis}.
+interaction, for example; see \S\ref{sec:companion_interaction}), this will
+impact the ability of \texttt{TARDIS} to fully reproduce the observations.
+Nevertheless, our models should provide a reasonable approximation of the
+plasma state within the ejecta. Parameters of our \texttt{TARDIS} models are
+given in Table~\ref{tab:tardis}.
 
 \input{./tables/tardis.tex}
 
@@ -888,17 +925,20 @@ spectroscopically similar SN\,2002bo \citep{Stehle05} at the same epoch, see
 below, we find \sn\ has a lower photospheric temperature ($\sim$8,000\,K,
 compared to $\sim$9,500\,K for SN\,2002bo).
 
-While the early spectra of \sn\ are dominated by IMEs, we do not find evidence
-for \ion{C}{II} absorption. Even increasing the carbon abundance to relatively
-large amounts (50\%), we do not find strong \ion{C}{II} features produced in
-our earliest spectra. The presence of notable \ion{C}{II} features is likely
-affected by the extremely high velocities of \sn, causing blends with
-\ion{Si}{ii}. Therefore we are unable to place meaningful constraints on the
-carbon abundance in the very outermost ejecta.
+While the early spectra of \sn\ are dominated by IMEs, there is no evidence in
+the observed spectra for \ion{C}{II} absorption. However, in our
+\texttt{TARDIS} models even if we increase the C abundance in the outer ejecta
+to large amounts (50\%), the model spectra still lack any significant
+\ion{C}{II} features at the time of our observations. Our ability to detect
+\ion{C}{II} in the spectra of \sn\ is likely affected by the extremely high
+ejecta velocities, which leads to blending with \ion{Si}{II}. Therefore,
+despite the lack of a \ion{C}{II} detection in the observed spectra, we are
+unable to place meaningful constraints on the C abundance in the very
+outermost ejecta.
 
 Given that our maximum light spectrum occurs 12 days after our previous model
 spectrum, we assume a composition for the inner ejecta
-($\textless$16,500\,\kms\ ) similar to that found for SN\,2002bo
+($\textless$16,500\,\kms) similar to that found for SN\,2002bo
 \citep{Stehle05}. A more detailed ejecta structure could be achieved through
 modeling additional pre-maximum spectra, but is beyond the scope of the work
 presented here. As shown in Fig.~\ref{fig:tardis}, our model is able to
@@ -1127,8 +1167,9 @@ shortly after discovery (Figure~\ref{fig:p48}). Any model to explain \sn\ must
 account for this highly unusual feature. A UV decline in the early phase of a
 SN\,Ia has previously only been observed in a single event, iPTF\,14atg
 \citep{Cao15}. Clearly resolved ``bumps'' in the early optical emission of
-SNe\,Ia are also rare, having only been seen in a few events: SN\,2017cbv
-\citep{Hosseinzadeh17} and SN\,2018oh \citep{Shappee19,Dimitriadis19}.
+SNe\,Ia are also rare, having only been seen in a few events: SN\,2014J
+\citep{Goobar15}, SN\,2017cbv \citep{Hosseinzadeh17} and SN\,2018oh
+\citep{Shappee19,Dimitriadis19}.
 
 \sn\ features other properties, in addition to an initial peak $\sim$17\,d
 prior to \tbmax, that separate it from normal SNe\,Ia. A good model should be
@@ -1205,7 +1246,7 @@ breakout models as our initial detection of \sn\ occurred at $M_g \approx
 such a high luminosity \citep{Piro10,Rabinak11}, which we consider implausible
 for a WD.}
 
-\subsection{Companion Interaction}
+\subsection{Companion Interaction}\label{sec:companion_interaction}
 
 For SD progenitors of SNe\,Ia, the SN ejecta will shock on the surface of the
 non-degenerate companion giving rise to a short-lived transient in the days
@@ -1661,6 +1702,10 @@ Foundation under Grant No 1545949.
 
 MMT Observatory access was supported by Northwestern University and the
 Center for Interdisciplinary Exploration and Research in Astrophysics (CIERA).
+
+Partly based on observations made with the Nordic Optical Telescope, operated
+at the Observatorio del Roque de los Muchachos, La Palma, Spain, of the
+Instituto de Astrof\'isica de Canarias.
 
 This work made use of data supplied by the UK \textit{Swift} Science Data
 Centre at the University of Leicester.
