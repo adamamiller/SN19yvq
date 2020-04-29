@@ -85,6 +85,11 @@
   library for supernova cosmology}.
 \newblock \doeprint{1611.017}
 
+\bibitem[{{Barnsley} {et~al.}(2012){Barnsley}, {Smith}, \&
+  {Steele}}]{Barnsley12}
+{Barnsley}, R.~M., {Smith}, R.~J., \& {Steele}, I.~A. 2012, Astronomische
+  Nachrichten, 333, 101, \dodoi{10.1002/asna.201111634}
+
 \bibitem[{{Bellm} {et~al.}(2019{\natexlab{a}}){Bellm}, {Kulkarni}, {Graham},
   {Dekany}, {Smith}, {Riddle}, {Masci}, {Helou}, {Prince}, {Adams},
   {Barbarino}, {Barlow}, {Bauer}, {Beck}, {Belicki}, {Biswas}, {Blagorodnova},
@@ -224,6 +229,26 @@
   {Schulte-Ladbeck}}]{Cristiani92}
 {Cristiani}, S., {Cappellaro}, E., {Turatto}, M., {et~al.} 1992, \aap, 259, 63
 
+\bibitem[{{De} {et~al.}(2019){De}, {Kasliwal}, {Polin}, {Nugent}, {Bildsten},
+  {Adams}, {Bellm}, {Blagorodnova}, {Burdge}, {Cannella}, {Cenko}, {Dekany},
+  {Feeney}, {Hale}, {Fremling}, {Graham}, {Ho}, {Jencson}, {Kulkarni}, {Laher},
+  {Masci}, {Miller}, {Patterson}, {Rebbapragada}, {Riddle}, {Shupe}, \&
+  {Smith}}]{De19}
+{De}, K., {Kasliwal}, M.~M., {Polin}, A., {et~al.} 2019, \apjl, 873, L18,
+  \dodoi{10.3847/2041-8213/ab0aec}
+
+\bibitem[{{De} {et~al.}(2020){De}, {Kasliwal}, {Tzanidakis}, {Fremling},
+  {Adams}, {Andreoni}, {Bagdasaryan}, {Bellm}, {Bildsten}, {Cannella}, {Cook},
+  {Delacroix}, {Drake}, {Duev}, {Dugas}, {Frederick}, {Gal-Yam}, {Goldstein},
+  {Golkhou}, {Graham}, {Hale}, {Hankins}, {Helou}, {Ho}, {Irani}, {Jencson},
+  {Kaye}, {Kulkarni}, {Kupfer}, {Laher}, {Leadbeater}, {Lunnan}, {Masci},
+  {Miller}, {Neill}, {Ofek}, {Perley}, {Polin}, {Prince}, {Quataert}, {Reiley},
+  {Riddle}, {Rusholme}, {Sharma}, {Shupe}, {Sollerman}, {Tartaglia}, {Walters},
+  {Yan}, \& {Yao}}]{De20}
+{De}, K., {Kasliwal}, M.~M., {Tzanidakis}, A., {et~al.} 2020, arXiv e-prints,
+  arXiv:2004.09029.
+\newblock \doarXiv{2004.09029}
+
 \bibitem[{{de Vaucouleurs} {et~al.}(1991){de Vaucouleurs}, {de Vaucouleurs},
   {Corwin}, {Buta}, {Paturel}, \& {Fouque}}]{de-Vaucouleurs91}
 {de Vaucouleurs}, G., {de Vaucouleurs}, A., {Corwin}, Herold~G., J., {et~al.}
@@ -340,6 +365,11 @@ Foreman-Mackey, D. 2016, The Journal of Open Source Software, 24,
 {Gehrels}, N., {Chincarini}, G., {Giommi}, P., {et~al.} 2004, \apj, 611, 1005,
   \dodoi{10.1086/422091}
 
+\bibitem[{{Goobar} {et~al.}(2015){Goobar}, {Kromer}, {Siverd}, {Stassun},
+  {Pepper}, {Amanullah}, {Kasliwal}, {Sollerman}, \& {Taddia}}]{Goobar15}
+{Goobar}, A., {Kromer}, M., {Siverd}, R., {et~al.} 2015, \apj, 799, 106,
+  \dodoi{10.1088/0004-637X/799/1/106}
+
 \bibitem[{{Goodman} \& {Weare}(2010)}]{Goodman10}
 {Goodman}, J., \& {Weare}, J. 2010, Communications in Applied Mathematics and
   Computational Science, 5, 65, \dodoi{10.2140/camcos.2010.5.65}
@@ -414,6 +444,14 @@ Hunter, J.~D. 2007, Computing In Science \& Engineering, 9, 90,
 
 \bibitem[{{Itagaki}(2019)}]{Itagaki19}
 {Itagaki}, K. 2019, Transient Name Server Discovery Report, 2019-2720, 1
+
+\bibitem[{{Jiang} {et~al.}(2017){Jiang}, {Doi}, {Maeda}, {Shigeyama}, {Nomoto},
+  {Yasuda}, {Jha}, {Tanaka}, {Morokuma}, {Tominaga}, {Ivezi{\'c}},
+  {Ruiz-Lapuente}, {Stritzinger}, {Mazzali}, {Ashall}, {Mould}, {Baade},
+  {Suzuki}, {Connolly}, {Patat}, {Wang}, {Yoachim}, {Jones}, {Furusawa}, \&
+  {Miyazaki}}]{Jiang17}
+{Jiang}, J.-A., {Doi}, M., {Maeda}, K., {et~al.} 2017, \nat, 550, 80,
+  \dodoi{10.1038/nature23908}
 
 \bibitem[{{Kasen}(2010)}]{Kasen10a}
 {Kasen}, D. 2010, \apj, 708, 1025, \dodoi{10.1088/0004-637X/708/2/1025}
@@ -552,6 +590,16 @@ McKinney, W. 2010, in Proceedings of the 9th Python in Science Conference, ed.
 {Nugent}, P., {Phillips}, M., {Baron}, E., {Branch}, D., \& {Hauschildt}, P.
   1995, \apjl, 455, L147, \dodoi{10.1086/309846}
 
+\bibitem[{{Nugent} {et~al.}(2011){Nugent}, {Sullivan}, {Cenko}, {Thomas},
+  {Kasen}, {Howell}, {Bersier}, {Bloom}, {Kulkarni}, {Kandrashoff},
+  {Filippenko}, {Silverman}, {Marcy}, {Howard}, {Isaacson}, {Maguire},
+  {Suzuki}, {Tarlton}, {Pan}, {Bildsten}, {Fulton}, {Parrent}, {Sand},
+  {Podsiadlowski}, {Bianco}, {Dilday}, {Graham}, {Lyman}, {James}, {Kasliwal},
+  {Law}, {Quimby}, {Hook}, {Walker}, {Mazzali}, {Pian}, {Ofek}, {Gal-Yam}, \&
+  {Poznanski}}]{Nugent11}
+{Nugent}, P.~E., {Sullivan}, M., {Cenko}, S.~B., {et~al.} 2011, \nat, 480, 344,
+  \dodoi{10.1038/nature10644}
+
 \bibitem[{{Oke} \& {Gunn}(1982)}]{Oke82}
 {Oke}, J.~B., \& {Gunn}, J.~E. 1982, \pasp, 94, 586, \dodoi{10.1086/131027}
 
@@ -604,6 +652,9 @@ McKinney, W. 2010, in Proceedings of the 9th Python in Science Conference, ed.
   {Taubenberger}, {Tilquin}, \& {Wu}}]{Pereira13}
 {Pereira}, R., {Thomas}, R.~C., {Aldering}, G., {et~al.} 2013, \aap, 554, A27,
   \dodoi{10.1051/0004-6361/201221008}
+
+\bibitem[{{Perley}(2019)}]{Perley19}
+{Perley}, D.~A. 2019, \pasp, 131, 084503, \dodoi{10.1088/1538-3873/ab215d}
 
 \bibitem[{{Phillips}(1993)}]{Phillips93}
 {Phillips}, M.~M. 1993, \apjl, 413, L105, \dodoi{10.1086/186970}
@@ -722,6 +773,15 @@ McKinney, W. 2010, in Proceedings of the 9th Python in Science Conference, ed.
   {Filippenko}, {Miller}, \& {Poznanski}}]{Silverman11}
 {Silverman}, J.~M., {Ganeshalingam}, M., {Li}, W., {et~al.} 2011, \mnras, 410,
   585, \dodoi{10.1111/j.1365-2966.2010.17474.x}
+
+\bibitem[{{Steele} {et~al.}(2004){Steele}, {Smith}, {Rees}, {Baker}, {Bates},
+  {Bode}, {Bowman}, {Carter}, {Etherton}, {Ford}, {Fraser}, {Gomboc}, {Lett},
+  {Mansfield}, {Marchant}, {Medrano-Cerda}, {Mottram}, {Raback}, {Scott},
+  {Tomlinson}, \& {Zamanov}}]{Steele04}
+{Steele}, I.~A., {Smith}, R.~J., {Rees}, P.~C., {et~al.} 2004, Society of
+  Photo-Optical Instrumentation Engineers (SPIE) Conference Series, Vol. 5489,
+  {The Liverpool Telescope: performance and first results}, ed. J.~{Oschmann},
+  Jacobus~M., 679--692, \dodoi{10.1117/12.551456}
 
 \bibitem[{{Stehle} {et~al.}(2005){Stehle}, {Mazzali}, {Benetti}, \& {Hillebrand
   t}}]{Stehle05}
