@@ -436,6 +436,15 @@ HEASARC. 2014, HEAsoft: Unified Release of FTOOLS and XANADU, Astrophysics
 {Hillebrandt}, W., {Kromer}, M., {R{\"o}pke}, F.~K., \& {Ruiter}, A.~J. 2013,
   Frontiers of Physics, 8, 116, \dodoi{10.1007/s11467-013-0303-2}
 
+\bibitem[{{Holoien} {et~al.}(2017){Holoien}, {Stanek}, {Kochanek}, {Shappee},
+  {Prieto}, {Brimacombe}, {Bersier}, {Bishop}, {Dong}, {Brown}, {Danilet},
+  {Simonian}, {Basu}, {Beacom}, {Falco}, {Pojmanski}, {Skowron}, {Wo{\'z}niak},
+  {{\'A}vila}, {Conseil}, {Contreras}, {Cruz}, {Fern{\'a}ndez}, {Koff}, {Guo},
+  {Herczeg}, {Hissong}, {Hsiao}, {Jose}, {Kiyota}, {Long}, {Monard},
+  {Nicholls}, {Nicolas}, \& {Wiethoff}}]{Holoien17}
+{Holoien}, T.~W.~S., {Stanek}, K.~Z., {Kochanek}, C.~S., {et~al.} 2017, \mnras,
+  464, 2672, \dodoi{10.1093/mnras/stw2273}
+
 \bibitem[{{Hosseinzadeh} {et~al.}(2017){Hosseinzadeh}, {Sand}, {Valenti},
   {Brown}, {Howell}, {McCully}, {Kasen}, {Arcavi}, {Azalee Bostroem},
   {Tartaglia}, {Hsiao}, {Davis}, {Shahbandeh}, \&
@@ -472,6 +481,11 @@ Hunter, J.~D. 2007, Computing In Science \& Engineering, 9, 90,
 \bibitem[{{Kerzendorf} \& {Sim}(2014)}]{Kerzendorf14}
 {Kerzendorf}, W.~E., \& {Sim}, S.~A. 2014, \mnras, 440, 387,
   \dodoi{10.1093/mnras/stu055}
+
+\bibitem[{{Kromer} {et~al.}(2010){Kromer}, {Sim}, {Fink}, {R{\"o}pke},
+  {Seitenzahl}, \& {Hillebrandt}}]{Kromer10}
+{Kromer}, M., {Sim}, S.~A., {Fink}, M., {et~al.} 2010, \apj, 719, 1067,
+  \dodoi{10.1088/0004-637X/719/2/1067}
 
 \bibitem[{{Kromer} {et~al.}(2013){Kromer}, {Pakmor}, {Taubenberger}, {Pignata},
   {Fink}, {R{\"o}pke}, {Seitenzahl}, {Sim}, \& {Hillebrandt}}]{Kromer13a}
@@ -755,6 +769,17 @@ McKinney, W. 2010, in Proceedings of the 9th Python in Science Conference, ed.
 {R{\"o}pke}, F.~K., \& {Sim}, S.~A. 2018, \ssr, 214, 72,
   \dodoi{10.1007/s11214-018-0503-8}
 
+\bibitem[{{R{\"o}pke} {et~al.}(2012){R{\"o}pke}, {Kromer}, {Seitenzahl},
+  {Pakmor}, {Sim}, {Taubenberger}, {Ciaraldi-Schoolmann}, {Hillebrandt},
+  {Aldering}, {Antilogus}, {Baltay}, {Benitez-Herrera}, {Bongard}, {Buton},
+  {Canto}, {Cellier-Holzem}, {Childress}, {Chotard}, {Copin}, {Fakhouri},
+  {Fink}, {Fouchez}, {Gangler}, {Guy}, {Hachinger}, {Hsiao}, {Chen},
+  {Kerschhaggl}, {Kowalski}, {Nugent}, {Paech}, {Pain}, {Pecontal}, {Pereira},
+  {Perlmutter}, {Rabinowitz}, {Rigault}, {Runge}, {Saunders}, {Smadja},
+  {Suzuki}, {Tao}, {Thomas}, {Tilquin}, \& {Wu}}]{Ropke12}
+{R{\"o}pke}, F.~K., {Kromer}, M., {Seitenzahl}, I.~R., {et~al.} 2012, \apjl,
+  750, L19, \dodoi{10.1088/2041-8205/750/1/L19}
+
 \bibitem[{{Savitzky} \& {Golay}(1964)}]{Savitzky64}
 {Savitzky}, A., \& {Golay}, M.~J.~E. 1964, Analytical Chemistry, 36, 1627
 
@@ -815,6 +840,9 @@ McKinney, W. 2010, in Proceedings of the 9th Python in Science Conference, ed.
   t}}]{Taubenberger13}
 {Taubenberger}, S., {Kromer}, M., {Pakmor}, R., {et~al.} 2013, \apjl, 775, L43,
   \dodoi{10.1088/2041-8205/775/2/L43}
+
+\bibitem[{{Tonry}(2011)}]{Tonry11}
+{Tonry}, J.~L. 2011, \pasp, 123, 58, \dodoi{10.1086/657997}
 
 \bibitem[{{Tonry} {et~al.}(2001){Tonry}, {Dressler}, {Blakeslee}, {Ajhar},
   {Fletcher}, {Luppino}, {Metzger}, \& {Moore}}]{Tonry01}
