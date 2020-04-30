@@ -90,6 +90,11 @@
 {Barnsley}, R.~M., {Smith}, R.~J., \& {Steele}, I.~A. 2012, Astronomische
   Nachrichten, 333, 101, \dodoi{10.1002/asna.201111634}
 
+\bibitem[{{Bellm} \& {Sesar}(2016)}]{Bellm16b}
+{Bellm}, E.~C., \& {Sesar}, B. 2016, {pyraf-dbsp: Reduction pipeline for the
+  Palomar Double Beam Spectrograph}.
+\newblock \doeprint{1602.002}
+
 \bibitem[{{Bellm} {et~al.}(2019{\natexlab{a}}){Bellm}, {Kulkarni}, {Graham},
   {Dekany}, {Smith}, {Riddle}, {Masci}, {Helou}, {Prince}, {Adams},
   {Barbarino}, {Barlow}, {Bauer}, {Beck}, {Belicki}, {Biswas}, {Blagorodnova},
@@ -445,6 +450,11 @@ Hunter, J.~D. 2007, Computing In Science \& Engineering, 9, 90,
 \bibitem[{{Itagaki}(2019)}]{Itagaki19}
 {Itagaki}, K. 2019, Transient Name Server Discovery Report, 2019-2720, 1
 
+\bibitem[{{Jiang} {et~al.}(2018){Jiang}, {Doi}, {Maeda}, \&
+  {Shigeyama}}]{Jiang18}
+{Jiang}, J.-a., {Doi}, M., {Maeda}, K., \& {Shigeyama}, T. 2018, \apj, 865,
+  149, \dodoi{10.3847/1538-4357/aadb9a}
+
 \bibitem[{{Jiang} {et~al.}(2017){Jiang}, {Doi}, {Maeda}, {Shigeyama}, {Nomoto},
   {Yasuda}, {Jha}, {Tanaka}, {Morokuma}, {Tominaga}, {Ivezi{\'c}},
   {Ruiz-Lapuente}, {Stritzinger}, {Mazzali}, {Ashall}, {Mould}, {Baade},
@@ -480,6 +490,14 @@ Hunter, J.~D. 2007, Computing In Science \& Engineering, 9, 90,
 
 \bibitem[{{Levanon} \& {Soker}(2019)}]{Levanon19}
 ---. 2019, \apjl, 872, L7, \dodoi{10.3847/2041-8213/ab0285}
+
+\bibitem[{{Maeda} {et~al.}(2018){Maeda}, {Jiang}, {Shigeyama}, \&
+  {Doi}}]{Maeda18}
+{Maeda}, K., {Jiang}, J.-a., {Shigeyama}, T., \& {Doi}, M. 2018, \apj, 861, 78,
+  \dodoi{10.3847/1538-4357/aac8d8}
+
+\bibitem[{{Magee} \& {Maguire}(2020)}]{Magee20a}
+{Magee}, M.~R., \& {Maguire}, K. 2020, \aap, submitted
 
 \bibitem[{{Magee} {et~al.}(2020){Magee}, {Maguire}, {Kotak}, {Sim},
   {Gillanders}, {Prentice}, \& {Skillen}}]{Magee20}
@@ -791,6 +809,12 @@ McKinney, W. 2010, in Proceedings of the 9th Python in Science Conference, ed.
 \bibitem[{{Taubenberger}(2017)}]{Taubenberger17}
 {Taubenberger}, S. 2017, {The Extremes of Thermonuclear Supernovae}, 317,
   \dodoi{10.1007/978-3-319-21846-5_37}
+
+\bibitem[{{Taubenberger} {et~al.}(2013){Taubenberger}, {Kromer}, {Pakmor},
+  {Pignata}, {Maeda}, {Hachinger}, {Leibundgut}, \& {Hillebrand
+  t}}]{Taubenberger13}
+{Taubenberger}, S., {Kromer}, M., {Pakmor}, R., {et~al.} 2013, \apjl, 775, L43,
+  \dodoi{10.1088/2041-8205/775/2/L43}
 
 \bibitem[{{Tonry} {et~al.}(2001){Tonry}, {Dressler}, {Blakeslee}, {Ajhar},
   {Fletcher}, {Luppino}, {Metzger}, \& {Moore}}]{Tonry01}
