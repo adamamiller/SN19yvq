@@ -1313,27 +1313,26 @@ An analytic formulation for the luminosity and effective temperature of the
 emission from the companion shock is given in Equations~22 and 25 in
 \citet{Kasen10a}. \citet{Brown12} provide an analytic function to approximate
 the fractional decrease in the observed flux as a function of the orientation
-of the system. We combine equations from \citet{Kasen10a} and \citet{Brown12}
-to model the early emission from \sn\ as ejecta-companion collision. We assume
-the interaction emits as a blackbody, and that the electon scattering opacity
-$\kappa_e = 0.2$\,cm$^{2}$\,g$^{-1}$ (as in \citealt{Kasen10a}). Assuming
-$z_\mathrm{SN} = 0.0094$, $E(B-V)_\mathrm{MW} = 0.018$\,mag, and
-$E(B-V)_\mathrm{host} = 0.032$\,mag, we compare observed flux measurements
-with those predicted by the \citet{Kasen10a} model in epochs with MJD$\,<
-58849.2$ (i.e., the first $\sim$2.5\,d after discovery when emission from the
-companion interaction is significantly brighter than the luminosity due to
-radioactive decay).\footnote{Given that \sn\ is an unusual SN, we make no
-assumptions about the ``normal'' SN emission due to radioactive decay of
+of the system. We combine the equations from \citet{Kasen10a} and
+\citet{Brown12} to model the early emission from \sn\ as ejecta-companion
+collision. We assume the interaction emits as a blackbody, and that the
+electon scattering opacity $\kappa_e = 0.2$\,cm$^{2}$\,g$^{-1}$ (as in
+\citealt{Kasen10a}). Assuming $z_\mathrm{SN} = 0.0094$, $E(B-V)_\mathrm{MW} =
+0.018$\,mag, and $E(B-V)_\mathrm{host} = 0.032$\,mag, we compare observed flux
+measurements with those predicted by the \citet{Kasen10a} model in epochs with
+MJD$\,< 58849.2$ (i.e., the first $\sim$2.5\,d after discovery when emission
+from the companion interaction is significantly brighter than the luminosity
+due to radioactive decay).\footnote{Given that \sn\ is an unusual SN, we make
+no assumptions about the ``normal'' SN emission due to radioactive decay of
 \radni. The companion-interaction model should therefore
-\textit{underestimate} the observed flux as there will be a growing
-contribution due to radioactive decay with time.} The model parameters,
-including: the companion separation, $a$, the mass of the ejecta,
-$M_\mathrm{ej}$, the velocity of the ejecta, $v_\mathrm{ej}$, the angle
-between the observer, the SN, and the companion, $\theta$, and the time of
-explosion, $t_\mathrm{exp}$ are constrained via a Gaussian likelihood and flat
-priors (see Table~\ref{tab:priors}) using an affine-invariant
+\textit{underestimate} the observed flux after a few days as there will be a
+growing contribution due to radioactive decay with time.} The model
+parameters, summarized in Table~\ref{tab:companion}, are constrained via a
+Gaussian likelihood and flat priors using an affine-invariant
 \citep{Goodman10} Markov Chain Monte Carlo (MCMC) ensemble sampler
 \citep{Foreman-Mackey13}.
+
+\input{./tables/companion.tex}
 
 \begin{figure}
     \centering
@@ -1357,14 +1356,8 @@ priors (see Table~\ref{tab:priors}) using an affine-invariant
 
 The results of this procedure are shown in Figure~\ref{fig:companion}, where
 it is clear that the model presented in \citet{Kasen10a} does an adequate job
-of explaining the early UV/optical emission from \sn. We find marginalized
-posterior values of $a = 9.1 \pm 0.7 \times 10^{11}$\,cm, $M_\mathrm{ej} = 1.0
-\pm 0.3\,M_\odot$, $v_\mathrm{ej} = 2.2 \pm^{0.5}_{0.3} \times 10^{4}$\,\kms,
-$\theta = 34 \pm^{28}_{24} \deg$, and $t_\mathrm{exp}(\mathrm{MJD}) = 58845.83
-\pm 0.05$ (all uncertainties are 68\% credible regions). Examination of a
-corner plot of the posterior samples shows that $M_\mathrm{ej}$ is largely
-unconstrained, while $v_\mathrm{ej}$ is degenerate with $\theta$ and $a$ is
-degenerate with $t_\mathrm{exp}$. 
+of explaining the early UV/optical emission from \sn\ (constraints on the
+model parameters are reported in Table~\ref{tab:companion}).
 
 While the interaction models roughly approximate the SN emission in the
 $\sim$3\,d after explosion, they significantly \textit{overestimate} the flux
@@ -1373,7 +1366,7 @@ This problem is exacerbated by the fact that the models do not include
 emission associated with radioactive decay, meaning the true discrepancy
 between what is predicted and what is observed is even larger than what is
 shown in Figure~\ref{fig:companion}. If we extend the fitting window to
-include the optical observations obtained $\sim$13.75\,d before \tbmax, the
+include the optical observations obtained $\sim$13.7\,d before \tbmax, the
 interaction models still overpredict the optical flux at this epoch. This
 overprediction of the optical flux poses a challenge for the companion
 interaction scenario; an inability to simultaneously match both UV and optical
@@ -1682,9 +1675,10 @@ or vice versa.
 We have examined four models in detail to try and explain the dramatic early
 UV/optical peak in \sn, including: the collision of the SN ejecta with a
 nondegenerate companion (e.g., \citealt{Kasen10a}), extended clumps of \radni\
-in the outer layers of the SN ejecta \citep[e.g.,][]{Magee20a}, the double-detonation explosion of a sub-Chandrasekhar mass WD \citep[e.g.,][]{Polin19},
-and the violent merger of two sub-Chandrasekhar mass WDs
-\citep[e.g.,][]{Kromer16}.
+in the outer layers of the SN ejecta \citep[e.g.,][]{Magee20a}, the
+double-detonation explosion of a sub-Chandrasekhar mass WD
+\citep[e.g.,][]{Polin19}, and the violent merger of two sub-Chandrasekhar mass
+WDs \citep[e.g.,][]{Kromer16}.
 
 The SN ejecta-companion models, which can easily replicate the early UV flash
 from \sn, simultaneously over-predict the optical flux at similar epochs.
