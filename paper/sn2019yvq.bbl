@@ -431,6 +431,14 @@ Foreman-Mackey, D. 2016, The Journal of Open Source Software, 24,
 HEASARC. 2014, HEAsoft: Unified Release of FTOOLS and XANADU, Astrophysics
   Source Code Library, ascl
 
+\bibitem[{{HI4PI Collaboration} {et~al.}(2016){HI4PI Collaboration}, {Ben
+  Bekhti}, {Fl{\"o}er}, {Keller}, {Kerp}, {Lenz}, {Winkel}, {Bailin},
+  {Calabretta}, {Dedes}, {Ford}, {Gibson}, {Haud}, {Janowiecki}, {Kalberla},
+  {Lockman}, {McClure-Griffiths}, {Murphy}, {Nakanishi}, {Pisano}, \&
+  {Staveley-Smith}}]{HI4PI2016a}
+{HI4PI Collaboration}, {Ben Bekhti}, N., {Fl{\"o}er}, L., {et~al.} 2016, \aap,
+  594, A116, \dodoi{10.1051/0004-6361/201629178}
+
 \bibitem[{{Hillebrandt} {et~al.}(2013){Hillebrandt}, {Kromer}, {R{\"o}pke}, \&
   {Ruiter}}]{Hillebrandt13}
 {Hillebrandt}, W., {Kromer}, M., {R{\"o}pke}, F.~K., \& {Ruiter}, A.~J. 2013,
@@ -544,17 +552,6 @@ Hunter, J.~D. 2007, Computing In Science \& Engineering, 9, 90,
 \bibitem[{{Maoz} {et~al.}(2014){Maoz}, {Mannucci}, \& {Nelemans}}]{Maoz14}
 {Maoz}, D., {Mannucci}, F., \& {Nelemans}, G. 2014, \araa, 52, 107,
   \dodoi{10.1146/annurev-astro-082812-141031}
-
-\bibitem[{{Margutti} {et~al.}(2012){Margutti}, {Soderberg}, {Chomiuk},
-  {Chevalier}, {Hurley}, {Milisavljevic}, {Foley}, {Hughes}, {Slane},
-  {Fransson}, {Moe}, {Barthelmy}, {Boynton}, {Briggs}, {Connaughton}, {Costa},
-  {Cummings}, {Del Monte}, {Enos}, {Fellows}, {Feroci}, {Fukazawa}, {Gehrels},
-  {Goldsten}, {Golovin}, {Hanabata}, {Harshman}, {Krimm}, {Litvak},
-  {Makishima}, {Marisaldi}, {Mitrofanov}, {Murakami}, {Ohno}, {Palmer},
-  {Sanin}, {Starr}, {Svinkin}, {Takahashi}, {Tashiro}, {Terada}, \&
-  {Yamaoka}}]{Margutti12}
-{Margutti}, R., {Soderberg}, A.~M., {Chomiuk}, L., {et~al.} 2012, \apj, 751,
-  134, \dodoi{10.1088/0004-637X/751/2/134}
 
 \bibitem[{{Marion} {et~al.}(2016){Marion}, {Brown}, {Vink{\'o}}, {Silverman},
   {Sand}, {Challis}, {Kirshner}, {Wheeler}, {Berlind}, {Brown}, {Calkins},
@@ -796,11 +793,10 @@ McKinney, W. 2010, in Proceedings of the 9th Python in Science Conference, ed.
 {Schlegel}, D.~J., {Finkbeiner}, D.~P., \& {Davis}, M. 1998, \apj, 500, 525,
   \dodoi{10.1086/305772}
 
-\bibitem[{{Shappee} {et~al.}(2016){Shappee}, {Piro}, {Stanek}, {Patel},
-  {Margutti}, {Lipunov}, \& {Pogge}}]{Shappee16a}
-{Shappee}, B.~J., {Piro}, A.~L., {Stanek}, K.~Z., {et~al.} 2016, ArXiv
-  e-prints.
-\newblock \doarXiv{1610.07601}
+\bibitem[{{Shappee} {et~al.}(2018){Shappee}, {Piro}, {Stanek}, {Patel},
+  {Margutti}, {Lipunov}, \& {Pogge}}]{Shappee18}
+{Shappee}, B.~J., {Piro}, A.~L., {Stanek}, K.~Z., {et~al.} 2018, \apj, 855, 6,
+  \dodoi{10.3847/1538-4357/aaa1e9}
 
 \bibitem[{{Shappee} {et~al.}(2019){Shappee}, {Holoien}, {Drout}, {Auchettl},
   {Stritzinger}, {Kochanek}, {Stanek}, {Shaya}, {Narayan}, \&

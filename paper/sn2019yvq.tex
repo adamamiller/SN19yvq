@@ -208,15 +208,21 @@
              California Institute of Technology,
              1200 E.~California Boulevard, Pasadena, CA 91125, USA}
 
-\author[0000-0002-8255-5127]{M.~Bulla}
-\affiliation{Nordita, 
-             KTH Royal Institute of Technology and Stockholm University, 
-             Roslagstullsbacken 23, SE-106 91 Stockholm, Sweden}
+\author[0000-0001-8472-1996]{D.~A.~Perley}
+\affiliation{Astrophysics Research Institute, 
+             Liverpool John Moores University, 
+             IC2, Liverpool Science Park, 146 Brownlow Hill, 
+             Liverpool L3 5RF, UK}
 
 \author[0000-0001-6797-1889]{S.~Schulze}
 \affiliation{Department of Particle Physics and Astrophysics, 
              Weizmann Institute of Science, 
              234 Herzl St, 76100 Rehovot, Israel}
+
+\author[0000-0002-8255-5127]{M.~Bulla}
+\affiliation{Nordita, 
+             KTH Royal Institute of Technology and Stockholm University, 
+             Roslagstullsbacken 23, SE-106 91 Stockholm, Sweden}
 
 \author[0000-0002-4163-4996]{A.~Goobar}
 \affiliation{The Oskar Klein Centre for Cosmoparticle Physics,
@@ -294,6 +300,11 @@
              Trinity College Dublin,
              The University of Dublin,
              Dublin 2, Ireland}
+             
+\author[0000-0002-8121-2560]{M.~Rigault}
+\affiliation{Universit\’{e} Clermont Auvergne, 
+             CNRS/IN2P3, Laboratoire de Physique de Clermont, 
+             F-63000 Clermont-Ferrand, France.}
 
 \author[0000-0001-7648-4142]{B.~Rusholme}
 \affiliation{IPAC, California Institute of Technology, 
@@ -359,7 +370,7 @@ narrow [\ion{O}{I}] emission, if it was due to a violent merger.
 %% keywords and the rules for their use.
 \keywords{}
 
-\section{Introduction} \label{sec:intro}
+\section{Introduction}
 
 \todo{it is possible/likely I did not cite your favorite paper below, feel
 free to provide suggestions}
@@ -395,7 +406,7 @@ a signal \citep[e.g.,][]{Hayden10,Ganeshalingam11,Bianco11,Nugent11,Olling15},
 including several claims of a detection of the interaction with a
 non-degenerate companion (e.g.,
 \citealt{Cao15,Marion16,Hosseinzadeh17,Dimitriadis19}; though see also
-\citealt{Kromer16,Shappee16a,Shappee19,Jiang18} for alternative explanations).
+\citealt{Kromer16,Shappee18,Shappee19,Jiang18} for alternative explanations).
 In the meantime, it has been found that an early optical bump, or flash, in
 the light curves of SNe\,Ia is not uniquely limited to the SD scenario
 \citep[e.g.,][]{Raskin13,Piro16,Levanon17,Noebauer17,Jiang17,Maeda18,Polin19,
@@ -525,36 +536,82 @@ $2,458,863.83$ \,\pm \,0.21$\,JD.
 
 In parallel with the \textit{Swift}/UVOT observations, \textit{Swift} observed
 \sn\ with its onboard X-ray telescope \citep[XRT;][]{Burrows05} between 0.3
-and 10\,keV in the photon counting mode. We analyzed the data with the
-online-service of the UK \textit{Swift}
+and 10\,keV in the photon counting mode from 29 December 2019 through 27
+February 2020. We analyzed the data with the online tools of the UK
+\textit{Swift}
 team\footnote{\href{https://www.swift.ac.uk/user_objects/}{\url{https://www.swift.ac.uk/user_objects/}}} that uses the methods described in \citet{Evans07}
 and \citet{Evans09} and the software package \texttt{HEASOFT}\footnote{
 \href{https://heasarc.gsfc.nasa.gov/docs/software/heasoft/}{\url{https://heasarc.gsfc.nasa.gov/docs/software/heasoft/}}} version 6.26.1 \citep{Heasarc}.
 
-\input{./tables/XRT.tex}
+To build the light curve of \sn\ and test whether transient X-ray emission is
+present at the SN position, we stack the data of each \textit{Swift} observing
+segment. In the pre-SN observations from 2012, we detect X-ray emission at the
+position of \sn. The average count rate in the 2012 observations is
+$0.0026\pm0.00078\,\mathrm{ct\,s}^{-1}$ (0.3--10\,keV). The detected count
+rate during observations of \sn\ is marginally higher than in 2012, however,
+spectra of the two epochs show no differences to within the uncertainties.
+Therefore, the same source from 2012 dominates the ongoing emission at the
+position of \sn.
 
-To build the light curve, we divided the time-interval of the \textit{Swift}
-campaign into blocks of 500\,ks (i.e., 5.8\,d). Table~\ref{tab:xrt} summarizes
-our measurements within these intervals, where the photon count rate varies
-between 0.001 and 0.003\,ct\,s$^{-1}$, with a signal-to-noise ratio between
-$\sim$2.6 and 3.4. In three of these binned epochs we do not detect any
-significant X-ray emission, and therefore report $3\sigma$ upper limits. To
-convert the count-rate to flux, we build a spectrum from the entire data set
-and model the data as an absorbed power-law. In this model, the absorption
-components reflect the Galactic absorption towards \sn\ ($N_{\rm
-H,\,X}=2.28\times10^{20}\,{\rm cm}^{-2}$)) (unclear where this value comes
-from. doesn't match nH column density calculator) and the absorption in the
-host galaxy. The photon index $\Gamma$ of the power law ($f \propto
-E^{-\Gamma}$) is $2.0^{+0.9}_{-0.5}$ and the host absorption is
-$7^{+207}_{-7}\times10^{20}\,{\rm cm}^{-2}$ (90\% confidence). The goodness of
-fit is $\chi^2=30.33$ for 31 degrees of freedom
-(w-statistics\footnote{\href{http://heasarc.gsfc.nasa.gov/xanadu/xspec/manual/XSappendixStatistics.html}{\url{http://heasarc.gsfc.nasa.gov/xanadu/xspec/manual/XSappendixStatistics.html}}}). The unabsorbed energy conversion factor is
-$3.5\times10^{-11}~\mathrm{erg\,cm}^{-2}\,\mathrm{ct}^{-1}$.
+In the first epoch of XRT observations of \sn, corresponding to the time we
+would expect the X-ray flux to be largest if the UV/optical flash is due to
+the collision of the ejecta with either circumstellar material or a
+nondegenerate companion, we marginally detect emission at the position of \sn\
+with a count rate of $0.0028 \pm 0.0015$\,ct\,c$^{-1}$. This flux is identical
+to that measured in 2012 to within the uncertainties. To estimate an upper
+limit on the SN flux, we take the difference between the 2019 and 2012 flux
+measurements and arrive at a $3\sigma$ upper limit on the SN count rate of $<
+0.0041$\,ct\,s$^{-1}$. The upper limits in future epochs of XRT observations
+are less constraining than this first epoch.
+ 
+To convert count rate to flux, we extracted a spectrum of the 2019--2020 data
+set. The spectrum is adequately described with an absorbed power-law where the
+two absorption components represent absorption in the Milky Way and the host
+galaxy. The Galactic equivalent neutral-hydrogen column density was fixed to
+$2.03\times10^{20}~{\rm cm}^{-2}$ \citep{HI4PI2016a}. The best-fit suggests
+negligible host absorption, though we note that the data do not constrain this
+parameter, and a photon index\footnote{The photon index is defined as $A(E)
+\propto E{-\Gamma}$.} of $1.9^{1.0}_{-0.5}$ (all uncertainties at 90\%
+confidence; $\chi^2=30.8$, with 32 degrees of freedom assuming Cash
+statistics). From this fit the unabsorbed count rate-to-energy conversion
+factor is $5\times10^{-11}~\mathrm{erg\,cm}^{-2}\,\mathrm{ct}^{-1}$.
 
-Given the constant X-ray emission (to within the uncertainties, see
-Table~\ref{tab:xrt}), we conclude that this emission is from a background
-source, and not \sn. A lack of X-ray emission is consistent with SNe\,Ia (e.g.,
-\citealt{Margutti12}).
+From the count-rate conversion factor, we estimate an upper limit on the X-ray
+flux of $2.1 \times 10^{-13}$\,erg\,cm$^{-2}$\,s$^{-1}$ at the first epoch of
+\textit{Swift} observations. At the distance of \sn\ (see \S\ref{sec:host}),
+this corresponds to an X-ray luminosity $L_X < 4.5 \times
+10^{40}$\,erg\,s$^{-1}$. This luminosity is significantly lower than the
+$\sim$5$\times 10^{44}$\,erg\,s$^{-1}$ estimate from \citet{Kasen10a} for the
+interaction between the SN ejecta and a nondegenerate companion. However, this
+discrepancy is not surprising as the X-ray emission is only expected to last
+for minutes to hours, and the \textit{Swift} observations occurred at least
+1.1\,d after explosion (based on the initial detection from
+\citealt{Itagaki19}).
+
+% \input{./tables/XRT.tex}
+%
+% To build the light curve, we divided the time-interval of the \textit{Swift}
+% campaign into blocks of 500\,ks (i.e., 5.8\,d). Table~\ref{tab:xrt} summarizes
+% our measurements within these intervals, where the photon count rate varies
+% between 0.001 and 0.003\,ct\,s$^{-1}$, with a signal-to-noise ratio between
+% $\sim$2.6 and 3.4. In three of these binned epochs we do not detect any
+% significant X-ray emission, and therefore report $3\sigma$ upper limits. To
+% convert the count-rate to flux, we build a spectrum from the entire data set
+% and model the data as an absorbed power-law. In this model, the absorption
+% components reflect the Galactic absorption towards \sn\ ($N_{\rm
+% H,\,X}=2.28\times10^{20}\,{\rm cm}^{-2}$)) (unclear where this value comes
+% from. doesn't match nH column density calculator) and the absorption in the
+% host galaxy. The photon index $\Gamma$ of the power law ($f \propto
+% E^{-\Gamma}$) is $2.0^{+0.9}_{-0.5}$ and the host absorption is
+% $7^{+207}_{-7}\times10^{20}\,{\rm cm}^{-2}$ (90\% confidence). The goodness of
+% fit is $\chi^2=30.33$ for 31 degrees of freedom
+% (w-statistics\footnote{\href{http://heasarc.gsfc.nasa.gov/xanadu/xspec/manual/XSappendixStatistics.html}{\url{http://heasarc.gsfc.nasa.gov/xanadu/xspec/manual/XSappendixStatistics.html}}}). The unabsorbed energy conversion factor is
+% $3.5\times10^{-11}~\mathrm{erg\,cm}^{-2}\,\mathrm{ct}^{-1}$.
+%
+% Given the constant X-ray emission (to within the uncertainties, see
+% Table~\ref{tab:xrt}), we conclude that this emission is from a background
+% source, and not \sn. A lack of X-ray emission is consistent with SNe\,Ia (e.g.,
+% \citealt{Margutti12}).
 
 \subsection{Optical Spectroscopy}
 
@@ -948,15 +1005,16 @@ $\sim$25,000\,\kms.
     %
     \caption{Comparison of \texttt{TARDIS} models to \sn\ at $-$14.9\,d
     (left), $-12.0$\,d (middle), and $+$0.0\,d (right), relative to \tbmax.
-    For each model, we color code a histogram showing the contribution of
-    each element to the spectroscopic features, based on the last element with
+    For each model, we color code a histogram showing the contribution of each
+    element to the spectroscopic features, based on the last element with
     which a Monte Carlo packet experienced an interaction. Packets may be
     absorbed and re-emitted at different wavelengths, with the exception of
     those packets that only experience electron scattering. During electron
     scattering, only the direction of propagation is changed. These packets
-    are shown in grey. Packets that did not interact during the simulation are
-    shown in black. Contributions above/below zero demonstrate the sum of
-    packet luminosities after/before their last interaction.}
+    are shown in light grey. Packets that did not interact during the
+    simulation are shown in dark grey. Contributions above/below zero
+    demonstrate the sum of packet luminosities after/before their last
+    interaction.}
     %
     \label{fig:tardis}
 \end{figure*}
@@ -1734,6 +1792,10 @@ Exploration and Research in Astrophysics, Northwestern University).
 
 C.F.~gratefully acknowledges support of his research by the Heising-Simons
 Foundation (\#2018-0907).
+
+M.R.~has received funding from the European Research Council (ERC) under the
+European Union’s Horizon 2020 research and innovation programme (grant
+agreement No.\ 759194 — USNAC).
 
 This work was supported by TCHPC (Research IT, Trinity College Dublin).
 Calculations were performed on the Kelvin cluster maintained by the Trinity
