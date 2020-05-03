@@ -175,8 +175,6 @@
 %% automatically put the author and affiliation information from the manuscript
 %% and save the corresponding author the trouble of entering it by hand.
 
-\author{\textbf{added in order of opt in, order currently meaningless}}
-
 
 \author[0000-0001-9515-478X]{A.~A.~Miller}
 \affiliation{Center for Interdisciplinary Exploration and Research in 
@@ -273,7 +271,7 @@
              California Institute of Technology,
              1200 E.~California Boulevard, Pasadena, CA 91125, USA}
 
-\author[0000-0001-8205-2506]{V. Zach Golkhou}
+\author[0000-0001-8205-2506]{V.~Z.~Golkhou}
 \affiliation{DIRAC Institute, 
              Department of Astronomy, University of Washington, 
              3910 15th Avenue NE, Seattle, WA 98195, USA} 
@@ -322,6 +320,10 @@
              1200 E. California Blvd, 
              Pasadena, CA 91125, USA}
 
+\author[0000-0001-6753-1488]{M.~T.~Soumagnac}
+\affiliation{Lawrence Berkeley National Laboratory, 1 Cyclotron Road, Berkeley, CA 94720, USA}
+\affiliation{Department of Particle Physics and Astrophysics, Weizmann Institute of Science, Rehovot 76100, Israel}
+
 \author[0000-0003-1710-9339]{L.~Yan}
 \affiliation{Cahill Center for Astrophysics,
              California Institute of Technology,
@@ -348,7 +350,7 @@ ever SN\,Ia, after iPTF\,14atg, to display an early flash of emission in the
 ultraviolet (UV) and optical. Our analysis finds that \sn\ was unusual, even
 when ignoring the initial flash, in that it was moderately underluminous for a
 SN\,Ia ($M_g \approx -18.5$\,mag at peak) yet featured very high absorption
-velocities ($v \approx 15,000$\kms\ for \ion{Si}{II} $\lambda$6355 at peak).
+velocities ($v \approx 15,000$\,\kms\ for \ion{Si}{II} $\lambda$6355 at peak).
 We find that many of the observational features of \sn, aside from the flash,
 can be explained if the explosive yield of radioactive \radni\ is relatively
 low and highly concentrated in the innermost layers of the
@@ -371,9 +373,6 @@ narrow [\ion{O}{I}] emission, if it was due to a violent merger.
 \keywords{}
 
 \section{Introduction}
-
-\todo{it is possible/likely I did not cite your favorite paper below, feel
-free to provide suggestions}
 
 There is now no doubt that Type Ia supernovae (SNe\,Ia) are the result of
 thermonuclear explosions in C/O white dwarfs (WDs) in multiple star systems
@@ -515,7 +514,7 @@ limited to the $uvw1$, $uvm2$, and $uvw2$ filters. As a result we cannot
 provide accurate estimates of the SN flux in the \textit{Swift} $u$, $b$, and
 $v$ filters. We estimate the flux in the $uvw1$, $uvm2$, and $uvw2$ filters
 using a circular aperture with a $3\arcsec$ radius at the SN position, and
-subtract the flux measured using an identical procedure in the pre-SN\,Images.
+subtract the flux measured using an identical procedure in the pre-SN images.
 For clarity, we only show the \textit{Swift} $uvw1$ and $uvm2$ light curves in
 Figure~\ref{fig:p48}.\footnote{The $uvw2$ evolution is nearly identical to
 $uvm2$. Furthermore, the red leak associated with the $uvw2$ filter (see e.g.,
@@ -526,13 +525,13 @@ unless otherwise noted, we exclude $uvw2$ measurements from the analysis
 below.} \textit{Swift}/UVOT observations show that the initial decline seen in
 the optical is even more dramatic in the UV.
 
-While absolute flux measurements in the UVOT $u$, $b$, and $v$ filters are
-not available, assuming the underlying flux from the host is constant, we
-can estimate the time of $B$-band maximum, \tbmax, from the relative
-$b$-band light curve. Using a second-order polynomial, we model the $b$-band
-light curve near peak (including observations between JD$\,> \,$2,458,855.5
-and JD$\,<\,$2,458,871.5). From this fit we estimate \tbmax$ =
-$2,458,863.83$ \,\pm \,0.21$\,JD.
+While absolute flux measurements in the UVOT $u$, $b$, and $v$ filters are not
+available, assuming the underlying flux from the host is constant in time, we
+can estimate the time of $B$-band maximum, \tbmax, from the relative $b$-band
+light curve. Using a second-order polynomial, we model the $b$-band light
+curve near peak (including observations between JD$\,> \,$2,458,855.5 and
+JD$\,<\,$2,458,871.5). From this fit we estimate \tbmax$ = $2,458,863.83$
+\,\pm \,0.21$\,JD.
 
 In parallel with the \textit{Swift}/UVOT observations, \textit{Swift} observed
 \sn\ with its onboard X-ray telescope \citep[XRT;][]{Burrows05} between 0.3
@@ -791,7 +790,7 @@ temperature to have fallen to $L = (7.0 \pm ^{0.9}_{0.6}) \times
 respectively. For this epoch we have excluded the $uvw2$ flux from the
 blackbody model due to the significantly lower temperature, and known red leak
 for that filter (see \S\ref{sec:swift}). This measurement of $T_\mathrm{eff}$
-is consistent with our model spectrum from 2.6~rest-frame~d after \tfl (see
+is consistent with our model spectrum from 2.6~rest-frame~d after \tfl\ (see
 \S\ref{sec:tardis}). At a similar epoch, $\sim$4\,d after explosion,
 \citet{Cao15} estimate a UV flash luminosity of $\sim$3$ \times
 10^{41}$erg\,s$^{-1}$ in iPTF\,14atg, a factor of $\sim$2 less than for \sn.
@@ -805,9 +804,9 @@ abruptly ended 3\,d after \tfl\ (i.e., at the epoch of the second
 energy of $\sim$4$\times 10^{42}$\,erg.
 % flash peak ~ 1.82e42; total = 1.82e42/2 + 2*7e41 + 2*1.12e+42/2
 These assumed times are highly uncertain, however, it is likely that the SN
-exploded before \tfl\ (see e.g., \S\ref{sec:companion_interaction}), and the
-UV flux continues to decline $>$3\,d after \tfl\ (Figure~\ref{fig:p48})
-suggesting the flash lasted longer than 3\,d.
+exploded before \tfl\ (see e.g., \S\ref{sec:tardis} and \S\ref{sec:models}),
+and the UV flux continues to decline $>$3\,d after \tfl\
+(Figure~\ref{fig:p48}) suggesting the flash lasted longer than 3\,d.
 
 \subsection{Maximum Light and Decline}\label{sec:max_decline}
 
@@ -906,10 +905,10 @@ reaches a \gztf$-$\rztf\ maximum at an intermediate time of $\sim$+20\,d.
 The offset in the \gztf$ - $\rztf\ color evolution of \sn\ relative to normal
 SNe\,Ia would be reduced if the reddening towards \sn\ has been significantly
 underestimated. A color excess of $E(B-V) \approx 0.25$\,mag, rather than the
-0.05\,mag adopted in \S\ref{sec:host}, would roughly align the pre-\tbmax\
-\gztf$ - $\rztf\ color of \sn\ with the tight locus seen in
-Figure~\ref{fig:colors}. Such a correction would also bring the peak optical
-brightness of \sn\ in line with normal SNe\,Ia [for $E(B-V) \approx
+0.05\,mag adopted in \S\ref{sec:host}, would roughly align the \gztf$ -
+$\rztf\ color of \sn\ with the tight locus between $\sim$5--20\,d after \tfl\
+seen in Figure~\ref{fig:colors}. Such a correction would also bring the peak
+optical brightness of \sn\ in line with normal SNe\,Ia [for $E(B-V) \approx
 0.25$\,mag, $M_g \approx -19.25$\,mag and $M_r \approx -19.1$\,mag for \sn].
 
 While the spectral appearance of \sn\ is similar to some normal SNe\,Ia (see
@@ -1007,8 +1006,8 @@ $\sim$25,000\,\kms.
     (left), $-12.0$\,d (middle), and $+$0.0\,d (right), relative to \tbmax.
     For each model, we color code a histogram showing the contribution of each
     element to the spectroscopic features, based on the last element with
-    which a Monte Carlo packet experienced an interaction. Packets may be
-    absorbed and re-emitted at different wavelengths, with the exception of
+    which a Monte Carlo photon packet experienced an interaction. Packets may
+    be absorbed and re-emitted at different wavelengths, with the exception of
     those packets that only experience electron scattering. During electron
     scattering, only the direction of propagation is changed. These packets
     are shown in light grey. Packets that did not interact during the
@@ -1042,7 +1041,7 @@ outermost ejecta.
 
 Given that our $+0$\,d maximum light spectrum occurs 12\,d after our previous
 model spectrum, we assume a composition for the inner ejecta
-($\textless$16,500\,\kms) similar to that found for SN\,2002bo
+($\textless$\,16,500\,\kms) similar to that found for SN\,2002bo
 \citep{Stehle05}. A more detailed ejecta structure could be achieved through
 modeling additional pre-maximum spectra, but is beyond the scope of the work
 presented here. As shown in Figure~\ref{fig:tardis}, our model is able to
@@ -1093,13 +1092,12 @@ evolution of SNe\,Ia belonging to the four different classes (Shallow Silicon,
 Core Normal, Broad Line, and Cool) identified in
 \citet{Branch06};\footnote{The velocity measurements are from
 \citet{Blondin12}, while the method to determine the median velocity is
-described in \citet{Miller18}.} hereafter, the \citeauthor{Branch06}~class.
-The \ion{Si}{II} $\lambda$6355 velocity in \sn\ is $\sim$15,000\,\kms\ around
-\tbmax.
+described in \citet{Miller18}.} hereafter, the Branch~class. The \ion{Si}{II}
+$\lambda$6355 velocity in \sn\ is $\sim$15,000\,\kms\ around \tbmax.
 
 At \tbmax, the pEW measurements for the \ion{Si}{II} $\lambda$6355 and
 $\lambda$5972 features are $183\pm1$\,\AA, and $13\pm2$\,\AA, respectively,
-unambiguously classifying \sn\ as a \citeauthor{Branch06}~Broad Line SN\,Ia.
+unambiguously classifying \sn\ as a Branch~Broad Line SN\,Ia.
 \sn\ stands out in Figure~\ref{fig:vel_evo} with some of the highest
 \ion{Si}{II} velocities that have ever been observed. Within the PTF sample,
 only SN\,2010jn (PTF\,10ygu) exhibits a \ion{Si}{II} absorption velocity as
@@ -1161,13 +1159,13 @@ recedes (see \S\ref{sec:tardis}), and not a decrease in temperature.
 This behavior is similar to, though less extreme than, SN\,2002bo, which
 increases in temperature from $\sim$9,500\,K at $-12.9$\,d to $\sim$14,000\,K
 at maximum light \citep{Stehle05}. The maximum light temperature of SN\,2002bo
-is similar to \citeauthor{Branch06}~Core Normal SNe, such as SN\,2011fe, which
+is similar to Branch~Core Normal SNe, such as SN\,2011fe, which
 typically have temperatures of $\sim$14,500--15,000\,K at maximum light
 \citep{Mazzali14}.
 
 \citet{Benetti04} interpreted these competing effects as the result of
-significant \ion{Si}{II} mixing in the ejecta of SN\,2002bo. Mixing or Si
-production in the outermost layers of the ejecta would (i) lead to larger
+significant \ion{Si}{II} mixing in the ejecta of SN\,2002bo. Mixing or
+synthesized Si in the outermost layers of the ejecta would (i) lead to larger
 \ion{Si}{II} velocities, (ii) produce \ion{Si}{II} line ratios that indicate
 cool temperatures (because there is less radioactive material to heat the
 ejecta), before eventually (iii) producing low values of
@@ -1175,7 +1173,7 @@ $\mathcal{R}($\ion{Si}{II}$)$ as the photosphere recedes through the ejecta to
 higher temperature regions. This picture is consistent with the
 \citet{Stehle05} models of SN\,2002bo. In those models, Si completely
 dominates the species at velocities above $\sim$23,000\,\kms, while there is
-very little ($\sim$1\%) IGE above a 1.35\,$M_\odot$ in radial mass
+very little ($\sim$1\%) IGE above 1.35\,$M_\odot$ in radial mass
 coordinates. A similar physical scenario likely explains the changes in
 \ion{Si}{II} absorption seen in \sn. Although the temperature change in \sn\
 is less dramatic than in SN\,2002bo, this may reflect slight differences in
@@ -1186,22 +1184,22 @@ layers of the SN ejecta.
 
 %%%Comparison to other objects & Si II ratio
 In Figure~\ref{fig:spec_comp}, we compare the spectral evolution of \sn\ to
-two Broad-Line SNe, SN\,2002bo and SNe\,2010jn, and two Cool SNe, SN\,1986G
-and SN\,2004eo \citep{Cristiani92,
+two Branch~Broad-Line SNe\,Ia, SN\,2002bo and SN\,2010jn, and two Branch~Cool
+SNe\,Ia, SN\,1986G and SN\,2004eo \citep{Cristiani92,
 Benetti04,Pastorello07,Silverman11,Hachinger13,Maguire14} at four phases,
 pre-maximum, maximum, $\sim$1 week post maximum, and $\sim$6 weeks post
 maximum. The evolution of \sn\ and SN\,2002bo is remarkably similar at all
 phases. The only significant difference between the two is the absorption
-trough at $\sim$4800\,\AA\ in the pre- and maximum-light spectra. This
+trough at $\sim$4800\,\AA\ in the pre-maximum and maximum-light spectra. This
 feature, which is typically attributed to a combination of \ion{Fe}{II},
 \ion{Fe}{III}, and \ion{Si}{II}, is extremely narrow in \sn. This is in
 agreement with the \texttt{TARDIS} modeling results where no Fe is required in
 the outer ejecta of \sn\ to match the observed spectra at early times.
 SN\,2010jn, which exhibits large \ion{Si}{II} velocities like \sn, shows
 weaker IME absorption and stronger IGE absorption than \sn. While the
-\citeauthor{Branch06}~Cool SNe\,1986G and 2004eo show lower velocities than
-\sn, there is strong agreement in the relative \ion{Si}{II} line strengths of
-SN\,1986G and the earliest spectra of \sn.
+Branch~Cool SNe\,1986G and 2004eo show lower velocities than \sn, there is
+strong agreement in the relative \ion{Si}{II} line strengths of SN\,1986G and
+the earliest spectra of \sn.
 
 % The left panel of Figure~\ref{fig:spec_comp} also shows the spectrum of
 % SN\,1986G, a \citet{Branch06} Cool SN that is sometimes referred to as
@@ -1217,7 +1215,7 @@ SN\,1986G and the earliest spectra of \sn.
     \centering
     \includegraphics[width=\textwidth]{./figures/spec_comp_extinction.pdf}
     %
-    \caption{Spectral comparison of \sn\ to \citeauthor{Branch06}~Broad Line
+    \caption{Spectral comparison of \sn\ to Branch~Broad Line
     and Cool SNe\,Ia. All spectra have been corrected for the total
     line-of-sight extinction with adopted $E(B-V)$ values of 0.9\,mag,
     0.38\,mag, 0.39\,mag, 0.109\,mag, and 0.05\,mag for SNe\,1986G
@@ -1244,7 +1242,7 @@ SN\,1986G and the earliest spectra of \sn.
 
 The maximum-light spectra shown in the second panel of
 Figure~\ref{fig:spec_comp} reveal a higher temperature for \sn, as the
-\ion{Si}{II} $\lambda$5972\,\AA\ absorption has nearly disappeared around
+\ion{Si}{II} $\lambda$5972 absorption has nearly disappeared around
 \tbmax\ (see discussion of $\mathcal{R}($\ion{Si}{II}$)$ in \S\ref{sec:SiII}).
 This increase in temperature is consistent with the change in optical colors
 (Figure~\ref{fig:colors}) and \texttt{TARDIS} spectral modeling
@@ -1305,7 +1303,7 @@ similar to intermediate 86G-like SNe, however, the spectra feature much weaker
 \ion{Si}{II} $\lambda$5972 absorption and larger expansion velocities than
 what is seen in 86G-like SNe (see Figure~\ref{fig:spec_comp}). Similarly,
 while the spectral appearance and evolution of \sn\ is similar to SN\,2002bo,
-and other \citeauthor{Branch06}~Broad Line SNe, the photometric properties are
+and other Branch~Broad Line SNe, the photometric properties are
 entirely different. SN\,2002bo features a relatively slow decline
 [$\Delta{m}_{15}(B) = 1.13$\,mag] with a clear secondary maximum in the $I$
 band \citep{Benetti04}, which stands in contrast to moderately fast decline
@@ -1333,23 +1331,24 @@ the observations are best matched by compact \radni\ distributions. For this
 modeling we have excluded the first two epochs of ZTF observations, as we
 consider the mechanism that produces the early UV flash to be different from
 the standard \radni\ decay that powers most SNe\,Ia. That the (normal) rising
-portion of the \sn\ light curve is best matched by stratified models
-strengthens the support for this interpretation. We note, however, that
-\citet{Magee20} demonstrate that the time of first detection can dramatically
-alter the inferred model properties and it is unclear which epochs (if any)
-should be excluded. Nevertheless, a stratified ejecta is also consistent with
-our spectroscopic analysis (see \S\ref{sec:tardis}).
+portion of the \sn\ light curve is best matched by models with a compact
+\radni\ distributiion strengthens the support for this interpretation. We
+note, however, that \citet{Magee20} demonstrate that the time of first
+detection can dramatically alter the inferred model properties and it is
+unclear which epochs (if any) should be excluded. Nevertheless, centrally
+confined \radni\ and other IGEs is also consistent with our spectroscopic
+analysis (see \S\ref{sec:tardis}).
 
 On their own, a low-\radni\ yield that is centrally concentrated fails to
 explain the blue UV/optical flash seen in \sn. A large number of scenarios
-have been proposed to explain early ``bumps'' or ``flashes'' in SNe\,Ia light
-curves, including: interaction between the SN ejecta and a nondegenerate
-binary companion \citep{Kasen10a}, interaction between the SN ejecta and
-circumstellar material (e.g., \citealt{Dessart14,Piro16,Levanon17}), shock
-cooling following the shock breakout from the surface of the WD (e.g.,
-\citealt{Piro10,Rabinak11}), double-detonation explosions (e.g.,
-\citealt{Noebauer17,Polin19}), and extended clumps of \radni\ in the SN ejecta
-(e.g., \citealt{Shappee19,Dimitriadis19}). We discuss these models and their
+have been proposed to explain early ``bumps'' or ``flashes'' in SN\,Ia light
+curves, including: shock cooling following the shock breakout from the surface
+of the WD (e.g., \citealt{Piro10,Rabinak11}), interaction between the SN
+ejecta and a nondegenerate binary companion \citep{Kasen10a}, extended clumps
+of \radni\ in the SN ejecta (e.g., \citealt{Shappee19,Dimitriadis19}),
+double-detonation explosions (e.g., \citealt{Noebauer17,Polin19}), and
+interaction between the SN ejecta and circumstellar material (e.g.,
+\citealt{Dessart14,Piro16,Levanon17}). We discuss these models and their
 ability to replicate observations of \sn\ below.\footnote{We do not discuss
 shock breakout models as our initial detection of \sn\ occurred at $M_g
 \approx -16.3$\,mag. A progenitor radius of $\sim$10$\,R_\odot$ is needed to
@@ -1372,12 +1371,12 @@ emission from the companion shock is given in Equations~22 and 25 in
 \citet{Kasen10a}. \citet{Brown12} provide an analytic function to approximate
 the fractional decrease in the observed flux as a function of the orientation
 of the system. We combine the equations from \citet{Kasen10a} and
-\citet{Brown12} to model the early emission from \sn\ as ejecta-companion
+\citet{Brown12} to model the early emission from \sn\ as an ejecta-companion
 collision. We assume the interaction emits as a blackbody, and that the
 electon scattering opacity $\kappa_e = 0.2$\,cm$^{2}$\,g$^{-1}$ (as in
 \citealt{Kasen10a}). Assuming $z_\mathrm{SN} = 0.0094$, $E(B-V)_\mathrm{MW} =
 0.018$\,mag, and $E(B-V)_\mathrm{host} = 0.032$\,mag, we compare observed flux
-measurements with those predicted by the \citet{Kasen10a} model in epochs with
+measurements with those predicted by the \citet{Kasen10a} model at epochs with
 MJD$\,< 58849.2$ (i.e., the first $\sim$2.5\,d after discovery when emission
 from the companion interaction is significantly brighter than the luminosity
 due to radioactive decay).\footnote{Given that \sn\ is an unusual SN, we make
@@ -1498,10 +1497,10 @@ clumps cannot explain the early flash seen in \sn.
 
 WDs that accrete a thin shell of He can explode via a ``double detonation''
 whereby explosive burning in the He shell drives a shock into the C/O core of
-the WD. This shock can ignite explosive C burning and a detonation that
-disrupts the entire star (e.g., \citealt{Nomoto82,Nomoto82a,Woosley94}). Such
-explosions are even possible in C/O WDs that are well below the Chandrasekhar
-mass (see \citealt{Fink07, Fink10} and references therein).
+the WD. This shock can ignite explosive C burning and trigger a detonation
+that disrupts the entire star (e.g., \citealt{Nomoto82,Nomoto82a,Woosley94}).
+Such explosions are even possible in C/O WDs that are well below the
+Chandrasekhar mass (see \citealt{Fink07, Fink10} and references therein).
 
 Recent models of double-detonation explosions presented in \citet{Polin19}
 show that such explosions can replicate several of the peculiar properties of
@@ -1546,8 +1545,8 @@ Figure~\ref{fig:double_det}.
     we have adopted a model explosion time $t_\mathrm{exp} = t_\mathrm{fl} -
     0.72$\,d. \textit{Left}: Photometric comparison between \sn\ and the
     model. Symbols are the same as Figure~\ref{fig:p48}. The double-detonation
-    model provides a good match to the \rztf\ evolution, though the flux in
-    the \gztf\ and \iztf\ bands is under- and over-predicted, respectively.
+    model provides a good match to the \rztf-band evolution, though the flux
+    in the \gztf\ and \iztf\ bands is under- and over-predicted, respectively.
     The UV emission is also underestimated by the double-detonation model.
     \textit{Right}: Spectroscopic comparison between \sn\ and the model.
     Observed spectra of \sn\ are shown in blue, with phases marked relative to
@@ -1653,18 +1652,19 @@ designed to fit the early UV flash in iPTF\,14atg.
     t_\mathrm{fl} - 1.92$\,d. Thin lines represent one of 25 sightlines, while
     the bold lines represent a single sightline for illustrative purposes.
     \textit{Left}: Photometric comparison between \sn\ and the model. Symbols
-    are the same as Figure~\ref{fig:p48}. Despite the underestimated optical
-    flux, the qualitative behavior of the violent merger model, including red
-    \gztf$ - $\rztf\ colors at peak and a lack of secondary maximum in the
-    \iztf-band do match \sn. \textit{Right}: Spectroscopic comparison between
-    \sn\ and the violent merger model. Observed spectra of \sn\ are shown in
-    blue, with phases marked relative to \tbmax, whereas the model spectra are
-    shown as thin grey lines. The thick black line highlights a specific
-    viewing angle. The modelled spectra have been smoothed with a
-    Savitzky-Golay filter \citep{Savitzky64}. The photospheric velocity in the
-    violent merger model features lower velocities than \sn, while the
-    strength of the the IME absorption is weaker in the models than what is
-    observed.}
+    are the same as Figure~\ref{fig:p48}. The shaded area shows the UV/optical
+    flash from \sn, which was not modeled by \citet{Kromer16}. Despite the
+    underestimated optical flux, the qualitative behavior of the violent
+    merger model, including red \gztf$ - $\rztf\ colors at peak and a lack of
+    secondary maximum in the \iztf-band do match \sn. \textit{Right}:
+    Spectroscopic comparison between \sn\ and the violent merger model.
+    Observed spectra of \sn\ are shown in blue, with phases marked relative to
+    \tbmax, whereas the model spectra are shown as thin grey lines. The thick
+    black line highlights a specific viewing angle. The modelled spectra have
+    been smoothed with a Savitzky-Golay filter \citep{Savitzky64}. The
+    photospheric velocity in the violent merger model features lower
+    velocities than \sn, while the strength of the the IME absorption is
+    weaker in the models than what is observed.}
     %
     \label{fig:violent_merger}
 \end{figure*}
@@ -1715,22 +1715,21 @@ subclass of SNe\,Ia. With a moderately faint peak optical brightness ($M_g
 \approx -18.5$\,mag), relatively fast decline [$\Delta m_{15}(g) = 1.3$\,mag],
 and lack of a secondary maximum in the \iztf\ filter, \sn\ is clearly
 distinguished photometrically from normal SNe\,Ia. These photometric
-properties typically correspond to \citeauthor{Branch06}\ Cool SNe, yet the
-spectroscopic evolution of \sn\ does match such events. \sn\ is a
-\citeauthor{Branch06}\ Broad Line SN, with relatively weak \ion{Si}{II}
-$\lambda$5972 absorption and large photospheric velocities. Furthermore, our
-\texttt{TARDIS} models show little to no IGE present in the outer layers of
-the SN ejecta, which further isolates \sn, even relative to other
-\citeauthor{Branch06}\ Broad Line SNe. The fact that \sn\ exhibits
-high-velocity \ion{Si}{II} $\lambda$6355 absorption and an underluminous peak
-sets it apart from other SNe\,Ia.
+properties typically correspond to Branch\ Cool SNe, yet the spectroscopic
+evolution of \sn\ does not match such events. \sn\ is a Branch\ Broad Line SN,
+with relatively weak \ion{Si}{II} $\lambda$5972 absorption and large
+photospheric velocities. Furthermore, our \texttt{TARDIS} models show little
+to no IGE present in the outer layers of the SN ejecta, which further
+distinguishes \sn, even relative to other Branch~Broad Line SNe. The fact that
+\sn\ exhibits high-velocity \ion{Si}{II} $\lambda$6355 absorption and an
+underluminous peak sets it apart from other SNe\,Ia.
 
 We have found that building a consistent physical model to explain all of the
 observed properties of \sn\ is challenging. Most models either replicate the
 early flash but fail to reproduce the observed behavior around maximum light,
 or vice versa.
 
-We have examined four models in detail to try and explain the dramatic early
+We have examined four models in detail to try to explain the dramatic early
 UV/optical peak in \sn, including: the collision of the SN ejecta with a
 nondegenerate companion (e.g., \citealt{Kasen10a}), extended clumps of \radni\
 in the outer layers of the SN ejecta \citep[e.g.,][]{Magee20a}, the

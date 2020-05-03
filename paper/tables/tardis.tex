@@ -1,15 +1,15 @@
-\begin{deluxetable*}{lcrrccc}
+\begin{deluxetable*}{lcrcccc}
 \tabletypesize{\scriptsize}
 \tablewidth{0pt}
 \tablecaption{\texttt{TARDIS} input parameters\label{tab:tardis}}
 \tablehead{
 \colhead{Date} &
 \colhead{MJD} &
-\colhead{Phase\tablenotemark{{\scriptsize a}}} &
-\colhead{$t - t_\mathrm{exp}$\tablenotemark{{\scriptsize b}}} &
-\colhead{$L$\tablenotemark{{\scriptsize c}}} &
-\colhead{$v_\mathrm{boundary}$\tablenotemark{{\scriptsize d}} }&
-\colhead{$T_\mathrm{boundary}$\tablenotemark{{\scriptsize e}} } \\
+\colhead{Phase} &
+\colhead{$t - t_\mathrm{exp}$} &
+\colhead{$L$} &
+\colhead{$v_\mathrm{boundary}$\tablenotemark{{\scriptsize a}} }&
+\colhead{$T_\mathrm{boundary}$\tablenotemark{{\scriptsize b}} } \\
 \colhead{(UT) }&
 \colhead{} &
 \colhead{(d)} &
@@ -23,15 +23,10 @@
 2020 Jan 03.217 & 58851.217 & $-12.0$ & 6.0 & 8.60 & 16,500 & 7925 \\
 2020 Jan 15.392 & 58863.392 & $+0.0$ & 18.0 & 9.29 & 10,500 & 9696 \\
 \enddata
-\tablenotetext{a}{Rest-frame time relative to the time of $B$-band maximum,
-\tbmax.}
-\tablenotetext{b}{Rest-frame time relative to the \texttt{TARDIS} time of
-explosion, $t_\mathrm{exp}$.}
-\tablenotetext{c}{Emergent Luminosity.}
-\tablenotetext{d}{Ejecta velocity at the inner boundary of the photosphere.}
-\tablenotetext{e}{Temperature at the inner boundary of the photosphere. The
-inner boundary temperature is not explicitly an input parameter for
+\tablecomments{Phase is measured in rest-frame days relative to \tbmax. The time of explosion, $t_\mathrm{exp}$, is assumed to be 0.4\,d before \tfl\ for the \texttt{TARDIS} model. }
+\tablenotetext{a}{Ejecta velocity at the inner boundary of the photosphere.}
+\tablenotetext{b}{Temperature at the inner boundary of the photosphere. 
+$T_\mathrm{boundary}$ is not explicitly an input parameter for
 \texttt{TARDIS}, it is derived from the luminosity, time since explosion,
-inner boundary velocity, and iteratively updated throughout the simulation.}
-
+inner boundary velocity, and then iteratively updated throughout the simulation.}
 \end{deluxetable*}
