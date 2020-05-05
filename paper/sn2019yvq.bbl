@@ -406,6 +406,11 @@ Foreman-Mackey, D. 2016, The Journal of Open Source Software, 24,
 {Graham}, M.~J., {Kulkarni}, S.~R., {Bellm}, E.~C., {et~al.} 2019, \pasp, 131,
   078001, \dodoi{10.1088/1538-3873/ab006c}
 
+\bibitem[{{Gronow} {et~al.}(2020){Gronow}, {Collins}, {Ohlmann}, {Pakmor},
+  {Kromer}, {Seitenzahl}, {Sim}, \& {R{\"o}pke}}]{Gronow20}
+{Gronow}, S., {Collins}, C., {Ohlmann}, S.~T., {et~al.} 2020, \aap, 635, A169,
+  \dodoi{10.1051/0004-6361/201936494}
+
 \bibitem[{{Guy} {et~al.}(2007){Guy}, {Astier}, {Baumont}, {Hardin}, {Pain},
   {Regnault}, {Basa}, {Carlberg}, {Conley}, {Fabbro}, {Fouchez}, {Hook},
   {Howell}, {Perrett}, {Pritchet}, {Rich}, {Sullivan}, {Antilogus}, {Aubourg},
@@ -495,6 +500,11 @@ Hunter, J.~D. 2007, Computing In Science \& Engineering, 9, 90,
 \bibitem[{{Kerzendorf} \& {Sim}(2014)}]{Kerzendorf14}
 {Kerzendorf}, W.~E., \& {Sim}, S.~A. 2014, \mnras, 440, 387,
   \dodoi{10.1093/mnras/stu055}
+
+\bibitem[{{Kromer} {et~al.}(2017){Kromer}, {Ohlmann}, \&
+  {R{\"o}pke}}]{Kromer17}
+{Kromer}, M., {Ohlmann}, S., \& {R{\"o}pke}, F.~K. 2017, \memsai, 88, 312.
+\newblock \doarXiv{1706.09879}
 
 \bibitem[{{Kromer} {et~al.}(2010){Kromer}, {Sim}, {Fink}, {R{\"o}pke},
   {Seitenzahl}, \& {Hillebrandt}}]{Kromer10}
