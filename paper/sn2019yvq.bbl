@@ -438,10 +438,6 @@ Foreman-Mackey, D. 2016, The Journal of Open Source Software, 24,
 {Hayden}, B.~T., {Garnavich}, P.~M., {Kessler}, R., {et~al.} 2010, \apj, 712,
   350, \dodoi{10.1088/0004-637X/712/1/350}
 
-\bibitem[{HEASARC(2014)}]{Heasarc}
-HEASARC. 2014, HEAsoft: Unified Release of FTOOLS and XANADU, Astrophysics
-  Source Code Library, ascl
-
 \bibitem[{{HI4PI Collaboration} {et~al.}(2016){HI4PI Collaboration}, {Ben
   Bekhti}, {Fl{\"o}er}, {Keller}, {Kerp}, {Lenz}, {Winkel}, {Bailin},
   {Calabretta}, {Dedes}, {Ford}, {Gibson}, {Haud}, {Janowiecki}, {Kalberla},
@@ -618,6 +614,12 @@ McKinney, W. 2010, in Proceedings of the 9th Python in Science Conference, ed.
   {Macri}, {Madore}, {Sakai}, {Sebo}, {Silbermann}, \& {Stetson}}]{Mould00}
 {Mould}, J.~R., {Huchra}, J.~P., {Freedman}, W.~L., {et~al.} 2000, \apj, 529,
   786, \dodoi{10.1086/308304}
+
+\bibitem[{{Nasa High Energy Astrophysics Science Archive Research Center
+  (HEASARC)}(2014)}]{Heasarc}
+{Nasa High Energy Astrophysics Science Archive Research Center (HEASARC)}.
+  2014, {HEAsoft: Unified Release of FTOOLS and XANADU}.
+\newblock \doeprint{1408.004}
 
 \bibitem[{{Noebauer} {et~al.}(2017){Noebauer}, {Kromer}, {Taubenberger},
   {Baklanov}, {Blinnikov}, {Sorokina}, \& {Hillebrandt}}]{Noebauer17}
