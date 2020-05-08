@@ -296,16 +296,23 @@
 \affiliation{Caltech Optical Observatories, 
              California Institute of Technology, Pasadena, CA 91125, USA}
 
-\author{Y.~Kim}
-\affiliation{Universit\'{e} Clermont Auvergne,
-             CNRS/IN2P3, Laboratoire de Physique de Clermont,
-             F-63000 Clermont-Ferrand, France}
-
+\author[0000-0002-1031-0796]{Y.-L.~Kim}
+\affiliation{Universit\'e de Lyon, 
+             Univ. Claude Bernard Lyon 1, CNRS/IN2P3, 
+             IP2I Lyon, F-69622, Villeurbanne, France}
 
 \author[0000-0003-2451-5482]{R.~R.~Laher}
 \affiliation{IPAC, California Institute of Technology, 
              1200 E. California Blvd, 
              Pasadena, CA 91125, USA}
+
+\author[0000-0003-2242-0244]{A.~A.~Mahabal}
+\affiliation{Cahill Center for Astrophysics,
+             California Institute of Technology,
+             1200 E.~California Boulevard, Pasadena, CA 91125, USA}
+\affiliation{Center for Data Driven Discovery, 
+             California Institute of Technology, Pasadena, CA 91125, USA}
+
 
 \author[0000-0002-8532-9395]{F.~J.~Masci}
 \affiliation{IPAC, California Institute of Technology, 
@@ -839,7 +846,7 @@ $T_\mathrm{eff} = 14.8 \pm^{0.9}_{1.2}$\,kK. This estimate represents a lower
 limit to the peak luminosity of the initial flash, as the UV flux was already
 decreasing at this time (\textit{Swift} obtained two sets of UV observations
 separated by $\sim$90\,min during the first epoch of observations, and the
-$uvm2$ and $uvm1$ flux is clearly decreasing during this time; see
+$uvm2$ and $uvw1$ flux is clearly decreasing during this time; see
 Figure~\ref{fig:p48}). 
 
 At an epoch 3.15~rest-frame~d after \tfl, we estimate the luminosity and
@@ -865,6 +872,77 @@ These assumed times are highly uncertain, however, it is likely that the SN
 exploded before \tfl\ (see e.g., \S\ref{sec:tardis} and \S\ref{sec:models}),
 and the UV flux continues to decline $>$3\,d after \tfl\
 (Figure~\ref{fig:p48}) suggesting the flash lasted longer than 3\,d.
+
+\subsection{Bolometric Luminosity and \radni\ mass}\label{sec:ni_mass}
+
+While the early emission from \sn\ may be approximated as a blackbody, such an
+assumption is not valid as significant features begin to emerge in the SN
+spectrum. To estimate the bolometric luminosity of \sn, we model changes in
+the observed flux in the $uvm2$, $uvw1$, \gztf, \rztf, and \iztf\ filters as a
+Gaussian process \citep{Rasmussen06} using the \texttt{gaussian\_process}
+library in \texttt{scikit-learn} \citep{Pedregosa11}. This allows us to
+interpolate flux measurements in each of these filters to a grid of times
+between 0 and 27\,d, while also estimating an uncertainty on the
+interpolation. From there, we can estimate the bolometric luminosity,
+$L_\mathrm{bol}$, via trapezoidal integration.
+
+There is emission blueward of the $uvm2$-band and redward of the \iztf-band
+that is not constrained by our observations, yet it provides a significant
+contribution to $L_\mathrm{bol}$. To estimate this contribution, we
+extrapolate redward from the \iztf-band to the $K_s$-band ($\lambda =
+2.159\,\mu$m) by assuming the $K_s$-band flux is equal to the ratio of
+\iztf-band to $K_s$-band flux for a 8,500\,K blackbody. This choice of
+temperature is reasonable based on our spectral models (see
+Table~\ref{tab:tardis}). While the true temperature is not constant, we find
+that varying the temperature between 6,000--12,500\,K only changes the
+estimates in $L_\mathrm{bol}$ by $\lesssim 3$\%, which is significantly less
+than the total systematic uncertainty in these estimates. Similarly, to
+estimate the flux in the UV we extrapolate between the $uvm2$-band and
+1000\,\AA\ assuming a 12,500\,K blackbody.
+
+The bolomertic luminosity of \sn\ is shown as a function of time in
+Figure~\ref{fig:Lbol}. Statistical uncertainties in $L_\mathrm{bol}$ are
+estimated via bootstrap resampling of the interpolated flux at each epoch, and
+are typically on the order of a few percent. We estimate a systematic
+uncertainty of $\sim$10\% based on the total procedure (including
+interpolation, extrapolation, and integration). As shown in
+Figure~\ref{fig:Lbol} the method compares favorably with a blackbody model (at
+early epochs) and spectroscopic modeling (during the SN rise).
+
+\begin{figure}
+    \centering
+    \includegraphics[width=3.35in]{./figures/L_bolometric.pdf}
+    %
+    \caption{Bolometric luminosity, $L_\mathrm{bol}$, of \sn\ as a function of
+    time. $L_\mathrm{bol}$ is estimated via SED integration (see text) and
+    shown as a black line, with statistical uncertainties shown in light grey.
+    Orange squares show luminosity estimates from spectral modeling (see
+    \S\ref{sec:tardis}), blue circles show luminosity estimates from a
+    blackbody fit to the SED (see \S\ref{sec:luminosity}). The methods
+    generally agree, though the spectral models estimate a peak luminosity
+    that is $\sim$17\% larger than the estimate from SED integration at peak.
+    The total inferred mass of \radni$ = 0.31 \pm 0.05\,M_\odot$.}
+    %
+    \label{fig:Lbol}
+\end{figure}
+
+From the SED integration we find that the bolometric luminosity of \sn\ peaked
+18.1\,d after \tfl\ ($\sim$0.6\,d after \tbmax) at $L_\mathrm{bol,max} = 6.4
+\pm 0.1\;(\mathrm{statistical}) \pm 0.6\;(\mathrm{systematic}) \times
+10^{42}\,\mathrm{erg\,s}^{-1}$. From Arnett's rule \citep{Arnett82}, which
+states that the peak luminosity is equal to the instantaneous rate of
+radioactive energy released by \radni, we estimate the total mass of \radni,
+$M_\mathrm{^{56}Ni}$, synthesized in the explosion. Using Equation~19 from
+\citet[][see also \citealt{Stritzinger06,Howell09,Scalzo14}]{Nadyozhin94}, we
+find $M_\mathrm{^{56}Ni} = 0.31 \pm 0.05\,M_\odot$, where the uncertainty is
+dominated by the (assumed) systematic uncertainty on $L_\mathrm{bol}$. This
+yield is low for a normal SN\,Ia as typical explosions yield
+$\sim$0.4--0.8\,$M_\odot$ of \radni\ \citep[e.g.,][]{Scalzo14a}. If the
+spectral models are more accurate than SED integration, then
+$M_\mathrm{^{56}Ni}$ would increase to $\sim$0.36\,$M_\odot$ (see
+Figure~\ref{fig:Lbol}). Finally, we note that the peak luminosity of \sn\ is
+$\sim$70\% larger than the peak luminosity of iPTF\,14atg \citep[$3.8 \times
+10^{42}\,\mathrm{erg\,s}^{-1}$;][]{Kromer16}.
 
 \subsection{Maximum Light and Decline}\label{sec:max_decline}
 
@@ -1852,17 +1930,19 @@ questions about the nature of SN\,Ia progenitors. \todo{as is always the case
 
 \acknowledgements
 
-A.A.M.~is funded by the Large Synoptic Survey Telescope Corporation, the
+A.A.Miller is funded by the Large Synoptic Survey Telescope Corporation, the
 Brinson Foundation, and the Moore Foundation in support of the LSSTC Data
 Science Fellowship Program; he also receives support as a CIERA Fellow by the
 CIERA Postdoctoral Fellowship Program (Center for Interdisciplinary
 Exploration and Research in Astrophysics, Northwestern University).
 
-C.F.~gratefully acknowledges support of his research by the Heising-Simons
-Foundation (\#2018-0907).
+C.Fremling gratefully acknowledges support of his research by the
+Heising-Simons Foundation (\#2018-0907).
 
-M.R.~has received funding from the European Research Council (ERC) under the
-European Union’s Horizon 2020 research and innovation programme (grant
+A.A.Mahabal acknowledges support from the NSF (1640818, AST-1815034).
+
+M.Rigault has received funding from the European Research Council (ERC) under
+the European Union’s Horizon 2020 research and innovation programme (grant
 agreement No.\ 759194 — USNAC).
 
 This work was supported by TCHPC (Research IT, Trinity College Dublin).
