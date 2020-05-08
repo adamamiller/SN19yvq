@@ -875,8 +875,8 @@ and the UV flux continues to decline $>$3\,d after \tfl\
 
 \subsection{Bolometric Luminosity and \radni\ mass}\label{sec:ni_mass}
 
-While the early emission from \sn\ may be approximated as a blackbody, such an
-assumption is not valid as significant features begin to emerge in the SN
+While the early emission from \sn\ may be approximated as a blackbody, this
+model is no longer valid as significant features begin to emerge in the SN
 spectrum. To estimate the bolometric luminosity of \sn, we model changes in
 the observed flux in the $uvm2$, $uvw1$, \gztf, \rztf, and \iztf\ filters as a
 Gaussian process \citep{Rasmussen06} using the \texttt{gaussian\_process}
@@ -892,22 +892,23 @@ contribution to $L_\mathrm{bol}$. To estimate this contribution, we
 extrapolate redward from the \iztf-band to the $K_s$-band ($\lambda =
 2.159\,\mu$m) by assuming the $K_s$-band flux is equal to the ratio of
 \iztf-band to $K_s$-band flux for a 8,500\,K blackbody. This choice of
-temperature is reasonable based on our spectral models (see
-Table~\ref{tab:tardis}). While the true temperature is not constant, we find
-that varying the temperature between 6,000--12,500\,K only changes the
-estimates in $L_\mathrm{bol}$ by $\lesssim 3$\%, which is significantly less
-than the total systematic uncertainty in these estimates. Similarly, to
-estimate the flux in the UV we extrapolate between the $uvm2$-band and
-1000\,\AA\ assuming a 12,500\,K blackbody.
+temperature is reasonable based on our \texttt{TARDIS} spectral models (see
+\S\ref{sec:tardis} and Table~\ref{tab:tardis}). While the true temperature is
+not constant, we find that varying the temperature between 6,000--12,500\,K
+only changes the estimates in $L_\mathrm{bol}$ by $\lesssim 3$\%, which is
+significantly less than the total systematic uncertainty in these estimates.
+Similarly, to estimate the flux in the UV we extrapolate between the
+$uvm2$-band and 1000\,\AA\ assuming a 12,500\,K blackbody. While such a high
+temperature is only appropriate for the early UV flash from \sn, at later
+epochs the $uvm2$ is so small that the assumed blackbody temperature does not
+affect the luminosity measurement.
 
 The bolomertic luminosity of \sn\ is shown as a function of time in
 Figure~\ref{fig:Lbol}. Statistical uncertainties in $L_\mathrm{bol}$ are
 estimated via bootstrap resampling of the interpolated flux at each epoch, and
 are typically on the order of a few percent. We estimate a systematic
 uncertainty of $\sim$10\% based on the total procedure (including
-interpolation, extrapolation, and integration). As shown in
-Figure~\ref{fig:Lbol} the method compares favorably with a blackbody model (at
-early epochs) and spectroscopic modeling (during the SN rise).
+interpolation, extrapolation, and integration). 
 
 \begin{figure}
     \centering
@@ -919,12 +920,21 @@ early epochs) and spectroscopic modeling (during the SN rise).
     Orange squares show luminosity estimates from spectral modeling (see
     \S\ref{sec:tardis}), blue circles show luminosity estimates from a
     blackbody fit to the SED (see \S\ref{sec:luminosity}). The methods
-    generally agree, though the spectral models estimate a peak luminosity
-    that is $\sim$17\% larger than the estimate from SED integration at peak.
-    The total inferred mass of \radni$ = 0.31 \pm 0.05\,M_\odot$.}
+    generally agree, though the \texttt{TARDIS} spectral models likely
+    overestimate the flux around maximum light (see text). The total inferred
+    mass of synthesized \radni\ is $0.31 \pm 0.05\,M_\odot$.}
     %
     \label{fig:Lbol}
 \end{figure}
+
+As shown in Figure~\ref{fig:Lbol} the method compares favorably with a
+blackbody model (at early epochs) and spectroscopic modeling (during the SN
+rise). The maximum-light luminosity estimate from the \texttt{TARDIS} spectral
+model likely overestimates the flux in the near-infrared (see the third panel
+in Figure~\ref{fig:tardis}), due to the model assumption that there is a
+single, sharp photosphere that does not vary with wavelength. This explains
+the discrepancy between the SED integration and the \texttt{TARDIS} model at
+that epoch.
 
 From the SED integration we find that the bolometric luminosity of \sn\ peaked
 18.1\,d after \tfl\ ($\sim$0.6\,d after \tbmax) at $L_\mathrm{bol,max} = 6.4
@@ -937,11 +947,9 @@ $M_\mathrm{^{56}Ni}$, synthesized in the explosion. Using Equation~19 from
 find $M_\mathrm{^{56}Ni} = 0.31 \pm 0.05\,M_\odot$, where the uncertainty is
 dominated by the (assumed) systematic uncertainty on $L_\mathrm{bol}$. This
 yield is low for a normal SN\,Ia as typical explosions yield
-$\sim$0.4--0.8\,$M_\odot$ of \radni\ \citep[e.g.,][]{Scalzo14a}. If the
-spectral models are more accurate than SED integration, then
-$M_\mathrm{^{56}Ni}$ would increase to $\sim$0.36\,$M_\odot$ (see
-Figure~\ref{fig:Lbol}). Finally, we note that the peak luminosity of \sn\ is
-$\sim$70\% larger than the peak luminosity of iPTF\,14atg \citep[$3.8 \times
+$\sim$0.4--0.8\,$M_\odot$ of \radni\ \citep[e.g.,][]{Scalzo14a}. Finally, we
+note that the peak luminosity of \sn\ is $\sim$70\% larger than the peak
+luminosity of iPTF\,14atg \citep[$3.8 \times
 10^{42}\,\mathrm{erg\,s}^{-1}$;][]{Kromer16}.
 
 \subsection{Maximum Light and Decline}\label{sec:max_decline}
@@ -1995,6 +2003,7 @@ Centre at the University of Leicester.
           \texttt{pyraf-dbsp} \citep{Bellm16b},
           \texttt{pysedm} \citep{Rigault19}
           \texttt{SALT2} \citep{Guy07},
+          \texttt{scikit-learn} \citep{Pedregosa11},
           \texttt{scipy} \citep{2020SciPy-NMeth}, 
           \texttt{sncosmo} \citep{Barbary16},
           \texttt{SNooPY} \citep{Burns11},
