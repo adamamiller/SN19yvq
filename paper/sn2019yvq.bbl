@@ -67,6 +67,9 @@
 {Abolfathi}, B., {Aguado}, D.~S., {Aguilar}, G., {et~al.} 2018, \apjs, 235, 42,
   \dodoi{10.3847/1538-4365/aa9e8a}
 
+\bibitem[{{Arnett}(1982)}]{Arnett82}
+{Arnett}, W.~D. 1982, \apj, 253, 785, \dodoi{10.1086/159681}
+
 \bibitem[{{Astropy Collaboration} {et~al.}(2013){Astropy Collaboration},
   {Robitaille}, {Tollerud}, {Greenfield}, {Droettboom}, {Bray}, {Aldcroft},
   {Davis}, {Ginsburg}, {Price-Whelan}, {Kerzendorf}, {Conley}, {Crighton},
@@ -467,6 +470,14 @@ Foreman-Mackey, D. 2016, The Journal of Open Source Software, 24,
 {Hosseinzadeh}, G., {Sand}, D.~J., {Valenti}, S., {et~al.} 2017, \apjl, 845,
   L11, \dodoi{10.3847/2041-8213/aa8402}
 
+\bibitem[{{Howell} {et~al.}(2009){Howell}, {Sullivan}, {Brown}, {Conley}, {Le
+  Borgne}, {Hsiao}, {Astier}, {Balam}, {Balland}, {Basa}, {Carlberg},
+  {Fouchez}, {Guy}, {Hardin}, {Hook}, {Pain}, {Perrett}, {Pritchet},
+  {Regnault}, {Baumont}, {LeDu}, {Lidman}, {Perlmutter}, {Suzuki}, {Walker}, \&
+  {Wheeler}}]{Howell09}
+{Howell}, D.~A., {Sullivan}, M., {Brown}, E.~F., {et~al.} 2009, \apj, 691, 661,
+  \dodoi{10.1088/0004-637X/691/1/661}
+
 \bibitem[{Hunter(2007)}]{Hunter07}
 Hunter, J.~D. 2007, Computing In Science \& Engineering, 9, 90,
   \dodoi{10.1109/MCSE.2007.55}
@@ -615,6 +626,9 @@ McKinney, W. 2010, in Proceedings of the 9th Python in Science Conference, ed.
 {Mould}, J.~R., {Huchra}, J.~P., {Freedman}, W.~L., {et~al.} 2000, \apj, 529,
   786, \dodoi{10.1086/308304}
 
+\bibitem[{{Nadyozhin}(1994)}]{Nadyozhin94}
+{Nadyozhin}, D.~K. 1994, \apjs, 92, 527, \dodoi{10.1086/192008}
+
 \bibitem[{{Nasa High Energy Astrophysics Science Archive Research Center
   (HEASARC)}(2014)}]{Heasarc}
 {Nasa High Energy Astrophysics Science Archive Research Center (HEASARC)}.
@@ -690,6 +704,12 @@ McKinney, W. 2010, in Proceedings of the 9th Python in Science Conference, ed.
 {Patterson}, M.~T., {Bellm}, E.~C., {Rusholme}, B., {et~al.} 2019, \pasp, 131,
   018001, \dodoi{10.1088/1538-3873/aae904}
 
+\bibitem[{Pedregosa {et~al.}(2011)Pedregosa, Varoquaux, Gramfort, Michel,
+  Thirion, Grisel, Blondel, Prettenhofer, Weiss, Dubourg, Vanderplas, Passos,
+  Cournapeau, Brucher, Perrot, \& Duchesnay}]{Pedregosa11}
+Pedregosa, F., Varoquaux, G., Gramfort, A., {et~al.} 2011, Journal of Machine
+  Learning Research, 12, 2825
+
 \bibitem[{{Pereira} {et~al.}(2013){Pereira}, {Thomas}, {Aldering}, {Antilogus},
   {Baltay}, {Benitez-Herrera}, {Bongard}, {Buton}, {Canto}, {Cellier-Holzem},
   {Chen}, {Childress}, {Chotard}, {Copin}, {Fakhouri}, {Fink}, {Fouchez},
@@ -761,6 +781,10 @@ McKinney, W. 2010, in Proceedings of the 9th Python in Science Conference, ed.
 {Raskin}, C., \& {Kasen}, D. 2013, \apj, 772, 1,
   \dodoi{10.1088/0004-637X/772/1/1}
 
+\bibitem[{{Rasmussen} \& {Williams}(2006)}]{Rasmussen06}
+{Rasmussen}, C.~E., \& {Williams}, C. K.~I. 2006, {Gaussian Processes for
+  Machine Learning}
+
 \bibitem[{{Riess} {et~al.}(1998){Riess}, {Nugent}, {Filippenko}, {Kirshner}, \&
   {Perlmutter}}]{Riess98a}
 {Riess}, A.~G., {Nugent}, P., {Filippenko}, A.~V., {Kirshner}, R.~P., \&
@@ -798,9 +822,20 @@ McKinney, W. 2010, in Proceedings of the 9th Python in Science Conference, ed.
 \bibitem[{{Savitzky} \& {Golay}(1964)}]{Savitzky64}
 {Savitzky}, A., \& {Golay}, M.~J.~E. 1964, Analytical Chemistry, 36, 1627
 
-\bibitem[{{Scalzo} {et~al.}(2014){Scalzo}, {Ruiter}, \& {Sim}}]{Scalzo14a}
-{Scalzo}, R.~A., {Ruiter}, A.~J., \& {Sim}, S.~A. 2014, \mnras, 445, 2535,
-  \dodoi{10.1093/mnras/stu1808}
+\bibitem[{{Scalzo} {et~al.}(2014{\natexlab{a}}){Scalzo}, {Aldering},
+  {Antilogus}, {Aragon}, {Bailey}, {Baltay}, {Bongard}, {Buton},
+  {Cellier-Holzem}, {Childress}, {Chotard}, {Copin}, {Fakhouri}, {Gangler},
+  {Guy}, {Kim}, {Kowalski}, {Kromer}, {Nordin}, {Nugent}, {Paech}, {Pain},
+  {Pecontal}, {Pereira}, {Perlmutter}, {Rabinowitz}, {Rigault}, {Runge},
+  {Saunders}, {Sim}, {Smadja}, {Tao}, {Taubenberger}, {Thomas}, {Weaver}, \&
+  {Nearby Supernova Factory}}]{Scalzo14}
+{Scalzo}, R., {Aldering}, G., {Antilogus}, P., {et~al.} 2014{\natexlab{a}},
+  \mnras, 440, 1498, \dodoi{10.1093/mnras/stu350}
+
+\bibitem[{{Scalzo} {et~al.}(2014{\natexlab{b}}){Scalzo}, {Ruiter}, \&
+  {Sim}}]{Scalzo14a}
+{Scalzo}, R.~A., {Ruiter}, A.~J., \& {Sim}, S.~A. 2014{\natexlab{b}}, \mnras,
+  445, 2535, \dodoi{10.1093/mnras/stu1808}
 
 \bibitem[{{Schlafly} \& {Finkbeiner}(2011)}]{Schlafly11}
 {Schlafly}, E.~F., \& {Finkbeiner}, D.~P. 2011, \apj, 737, 103,
@@ -844,6 +879,11 @@ McKinney, W. 2010, in Proceedings of the 9th Python in Science Conference, ed.
   t}}]{Stehle05}
 {Stehle}, M., {Mazzali}, P.~A., {Benetti}, S., \& {Hillebrand t}, W. 2005,
   \mnras, 360, 1231, \dodoi{10.1111/j.1365-2966.2005.09116.x}
+
+\bibitem[{{Stritzinger} {et~al.}(2006){Stritzinger}, {Leibundgut}, {Walch}, \&
+  {Contardo}}]{Stritzinger06}
+{Stritzinger}, M., {Leibundgut}, B., {Walch}, S., \& {Contardo}, G. 2006, \aap,
+  450, 241, \dodoi{10.1051/0004-6361:20053652}
 
 \bibitem[{{Taubenberger}(2017)}]{Taubenberger17}
 {Taubenberger}, S. 2017, {The Extremes of Thermonuclear Supernovae}, 317,
