@@ -333,6 +333,12 @@
 {Fink}, M., {R{\"o}pke}, F.~K., {Hillebrandt}, W., {et~al.} 2010, \aap, 514,
   A53, \dodoi{10.1051/0004-6361/200913892}
 
+\bibitem[{{Fink} {et~al.}(2014){Fink}, {Kromer}, {Seitenzahl},
+  {Ciaraldi-Schoolmann}, {R{\"o}pke}, {Sim}, {Pakmor}, {Ruiter}, \&
+  {Hillebrandt}}]{Fink14}
+{Fink}, M., {Kromer}, M., {Seitenzahl}, I.~R., {et~al.} 2014, \mnras, 438,
+  1762, \dodoi{10.1093/mnras/stt2315}
+
 \bibitem[{Foreman-Mackey(2016)}]{Foreman-Mackey16}
 Foreman-Mackey, D. 2016, The Journal of Open Source Software, 24,
   \dodoi{10.21105/joss.00024}
@@ -507,6 +513,9 @@ Hunter, J.~D. 2007, Computing In Science \& Engineering, 9, 90,
 \bibitem[{{Kerzendorf} \& {Sim}(2014)}]{Kerzendorf14}
 {Kerzendorf}, W.~E., \& {Sim}, S.~A. 2014, \mnras, 440, 387,
   \dodoi{10.1093/mnras/stu055}
+
+\bibitem[{{Khokhlov}(1991)}]{Khokhlov91}
+{Khokhlov}, A.~M. 1991, \aap, 245, 114
 
 \bibitem[{{Kromer} {et~al.}(2017){Kromer}, {Ohlmann}, \&
   {R{\"o}pke}}]{Kromer17}
@@ -846,6 +855,12 @@ Pedregosa, F., Varoquaux, G., Gramfort, A., {et~al.} 2011, Journal of Machine
 {Schlegel}, D.~J., {Finkbeiner}, D.~P., \& {Davis}, M. 1998, \apj, 500, 525,
   \dodoi{10.1086/305772}
 
+\bibitem[{{Seitenzahl} {et~al.}(2013){Seitenzahl}, {Ciaraldi-Schoolmann},
+  {R{\"o}pke}, {Fink}, {Hillebrandt}, {Kromer}, {Pakmor}, {Ruiter}, {Sim}, \&
+  {Taubenberger}}]{Seitenzahl13}
+{Seitenzahl}, I.~R., {Ciaraldi-Schoolmann}, F., {R{\"o}pke}, F.~K., {et~al.}
+  2013, \mnras, 429, 1156, \dodoi{10.1093/mnras/sts402}
+
 \bibitem[{{Shappee} {et~al.}(2018){Shappee}, {Piro}, {Stanek}, {Patel},
   {Margutti}, {Lipunov}, \& {Pogge}}]{Shappee18}
 {Shappee}, B.~J., {Piro}, A.~L., {Stanek}, K.~Z., {et~al.} 2018, \apj, 855, 6,
@@ -865,6 +880,12 @@ Pedregosa, F., Varoquaux, G., Gramfort, A., {et~al.} 2011, Journal of Machine
   {Filippenko}, {Miller}, \& {Poznanski}}]{Silverman11}
 {Silverman}, J.~M., {Ganeshalingam}, M., {Li}, W., {et~al.} 2011, \mnras, 410,
   585, \dodoi{10.1111/j.1365-2966.2010.17474.x}
+
+\bibitem[{{Sim} {et~al.}(2013){Sim}, {Seitenzahl}, {Kromer},
+  {Ciaraldi-Schoolmann}, {R{\"o}pke}, {Fink}, {Hillebrandt}, {Pakmor},
+  {Ruiter}, \& {Taubenberger}}]{Sim13}
+{Sim}, S.~A., {Seitenzahl}, I.~R., {Kromer}, M., {et~al.} 2013, \mnras, 436,
+  333, \dodoi{10.1093/mnras/stt1574}
 
 \bibitem[{{Steele} {et~al.}(2004){Steele}, {Smith}, {Rees}, {Baker}, {Bates},
   {Bode}, {Bowman}, {Carter}, {Etherton}, {Ford}, {Fraser}, {Gomboc}, {Lett},

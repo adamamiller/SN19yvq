@@ -1600,17 +1600,36 @@ interaction scenario; an inability to simultaneously match both UV and optical
 observations has been noted for other SNe\,Ia with early bumps or linear rises
 \citep{Hosseinzadeh17,Miller18}.
 
-For this reason, we do not favor the ejecta-companion interaction
-interpretation for \sn. \citet{Kasen10a} notes several assumptions and
-approximations in the derivation of the equations used to estimate the
-emission from the companion shock. It is possible that the inclusion of more
-detailed physics, or additional complexity in the analytic formulation of the
-models,\footnote{For example, \citet{Kasen10a} points out that the derived
-equation for the luminosity of the shock interaction does not account for the
-advected luminosity that would be seen in the observer frame.} could better
-reconcile companion interaction models with \sn. Such improvements are beyond
-the scope of this paper, leading us to explore other explanations for the
-early flash.
+\citet{Kasen10a} notes several assumptions and approximations in the
+derivation of the equations used to estimate the emission from the companion
+shock. It is possible that the inclusion of more detailed physics, or
+additional complexity in the analytic formulation of the models,\footnote{For
+example, \citet{Kasen10a} points out that the derived equation for the
+luminosity of the shock interaction does not account for the advected
+luminosity that would be seen in the observer frame.} could better reconcile
+companion interaction models with \sn. Such improvements are beyond the scope
+of this paper, leading us to explore other explanations for the early flash.
+
+Following arguments from \citet{Kromer16}, the evolution of \sn\ after the UV
+flash also poses a challenge to the companion-interaction scenario. In the SD
+scenario the WD explodes at, or very near, the Chandrasekhar mass. The leading
+mechanism for such an explosion is the delayed detonation scenario, in which
+the burning starts as a subsonic deflagration and later transitions to a
+supersonic detonation \citep{Khokhlov91}. This scenario was explored in detail
+via numerous 3D explosion models in \citet{Seitenzahl13}, with radiative
+transfer calculations of the resulting emission presented in \citet{Sim13}.
+While the faintest models presented in \citet{Sim13} have a similar luminosity
+at peak as \sn, they feature \ion{Si}{II} velocities that are significantly
+lower than \sn. The \citeauthor{Sim13} models with high \ion{Si}{II}
+velocities are far too luminous to explain \sn. In addition to the delayed
+detonation scenario, Chandrasekhar mass WDs can explode as pure deflagrations.
+While the \radni\ yield and peak luminosity of pure deflagrations is more in
+line with \sn\ than delayed detonation explosions, pure deflagrations result
+in low expansion velocities and relatively weak \ion{Si}{II} absorption
+\citep[e.g.,][]{Fink14} meaning they too provide a poor match to \sn.
+
+% For this reason, we do not favor the ejecta-companion interaction
+% interpretation for \sn.
 
 \subsection{Ni Clumps in the SN Ejecta}
 
@@ -1896,9 +1915,9 @@ possible that a violent merger is responsible for \sn.
 
 \section{Discussion and Conclusion}\label{sec:conclusions}
 
-We have presented observations of the spectacular \sn, the second ever SN\,Ia
-to exhibit a clear UV/optical flash in its early evolution. Despite this
-dazzling, declarative display announcing \sn\ as a unique event among the
+We have presented observations of the spectacular \sn, the second observed
+SN\,Ia to exhibit a clear UV/optical flash in its early evolution. Despite
+this dazzling, declarative display announcing \sn\ as a unique event among the
 thousands of SNe\,Ia that have previously been cataloged, we find that \sn\
 would be considered unusual even if the early flash had been missed.
 
@@ -1910,8 +1929,8 @@ distinguished photometrically from normal SNe\,Ia. These photometric
 properties typically correspond to Branch\ Cool SNe, yet the spectroscopic
 evolution of \sn\ does not match such events. \sn\ is a Branch\ Broad Line SN,
 with relatively weak \ion{Si}{II} $\lambda$5972 absorption and large
-photospheric velocities. Furthermore, our \texttt{TARDIS} models show little
-to no IGE present in the outer layers of the SN ejecta, which further
+\ion{Si}{II} velocities. Furthermore, our \texttt{TARDIS} spectral models show
+little to no IGE present in the outer layers of the SN ejecta, which further
 distinguishes \sn, even relative to other Branch~Broad Line SNe. The fact that
 \sn\ exhibits high-velocity \ion{Si}{II} $\lambda$6355 absorption and an
 underluminous peak sets it apart from other SNe\,Ia.
@@ -1932,18 +1951,25 @@ WDs \citep[e.g.,][]{Kromer16}.
 The SN ejecta-companion models, which can easily replicate the early UV flash
 from \sn, simultaneously over-predict the optical flux at similar epochs.
 Models with extended clumps of \radni\ produce significant blanketing in the
-blue optical region of the spectrum. We therefore favor either a
-double-detonation explosion or a (violent) merger of two WDs as the origin of
-\sn. These models are not without their own shortcomings when it comes to
-matching the observations. While the double-detonation model produces an early
-flash and \rztf\ evolution that provides a good match to \sn, it too produces
-blanketing that is too strong relative to the blue optical spectra and
-features photospheric velocities that are much lower than what is observed.
-The specific WD merger model from \citet{Kromer16} that we compare to \sn\
-does a poor job of replicating the observations. Many of the qualitative
-features match, however, so it is not unreasonable to think that with some
-tuning (e.g., higher mass WDs) the merger model could better reflect what is
-observed in \sn.
+blue optical region of the spectrum. While the double-detonation model
+produces an early flash and \rztf\ evolution that provides a good match to
+\sn, it too produces blanketing that is too strong relative to the blue
+optical spectra and features absorption velocities that are much lower than
+what is observed. The specific WD merger model from \citet{Kromer16} that we
+compare to \sn\ does a poor job of replicating the observations. Many of the
+qualitative features match, however, so it is not unreasonable to think that
+with some tuning (e.g., higher mass WDs) the merger model could better reflect
+what is observed in \sn.
+
+While we have focused on explaining the spectacular UV flash, we were also
+unable to identify any models that match the maximum-light properties of \sn.
+One possibility to explain the low \radni\ yield and large \ion{Si}{II}
+velocities would be to terminate a lot of the nuclear burning at IMEs, while
+generating a relatively low fraction of IGE. Such a scenario may be possible
+at low central densities, which would keep the IGE fraction in the ejecta low,
+if enough material burns (in order to release a sufficient amount of energy to
+accelerate the ejecta to high velocities). Further work is needed, however, to
+know whether such a scenario could be produced by realistic binaries in nature.
 
 Nebular spectra of \sn\ will play a crucial role in disambiguating between
 these various scenarios. If the ejecta have collided with a nondegenerate
@@ -1970,11 +1996,14 @@ SNe\,Ia \textit{at the epoch of discovery} (i.e., without a significant delay
 to obtain a spectroscopic classifcation) and (ii) promptly obtain
 \textit{Swift} photometry. Only after these UV observations become as routine
 as the discoveries themselves will we be able to statistically answer
-questions about the nature of SN\,Ia progenitors. \todo{as is always the case
-- the last paragraph I've written sucks}
+questions about the nature of SN\,Ia progenitors.
 
 
 \acknowledgements
+
+We thank R.~Pakmor for useful conversations in the preparation of this
+manuscript. C.-C.~Ngeow provided comments on an early version of the
+manuscript that improved its content.
 
 A.A.Miller is funded by the Large Synoptic Survey Telescope Corporation, the
 Brinson Foundation, and the Moore Foundation in support of the LSSTC Data
