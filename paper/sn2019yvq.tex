@@ -241,7 +241,7 @@
              California Institute of Technology,
              1200 E.~California Boulevard, Pasadena, CA 91125, USA}
 
-\author[0000-0001-8018-5348]{Eric C. Bellm}
+\author[0000-0001-8018-5348]{E.~C.~Bellm}
 \affiliation{DIRAC Institute, 
              Department of Astronomy, University of Washington, 
              3910 15th Avenue NE, Seattle, WA 98195, USA} 
@@ -445,7 +445,8 @@ merger.
 %% Keywords should appear after the \end{abstract} command. 
 %% See the online documentation for the full list of available subject
 %% keywords and the rules for their use.
-\keywords{}
+\keywords{supernovae: general --- supernovae: individual
+(SN\,2019yvq/ZTF19adcecwu) --- surveys --- methods: observational}
 
 \section{Introduction}
 
@@ -538,7 +539,7 @@ detected by ZTF on 2019 Dec 29.46, as part of the ZTF public survey (see
 detected \sn\ using the image-differencing technique of \citet{Zackay16}. The
 candidate passed internal thresholds (e.g., \citealt{Mahabal19}), leading to
 the production and dissemination of a real-time alert \citep{Patterson19} and
-the internal designation ZTF\,19adcecwu. The public alert included the
+the internal designation ZTF19adcecwu. The public alert included the
 position, $\alpha = 12^{\mathrm{h}}27\arcmin21\farcs836$, $\delta =
 +64\degr47\arcmin59\farcs87$ (J2000), and brightness, \rztf$ =
 17.14\pm0.05$\,mag, which, together with the \citet{Itagaki19} discovery
@@ -666,31 +667,6 @@ for minutes to hours, and the \textit{Swift} observations occurred at least
 1.1\,d after explosion (based on the initial detection from
 \citealt{Itagaki19}).
 
-% \input{./tables/XRT.tex}
-%
-% To build the light curve, we divided the time-interval of the \textit{Swift}
-% campaign into blocks of 500\,ks (i.e., 5.8\,d). Table~\ref{tab:xrt} summarizes
-% our measurements within these intervals, where the photon count rate varies
-% between 0.001 and 0.003\,ct\,s$^{-1}$, with a signal-to-noise ratio between
-% $\sim$2.6 and 3.4. In three of these binned epochs we do not detect any
-% significant X-ray emission, and therefore report $3\sigma$ upper limits. To
-% convert the count-rate to flux, we build a spectrum from the entire data set
-% and model the data as an absorbed power-law. In this model, the absorption
-% components reflect the Galactic absorption towards \sn\ ($N_{\rm
-% H,\,X}=2.28\times10^{20}\,{\rm cm}^{-2}$)) (unclear where this value comes
-% from. doesn't match nH column density calculator) and the absorption in the
-% host galaxy. The photon index $\Gamma$ of the power law ($f \propto
-% E^{-\Gamma}$) is $2.0^{+0.9}_{-0.5}$ and the host absorption is
-% $7^{+207}_{-7}\times10^{20}\,{\rm cm}^{-2}$ (90\% confidence). The goodness of
-% fit is $\chi^2=30.33$ for 31 degrees of freedom
-% (w-statistics\footnote{\href{http://heasarc.gsfc.nasa.gov/xanadu/xspec/manual/XSappendixStatistics.html}{\url{http://heasarc.gsfc.nasa.gov/xanadu/xspec/manual/XSappendixStatistics.html}}}). The unabsorbed energy conversion factor is
-% $3.5\times10^{-11}~\mathrm{erg\,cm}^{-2}\,\mathrm{ct}^{-1}$.
-%
-% Given the constant X-ray emission (to within the uncertainties, see
-% Table~\ref{tab:xrt}), we conclude that this emission is from a background
-% source, and not \sn. A lack of X-ray emission is consistent with SNe\,Ia (e.g.,
-% \citealt{Margutti12}).
-
 \subsection{Optical Spectroscopy}
 
 Spectroscopic observations of \sn\ were initiated because the transient passed
@@ -755,12 +731,6 @@ signatures of intrinsically faint SNe\,Ia (\S\ref{sec:spec_comp}), it is
 unlikely that it is a factor of $\sim$10 less luminous in the \gztf\ filter
 than normal SNe\,Ia. We therefore adopt the larger kinematic distance to
 NGC\,4441.}
-% \todo{Lots of different catalogs provide
-% metallicity for SDSS galaxies, should we report on these results at all?
-% Port Z = 0.04 and Granada Z ~0.01, and do not agree, firefly ~ 0.6 0r 0.2
-% (solar?) depending on weighting, probably not a great idea} \fromkate{that's
-% a reasonable spread in values but likely different calibrations. I don't
-% know which one is best or the references for comparing this value to. }
 
 We estimate the total reddening towards \sn\ to be small. There is relatively
 little line-of-sight extinction due to the Milky Way, $E(B-V) \approx
@@ -841,11 +811,6 @@ however, as our spectroscopic models (see \S\ref{sec:tardis}) estimate the
 time of explosion, $t_\mathrm{exp}$, to be $\sim$17.9\,d prior to \tbmax,
 fully consistent with our estimate of \tfl.
 
-% \fromkate{The rise time is long for its magnitude and stretch. From
-% \citet{Gonzalez-Gaitan12}, the risetime would suggest a high stretch event,
-% their fig. 12. Likely just the impact of the early component but worth
-% stressing. }
-
 \subsection{Luminosity of the Initial UV/optical Flash}\label{sec:luminosity}
 
 To estimate the luminosity and temperature of the initial UV/optical flash
@@ -879,8 +844,6 @@ is consistent with our model spectrum from 2.6~rest-frame~d after \tfl\ (see
 \S\ref{sec:tardis}). At a similar epoch, $\sim$4\,d after explosion,
 \citet{Cao15} estimate a UV flash luminosity of $\sim$3$ \times
 10^{41}$erg\,s$^{-1}$ in iPTF\,14atg, a factor of $\sim$2 less than for \sn.
-% 19yvq max luminosity ~ 1.95e9 Lsun (5.4 -- 7.5e42)
-% 14atg max luminosity ~ 3.8e42 -- from Kromer
 
 Finally, if we conservatively assume that the early flash peaked 1\,d after
 \tfl\ (i.e., at the epoch of the first \textit{Swift} observation), and
@@ -923,7 +886,7 @@ temperature is only appropriate for the early UV flash from \sn, at later
 epochs the $uvm2$ is so small that the assumed blackbody temperature does not
 affect the luminosity measurement.
 
-The bolomertic luminosity of \sn\ is shown as a function of time in
+The bolometric luminosity of \sn\ is shown as a function of time in
 Figure~\ref{fig:Lbol}. Statistical uncertainties in $L_\mathrm{bol}$ are
 estimated via bootstrap resampling of the interpolated flux at each epoch, and
 are typically on the order of a few percent. We estimate a systematic
@@ -1010,8 +973,6 @@ spectroscopically distinct from these transitional SNe
     \label{fig:lc_comp}
 \end{figure}
 
-% For context, of the 127 SNe\,Ia observed by ZTF and studied in \citet{Yao19}, only 1, ZTF18abclfee (SN\,2018crl), a SN\,2002cx-like event, had a faster decline than \sn. and, according to the new photometric classification scheme presented in \citet{Ashall20}, \sn\ is consistent with  91bg-like SNe.
-
 We also find that standard SN\,Ia fitting techniques do not provide good
 matches to the evolution of \sn. For example, a \texttt{SNooPY}
 \citep{Burns11} fit to the optical light curve requires significant
@@ -1041,7 +1002,7 @@ Furthermore, while normal SNe Ia exhibit a large scatter in
 \gztf$ - $\rztf\ shortly after \tfl\ they evolve to form a tight locus between
 $\sim$10--30\,d after \tfl. \sn\ is redder at peak than each of the normal SNe
 Ia in the \citet{Bulla20} sample. Post maximum, only one normal SN\,Ia,
-ZTF\,18abeegsl (SN\,2018eag), exhibits a similarly radid decline in \gztf$ -
+ZTF\,18abeegsl (SN\,2018eag), exhibits a similarly rapid decline in \gztf$ -
 $\rztf\ color. The \gztf$ - $\rztf\ color evolution of \sn\ is again
 intermediate between normal SNe\,Ia and underluminous 91bg-like SNe.
 Figure~\ref{fig:colors} shows that normal SNe\,Ia are reddest at $\sim$+30\,d,
@@ -1094,24 +1055,6 @@ lower luminosity SNe\,Ia \citep[see][and references therein]{Taubenberger17}.
 We therefore conclude that the color excess towards \sn\ is not
 underestimated, and that the SN is instead intrinsically red in the optical.
 
-% Such a large reddening would dramatically change the appearance of \sn\ in
-% the UV. If we assume $E(B-V) \approx 0.25$\,mag, then the luminosity of the
-% initial flash would be $\sim$8.7$\times 10^{42}$\,erg\,s$^{-1}$, more than a
-% factor of 5 higher than what we estimated in \S\ref{sec:luminosity}.
-
-% The bottom panel of Figure~\ref{fig:colors} shows the $uvm2 - uvw1$
-% color evolution of \sn. At \tbmax, $uvm2 - uvw1 \approx 1.2$\,mag, making
-% \sn\ one of the most UV blue SNe\,Ia at maximum light (e.g.,
-% \citealt{Milne10,Brown17}). A color excess of $E(B-V) \approx 0.25$\,mag is
-% equivalent to $E(uvm2 - uvw1) \approx 0.5$\,mag using the Fitzpatrick+
-% (1999) extinction law, $R_V = 3.1$, and the effective wavelengths of the
-% \textit{Swift} filters from \citet{Brown17} \frommb{I get 0.65 mag, maybe
-% double-check?}. \fromkate{I did this calc, I've checked and using method and
-% values listed, I get 0.5 mag for the uvm2-uvw1 colour} This results in a
-% $uvm2 - uvw1 \approx 0.XXX$\,mag at \tbmax, making \sn\ the most UV blue
-% SN\,Ia observed by \textit{Swift} \fromkate{this needs to be updated because
-% none of the objects in Brown sample are corrected for extinction}.
-
 Even if one ignores the striking initial bump in the light curve of \sn, we
 can still conclude that \sn\ is not a normal SN\,Ia based on its other
 photometric properties (e.g., relatively faint peak optical brightness,
@@ -1148,7 +1091,6 @@ given in Table~\ref{tab:tardis}.
 
 \input{./tables/tardis.tex}
 
-%%%Description of overall modelling results, velocities, features present, temperature. Then detailed discussion of Mg II vs Si III can be removed.
 The first spectrum of \sn\ at $-$14.9\,d (2.6\,d after \tfl, 3.0\,d after
 explosion) shows shallow features consistent with IMEs moving at extremely
 high velocities ($>$\,20,000\,\kms, Figure~\ref{fig:spec_evo}). The
@@ -1249,7 +1191,6 @@ updated definition relative to \citet{Nugent95}.
     \label{fig:vel_evo}
 \end{figure}
 
-%%%Velocity and equivalent width measurements?
 The velocity evolution of \ion{Si}{II} $\lambda$6355 is shown in
 Figure~\ref{fig:vel_evo}, compared to measurements for the Palomar Transient
 Factory (PTF) SN\,Ia sample from \citet{Maguire14} and the median velocity
@@ -1347,7 +1288,6 @@ layers of the SN ejecta.
 
 \subsection{Spectral Comparison}\label{sec:spec_comp}
 
-%%%Comparison to other objects & Si II ratio
 In Figure~\ref{fig:spec_comp}, we compare the spectral evolution of \sn\ to
 two Branch~Broad-Line SNe\,Ia, SN\,2002bo and SN\,2010jn, and two Branch~Cool
 SNe\,Ia, SN\,1986G and SN\,2004eo \citep{Cristiani92,
@@ -1365,16 +1305,6 @@ weaker IME absorption and stronger IGE absorption than \sn. While the
 Branch~Cool SNe\,1986G and 2004eo show lower velocities than \sn, there is
 strong agreement in the relative \ion{Si}{II} line strengths of SN\,1986G and
 the earliest spectra of \sn.
-
-% The left panel of Figure~\ref{fig:spec_comp} also shows the spectrum of
-% SN\,1986G, a \citet{Branch06} Cool SN that is sometimes referred to as
-% ``transitional'' given its intermediate properties between normal SNe\,Ia and
-% the sub-luminous SN\,1991bg-like population (e.g., \citealt{Pastorello07}).
-% The \ion{Si}{II} line ratios, and narrow $\sim$4800\,\AA\ feature in SN\,1986G
-% are similar to \sn, confirming the cool nature of the photosphere at this
-% early epoch. The $-12.0$\,d spectrum of \sn\ additionally shows a weaker blue
-% line in the \ion{S}{II} ``W'' absorption feature at $\sim$5400\,\AA, which is
-% also consistent with cool temperatures \citep{Nugent95}.
 
 \begin{figure*}
     \centering
@@ -1543,7 +1473,7 @@ the fractional decrease in the observed flux as a function of the orientation
 of the system. We combine the equations from \citet{Kasen10a} and
 \citet{Brown12} to model the early emission from \sn\ as an ejecta-companion
 collision. We assume the interaction emits as a blackbody, and that the
-electon scattering opacity $\kappa_e = 0.2$\,cm$^{2}$\,g$^{-1}$ (as in
+electron scattering opacity $\kappa_e = 0.2$\,cm$^{2}$\,g$^{-1}$ (as in
 \citealt{Kasen10a}). Assuming $z_\mathrm{SN} = 0.0094$, $E(B-V)_\mathrm{MW} =
 0.018$\,mag, and $E(B-V)_\mathrm{host} = 0.032$\,mag, we compare observed flux
 measurements with those predicted by the \citet{Kasen10a} model at epochs with
@@ -1627,9 +1557,6 @@ While the \radni\ yield and peak luminosity of pure deflagrations is more in
 line with \sn\ than delayed detonation explosions, pure deflagrations result
 in low expansion velocities and relatively weak \ion{Si}{II} absorption
 \citep[e.g.,][]{Fink14} meaning they too provide a poor match to \sn.
-
-% For this reason, we do not favor the ejecta-companion interaction
-% interpretation for \sn.
 
 \subsection{Ni Clumps in the SN Ejecta}
 
@@ -1823,7 +1750,7 @@ that extends beyond $\sim$10$^{12}$\,cm could give rise to a flash that peaks
 at $M_g \lesssim -16.4$\,mag, as is observed in \sn.
 
 There are few proposed WD explosion models that produce dense circumstellar
-material in the vicinity of the WD at the time of explosion. A noteable
+material in the vicinity of the WD at the time of explosion. A notable
 exception is the violent merger, so called because the thermonuclear explosion
 happens while the merger is still ongoing, of two C/O WDs
 \citep{Pakmor10,Pakmor11,Pakmor12}. DD mergers should produce a wide variety
@@ -1883,7 +1810,7 @@ early UV flash in iPTF\,14atg.
 The photometric evolution of this violent merger model qualitatively matches
 \sn: (i) a moderately faint peak in the optical ($-17.6\,\mathrm{mag} \gtrsim
 M_g \gtrsim -18.2$\,mag, depending on the viewing angle), (ii) red $g - r$
-colors at peak, and (iii) a lack of a secondary maxium in the $i$-band.
+colors at peak, and (iii) a lack of a secondary maximum in the $i$-band.
 Furthermore, the spectra lack significant IGE absorption in the days after
 explosion (right panel of Figure~\ref{fig:violent_merger}), as is observed in
 \sn. A critical difference between \sn\ and violent merger models, is that the
@@ -1906,12 +1833,6 @@ beneficial to track the unbound material following the DD merger, to see if
 the collision between this material and the SN ejecta can replicate the early
 UV/optical flash seen in \sn. If this feature can readily be recreated, it is
 possible that a violent merger is responsible for \sn.
-
-% \section{Rate of Thick He Shell Double Detonation Events}\label{sec:rates}
-%
-% \textbf{This may not actually be a thick shell}
-%
-% \aam{Use rough numbers from CLU and simple binomial calculation}
 
 \section{Discussion and Conclusion}\label{sec:conclusions}
 
@@ -1988,14 +1909,23 @@ from the disrupted WD is present at low velocities in the central ejecta
 scenarios discussed here.
 
 The critical challenge moving forward in understanding \sn-like events is the
-rapid acquisition of \textit{Swift} UV observations shortly after explosion.
-ZTF, and other similar surveys (ATLAS, ASAS-SN; \citealt{Tonry11,Holoien17}),
-have demonstrated the ability to routinely find extremely young SNe\,Ia.
-Following this the challenge is to (i) recognize these events as likely
-SNe\,Ia \textit{at the epoch of discovery} (i.e., without a significant delay
-to obtain a spectroscopic classifcation) and (ii) promptly obtain
-\textit{Swift} photometry. Only after these UV observations become as routine
-as the discoveries themselves will we be able to statistically answer
+rapid acquisition of UV observations shortly after explosion. ZTF, and other
+similar surveys (ATLAS, ASAS-SN; \citealt{Tonry11,Holoien17}), have
+demonstrated the ability to routinely find extremely young SNe\,Ia. Following
+this the challenge is to (i) recognize these events as likely SNe\,Ia
+\textit{at the epoch of discovery} (i.e., without a significant delay to
+obtain a spectroscopic classification) and (ii) promptly obtain \textit{Swift}
+photometry. While the presence of an early UV flash may be intrinsically rare,
+in the past $\sim$7\,yr it has only been observed twice, it seems more likely
+that the above process (discovery, classification, \textit{Swift} ToO) is
+highly incomplete. Furthermore, if a typical UV flash is either less luminous
+or of a shorter duration than what was observed in iPTF\,14atg and \sn, then
+the chain of events leading to \textit{Swift} observations may be insufficient
+to regularly capture such a signal. It would be far more efficient to search
+for such flashes directly using a wide-field UV telescope
+\citep[e.g.,][]{Sagiv14}. Only after extremely early UV observations become as
+routine as the discoveries themselves will we be able to statistically
+constrain the models discussed herein and, as a result, answer fundamental
 questions about the nature of SN\,Ia progenitors.
 
 

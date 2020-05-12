@@ -828,6 +828,12 @@ Pedregosa, F., Varoquaux, G., Gramfort, A., {et~al.} 2011, Journal of Machine
 {R{\"o}pke}, F.~K., {Kromer}, M., {Seitenzahl}, I.~R., {et~al.} 2012, \apjl,
   750, L19, \dodoi{10.1088/2041-8205/750/1/L19}
 
+\bibitem[{{Sagiv} {et~al.}(2014){Sagiv}, {Gal-Yam}, {Ofek}, {Waxman},
+  {Aharonson}, {Kulkarni}, {Nakar}, {Maoz}, {Trakhtenbrot}, {Phinney}, {Topaz},
+  {Beichman}, {Murthy}, \& {Worden}}]{Sagiv14}
+{Sagiv}, I., {Gal-Yam}, A., {Ofek}, E.~O., {et~al.} 2014, \aj, 147, 79,
+  \dodoi{10.1088/0004-6256/147/4/79}
+
 \bibitem[{{Savitzky} \& {Golay}(1964)}]{Savitzky64}
 {Savitzky}, A., \& {Golay}, M.~J.~E. 1964, Analytical Chemistry, 36, 1627
 
