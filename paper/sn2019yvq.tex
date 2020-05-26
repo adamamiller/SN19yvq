@@ -47,14 +47,16 @@
 
 \usepackage{lineno}
 % \linenumbers
-
+\usepackage{pifont}% http://ctan.org/pkg/pifont
+\newcommand{\cmark}{\ding{51}}%
+\newcommand{\xmark}{\ding{55}}%
 
 %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %% Reintroduced the \received and \accepted commands from AASTeX v5.2
-\received{\today}
-\revised{}
+\received{2020 May 14}
+\revised{\today}
 \accepted{}
 %% Command to document which AAS Journal the manuscript was submitted to.
 %% Adds "Submitted to " the argument.
@@ -541,8 +543,8 @@ The Zwicky Transient Facility (ZTF; \citealt{Bellm19,Graham19,Dekany20})
 simultaneously conducts multiple time-domain surveys using the ZTF camera on
 the the Palomar Oschin Schmidt 48 inch (P48) telescope. \sn\ was first
 detected by ZTF on 2019 Dec 29.46, as part of the ZTF public survey (see
-\citealt{Bellm19a}). The automated ZTF pipeline \citep{Masci19} automatically
-detected \sn\ using the image-differencing technique of \citet{Zackay16}. The
+\citealt{Bellm19a}). The \edit1{automated ZTF pipeline \citep{Masci19}
+detected} \sn\ using the image-differencing technique of \citet{Zackay16}. The
 candidate passed internal thresholds (e.g., \citealt{Mahabal19}), leading to
 the production and dissemination of a real-time alert \citep{Patterson19} and
 the internal designation ZTF19adcecwu. The public alert included the position,
@@ -1770,24 +1772,7 @@ after explosion (e.g., \citealt{Raskin13,Levanon19}).\footnote{Indeed, the
 large number of potential configurations makes it very difficult to rule out
 or select any specific circumstellar interaction scenario.}
 
-Given the vast parameter space populated by different circumstellar
-configurations, we are going to proceed under the (potentially poor)
-assumption that such interaction could reproduce the UV/optical flash seen in
-\sn. Following this assumption, a relevant question is -- can violent mergers
-reproduce the properties of \sn\ in the days before and weeks after \tbmax?
-
-In \citet{Kromer16}, the violent merger of two C/O WDs with masses of 0.9 and
-0.76\,$M_\odot$ produced similar rise and maximum-light properties to
-iPTF\,14atg, the other SN\,Ia with an observed early UV flash. A comparison of
-\sn\ to the low-metallicity model from \citet{Kromer16}, which provides a good
-match to iPTF\,14atg, is shown in Figure~\ref{fig:violent_merger}.\footnote{Upon publication, the viewing angle
-dependent spectra of this merger model will be made available on the
-Heidelberg Supernova Model Archive \citep[HESMA,][]{Kromer17}.} We show that
-model here to illustrate the qualitative behavior of such a merger, it is not
-meant to provide an optimal match to \sn. The \citeauthor{Kromer16}~model was
-not designed to fit the early UV flash in iPTF\,14atg.
-
-\begin{figure*}
+\begin{figure*}[ht]
     \centering
     \includegraphics[width=\textwidth]{./figures/violent_merger.pdf}
     %
@@ -1815,6 +1800,23 @@ not designed to fit the early UV flash in iPTF\,14atg.
     %
     \label{fig:violent_merger}
 \end{figure*}
+
+Given the vast parameter space populated by different circumstellar
+configurations, we are going to proceed under the (potentially poor)
+assumption that such interaction could reproduce the UV/optical flash seen in
+\sn. Following this assumption, a relevant question is -- can violent mergers
+reproduce the properties of \sn\ in the days before and weeks after \tbmax?
+
+In \citet{Kromer16}, the violent merger of two C/O WDs with masses of 0.9 and
+0.76\,$M_\odot$ produced similar rise and maximum-light properties to
+iPTF\,14atg, the other SN\,Ia with an observed early UV flash. A comparison of
+\sn\ to the low-metallicity model from \citet{Kromer16}, which provides a good
+match to iPTF\,14atg, is shown in Figure~\ref{fig:violent_merger}.\footnote{Upon publication, the viewing angle
+dependent spectra of this merger model will be made available on the
+Heidelberg Supernova Model Archive \citep[HESMA,][]{Kromer17}.} We show that
+model here to illustrate the qualitative behavior of such a merger, it is not
+meant to provide an optimal match to \sn. The \citeauthor{Kromer16}~model was
+not designed to fit the early UV flash in iPTF\,14atg.
 
 The photometric evolution of this violent merger model qualitatively matches
 \sn: (i) a moderately faint peak in the optical ($-17.6\,\mathrm{mag} \gtrsim
@@ -1847,6 +1849,8 @@ UV/optical flash seen in \sn. If this feature can readily be recreated, it is
 possible that a violent merger is responsible for \sn.
 
 \section{Discussion and Conclusion}\label{sec:conclusions}
+
+\input{./tables/models.tex}
 
 We have presented observations of the spectacular \sn, the second observed
 SN\,Ia to exhibit a clear UV/optical flash in its early evolution. Despite
