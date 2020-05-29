@@ -67,6 +67,12 @@
 {Abolfathi}, B., {Aguado}, D.~S., {Aguilar}, G., {et~al.} 2018, \apjs, 235, 42,
   \dodoi{10.3847/1538-4365/aa9e8a}
 
+\bibitem[{{Almgren} {et~al.}(2010){Almgren}, {Beckner}, {Bell}, {Day},
+  {Howell}, {Joggerst}, {Lijewski}, {Nonaka}, {Singer}, \&
+  {Zingale}}]{Almgren10}
+{Almgren}, A.~S., {Beckner}, V.~E., {Bell}, J.~B., {et~al.} 2010, \apj, 715,
+  1221, \dodoi{10.1088/0004-637X/715/2/1221}
+
 \bibitem[{{Arnett}(1982)}]{Arnett82}
 {Arnett}, W.~D. 1982, \apj, 253, 785, \dodoi{10.1086/159681}
 
@@ -117,8 +123,7 @@
   Velzen}, {Vestrand}, {Walters}, {Ward}, {Ye}, {Yu}, {Yan}, \&
   {Zolkower}}]{Bellm19}
 {Bellm}, E.~C., {Kulkarni}, S.~R., {Graham}, M.~J., {et~al.}
-  2019{\natexlab{a}}, Publications of the Astronomical Society of the Pacific,
-  131, 018002, \dodoi{10.1088/1538-3873/aaecbe}
+  2019{\natexlab{a}}, \pasp, 131, 018002, \dodoi{10.1088/1538-3873/aaecbe}
 
 \bibitem[{{Bellm} {et~al.}(2019{\natexlab{b}}){Bellm}, {Kulkarni}, {Barlow},
   {Feindt}, {Graham}, {Goobar}, {Kupfer}, {Ngeow}, {Nugent}, {Ofek}, {Prince},
@@ -172,6 +177,11 @@
   Institute of Physics Conference Series, Vol. 1358, American Institute of
   Physics Conference Series, ed. J.~E. {McEnery}, J.~L. {Racusin}, \&
   N.~{Gehrels}, 373--376, \dodoi{10.1063/1.3621807}
+
+\bibitem[{{Brown} {et~al.}(2014){Brown}, {Breeveld}, {Holland}, {Kuin}, \&
+  {Pritchard}}]{Brown14}
+{Brown}, P.~J., {Breeveld}, A.~A., {Holland}, S., {Kuin}, P., \& {Pritchard},
+  T. 2014, \apss, 354, 89, \dodoi{10.1007/s10509-014-2059-8}
 
 \bibitem[{{Brown} {et~al.}(2012){Brown}, {Dawson}, {Harris}, {Olmstead},
   {Milne}, \& {Roming}}]{Brown12}
@@ -338,6 +348,14 @@
   {Hillebrandt}}]{Fink14}
 {Fink}, M., {Kromer}, M., {Seitenzahl}, I.~R., {et~al.} 2014, \mnras, 438,
   1762, \dodoi{10.1093/mnras/stt2315}
+
+\bibitem[{{Folatelli} {et~al.}(2010){Folatelli}, {Phillips}, {Burns},
+  {Contreras}, {Hamuy}, {Freedman}, {Persson}, {Stritzinger}, {Suntzeff},
+  {Krisciunas}, {Boldt}, {Gonz{\'a}lez}, {Krzeminski}, {Morrell}, {Roth},
+  {Salgado}, {Madore}, {Murphy}, {Wyatt}, {Li}, {Filippenko}, \&
+  {Miller}}]{Folatelli10}
+{Folatelli}, G., {Phillips}, M.~M., {Burns}, C.~R., {et~al.} 2010, \aj, 139,
+  120, \dodoi{10.1088/0004-6256/139/1/120}
 
 \bibitem[{Foreman-Mackey(2016)}]{Foreman-Mackey16}
 Foreman-Mackey, D. 2016, The Journal of Open Source Software, 24,
@@ -507,6 +525,10 @@ Hunter, J.~D. 2007, Computing In Science \& Engineering, 9, 90,
 \bibitem[{{Kasen}(2010)}]{Kasen10a}
 {Kasen}, D. 2010, \apj, 708, 1025, \dodoi{10.1088/0004-637X/708/2/1025}
 
+\bibitem[{{Kasen} {et~al.}(2006){Kasen}, {Thomas}, \& {Nugent}}]{Kasen06a}
+{Kasen}, D., {Thomas}, R.~C., \& {Nugent}, P. 2006, \apj, 651, 366,
+  \dodoi{10.1086/506190}
+
 \bibitem[{{Kawabata}(2020)}]{Kawabata20}
 {Kawabata}, M. 2020, Transient Name Server Classification Report, 2020-24, 1
 
@@ -516,6 +538,15 @@ Hunter, J.~D. 2007, Computing In Science \& Engineering, 9, 90,
 
 \bibitem[{{Khokhlov}(1991)}]{Khokhlov91}
 {Khokhlov}, A.~M. 1991, \aap, 245, 114
+
+\bibitem[{{Krisciunas} {et~al.}(2017){Krisciunas}, {Contreras}, {Burns},
+  {Phillips}, {Stritzinger}, {Morrell}, {Hamuy}, {Anais}, {Boldt}, {Busta},
+  {Campillay}, {Castell{\'o}n}, {Folatelli}, {Freedman}, {Gonz{\'a}lez},
+  {Hsiao}, {Krzeminski}, {Persson}, {Roth}, {Salgado}, {Ser{\'o}n}, {Suntzeff},
+  {Torres}, {Filippenko}, {Li}, {Madore}, {DePoy}, {Marshall}, {Rheault}, \&
+  {Villanueva}}]{Krisciunas17}
+{Krisciunas}, K., {Contreras}, C., {Burns}, C.~R., {et~al.} 2017, \aj, 154,
+  211, \dodoi{10.3847/1538-3881/aa8df0}
 
 \bibitem[{{Kromer} {et~al.}(2017){Kromer}, {Ohlmann}, \&
   {R{\"o}pke}}]{Kromer17}
@@ -929,6 +960,11 @@ Pedregosa, F., Varoquaux, G., Gramfort, A., {et~al.} 2011, Journal of Machine
   {Fletcher}, {Luppino}, {Metzger}, \& {Moore}}]{Tonry01}
 {Tonry}, J.~L., {Dressler}, A., {Blakeslee}, J.~P., {et~al.} 2001, \apj, 546,
   681, \dodoi{10.1086/318301}
+
+\bibitem[{{Townsley} {et~al.}(2019){Townsley}, {Miles}, {Shen}, \&
+  {Kasen}}]{Townsley19}
+{Townsley}, D.~M., {Miles}, B.~J., {Shen}, K.~J., \& {Kasen}, D. 2019, \apjl,
+  878, L38, \dodoi{10.3847/2041-8213/ab27cd}
 
 \bibitem[{{Tully} {et~al.}(2013){Tully}, {Courtois}, {Dolphin}, {Fisher},
   {H{\'e}raudeau}, {Jacobs}, {Karachentsev}, {Makarov}, {Makarova},

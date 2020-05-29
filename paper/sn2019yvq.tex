@@ -126,7 +126,7 @@
 
 \begin{document}
 
-\title{The Spectacular Ultraviolet Flash From the \\ Type Ia Supernova 2019yvq}
+\title{The Spectacular Ultraviolet Flash From the \\ Peculiar Type Ia Supernova 2019yvq}
 
 %% LaTeX will automatically break titles if they run longer than
 %% one line. However, you may use \\ to force a line break if
@@ -348,7 +348,7 @@
              Weizmann Institute of Science,
              234 Herzl St, 76100 Rehovot, Israel}
 
-\author{E.~S.~Phinney}
+\author[0000-0002-9656-4032]{E.~S.~Phinney}
 \affiliation{Cahill Center for Astrophysics,
              California Institute of Technology,
              1200 E.~California Boulevard, Pasadena, CA 91125, USA}
@@ -453,13 +453,14 @@ it was due to a violent merger.
 %% Keywords should appear after the \end{abstract} command. 
 %% See the online documentation for the full list of available subject
 %% keywords and the rules for their use.
-\keywords{supernovae --- type Ia supernovae --- surveys --- observational astronomy --- white dwarf stars}
+\keywords{supernovae --- type Ia supernovae --- surveys --- 
+observational astronomy --- white dwarf stars}
 
 \section{Introduction}
 
 There is now no doubt that Type Ia supernovae (SNe\,Ia) are the result of
 thermonuclear explosions in C/O white dwarfs (WDs) in multiple star systems
-\citep[see e.g.,][and references therein]{Maoz14}. Despite this certainty, the
+\citep[see e.g.,][and references therein]{Maoz14}. Despite this certainty, the 
 nature of the binary companion, which plays an essential role in driving the
 primary WD towards explosion, remains highly uncertain.
 
@@ -563,8 +564,7 @@ spectacular decline in the early emission from \sn\ (Figure~\ref{fig:p48}).
     \caption{Photometric evolution of \sn, highlighting the initial decline
     observed in the light curve. \gztf, \rztf, and \iztf\ observations are
     shown as filled green circles, open red circles, and filled golden
-    crosses, respectively. Transparent symbols show ZTF alert photometry,
-    which is not included in our analysis (see text). UVOT $uvw1$ and $uvm2$
+    crosses, respectively. UVOT $uvw1$ and $uvm2$
     are shown as filled and open squares, respectively. Upper limits are shown
     as downward pointing arrows. The lower axis shows time measured in
     rest-frame days relative to the time of first light, \tfl\ (see
@@ -581,12 +581,14 @@ The field of \sn\ was additionally observed by ZTF with nearly a nightly
 cadence as part of the ZTF partnership Uniform Depth Survey (ZUDS;
 D.~Goldstein et al., in prep.). Using images obtained as part of the ZUDS
 program, we perform forced PSF photometry at the location of \sn\ following
-the procedure described in \citet{Yao19}.\footnote{Images obtained as part of
-the ZTF public survey have not been released, preventing us from applying our
-forced-PSF measurements. We therefore only include forced-PSF measurements in
-the analysis described herein. Our measurements are largely consistent with
-those provided in the public ZTF alerts.} The evolution of \sn\ in the \gztf,
-\rztf, and \iztf\ filters is shown in Figure~\ref{fig:p48}.
+the procedure described in \citet{Yao19}.\footnote{Images \edit1{of \sn}
+obtained as part of the ZTF public survey have not been released, \edit1{to
+either the public or members of the ZTF collaboration}, preventing us from
+applying forced-PSF measurements. We therefore only include \edit1{the
+ZTF-partnership ZUDS images} in the analysis described herein. Our
+measurements are largely consistent with those provided in the public ZTF
+alerts.} The evolution of \sn\ in the \gztf, \rztf, and \iztf\ filters is
+shown in Figure~\ref{fig:p48}.
 
 \input{./tables/p48_phot.tex}
 
@@ -621,9 +623,16 @@ While absolute flux measurements in the UVOT $u$, $b$, and $v$ filters are not
 available, if we assume the underlying flux from the host is constant in time
 we can estimate the time of $B$-band maximum, \tbmax, from the relative
 $b$-band light curve. Using a second-order polynomial, we model the $b$-band
-light curve near peak (including observations between MJD$\,> \,$58,855
-and MJD$\,<\,$58,871). From this fit we estimate \tbmax$ = $58,863.33$
-\,\pm \,0.21$\,MJD.
+light curve near peak (including observations between MJD$\,> \,$58,855 and
+MJD$\,<\,$58,871). From this fit we measure \tbmax$ = $58,863.33$ \,\pm
+\,0.21$\,MJD. \edit1{The UVOT $b$ filter is slightly different from the
+Johnson $B$ filter, with the latter typically being used to estimate \tbmax.
+Using 9 SNe with \tbmax\ estimates from Johnson $B$-band observations
+\citep{Krisciunas17}, we repeat the above procedure on \textit{Swift} $b$-band
+observations \citep[data from][]{Brown14}. We find that most of these SNe have
+\tbmax\ measurements consistent to within the uncertainties. On average,
+\tbmax\ estimates from \textit{Swift} $b$-band observations occur later than
+those in Johnson $B$-band, with a median offset of $\sim$0.26\,d.}
 
 In parallel with the \textit{Swift}/UVOT observations, \textit{Swift} observed
 \sn\ with its onboard X-ray telescope \citep[XRT;][]{Burrows05} between 0.3
@@ -1412,11 +1421,14 @@ similar to intermediate 86G-like SNe, however, the spectra feature much weaker
 \ion{Si}{II} $\lambda$5972 absorption and larger expansion velocities than
 what is seen in 86G-like SNe (see Figure~\ref{fig:spec_comp}). Similarly,
 while the spectral appearance and evolution of \sn\ is similar to SN\,2002bo,
-and other Branch~Broad Line SNe, the photometric properties are
-entirely different. SN\,2002bo features a relatively slow decline
-[$\Delta{m}_{15}(B) = 1.13$\,mag] with a clear secondary maximum in the $I$
-band \citep{Benetti04}, which stands in contrast to moderately fast decline
-[$\Delta{m}_{15}(g) = 1.3$\,mag] and lack of \iztf\ secondary maximum in \sn.
+and other Branch~Broad Line SNe, the photometric properties are entirely
+different. SN\,2002bo features a relatively slow decline [$\Delta{m}_{15}(B) =
+1.13$\,mag, \edit1{which corresponds to $\Delta{m}_{15}(g) \approx 0.8$\,mag
+\citep[see e.g., Figure~2 in][]{Folatelli10}}] with a clear secondary maximum
+in the $I$ band \citep{Benetti04}, which stands in contrast to moderately fast
+decline [$\Delta{m}_{15}(g) = 1.3$\,mag, \edit1{roughly $\Delta{m}_{15}(B)
+\approx 1.55$\,mag \citep{Folatelli10}}] and lack of \iztf\ secondary maximum
+in \sn.
 
 If we otherwise ignore the early flash, several of the remaining features
 (2--6) in the list above can be understood if the explosion that gave rise to
@@ -1460,11 +1472,13 @@ ejecta and a nondegenerate binary companion \citep{Kasen10a}, extended clumps
 of \radni\ in the SN ejecta (e.g., \citealt{Shappee19,Dimitriadis19}),
 double-detonation explosions (e.g., \citealt{Noebauer17,Polin19}), and
 interaction between the SN ejecta and circumstellar material (e.g.,
-\citealt{Dessart14,Piro16,Levanon17}). We discuss these models and their
-ability to replicate observations of \sn\ below.\footnote{We do not discuss
-shock breakout models as our initial detection of \sn\ occurred at $M_g
-\approx -16.3$\,mag. A progenitor radius of $\sim$10$\,R_\odot$ is needed to
-explain such a high luminosity \citep{Piro10,Rabinak11}, which we consider
+\citealt{Dessart14,Piro16,Levanon17}). 
+
+\edit1{Below we discuss each of these models, aside from the shock breakout
+model,} and their ability to replicate observations of \sn. \edit1{We do not
+discuss shock breakout models as our initial detection of \sn\ occurred at
+$M_g \approx -16.3$\,mag. A progenitor radius of $\sim$10$\,R_\odot$ is needed
+to explain such a high luminosity \citep{Piro10,Rabinak11}, which we consider
 implausible for a WD.}
 
 \subsection{Companion Interaction}\label{sec:companion_interaction}
@@ -1590,23 +1604,24 @@ curve \citep{Hosseinzadeh17}.
     \centering
     \includegraphics[width=\textwidth]{./figures/clump_model.pdf}
     %
-    \caption{Comparison of \sn\ and our model with a clump of \radni\ in the
-    outer ejecta. For the comparison we have adopted a model explosion time
-    $t_\mathrm{exp} = t_\mathrm{fl} - 0.8$\,d. \textit{Left}: Photometric
-    comparison between \sn\ and the model. Symbols are the same as
-    Figure~\ref{fig:p48}. The clump model is shown via solid lines, while the
-    best-fit model for the ``normal'' rise is shown as dashed lines. The clump
-    models have been offset by $-0.1$\,mag to account for the blanketing due
-    to the clump (see text). The Ni-clump model provides an adequate match to
-    the flash in the \gztf\ and \rztf\ bands. \textit{Right}: Spectroscopic
-    comparison between \sn\ and the model. Observed spectra of \sn\ are shown
-    in blue, with phases marked relative to \tbmax, whereas the model spectra
-    are shown in dark grey, with phases marked relative to the modeled time of
-    explosion. The modeled spectra have been smoothed with a Savitzky-Golay
-    filter \citep{Savitzky64}. While an extended clump of \radni\ in the SN
-    ejecta can produce an early optical flash, it leads to strong blanketing
-    in the blue portion of the optical spectra ($\lambda \lesssim 4400$\,\AA)
-    that is not observed around maximum light in \sn. }
+    \caption{Comparison of \sn\ and our model with a \edit1{0.02\,$M_\odot$}
+    clump of \radni\ in the outer ejecta. For the comparison we have adopted a
+    model explosion time $t_\mathrm{exp} = t_\mathrm{fl} - 0.8$\,d.
+    \textit{Left}: Photometric comparison between \sn\ and the model. Symbols
+    are the same as Figure~\ref{fig:p48}. The clump model is shown via solid
+    lines, while the best-fit model for the ``normal'' rise is shown as dashed
+    lines. The clump models have been offset by $-0.1$\,mag to account for the
+    blanketing due to the clump (see text). The Ni-clump model provides an
+    adequate match to the flash in the \gztf\ and \rztf\ bands.
+    \textit{Right}: Spectroscopic comparison between \sn\ and the model.
+    Observed spectra of \sn\ are shown in blue, with phases marked relative to
+    \tbmax, whereas the model spectra are shown in dark grey, with phases
+    marked relative to the modeled time of explosion. The modeled spectra have
+    been smoothed with a Savitzky-Golay filter \citep{Savitzky64}. While an
+    extended clump of \radni\ in the SN ejecta can produce an early optical
+    flash, it leads to strong blanketing in the blue portion of the optical
+    spectra ($\lambda \lesssim 4400$\,\AA) that is not observed around maximum
+    light in \sn. }
     %
     \label{fig:Ni_bullet}
 \end{figure*}
@@ -1621,10 +1636,9 @@ ejecta, and perform full radiative transfer calculations using \texttt{TURTLS}
 
 We find that a model with a 0.02~$M_{\rm{\odot}}$ clump of \radni\ adequately
 matches the early optical evolution of \sn\ in the \gztf\ and \rztf-bands, as
-shown in Figure~\ref{fig:Ni_bullet} (the model overestimates the \iztf\ flux,
-which is expected due to a simplifying assumption of a single, sharp
-photosphere, see \citealt{Magee20a} for further details). In
-Figure~\ref{fig:Ni_bullet}, the Ni-clump models have been offset by
+shown in Figure~\ref{fig:Ni_bullet}. \edit1{The model flux in the \iztf-band
+is overestimated, however, meaning the model is redder than what is observed.}
+In Figure~\ref{fig:Ni_bullet}, the Ni-clump models have been offset by
 $-0.1$\,mag to better match the observations. This offset is necessary as the
 Ni clump provides some blanketing around maximum light, and the parameter
 space is too large to simultaneously optimize both the central Ni mass and the
@@ -1733,9 +1747,12 @@ could lead to better agreement with \sn. For instance, the nuclear reaction
 networks and 1D models in \citet{Polin19} always burn the He shells to nuclear
 statistical equilibrium. It is not unreasonable to think that 2D or 3D models,
 with a more sophisticated nuclear reaction network, would create more IMEs and
-less IGEs in the He shell, and that the ratio of the two created in the shell
-could be highly dependent upon the line of sight \citep[initial work along
-these lines is presented in][however, the nuclear yields are only mildly
+less IGEs in the He shell \edit1{(as is seen in the 2D model of a
+$M_\mathrm{C/O} = 1.0\,M_\odot$ C/O core with a $M_\mathrm{He} =
+0.02\,M_\odot$ He shell presented in \citealt{Townsley19} relative to the 1D
+model from \citealt{Polin19})}, and that the ratio of the two created in the
+shell could be highly dependent upon the line of sight \citep[initial work
+along these lines is presented in][however, the nuclear yields are only mildly
 different from 1D models]{Gronow20}. This could explain the lack of IGEs and
 strong \ion{Si}{II} absorption seen in the early spectra, while less IGEs in
 the outer layers would also reduce some of the line blanketing seen around
@@ -1951,25 +1968,25 @@ questions about the nature of SN\,Ia progenitors.
 
 \acknowledgements
 
-We thank R.~Pakmor for useful conversations in the preparation of this
-manuscript. C.-C.~Ngeow provided comments on an early version of the
-manuscript that improved its content.
+The authors would like to thank the referee for helpful comments that have
+improved this paper. We thank R.~Pakmor for useful conversations on WD
+explosions, and C.-C.~Ngeow provided constructive comments on an early draft.
 
-A.A.Miller is funded by the Large Synoptic Survey Telescope Corporation, the
+A.~A.~Miller is funded by the Large Synoptic Survey Telescope Corporation, the
 Brinson Foundation, and the Moore Foundation in support of the LSSTC Data
 Science Fellowship Program; he also receives support as a CIERA Fellow by the
 CIERA Postdoctoral Fellowship Program (Center for Interdisciplinary
 Exploration and Research in Astrophysics, Northwestern University).
 
-C.Fremling gratefully acknowledges support of his research by the
+C.~Fremling gratefully acknowledges support of his research by the
 Heising-Simons Foundation (\#2018-0907).
 
-A.A.Mahabal acknowledges support from the NSF (1640818, AST-1815034).
+A.~A.~Mahabal acknowledges support from the NSF (1640818, AST-1815034).
 
-E.S.Phinney was funded in part by the Gordon and Betty Moore Foundation
+E.~S.~Phinney was funded in part by the Gordon and Betty Moore Foundation
 through Grant GBMF5076.
 
-M.Rigault has received funding from the European Research Council (ERC) under
+M.~Rigault and Y.-L.~Kim have received funding from the European Research Council (ERC) under
 the European Union’s Horizon 2020 research and innovation programme (grant
 agreement No.\ 759194 — USNAC).
 
@@ -2013,7 +2030,8 @@ Instituto de Astrof\'isica de Canarias.
 This work made use of data supplied by the UK \textit{Swift} Science Data
 Centre at the University of Leicester.
 
-\software{\texttt{astropy} \citep{Astropy-Collaboration13}, 
+\software{\texttt{astropy} \citep{Astropy-Collaboration13},
+          \texttt{CASTRO} \citep{Almgren10},
           \texttt{corner} \citep{Foreman-Mackey16},
           \texttt{emcee} \citep{Foreman-Mackey13},
           \texttt{FRODOSpec L2 pipeline} \citep{Barnsley12},
@@ -2024,7 +2042,8 @@ Centre at the University of Leicester.
           \texttt{pysedm} \citep{Rigault19}
           \texttt{SALT2} \citep{Guy07},
           \texttt{scikit-learn} \citep{Pedregosa11},
-          \texttt{scipy} \citep{2020SciPy-NMeth}, 
+          \texttt{scipy} \citep{2020SciPy-NMeth},
+          \texttt{SEDONA} \citep{Kasen06a}, 
           \texttt{sncosmo} \citep{Barbary16},
           \texttt{SNooPY} \citep{Burns11},
           \texttt{TARDIS} \citep{Kerzendorf14},
