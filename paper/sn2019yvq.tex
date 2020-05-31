@@ -539,6 +539,8 @@ NGC\,4441, its host galaxy.
 
 \subsection{ZTF Photometric Observations}
 
+\input{./tables/p48_phot.tex}
+
 The Zwicky Transient Facility (ZTF; \citealt{Bellm19,Graham19,Dekany20})
 simultaneously conducts multiple time-domain surveys using the ZTF camera on
 the the Palomar Oschin Schmidt 48 inch (P48) telescope. \sn\ was first
@@ -589,8 +591,6 @@ ZTF-partnership ZUDS images} in the analysis described herein. Our
 measurements are largely consistent with those provided in the public ZTF
 alerts.} The evolution of \sn\ in the \gztf, \rztf, and \iztf\ filters is
 shown in Figure~\ref{fig:p48}.
-
-\input{./tables/p48_phot.tex}
 
 \subsection{\textit{Swift} UVOT and XRT Observations}\label{sec:swift}
 
@@ -690,16 +690,6 @@ for minutes to hours, and the \textit{Swift} observations occurred at least
 
 \subsection{Optical Spectroscopy}
 
-Spectroscopic observations of \sn\ were initiated because the transient passed
-the threshold criteria for both the ZTF Bright Transient Survey
-\citep{Fremling19a} and the ZTF Census of the Local Universe experiment
-\citep{De20}. Our first spectrum was obtained $\sim$2\,d after discovery;
-additional spectroscopy was obtained with a variety of telescopes and
-instruments over the following $\sim$80\,d. An observing log is listed in
-Table~\ref{tab:spectra}. The spectra were reduced using standard procedures in
-\texttt{IDL}/\texttt{Python}/\texttt{Matlab}. The optical spectral evolution
-of \sn\ is illustrated in Figure~\ref{fig:spec_evo}.
-
 \begin{figure}
     \centering
     \includegraphics[width=\columnwidth]{./figures/spec_evo.pdf}
@@ -715,7 +705,35 @@ of \sn\ is illustrated in Figure~\ref{fig:spec_evo}.
     \label{fig:spec_evo}
 \end{figure}
 
+Spectroscopic observations of \sn\ were initiated because the transient passed
+the threshold criteria for both the ZTF Bright Transient Survey
+\citep{Fremling19a} and the ZTF Census of the Local Universe experiment
+\citep{De20}. Our first spectrum, \edit1{obtained $\sim$1.8\,d after the
+initial ZTF detection with the SPectrograph for the Rapid Acquisition of
+Transients \citep[SPRAT][]{Piascik14} on the 2\,m Liverpool Telescope
+\citep[LT][]{Steele04}, had a blue and nearly featureless continuum. Further
+spectroscopy was obtained with a variety of telescopes, including: the
+Spectral Energy Density machine \citep[SEDM][]{Blagorodnova18,Rigault19} on
+the Palomar 60\,in telescope (P60), Binospec \citep{Fabricant19} on the 6.5\,m
+MMT telescope, the Low-Resolution Imaging Spectometer \citep[LRIS][]{Oke95} on
+the 10\,m Keck-I telescope, the Andalucia Faint Object Spectrograph and Camera
+(ALFOSC)\footnote{\href{http://www.not.iac.es/instruments/alfosc}{\url{http://www.not.iac.es/instruments/alfosc}}} on the 2.5\,m Nordic Optical Telescope
+(NOT), and the Double Spectrograph \citep[DBSP][]{Oke82} on the Palomar
+200\,in Hale Telescope. The optical spectral evolution of \sn\ is illustrated
+in Figure~\ref{fig:spec_evo}, with an accompanying observing log listed in
+Table~\ref{tab:spectra}.}
+
 \input{./tables/spec.tex}
+
+\edit1{With the exception of SEDM, all observations were obtained with the
+slit positioned along the parallactic angle, and the} spectra were reduced
+using standard procedures in \texttt{IDL}/\texttt{Python}/\texttt{Matlab}.
+\edit1{SEDM is a low-resolution ($R \approx 100$) integral field unit
+\citep{Blagorodnova18}, and the observations are reduced using the custom
+\texttt{pysedm} software package \citep{Rigault19}. While SEDM was designed
+specifically for SN classification \citep[e.g.,][]{Fremling19a}, the quality
+for \sn\ is high enough to provide detailed absorption line measurements (see
+\S\ref{sec:SiII}).}
 
 \section{NGC\,4441: the Host of \sn}\label{sec:host}
 
@@ -886,27 +904,34 @@ luminosity of \sn, we model changes in the observed flux in the $uvm2$,
 $uvw1$, \gztf, \rztf, and \iztf\ filters as a Gaussian process
 \citep{Rasmussen06} using the \texttt{gaussian\_process} library in
 \texttt{scikit-learn} \citep{Pedregosa11}. This allows us to interpolate flux
-measurements in each of these filters to a grid of times between 0 and 28\,d,
-while also estimating an uncertainty on the interpolation. From there, we can
-estimate the bolometric luminosity, $L_\mathrm{bol}$, via trapezoidal
-integration of the spectral energy distribution (SED).
+measurements in each of these filters to a grid of times between \edit1{1 and
+70\,d after \tfl}, while also estimating an uncertainty on the interpolation.
+From there, we can estimate the bolometric luminosity, $L_\mathrm{bol}$, via
+trapezoidal integration of the spectral energy distribution (SED).
 
 There is emission blueward of the $uvm2$-band and redward of the \iztf-band
-that is not constrained by our observations, yet this emission provides a
-significant contribution to $L_\mathrm{bol}$. To estimate this contribution,
-we extrapolate redward from the \iztf-band to the $K_s$-band ($\lambda =
-2.159\,\mu$m) by assuming the $K_s$-band flux is equal to the ratio of
-\iztf-band to $K_s$-band flux for a 8,500\,K blackbody. This choice of
-temperature is reasonable based on our \texttt{TARDIS} spectral models (see
-\S\ref{sec:tardis} and Table~\ref{tab:tardis}). While the true temperature is
-not constant, we find that varying the temperature between 6,000--12,500\,K
-only changes the estimates in $L_\mathrm{bol}$ by $\lesssim 3$\%, which is
-significantly less than the total systematic uncertainty in these estimates.
-Similarly, to estimate the flux in the UV we extrapolate between the
-$uvm2$-band and 1000\,\AA\ assuming a 12,500\,K blackbody. While such a high
-temperature is only appropriate for the early UV flash from \sn, at later
-epochs the $uvm2$ flux is so small that the assumed blackbody temperature does
-not affect the luminosity measurement.
+that is not constrained by our observations, \edit1{and for fast-declining SNe
+the near-infrared (NIR) provides a significant contribution to
+$L_\mathrm{bol}$ \citep{Taubenberger08}. To estimate the NIR flux}, we
+extrapolate redward from the \iztf-band to the $K_s$-band
+($\lambda_\mathrm{eff} = 2.159\,\mu$m) by assuming the $K_s$-band flux is
+equal to the ratio of \iztf-band to $K_s$-band flux for a 8,500\,K blackbody.
+This choice of temperature is reasonable based on our \texttt{TARDIS} spectral
+models (see \S\ref{sec:tardis} and Table~\ref{tab:tardis}). While the true
+temperature is not constant, we find that varying the temperature between
+6,000--12,500\,K changes the peak $L_\mathrm{bol}$ by $\lesssim 3$\%, which is
+significantly less than the total systematic uncertainty. \edit1{We further
+find that this assumption produces a NIR contribution of $\sim$20\% to
+$L_\mathrm{bol}$ near maximum light, and $\sim$35\% at \tbmax\,$\approx
++30$\,d. This is similar to the intermediate SN\,2004eo, and other
+fast-declining SNe \citep{Taubenberger08}.}
+
+\edit1{Similar to our procedure in the NIR, we estimate the flux in the far-UV
+by extrapolating between the $uvm2$-band and 1000\,\AA\ assuming a 12,500\,K
+blackbody.} While such a high temperature is only appropriate for the early UV
+flash from \sn\ (see \S\ref{sec:luminosity}), \edit1{the far-UV contribution
+to $L_\mathrm{bol}$ following this assumption is negligable ($\lesssim$1\%)
+around maximum light and later epochs.}
 
 The bolometric luminosity of \sn\ is shown as a function of time in
 Figure~\ref{fig:Lbol}. Statistical uncertainties in $L_\mathrm{bol}$ are
@@ -1088,13 +1113,9 @@ appearance at peak).
 Optical spectra of \sn\ were obtained at phases from $-$14.9\,d (2.6\,d after
 \tfl) to 66.5\,d after \tbmax. Details of the spectra are presented in
 Table~\ref{tab:spectra} and the spectral evolution is shown in
-Figure~\ref{fig:spec_evo}. Many of the spectra were obtained with the Spectral
-Energy Density Machine \citep[SEDM;][]{Blagorodnova18,Rigault19}, which was
-designed specifically for SN classification \citep[e.g.,][]{Fremling19a}, yet
-for \sn\ the quality is high enough to provide detailed absorption line
-measurements (see \S\ref{sec:SiII}). The absorption features in \sn\ are
-typical of SNe\,Ia, including intermediate mass elements (IMEs), primarily Si,
-Ca, and O, as well as iron-group elements (IGEs).
+Figure~\ref{fig:spec_evo}. The absorption features in \sn\ are typical of
+SNe\,Ia, including intermediate mass elements (IMEs), primarily Si, Ca, and O,
+as well as iron-group elements (IGEs).
 
 \subsection{TARDIS Models}\label{sec:tardis}
 
@@ -1747,25 +1768,26 @@ could lead to better agreement with \sn. For instance, the nuclear reaction
 networks and 1D models in \citet{Polin19} always burn the He shells to nuclear
 statistical equilibrium. It is not unreasonable to think that 2D or 3D models,
 with a more sophisticated nuclear reaction network, would create more IMEs and
-less IGEs in the He shell \edit1{(as is seen in the 2D model of a
-$M_\mathrm{C/O} = 1.0\,M_\odot$ C/O core with a $M_\mathrm{He} =
-0.02\,M_\odot$ He shell presented in \citealt{Townsley19} relative to the 1D
-model from \citealt{Polin19})}, and that the ratio of the two created in the
-shell could be highly dependent upon the line of sight \citep[initial work
-along these lines is presented in][however, the nuclear yields are only mildly
-different from 1D models]{Gronow20}. This could explain the lack of IGEs and
-strong \ion{Si}{II} absorption seen in the early spectra, while less IGEs in
-the outer layers would also reduce some of the line blanketing seen around
-maximum light. This would lead to less reprocessing of blue photons, perhaps
-creating better agreement between the models and photometry, particularly in
-the \gztf\ band. The velocity discrepancy could also potentially be explained
-as a line-of-sight effect. If the ignition of the WD occurred off center, then
-the ejecta aligned with the site of the initial He ignition may receive a
-boost in velocity \citep[e.g.,][]{Kromer10}. The discrepancies in the UV are
-less worrisome. While we show a qualitative UV flash, the magnitude of this
-flash will be highly sensitive to the precise temperature and composition in
-the very outer most ejecta, and thus any of the changes discussed above could
-easily boost the model flux in the UV.
+less IGEs in the He shell, and that the ratio of the two created in the shell
+could be highly dependent upon the line of sight. \edit1{For example,
+\citet{Townsley19} model the explosion of a $M_\mathrm{C/O} = 1.0\,M_\odot$
+C/O core with a $M_\mathrm{He} = 0.02\,M_\odot$ He shell and find a higher
+ratio of IME to IGE than the analogous 1D model presented in \citet[][though
+see also \citealt{Gronow20}, which presents a 3D double detonation explosion
+with nuclear yields that are only mildly different from 1D models]{Polin19}.}
+This could explain the lack of IGEs and strong \ion{Si}{II} absorption seen in
+the early spectra, while less IGEs in the outer layers would also reduce some
+of the line blanketing seen around maximum light. This would lead to less
+reprocessing of blue photons, perhaps creating better agreement between the
+models and photometry, particularly in the \gztf\ band. The velocity
+discrepancy could also potentially be explained as a line-of-sight effect. If
+the ignition of the WD occurred off center, then the ejecta aligned with the
+site of the initial He ignition may receive a boost in velocity
+\citep[e.g.,][]{Kromer10}. The discrepancies in the UV are less worrisome.
+While we show a qualitative UV flash, the magnitude of this flash will be
+highly sensitive to the precise temperature and composition in the very outer
+most ejecta, and thus any of the changes discussed above could easily boost
+the model flux in the UV.
 
 \subsection{Violent Mergers and Circumstellar
 Interaction}\label{sec:merger_csm}
