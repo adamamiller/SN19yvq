@@ -233,6 +233,11 @@
 \affiliation{Heidelberger Institut f\"{u}r Theoretische Studien,
              Schloss-Wolfsbrunnenweg 35, 69118 Heidelberg, Germany}
 
+\author[0000-0002-2376-6979]{S.~Dhawan}
+\affiliation{The Oskar Klein Centre, 
+             Department of Physics, 
+             Stockholm University, AlbaNova, SE-10691 Stockholm, Sweden}
+
 \author[0000-0002-8255-5127]{M.~Bulla}
 \affiliation{Nordita,
              KTH Royal Institute of Technology and Stockholm University,
@@ -260,11 +265,6 @@
 \author{A.~Delacroix}
 \affiliation{Caltech Optical Observatories, 
              California Institute of Technology, Pasadena, CA 91125, USA}
-
-\author[0000-0002-2376-6979]{S.~Dhawan}
-\affiliation{The Oskar Klein Centre, 
-             Department of Physics, 
-             Stockholm University, AlbaNova, SE-10691 Stockholm, Sweden}
 
 \author[0000-0002-4223-103X]{C.~Fremling}
 \affiliation{Cahill Center for Astrophysics,
@@ -896,7 +896,7 @@ exploded before \tfl\ (see e.g., \S\ref{sec:tardis} and \S\ref{sec:models}),
 and the UV flux continues to decline $>$3\,d after \tfl\
 (Figure~\ref{fig:p48}) suggesting the flash lasted longer than 3\,d.
 
-\subsection{Bolometric Luminosity and \radni\ mass}\label{sec:ni_mass}
+\subsection{Bolometric Luminosity, \radni\ Mass, and Mass of the Ejecta}\label{sec:ni_mass}
 
 While the early emission from \sn\ may be approximated as a blackbody, SNe\,Ia
 do not emit as blackbodies around maximum light. To estimate the bolometric
@@ -912,26 +912,37 @@ trapezoidal integration of the spectral energy distribution (SED).
 There is emission blueward of the $uvm2$-band and redward of the \iztf-band
 that is not constrained by our observations, \edit1{and for fast-declining SNe
 the near-infrared (NIR) provides a significant contribution to
-$L_\mathrm{bol}$ \citep{Taubenberger08}. To estimate the NIR flux}, we
-extrapolate redward from the \iztf-band to the $K_s$-band
+$L_\mathrm{bol}$ \citep[e.g.,][]{Taubenberger08}. To estimate the NIR flux},
+we extrapolate redward from the \iztf-band to the $K_s$-band
 ($\lambda_\mathrm{eff} = 2.159\,\mu$m) by assuming the $K_s$-band flux is
 equal to the ratio of \iztf-band to $K_s$-band flux for a 8,500\,K blackbody.
 This choice of temperature is reasonable based on our \texttt{TARDIS} spectral
 models (see \S\ref{sec:tardis} and Table~\ref{tab:tardis}). While the true
 temperature is not constant, we find that varying the temperature between
-6,000--12,500\,K changes the peak $L_\mathrm{bol}$ by $\lesssim 3$\%, which is
+6,000--12,500\,K changes the peak $L_\mathrm{bol}$ by $\lesssim\,3$\%, which is
 significantly less than the total systematic uncertainty. \edit1{We further
 find that this assumption produces a NIR contribution of $\sim$20\% to
 $L_\mathrm{bol}$ near maximum light, and $\sim$35\% at \tbmax\,$\approx
-+30$\,d. This is similar to the intermediate SN\,2004eo, and other
-fast-declining SNe \citep{Taubenberger08}.}
++30$\,d. This is similar to SN\,2004eo, a SN with an intermediate deline rate
+like \sn\ (see \S\ref{sec:max_decline}), and other fast-declining SNe\,Ia
+\citep{Taubenberger08}.}
 
 \edit1{Similar to our procedure in the NIR, we estimate the flux in the far-UV
 by extrapolating between the $uvm2$-band and 1000\,\AA\ assuming a 12,500\,K
 blackbody.} While such a high temperature is only appropriate for the early UV
 flash from \sn\ (see \S\ref{sec:luminosity}), \edit1{the far-UV contribution
-to $L_\mathrm{bol}$ following this assumption is negligable ($\lesssim$1\%)
-around maximum light and later epochs.}
+to $L_\mathrm{bol}$ following this assumption is negligable ($\lesssim 1$\%)
+around maximum light and later epochs. }
+
+\edit1{In the near-UV, probed by the UVOT $uvm2$ and $uvw1$ filters, the SN is
+only marginally detected at epochs $> 26.5$\,d after \tfl\ (see
+Figure~\ref{fig:p48}). Given the low signal-to-noise ratio (SNR) in the
+\textit{Swift} observations at these epochs, for $t > t_\mathrm{fl} + 26.5$\,d
+we interpolate the $uvm2$ and $uvw1$ flux by assuming their ratio relative to
+the \gztf\ flux, which is measured at very high SNR, is fixed and set by their
+relative ratios at $t = t_\mathrm{fl} + 26.5$\,d. Fixing the UV flux in this
+manner does not change our estimate of the \radni\ mass, and does not have a
+significant affect on our estimate of the total ejecta mass.}
 
 The bolometric luminosity of \sn\ is shown as a function of time in
 Figure~\ref{fig:Lbol}. Statistical uncertainties in $L_\mathrm{bol}$ are
@@ -951,8 +962,10 @@ interpolation, extrapolation, and integration).
     \S\ref{sec:tardis}), orange circles show luminosity estimates from a
     blackbody fit to the SED (see \S\ref{sec:luminosity}). The methods
     generally agree, though the \texttt{TARDIS} spectral models likely
-    overestimate the flux around maximum light (see text). The total inferred
-    mass of synthesized \radni\ is $0.31 \pm 0.05\,M_\odot$.}
+    overestimate the flux around maximum light (see text). \edit1{The
+    luminosity of \sn\ assuming no NIR correction is shown as a dashed green
+    line.} The total inferred mass of synthesized \radni\ is $0.31 \pm
+    0.05\,M_\odot$.}
     %
     \label{fig:Lbol}
 \end{figure}
@@ -975,12 +988,44 @@ radioactive energy released by \radni, we estimate the total mass of \radni,
 $M_\mathrm{^{56}Ni}$, synthesized in the explosion. Using Equation~19 from
 \citet[][see also \citealt{Stritzinger06,Howell09,Scalzo14}]{Nadyozhin94}, we
 find $M_\mathrm{^{56}Ni} = 0.31 \pm 0.05\,M_\odot$, where the uncertainty is
-dominated by the (assumed) systematic uncertainty on $L_\mathrm{bol}$. This
-yield is low for a normal SN\,Ia as typical explosions yield
-$\sim$0.4--0.8\,$M_\odot$ of \radni\ \citep[e.g.,][]{Scalzo14a}. Finally, we
-note that the peak luminosity of \sn\ is $\sim$70\% larger than the peak
-luminosity of iPTF\,14atg \citep[$3.8 \times
-10^{42}\,\mathrm{erg\,s}^{-1}$;][]{Kromer16}.
+dominated by the (assumed) systematic uncertainty on $L_\mathrm{bol}$.
+\edit1{We note that if our previous assumption about the NIR contribution to
+$L_\mathrm{bol}$ at maximum light is revised downward from $\sim$20\% to
+$\sim$5\%, as is typical for normal SNe\,Ia
+\citep[e.g.,][]{Suntzeff96,Contardo00}, the total \radni\ mass still agrees
+with the above estimate to within the uncertainties.} This yield is low for a
+normal SN\,Ia as typical explosions yield $\sim$0.4--0.8\,$M_\odot$ of \radni\
+\citep[e.g.,][]{Scalzo14a}. Finally, we note that the peak luminosity of \sn\
+is $\sim$70\% larger than the peak luminosity of iPTF\,14atg \citep[$3.8
+\times 10^{42}\,\mathrm{erg\,s}^{-1}$;][]{Kromer16}.
+
+\edit1{Following \citet{Jeffery99}, we can estimate the total mass ejected by
+\sn, $M_\mathrm{ej}$, by calculating the transparency timescale, $t_0$, from
+the decline of the bolometric light curve \citep[see
+also][]{Stritzinger06,Scalzo14,Dhawan18}. Briefly, $t_0$ is a parameter that
+governs the time-varying $\gamma$-ray optical depth of a SN, and it is related
+to $M_\mathrm{ej}$ as follows \citep{Jeffery99,Dhawan18}:
+%
+\begin{equation}
+    M_\mathrm{ej} = 1.38 \left(\frac{1/3}{q}\right)
+    \left(\frac{v_e}{3000\,\mathrm{km\,s}^{-1}}\right)^2 
+    \left(\frac{t_0}{36.80\,\mathrm{d}}\right)^2 M_\odot,
+\end{equation}\label{eq:ejecta_mass}
+%
+where $v_e$ is the e-folding velocity of an exponential model’s density
+profile, and $q$ is a form factor that describes the distribution of \radni\
+in the ejecta ($q = 1/3$ corresponds to an evenly distributed \radni\
+profile). In Equation~\ref{eq:ejecta_mass}, the $\gamma$-ray opacity has been
+assumed to be 0.025\,cm$^{2}$\,g$^{-1}$.}
+
+\edit1{For \sn\ we estimate $t_0 = 41.3 \pm 0.2$\,d. Assuming $v_e = 3000 \pm
+180$\,\kms\ and that $q = 0.45 \pm 0.08$, we find $M_\mathrm{ej} = 1.28 \pm
+0.24\,M_\odot$. Unlike our estimate of $M_\mathrm{^{56}Ni}$, the adopted NIR
+correction does affect the measurement of $t_0$. In addition to the total
+luminosity, Figure~\ref{fig:Lbol} shows the SED-integrated luminosity assuming
+no NIR flux (i.e., $\mathrm{flux} = 0$ for all $\lambda > 1\,\mu$m). From this
+light curve we estimate $t_0 = 35.8 \pm 0.1$\,d, corresponding to
+$M_\mathrm{ej} = 0.97 \pm 0.18\,M_\odot$}. Given the overall uncertainty in the NIR correction
 
 \subsection{Maximum Light and Decline}\label{sec:max_decline}
 

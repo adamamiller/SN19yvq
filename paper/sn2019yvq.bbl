@@ -241,6 +241,10 @@
 {Carrick}, J., {Turnbull}, S.~J., {Lavaux}, G., \& {Hudson}, M.~J. 2015,
   \mnras, 450, 317, \dodoi{10.1093/mnras/stv547}
 
+\bibitem[{{Contardo} {et~al.}(2000){Contardo}, {Leibundgut}, \&
+  {Vacca}}]{Contardo00}
+{Contardo}, G., {Leibundgut}, B., \& {Vacca}, W.~D. 2000, \aap, 359, 876
+
 \bibitem[{{Cristiani} {et~al.}(1992){Cristiani}, {Cappellaro}, {Turatto},
   {Bergeron}, {Bues}, {Buson}, {Danziger}, {di Serego-Alighieri}, {Duerbeck},
   {Heydari-Malayeri}, {Krautter}, {Schmutz}, \&
@@ -284,6 +288,12 @@
   {Khokhlov}}]{Dessart14}
 {Dessart}, L., {Blondin}, S., {Hillier}, D.~J., \& {Khokhlov}, A. 2014, \mnras,
   441, 532, \dodoi{10.1093/mnras/stu598}
+
+\bibitem[{{Dhawan} {et~al.}(2018){Dhawan}, {Bulla}, {Goobar}, {Lunnan},
+  {Johansson}, {Fransson}, {Kulkarni}, {Papadogiannakis}, \&
+  {Miller}}]{Dhawan18}
+{Dhawan}, S., {Bulla}, M., {Goobar}, A., {et~al.} 2018, \mnras, 480, 1445,
+  \dodoi{10.1093/mnras/sty1908}
 
 \bibitem[{{Dimitriadis} {et~al.}(2019){Dimitriadis}, {Foley}, {Rest}, {Kasen},
   {Piro}, {Polin}, {Jones}, {Villar}, {Narayan}, {Coulter}, {Kilpatrick},
@@ -508,6 +518,10 @@ Hunter, J.~D. 2007, Computing In Science \& Engineering, 9, 90,
 
 \bibitem[{{Itagaki}(2019)}]{Itagaki19}
 {Itagaki}, K. 2019, Transient Name Server Discovery Report, 2019-2720, 1
+
+\bibitem[{{Jeffery}(1999)}]{Jeffery99}
+{Jeffery}, D.~J. 1999, arXiv e-prints, astro.
+\newblock \doarXiv{astro-ph/9907015}
 
 \bibitem[{{Jiang} {et~al.}(2018){Jiang}, {Doi}, {Maeda}, \&
   {Shigeyama}}]{Jiang18}
@@ -942,6 +956,10 @@ Pedregosa, F., Varoquaux, G., Gramfort, A., {et~al.} 2011, Journal of Machine
   {Contardo}}]{Stritzinger06}
 {Stritzinger}, M., {Leibundgut}, B., {Walch}, S., \& {Contardo}, G. 2006, \aap,
   450, 241, \dodoi{10.1051/0004-6361:20053652}
+
+\bibitem[{{Suntzeff}(1996)}]{Suntzeff96}
+{Suntzeff}, N.~B. 1996, in IAU Colloq. 145: Supernovae and Supernova Remnants,
+  ed. T.~S. {Kuhn}, 41
 
 \bibitem[{{Taubenberger}(2017)}]{Taubenberger17}
 {Taubenberger}, S. 2017, {The Extremes of Thermonuclear Supernovae}, 317,
