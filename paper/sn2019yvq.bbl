@@ -138,6 +138,12 @@
 {Benetti}, S., {Meikle}, P., {Stehle}, M., {et~al.} 2004, \mnras, 348, 261,
   \dodoi{10.1111/j.1365-2966.2004.07357.x}
 
+\bibitem[{{Benetti} {et~al.}(2005){Benetti}, {Cappellaro}, {Mazzali},
+  {Turatto}, {Altavilla}, {Bufano}, {Elias-Rosa}, {Kotak}, {Pignata}, {Salvo},
+  \& {Stanishev}}]{Benetti05}
+{Benetti}, S., {Cappellaro}, E., {Mazzali}, P.~A., {et~al.} 2005, \apj, 623,
+  1011, \dodoi{10.1086/428608}
+
 \bibitem[{{Bianco} {et~al.}(2011){Bianco}, {Howell}, {Sullivan}, {Conley},
   {Kasen}, {Gonz{\'a}lez-Gait{\'a}n}, {Guy}, {Astier}, {Balland}, {Carlberg},
   {Fouchez}, {Fourmanoit}, {Hardin}, {Hook}, {Lidman}, {Pain},
@@ -344,6 +350,12 @@
 {Fabricant}, D., {Fata}, R., {Epps}, H., {et~al.} 2019, \pasp, 131, 075004,
   \dodoi{10.1088/1538-3873/ab1d78}
 
+\bibitem[{{Filippenko} {et~al.}(1992){Filippenko}, {Richmond}, {Branch},
+  {Gaskell}, {Herbst}, {Ford}, {Treffers}, {Matheson}, {Ho}, {Dey}, {Sargent},
+  {Small}, \& {van Breugel}}]{Filippenko92}
+{Filippenko}, A.~V., {Richmond}, M.~W., {Branch}, D., {et~al.} 1992, \aj, 104,
+  1543, \dodoi{10.1086/116339}
+
 \bibitem[{{Fink} {et~al.}(2007){Fink}, {Hillebrandt}, \& {R{\"o}pke}}]{Fink07}
 {Fink}, M., {Hillebrandt}, W., \& {R{\"o}pke}, F.~K. 2007, \aap, 476, 1133,
   \dodoi{10.1051/0004-6361:20078438}
@@ -366,6 +378,11 @@
   {Miller}}]{Folatelli10}
 {Folatelli}, G., {Phillips}, M.~M., {Burns}, C.~R., {et~al.} 2010, \aj, 139,
   120, \dodoi{10.1088/0004-6256/139/1/120}
+
+\bibitem[{{Foley} {et~al.}(2010){Foley}, {Narayan}, {Challis}, {Filippenko},
+  {Kirshner}, {Silverman}, \& {Steele}}]{Foley10a}
+{Foley}, R.~J., {Narayan}, G., {Challis}, P.~J., {et~al.} 2010, \apj, 708,
+  1748, \dodoi{10.1088/0004-637X/708/2/1748}
 
 \bibitem[{Foreman-Mackey(2016)}]{Foreman-Mackey16}
 Foreman-Mackey, D. 2016, The Journal of Open Source Software, 24,
@@ -583,6 +600,15 @@ Hunter, J.~D. 2007, Computing In Science \& Engineering, 9, 90,
 {Kromer}, M., {Fremling}, C., {Pakmor}, R., {et~al.} 2016, \mnras, 459, 4428,
   \dodoi{10.1093/mnras/stw962}
 
+\bibitem[{{Leibundgut} {et~al.}(1993){Leibundgut}, {Kirshner}, {Phillips},
+  {Wells}, {Suntzeff}, {Hamuy}, {Schommer}, {Walker}, {Gonzalez}, {Ugarte},
+  {Williams}, {Williger}, {Gomez}, {Marzke}, {Schmidt}, {Whitney}, {Caldwell},
+  {Peters}, {Chaffee}, {Foltz}, {Rehner}, {Siciliano}, {Barnes}, {Cheng},
+  {Hintzen}, {Kim}, {Maza}, {Parker}, {Porter}, {Schmidtke}, \&
+  {Sonneborn}}]{Leibundgut93}
+{Leibundgut}, B., {Kirshner}, R.~P., {Phillips}, M.~M., {et~al.} 1993, \aj,
+  105, 301, \dodoi{10.1086/116427}
+
 \bibitem[{{Levanon} \& {Soker}(2017)}]{Levanon17}
 {Levanon}, N., \& {Soker}, N. 2017, \mnras, 470, 2510,
   \dodoi{10.1093/mnras/stx1387}
@@ -607,6 +633,14 @@ Hunter, J.~D. 2007, Computing In Science \& Engineering, 9, 90,
   {Kerzendorf}}]{Magee18}
 {Magee}, M.~R., {Sim}, S.~A., {Kotak}, R., \& {Kerzendorf}, W.~E. 2018, \aap,
   614, A115, \dodoi{10.1051/0004-6361/201832675}
+
+\bibitem[{{Maguire} {et~al.}(2011){Maguire}, {Sullivan}, {Thomas}, {Nugent},
+  {Howell}, {Gal-Yam}, {Arcavi}, {Ben-Ami}, {Blake}, {Botyanszki}, {Buton},
+  {Cooke}, {Ellis}, {Hook}, {Kasliwal}, {Pan}, {Pereira}, {Podsiadlowski},
+  {Sternberg}, {Suzuki}, {Xu}, {Yaron}, {Bloom}, {Cenko}, {Kulkarni}, {Law},
+  {Ofek}, {Poznanski}, \& {Quimby}}]{Maguire11}
+{Maguire}, K., {Sullivan}, M., {Thomas}, R.~C., {et~al.} 2011, \mnras, 418,
+  747, \dodoi{10.1111/j.1365-2966.2011.19526.x}
 
 \bibitem[{{Maguire} {et~al.}(2014){Maguire}, {Sullivan}, {Pan}, {Gal-Yam},
   {Hook}, {Howell}, {Nugent}, {Mazzali}, {Chotard}, {Clubb}, {Filippenko},
@@ -779,6 +813,11 @@ Pedregosa, F., Varoquaux, G., Gramfort, A., {et~al.} 2011, Journal of Machine
 
 \bibitem[{{Phillips}(1993)}]{Phillips93}
 {Phillips}, M.~M. 1993, \apjl, 413, L105, \dodoi{10.1086/186970}
+
+\bibitem[{{Phillips} {et~al.}(1999){Phillips}, {Lira}, {Suntzeff}, {Schommer},
+  {Hamuy}, \& {Maza}}]{Phillips99}
+{Phillips}, M.~M., {Lira}, P., {Suntzeff}, N.~B., {et~al.} 1999, \aj, 118,
+  1766, \dodoi{10.1086/301032}
 
 \bibitem[{{Phillips} {et~al.}(1987){Phillips}, {Phillips}, {Heathcote},
   {Blanco}, {Geisler}, {Hamilton}, {Suntzeff}, {Jablonski}, {Steiner},
@@ -956,6 +995,14 @@ Pedregosa, F., Varoquaux, G., Gramfort, A., {et~al.} 2011, Journal of Machine
   {Contardo}}]{Stritzinger06}
 {Stritzinger}, M., {Leibundgut}, B., {Walch}, S., \& {Contardo}, G. 2006, \aap,
   450, 241, \dodoi{10.1051/0004-6361:20053652}
+
+\bibitem[{{Stritzinger} {et~al.}(2011){Stritzinger}, {Phillips}, {Boldt},
+  {Burns}, {Campillay}, {Contreras}, {Gonzalez}, {Folatelli}, {Morrell},
+  {Krzeminski}, {Roth}, {Salgado}, {DePoy}, {Hamuy}, {Freedman}, {Madore},
+  {Marshall}, {Persson}, {Rheault}, {Suntzeff}, {Villanueva}, {Li}, \&
+  {Filippenko}}]{Stritzinger11}
+{Stritzinger}, M.~D., {Phillips}, M.~M., {Boldt}, L.~N., {et~al.} 2011, \aj,
+  142, 156, \dodoi{10.1088/0004-6256/142/5/156}
 
 \bibitem[{{Suntzeff}(1996)}]{Suntzeff96}
 {Suntzeff}, N.~B. 1996, in IAU Colloq. 145: Supernovae and Supernova Remnants,

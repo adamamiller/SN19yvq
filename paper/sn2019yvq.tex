@@ -624,8 +624,8 @@ available, if we assume the underlying flux from the host is constant in time
 we can estimate the time of $B$-band maximum, \tbmax, from the relative
 $b$-band light curve. Using a second-order polynomial, we model the $b$-band
 light curve near peak (including observations between MJD$\,> \,$58,855 and
-MJD$\,<\,$58,871). From this fit we measure \tbmax$ = $58,863.33$ \,\pm
-\,0.21$\,MJD. \edit1{The UVOT $b$ filter is slightly different from the
+MJD$\,<\,$58,871). From this fit we measure $T_{B,\mathrm{max}} = 58$,863.33$
+\,\pm \,0.21$\,MJD. \edit1{The UVOT $b$ filter is slightly different from the
 Johnson $B$ filter, with the latter typically being used to estimate \tbmax.
 Using 9 SNe with \tbmax\ estimates from Johnson $B$-band observations
 \citep{Krisciunas17}, we repeat the above procedure on \textit{Swift} $b$-band
@@ -698,9 +698,10 @@ for minutes to hours, and the \textit{Swift} observations occurred at least
     by their median flux between 7200\,\AA\ and 7400\,\AA. The phase of each
     observation relative to \tbmax\ is shown to the right of the individual
     spectra. Prominent spectral features from intermediate mass elements are
-    highlighted with vertical dashed lines. Some of the spectra show
-    imperfect Telluric subtractions, giving rise to the non-smooth features
-    around $\lambda_\mathrm{obs} \approx 7600$\,\AA.}
+    highlighted with vertical dashed lines. Some of the spectra show imperfect
+    Telluric subtractions, giving rise to the non-smooth features around
+    $\lambda_\mathrm{obs} \approx 7600$\,\AA. \edit1{The blue and red edges of
+    the $-12.9$\,d spectrum are nor shown for clarity.}}
     %
     \label{fig:spec_evo}
 \end{figure}
@@ -710,15 +711,15 @@ the threshold criteria for both the ZTF Bright Transient Survey
 \citep{Fremling19a} and the ZTF Census of the Local Universe experiment
 \citep{De20}. Our first spectrum, \edit1{obtained $\sim$1.8\,d after the
 initial ZTF detection with the SPectrograph for the Rapid Acquisition of
-Transients \citep[SPRAT][]{Piascik14} on the 2\,m Liverpool Telescope
-\citep[LT][]{Steele04}, had a blue and nearly featureless continuum. Further
+Transients \citep[SPRAT;][]{Piascik14} on the 2\,m Liverpool Telescope
+\citep[LT;][]{Steele04}, had a blue and nearly featureless continuum. Further
 spectroscopy was obtained with a variety of telescopes, including: the
-Spectral Energy Density machine \citep[SEDM][]{Blagorodnova18,Rigault19} on
+Spectral Energy Density machine \citep[SEDM;][]{Blagorodnova18,Rigault19} on
 the Palomar 60\,in telescope (P60), Binospec \citep{Fabricant19} on the 6.5\,m
-MMT telescope, the Low-Resolution Imaging Spectometer \citep[LRIS][]{Oke95} on
+MMT telescope, the Low-Resolution Imaging Spectometer \citep[LRIS;][]{Oke95} on
 the 10\,m Keck-I telescope, the Andalucia Faint Object Spectrograph and Camera
 (ALFOSC)\footnote{\href{http://www.not.iac.es/instruments/alfosc}{\url{http://www.not.iac.es/instruments/alfosc}}} on the 2.5\,m Nordic Optical Telescope
-(NOT), and the Double Spectrograph \citep[DBSP][]{Oke82} on the Palomar
+(NOT), and the Double Spectrograph \citep[DBSP;][]{Oke82} on the Palomar
 200\,in Hale Telescope. The optical spectral evolution of \sn\ is illustrated
 in Figure~\ref{fig:spec_evo}, with an accompanying observing log listed in
 Table~\ref{tab:spectra}.}
@@ -919,13 +920,13 @@ equal to the ratio of \iztf-band to $K_s$-band flux for a 8,500\,K blackbody.
 This choice of temperature is reasonable based on our \texttt{TARDIS} spectral
 models (see \S\ref{sec:tardis} and Table~\ref{tab:tardis}). While the true
 temperature is not constant, we find that varying the temperature between
-6,000--12,500\,K changes the peak $L_\mathrm{bol}$ by $\lesssim\,3$\%, which is
-significantly less than the total systematic uncertainty. \edit1{We further
-find that this assumption produces a NIR contribution of $\sim$20\% to
-$L_\mathrm{bol}$ near maximum light, and $\sim$35\% at \tbmax\,$\approx
-+30$\,d. This is similar to SN\,2004eo, a SN with an intermediate deline rate
-like \sn\ (see \S\ref{sec:max_decline}), and other fast-declining SNe\,Ia
-\citep{Taubenberger08}.}
+6,000--12,500\,K changes the peak $L_\mathrm{bol}$ by $\lesssim\,3$\%, which
+is significantly less than the total systematic uncertainty. \edit1{The
+assumed emission redward of the \iztf\ band results in a NIR contribution of
+$\sim$20\% to $L_\mathrm{bol}$ near maximum light, and $\sim$35\% at
+\tbmax\,$\approx +30$\,d. This is similar to SN\,2004eo, a SN with an
+intermediate deline rate like \sn\ (see \S\ref{sec:max_decline}), and other
+fast-declining SNe\,Ia \citep{Taubenberger08}.}
 
 \edit1{Similar to our procedure in the NIR, we estimate the flux in the far-UV
 by extrapolating between the $uvm2$-band and 1000\,\AA\ assuming a 12,500\,K
@@ -982,12 +983,16 @@ epoch.
 From the SED integration we find that the bolometric luminosity of \sn\ peaked
 18.1\,d after \tfl\ ($\sim$0.6\,d after \tbmax) at $L_\mathrm{bol,max} = 6.4
 \pm 0.1\,(\mathrm{statistical}) \pm 0.6\,(\mathrm{systematic}) \times
-10^{42}\,\mathrm{erg\,s}^{-1}$. From Arnett's rule \citep{Arnett82}, which
-states that the peak luminosity is equal to the instantaneous rate of
-radioactive energy released by \radni, we estimate the total mass of \radni,
-$M_\mathrm{^{56}Ni}$, synthesized in the explosion. Using Equation~19 from
-\citet[][see also \citealt{Stritzinger06,Howell09,Scalzo14}]{Nadyozhin94}, we
-find $M_\mathrm{^{56}Ni} = 0.31 \pm 0.05\,M_\odot$, where the uncertainty is
+10^{42}\,\mathrm{erg\,s}^{-1}$. This peak luminosity is $\sim$70\% larger than
+the peak luminosity of iPTF\,14atg \citep[$3.8 \times
+10^{42}\,\mathrm{erg\,s}^{-1}$;][]{Kromer16}.
+
+From Arnett's rule \citep{Arnett82}, which states that the peak luminosity is
+equal to the instantaneous rate of radioactive energy released by \radni, we
+estimate the total mass of \radni, $M_\mathrm{^{56}Ni}$, synthesized in the
+explosion. Using Equation~19 from \citet[][see also
+\citealt{Stritzinger06,Howell09,Scalzo14}]{Nadyozhin94}, we find
+$M_\mathrm{^{56}Ni} = 0.31 \pm 0.05\,M_\odot$, where the uncertainty is
 dominated by the (assumed) systematic uncertainty on $L_\mathrm{bol}$.
 \edit1{We note that if our previous assumption about the NIR contribution to
 $L_\mathrm{bol}$ at maximum light is revised downward from $\sim$20\% to
@@ -995,9 +1000,7 @@ $\sim$5\%, as is typical for normal SNe\,Ia
 \citep[e.g.,][]{Suntzeff96,Contardo00}, the total \radni\ mass still agrees
 with the above estimate to within the uncertainties.} This yield is low for a
 normal SN\,Ia as typical explosions yield $\sim$0.4--0.8\,$M_\odot$ of \radni\
-\citep[e.g.,][]{Scalzo14a}. Finally, we note that the peak luminosity of \sn\
-is $\sim$70\% larger than the peak luminosity of iPTF\,14atg \citep[$3.8
-\times 10^{42}\,\mathrm{erg\,s}^{-1}$;][]{Kromer16}.
+\citep[e.g.,][]{Scalzo14a}.
 
 \edit1{Following \citet{Jeffery99}, we can estimate the total mass ejected by
 \sn, $M_\mathrm{ej}$, by calculating the transparency timescale, $t_0$, from
@@ -1010,13 +1013,14 @@ to $M_\mathrm{ej}$ as follows \citep{Jeffery99,Dhawan18}:
     M_\mathrm{ej} = 1.38 \left(\frac{1/3}{q}\right)
     \left(\frac{v_e}{3000\,\mathrm{km\,s}^{-1}}\right)^2 
     \left(\frac{t_0}{36.80\,\mathrm{d}}\right)^2 M_\odot,
-\end{equation}\label{eq:ejecta_mass}
+    \label{eq:ejecta_mass}
+\end{equation}
 %
-where $v_e$ is the e-folding velocity of an exponential model’s density
-profile, and $q$ is a form factor that describes the distribution of \radni\
-in the ejecta ($q = 1/3$ corresponds to an evenly distributed \radni\
-profile). In Equation~\ref{eq:ejecta_mass}, the $\gamma$-ray opacity has been
-assumed to be 0.025\,cm$^{2}$\,g$^{-1}$.}
+where $v_e$ is the e-folding velocity of an exponential density profile, and
+$q$ is a form factor that describes the distribution of \radni\ in the ejecta
+($q = 1/3$ corresponds to an evenly distributed \radni\ profile). In
+Equation~\ref{eq:ejecta_mass}, the $\gamma$-ray opacity has been assumed to be
+0.025\,cm$^{2}$\,g$^{-1}$.}
 
 \edit1{For \sn\ we estimate $t_0 = 42.0 \pm 1.0$\,d (the uncertainty is
 dominated by the uncertainty on the rise time, for which we adopt 1\,d).
@@ -1960,6 +1964,33 @@ little to no IGE present in the outer layers of the SN ejecta, which further
 distinguishes \sn, even relative to other Branch~Broad Line SNe. The fact that
 \sn\ exhibits high-velocity \ion{Si}{II} $\lambda$6355 absorption and an
 underluminous peak sets it apart from other SNe\,Ia.
+
+\edit1{\sn\ is one of a growing group of SNe\,Ia with photometric properties
+that may or may not deviate from the standard width-luminosity relationship
+for normal SNe\,Ia \citep[e.g.,][]{Phillips93,Phillips99}, but whose spectral
+evolution is incongruous with their photometric properties. While these SNe
+all differ in detail, many can be linked via the presence of 91bg-like
+spectroscopic features, such as the \ion{Ti}{II} ``trough'' at $\sim$4200\,\AA
+\citep{Filippenko92,Leibundgut93}, despite relatively broad light curves that
+are more consistent with normal or intermediate SNe\,Ia (examples include:
+SN\,2006bt, \citealt{Foley10a}; PTF\,10ops, \citealt{Maguire11}; SN\,2006ot,
+\citealt{Stritzinger11}; SN\,2010lp, \citealt{Kromer13a}; SN\,2002es,
+\citealt{Ganeshalingam12}; and iPTF\,14atg, \citealt{Cao15}).}
+
+\edit1{\citet{Benetti05} showed that photometric and spectroscopic properties
+of SNe\,Ia are closely linked by connecting normal and subluminous 91bg-like
+SNe\,Ia in a tight sequence in the \RSiII--$\Delta m_{15}(B)$ plane. As first
+pointed out in \citet{Foley10a} and later confirmed by
+\citet{Maguire11,Ganeshalingam12}, the peculiar SNe mentioned above starkly
+standout from the simple sequence found in \citet{Benetti05} as the peculiar
+SNe all have \RSiII\ values that are much higher than expected given their
+decline rate as parameterized by $\Delta m_{15}(B)$. \sn\ also stands out in
+this plane, though in the opposite sense, the low \RSiII\ at maximum light
+(\S\ref{sec:SiII}) suggests a slow decline, which is not observed
+(\S\ref{sec:max_decline}). Whether these events all feature a common origin
+remains to be seen, though it is interesting that the two events with observed
+early UV flashes, iPTF\,14atg and \sn, are both peculiar and possibly
+connected as outliers in the \RSiII--$\Delta m_{15}(B)$ plane.}
 
 We have found that building a consistent physical model to explain all of the
 observed properties of \sn\ is challenging. Most models either replicate the
