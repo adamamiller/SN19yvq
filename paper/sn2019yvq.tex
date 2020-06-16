@@ -539,14 +539,14 @@ NGC\,4441, its host galaxy.
 
 \subsection{ZTF Photometric Observations}
 
-\input{./tables/p48_phot.tex}
+\input{./tables/p48_phot_arxiv.tex}
 
 The Zwicky Transient Facility (ZTF; \citealt{Bellm19,Graham19,Dekany20})
 simultaneously conducts multiple time-domain surveys using the ZTF camera on
 the the Palomar Oschin Schmidt 48 inch (P48) telescope. \sn\ was first
 detected by ZTF on 2019 Dec 29.46, as part of the ZTF public survey (see
-\citealt{Bellm19a}). The \edit1{automated ZTF pipeline \citep{Masci19}
-detected} \sn\ using the image-differencing technique of \citet{Zackay16}. The
+\citealt{Bellm19a}). The automated ZTF pipeline \citep{Masci19}
+detected \sn\ using the image-differencing technique of \citet{Zackay16}. The
 candidate passed internal thresholds (e.g., \citealt{Mahabal19}), leading to
 the production and dissemination of a real-time alert \citep{Patterson19} and
 the internal designation ZTF19adcecwu. The public alert included the position,
@@ -583,18 +583,18 @@ The field of \sn\ was additionally observed by ZTF with nearly a nightly
 cadence as part of the ZTF partnership Uniform Depth Survey (ZUDS;
 D.~Goldstein et al., in prep.). Using images obtained as part of the ZUDS
 program, we perform forced PSF photometry at the location of \sn\ following
-the procedure described in \citet{Yao19}.\footnote{Images \edit1{of \sn}
-obtained as part of the ZTF public survey have not been released, \edit1{to
-either the public or members of the ZTF collaboration}, preventing us from
-applying forced-PSF measurements. We therefore only include \edit1{the
-ZTF-partnership ZUDS images} in the analysis described herein. Our
+the procedure described in \citet{Yao19}.\footnote{Images of \sn
+obtained as part of the ZTF public survey have not been released, to
+either the public or members of the ZTF collaboration, preventing us from
+applying forced-PSF measurements. We therefore only include the
+ZTF-partnership ZUDS images in the analysis described herein. Our
 measurements are largely consistent with those provided in the public ZTF
 alerts.} The evolution of \sn\ in the \gztf, \rztf, and \iztf\ filters is
 shown in Figure~\ref{fig:p48}.
 
 \subsection{\textit{Swift} UVOT and XRT Observations}\label{sec:swift}
 
-\input{./tables/uvot_phot.tex}
+\input{./tables/uvot_phot_arxiv.tex}
 
 Ultraviolet (UV) observations of \sn\ were obtained with the
 Ultra-Violet/Optical Telescope (UVOT; \citealt{Roming05}) onboard the Neil
@@ -625,14 +625,14 @@ we can estimate the time of $B$-band maximum, \tbmax, from the relative
 $b$-band light curve. Using a second-order polynomial, we model the $b$-band
 light curve near peak (including observations between MJD$\,> \,$58,855 and
 MJD$\,<\,$58,871). From this fit we measure $T_{B,\mathrm{max}} = 58$,863.33$
-\,\pm \,0.21$\,MJD. \edit1{The UVOT $b$ filter is slightly different from the
+\,\pm \,0.21$\,MJD. The UVOT $b$ filter is slightly different from the
 Johnson $B$ filter, with the latter typically being used to estimate \tbmax.
 Using 9 SNe with \tbmax\ estimates from Johnson $B$-band observations
 \citep{Krisciunas17}, we repeat the above procedure on \textit{Swift} $b$-band
 observations \citep[data from][]{Brown14}. We find that most of these SNe have
 \tbmax\ measurements consistent to within the uncertainties. On average,
 \tbmax\ estimates from \textit{Swift} $b$-band observations occur later than
-those in Johnson $B$-band, with a median offset of $\sim$0.26\,d.}
+those in Johnson $B$-band, with a median offset of $\sim$0.26\,d.
 
 In parallel with the \textit{Swift}/UVOT observations, \textit{Swift} observed
 \sn\ with its onboard X-ray telescope \citep[XRT;][]{Burrows05} between 0.3
@@ -690,26 +690,12 @@ for minutes to hours, and the \textit{Swift} observations occurred at least
 
 \subsection{Optical Spectroscopy}
 
-\begin{figure}
-    \centering
-    \includegraphics[width=\columnwidth]{./figures/spec_evo.pdf}
-    %
-    \caption{Observed spectral sequence of \sn. Spectra have been normalized
-    by their median flux between 7200\,\AA\ and 7400\,\AA. The phase of each
-    observation relative to \tbmax\ is shown to the right of the individual
-    spectra. Prominent spectral features from intermediate mass elements are
-    highlighted with vertical dashed lines. Some of the spectra show imperfect
-    Telluric subtractions, giving rise to the non-smooth features around
-    $\lambda_\mathrm{obs} \approx 7600$\,\AA. \edit1{The blue and red edges of
-    the $-12.9$\,d spectrum are nor shown for clarity.}}
-    %
-    \label{fig:spec_evo}
-\end{figure}
+\input{./tables/spec.tex}
 
 Spectroscopic observations of \sn\ were initiated because the transient passed
 the threshold criteria for both the ZTF Bright Transient Survey
-\citep{Fremling19a} and the ZTF Census of the Local Universe experiment
-\citep{De20}. Our first spectrum, \edit1{obtained $\sim$1.8\,d after the
+\citep{Fremling20} and the ZTF Census of the Local Universe experiment
+\citep{De20}. Our first spectrum, obtained $\sim$1.8\,d after the
 initial ZTF detection with the SPectrograph for the Rapid Acquisition of
 Transients \citep[SPRAT;][]{Piascik14} on the 2\,m Liverpool Telescope
 \citep[LT;][]{Steele04}, had a blue and nearly featureless continuum. Further
@@ -722,19 +708,33 @@ the 10\,m Keck-I telescope, the Andalucia Faint Object Spectrograph and Camera
 (NOT), and the Double Spectrograph \citep[DBSP;][]{Oke82} on the Palomar
 200\,in Hale Telescope. The optical spectral evolution of \sn\ is illustrated
 in Figure~\ref{fig:spec_evo}, with an accompanying observing log listed in
-Table~\ref{tab:spectra}.}
+Table~\ref{tab:spectra}.
 
-\input{./tables/spec.tex}
+\begin{figure}
+    \centering
+    \includegraphics[width=\columnwidth]{./figures/spec_evo.pdf}
+    %
+    \caption{Observed spectral sequence of \sn. Spectra have been normalized
+    by their median flux between 7200\,\AA\ and 7400\,\AA. The phase of each
+    observation relative to \tbmax\ is shown to the right of the individual
+    spectra. Prominent spectral features from intermediate mass elements are
+    highlighted with vertical dashed lines. Some of the spectra show imperfect
+    Telluric subtractions, giving rise to the non-smooth features around
+    $\lambda_\mathrm{obs} \approx 7600$\,\AA. The blue and red edges of
+    the $-12.9$\,d spectrum are nor shown for clarity.}
+    %
+    \label{fig:spec_evo}
+\end{figure}
 
-\edit1{With the exception of SEDM, all observations were obtained with the
-slit positioned along the parallactic angle, and the} spectra were reduced
+With the exception of SEDM, all observations were obtained with the
+slit positioned along the parallactic angle, and the spectra were reduced
 using standard procedures in \texttt{IDL}/\texttt{Python}/\texttt{Matlab}.
-\edit1{SEDM is a low-resolution ($R \approx 100$) integral field unit
+SEDM is a low-resolution ($R \approx 100$) integral field unit
 \citep{Blagorodnova18}, and the observations are reduced using the custom
 \texttt{pysedm} software package \citep{Rigault19}. While SEDM was designed
-specifically for SN classification \citep[e.g.,][]{Fremling19a}, the quality
+specifically for SN classification \citep[e.g.,][]{Fremling20}, the quality
 for \sn\ is high enough to provide detailed absorption line measurements (see
-\S\ref{sec:SiII}).}
+\S\ref{sec:SiII}).
 
 \section{NGC\,4441: the Host of \sn}\label{sec:host}
 
@@ -771,22 +771,6 @@ intrinsically faint SNe\,Ia (\S\ref{sec:spec_comp}), we consider such a low
 luminosity improbable. We therefore adopt the larger kinematic distance to
 NGC\,4441.}
 
-\begin{figure} \centering \includegraphics[width=\columnwidth]{./figures/NaD.pdf}
-    %
-    \caption{Zoom in on our moderate resolution ($R \approx 4000$)
-    MMT+Binospec spectrum of \sn\ highlighting absorption due to \ion{Na}{I}~D
-    in the host galaxy, NGC\,4441 (blue solid line), and the Milky Way (thin
-    black line). The velocity scale is centered on the D$_1$ line in
-    NGC\,4441, with the SDSS redshift shown via the vertical dashed line. The
-    velocity scale is centered on 5895.92\,\AA\ for the Milky Way absorption
-    lines. The \ion{Na}{I} D lines, which serve as a proxy for interstellar
-    dust-obscuration along the line of sight (e.g.,
-    \citealt{Poznanski12,Phillips13}) are weak, indicating a relatively small
-    amount of reddening.}
-    %
-    \label{fig:NaD}
-\end{figure}
-
 We estimate the total reddening towards \sn\ to be small. There is relatively
 little line-of-sight extinction due to the Milky Way, $E(B-V) \approx
 0.018$\,mag \citep{Schlafly11, Schlegel98}. Furthermore, we do not find
@@ -810,6 +794,22 @@ uncertainties, with the EW(\ion{Na}{I} D)--$E(B-V)$ relations presented in
 \sn\ is the lack of a detection of the \ion{K}{I} $\lambda\lambda$7665, 7699
 interstellar lines or the diffuse interstellar band at 5780\,\AA, which also
 serve as proxies for extinction \citep{Phillips13}.
+
+\begin{figure} \centering \includegraphics[width=\columnwidth]{./figures/NaD.pdf}
+    %
+    \caption{Zoom in on our moderate resolution ($R \approx 4000$)
+    MMT+Binospec spectrum of \sn\ highlighting absorption due to \ion{Na}{I}~D
+    in the host galaxy, NGC\,4441 (blue solid line), and the Milky Way (thin
+    black line). The velocity scale is centered on the D$_1$ line in
+    NGC\,4441, with the SDSS redshift shown via the vertical dashed line. The
+    velocity scale is centered on 5895.92\,\AA\ for the Milky Way absorption
+    lines. The \ion{Na}{I} D lines, which serve as a proxy for interstellar
+    dust-obscuration along the line of sight (e.g.,
+    \citealt{Poznanski12,Phillips13}) are weak, indicating a relatively small
+    amount of reddening.}
+    %
+    \label{fig:NaD}
+\end{figure}
 
 The measured redshift of the \ion{Na}{I}~D doublet in the Binospec spectrum is
 0.0094. We adopt this, rather than the SDSS measurement of 0.00888, as the
@@ -905,15 +905,15 @@ luminosity of \sn, we model changes in the observed flux in the $uvm2$,
 $uvw1$, \gztf, \rztf, and \iztf\ filters as a Gaussian process
 \citep{Rasmussen06} using the \texttt{gaussian\_process} library in
 \texttt{scikit-learn} \citep{Pedregosa11}. This allows us to interpolate flux
-measurements in each of these filters to a grid of times between \edit1{1 and
-70\,d after \tfl}, while also estimating an uncertainty on the interpolation.
+measurements in each of these filters to a grid of times between 1 and
+70\,d after \tfl, while also estimating an uncertainty on the interpolation.
 From there, we can estimate the bolometric luminosity, $L_\mathrm{bol}$, via
 trapezoidal integration of the spectral energy distribution (SED).
 
 There is emission blueward of the $uvm2$-band and redward of the \iztf-band
-that is not constrained by our observations, \edit1{and for fast-declining SNe
+that is not constrained by our observations, and for fast-declining SNe
 the near-infrared (NIR) provides a significant contribution to
-$L_\mathrm{bol}$ \citep[e.g.,][]{Taubenberger08}. To estimate the NIR flux},
+$L_\mathrm{bol}$ \citep[e.g.,][]{Taubenberger08}. To estimate the NIR flux,
 we extrapolate redward from the \iztf-band to the $K_s$-band
 ($\lambda_\mathrm{eff} = 2.159\,\mu$m) by assuming the $K_s$-band flux is
 equal to the ratio of \iztf-band to $K_s$-band flux for a 8,500\,K blackbody.
@@ -921,21 +921,21 @@ This choice of temperature is reasonable based on our \texttt{TARDIS} spectral
 models (see \S\ref{sec:tardis} and Table~\ref{tab:tardis}). While the true
 temperature is not constant, we find that varying the temperature between
 6,000--12,500\,K changes the peak $L_\mathrm{bol}$ by $\lesssim\,3$\%, which
-is significantly less than the total systematic uncertainty. \edit1{The
+is significantly less than the total systematic uncertainty. The
 assumed emission redward of the \iztf\ band results in a NIR contribution of
 $\sim$20\% to $L_\mathrm{bol}$ near maximum light, and $\sim$35\% at
 \tbmax\,$\approx +30$\,d. This is similar to SN\,2004eo, a SN with an
 intermediate deline rate like \sn\ (see \S\ref{sec:max_decline}), and other
-fast-declining SNe\,Ia \citep{Taubenberger08}.}
+fast-declining SNe\,Ia \citep{Taubenberger08}.
 
-\edit1{Similar to our procedure in the NIR, we estimate the flux in the far-UV
+Similar to our procedure in the NIR, we estimate the flux in the far-UV
 by extrapolating between the $uvm2$-band and 1000\,\AA\ assuming a 12,500\,K
-blackbody.} While such a high temperature is only appropriate for the early UV
-flash from \sn\ (see \S\ref{sec:luminosity}), \edit1{the far-UV contribution
+blackbody. While such a high temperature is only appropriate for the early UV
+flash from \sn\ (see \S\ref{sec:luminosity}), the far-UV contribution
 to $L_\mathrm{bol}$ following this assumption is negligable ($\lesssim 1$\%)
-around maximum light and later epochs. }
+around maximum light and later epochs.
 
-\edit1{In the near-UV, probed by the UVOT $uvm2$ and $uvw1$ filters, the SN is
+In the near-UV, probed by the UVOT $uvm2$ and $uvw1$ filters, the SN is
 only marginally detected at epochs $> 26.5$\,d after \tfl\ (see
 Figure~\ref{fig:p48}). Given the low signal-to-noise ratio (SNR) in the
 \textit{Swift} observations at these epochs, for $t > t_\mathrm{fl} + 26.5$\,d
@@ -943,7 +943,7 @@ we interpolate the $uvm2$ and $uvw1$ flux by assuming their ratio relative to
 the \gztf\ flux, which is measured at very high SNR, is fixed and set by their
 relative ratios at $t = t_\mathrm{fl} + 26.5$\,d. Fixing the UV flux in this
 manner does not change our estimate of the \radni\ mass, and does not have a
-significant affect on our estimate of the total ejecta mass.}
+significant affect on our estimate of the total ejecta mass.
 
 The bolometric luminosity of \sn\ is shown as a function of time in
 Figure~\ref{fig:Lbol}. Statistical uncertainties in $L_\mathrm{bol}$ are
@@ -963,9 +963,9 @@ interpolation, extrapolation, and integration).
     \S\ref{sec:tardis}), orange circles show luminosity estimates from a
     blackbody fit to the SED (see \S\ref{sec:luminosity}). The methods
     generally agree, though the \texttt{TARDIS} spectral models likely
-    overestimate the flux around maximum light (see text). \edit1{The
+    overestimate the flux around maximum light (see text). The
     luminosity of \sn\ assuming no NIR correction is shown as a dashed green
-    line.} The total inferred mass of synthesized \radni\ is $0.31 \pm
+    line. The total inferred mass of synthesized \radni\ is $0.31 \pm
     0.05\,M_\odot$.}
     %
     \label{fig:Lbol}
@@ -994,15 +994,15 @@ explosion. Using Equation~19 from \citet[][see also
 \citealt{Stritzinger06,Howell09,Scalzo14}]{Nadyozhin94}, we find
 $M_\mathrm{^{56}Ni} = 0.31 \pm 0.05\,M_\odot$, where the uncertainty is
 dominated by the (assumed) systematic uncertainty on $L_\mathrm{bol}$.
-\edit1{We note that if our previous assumption about the NIR contribution to
+We note that if our previous assumption about the NIR contribution to
 $L_\mathrm{bol}$ at maximum light is revised downward from $\sim$20\% to
 $\sim$5\%, as is typical for normal SNe\,Ia
 \citep[e.g.,][]{Suntzeff96,Contardo00}, the total \radni\ mass still agrees
-with the above estimate to within the uncertainties.} This yield is low for a
+with the above estimate to within the uncertainties. This yield is low for a
 normal SN\,Ia as typical explosions yield $\sim$0.4--0.8\,$M_\odot$ of \radni\
 \citep[e.g.,][]{Scalzo14a}.
 
-\edit1{Following \citet{Jeffery99}, we can estimate the total mass ejected by
+Following \citet{Jeffery99}, we can estimate the total mass ejected by
 \sn, $M_\mathrm{ej}$, by calculating the transparency timescale, $t_0$, from
 the decline of the bolometric light curve \citep[see
 also][]{Stritzinger06,Scalzo14,Dhawan18}. Briefly, $t_0$ is a parameter that
@@ -1020,9 +1020,9 @@ where $v_e$ is the e-folding velocity of an exponential density profile, and
 $q$ is a form factor that describes the distribution of \radni\ in the ejecta
 ($q = 1/3$ corresponds to an evenly distributed \radni\ profile). In
 Equation~\ref{eq:ejecta_mass}, the $\gamma$-ray opacity has been assumed to be
-0.025\,cm$^{2}$\,g$^{-1}$.}
+0.025\,cm$^{2}$\,g$^{-1}$.
 
-\edit1{For \sn\ we estimate $t_0 = 42.0 \pm 1.0$\,d (the uncertainty is
+For \sn\ we estimate $t_0 = 42.0 \pm 1.0$\,d (the uncertainty is
 dominated by the uncertainty on the rise time, for which we adopt 1\,d).
 Assuming $v_e = 3000 \pm 180$\,\kms\ and that $q = 0.45 \pm 0.08$, we find
 $M_\mathrm{ej} = 1.33 \pm 0.27\,M_\odot$. Unlike our estimate of
@@ -1032,7 +1032,7 @@ SED-integrated luminosity assuming no NIR flux (i.e., $\mathrm{flux} = 0$ for
 all $\lambda > 1\,\mu$m). From this light curve we estimate $t_0 = 38.1 \pm
 1$\,d, corresponding to $M_\mathrm{ej} = 1.10 \pm 0.22\,M_\odot$. Given the
 overall uncertainty in the NIR correction, our observations broadly bracket
-the total mass of ejecta to be somewhere between $\sim$0.9--1.5\,$M_\odot$.}
+the total mass of ejecta to be somewhere between $\sim$0.9--1.5\,$M_\odot$.
 
 \subsection{Maximum Light and Decline}\label{sec:max_decline}
 
@@ -1496,11 +1496,11 @@ what is seen in 86G-like SNe (see Figure~\ref{fig:spec_comp}). Similarly,
 while the spectral appearance and evolution of \sn\ is similar to SN\,2002bo,
 and other Branch~Broad Line SNe, the photometric properties are entirely
 different. SN\,2002bo features a relatively slow decline [$\Delta{m}_{15}(B) =
-1.13$\,mag, \edit1{which corresponds to $\Delta{m}_{15}(g) \approx 0.8$\,mag
-\citep[see e.g., Figure~2 in][]{Folatelli10}}] with a clear secondary maximum
+1.13$\,mag, which corresponds to $\Delta{m}_{15}(g) \approx 0.8$\,mag
+\citep[see e.g., Figure~2 in][]{Folatelli10}] with a clear secondary maximum
 in the $I$ band \citep{Benetti04}, which stands in contrast to moderately fast
-decline [$\Delta{m}_{15}(g) = 1.3$\,mag, \edit1{roughly $\Delta{m}_{15}(B)
-\approx 1.55$\,mag \citep{Folatelli10}}] and lack of \iztf\ secondary maximum
+decline [$\Delta{m}_{15}(g) = 1.3$\,mag, roughly $\Delta{m}_{15}(B)
+\approx 1.55$\,mag \citep{Folatelli10}] and lack of \iztf\ secondary maximum
 in \sn.
 
 If we otherwise ignore the early flash, several of the remaining features
@@ -1547,12 +1547,12 @@ double-detonation explosions (e.g., \citealt{Noebauer17,Polin19}), and
 interaction between the SN ejecta and circumstellar material (e.g.,
 \citealt{Dessart14,Piro16,Levanon17}). 
 
-\edit1{Below we discuss each of these models, aside from the shock breakout
-model,} and their ability to replicate observations of \sn. \edit1{We do not
+Below we discuss each of these models, aside from the shock breakout
+model, and their ability to replicate observations of \sn. We do not
 discuss shock breakout models as our initial detection of \sn\ occurred at
 $M_g \approx -16.3$\,mag. A progenitor radius of $\sim$10$\,R_\odot$ is needed
 to explain such a high luminosity \citep{Piro10,Rabinak11}, which we consider
-implausible for a WD.}
+implausible for a WD.
 
 \subsection{Companion Interaction}\label{sec:companion_interaction}
 
@@ -1677,7 +1677,7 @@ curve \citep{Hosseinzadeh17}.
     \centering
     \includegraphics[width=\textwidth]{./figures/clump_model.pdf}
     %
-    \caption{Comparison of \sn\ and our model with a \edit1{0.02\,$M_\odot$}
+    \caption{Comparison of \sn\ and our model with a 0.02\,$M_\odot$
     clump of \radni\ in the outer ejecta. For the comparison we have adopted a
     model explosion time $t_\mathrm{exp} = t_\mathrm{fl} - 0.8$\,d.
     \textit{Left}: Photometric comparison between \sn\ and the model. Symbols
@@ -1709,8 +1709,8 @@ ejecta, and perform full radiative transfer calculations using \texttt{TURTLS}
 
 We find that a model with a 0.02~$M_{\rm{\odot}}$ clump of \radni\ adequately
 matches the early optical evolution of \sn\ in the \gztf\ and \rztf-bands, as
-shown in Figure~\ref{fig:Ni_bullet}. \edit1{The model flux in the \iztf-band
-is overestimated, however, meaning the model is redder than what is observed.}
+shown in Figure~\ref{fig:Ni_bullet}. The model flux in the \iztf-band
+is overestimated, however, meaning the model is redder than what is observed.
 In Figure~\ref{fig:Ni_bullet}, the Ni-clump models have been offset by
 $-0.1$\,mag to better match the observations. This offset is necessary as the
 Ni clump provides some blanketing around maximum light, and the parameter
@@ -1821,12 +1821,12 @@ networks and 1D models in \citet{Polin19} always burn the He shells to nuclear
 statistical equilibrium. It is not unreasonable to think that 2D or 3D models,
 with a more sophisticated nuclear reaction network, would create more IMEs and
 less IGEs in the He shell, and that the ratio of the two created in the shell
-could be highly dependent upon the line of sight. \edit1{For example,
+could be highly dependent upon the line of sight. For example,
 \citet{Townsley19} model the explosion of a $M_\mathrm{C/O} = 1.0\,M_\odot$
 C/O core with a $M_\mathrm{He} = 0.02\,M_\odot$ He shell and find a higher
 ratio of IME to IGE than the analogous 1D model presented in \citet[][though
 see also \citealt{Gronow20}, which presents a 3D double detonation explosion
-with nuclear yields that are only mildly different from 1D models]{Polin19}.}
+with nuclear yields that are only mildly different from 1D models]{Polin19}.
 This could explain the lack of IGEs and strong \ion{Si}{II} absorption seen in
 the early spectra, while less IGEs in the outer layers would also reduce some
 of the line blanketing seen around maximum light. This would lead to less
@@ -1967,7 +1967,7 @@ distinguishes \sn, even relative to other Branch~Broad Line SNe. The fact that
 \sn\ exhibits high-velocity \ion{Si}{II} $\lambda$6355 absorption and an
 underluminous peak sets it apart from other SNe\,Ia.
 
-\edit1{\sn\ is one of a growing group of SNe\,Ia with photometric properties
+\sn\ is one of a growing group of SNe\,Ia with photometric properties
 that may or may not deviate from the standard width-luminosity relationship
 for normal SNe\,Ia \citep[e.g.,][]{Phillips93,Phillips99}, but whose spectral
 evolution is incongruous with their photometric properties. While these SNe
@@ -1977,9 +1977,9 @@ spectroscopic features, such as the \ion{Ti}{II} ``trough'' at $\sim$4200\,\AA
 are more consistent with normal or intermediate SNe\,Ia (examples include:
 SN\,2006bt, \citealt{Foley10a}; PTF\,10ops, \citealt{Maguire11}; SN\,2006ot,
 \citealt{Stritzinger11}; SN\,2010lp, \citealt{Kromer13a}; SN\,2002es,
-\citealt{Ganeshalingam12}; and iPTF\,14atg, \citealt{Cao15}).}
+\citealt{Ganeshalingam12}; and iPTF\,14atg, \citealt{Cao15}).
 
-\edit1{\citet{Benetti05} showed that photometric and spectroscopic properties
+\citet{Benetti05} showed that photometric and spectroscopic properties
 of SNe\,Ia are closely linked by connecting normal and subluminous 91bg-like
 SNe\,Ia in a tight sequence in the \RSiII--$\Delta m_{15}(B)$ plane. As first
 pointed out in \citet{Foley10a} and later confirmed by
@@ -1995,7 +1995,7 @@ early UV flashes,\footnote{Evidence for excess optical emission in the early
 light curve of PTF\,10ops is found in \citet{Jiang18}, though UV observations
 are not available for PTF\,10ops making it impossible to know whether or not
 there was an associated UV flash.} iPTF\,14atg and \sn, are both peculiar and
-possibly connected as outliers in the \RSiII--$\Delta m_{15}(B)$ plane.}
+possibly connected as outliers in the \RSiII--$\Delta m_{15}(B)$ plane.
 
 We have found that building a consistent physical model to explain all of the
 observed properties of \sn\ is challenging. Most models either replicate the
@@ -2008,9 +2008,9 @@ nondegenerate companion (e.g., \citealt{Kasen10a}), extended clumps of \radni\
 in the outer layers of the SN ejecta \citep[e.g.,][]{Magee20a}, the
 double-detonation explosion of a sub-Chandrasekhar mass WD
 \citep[e.g.,][]{Polin19}, and the violent merger of two sub-Chandrasekhar mass
-WDs \citep[e.g.,][]{Kromer16}. \edit1{Table~\ref{tab:models} summarizes the
+WDs \citep[e.g.,][]{Kromer16}. Table~\ref{tab:models} summarizes the
 key observational properties of \sn\ listed in \S\ref{sec:models} and whether
-or not these four models can explain the different aspects of \sn.}
+or not these four models can explain the different aspects of \sn.
 
 The SN ejecta-companion models, which can easily replicate the early UV flash
 from \sn, simultaneously overpredict the optical flux at similar epochs.

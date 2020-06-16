@@ -393,16 +393,15 @@ Foreman-Mackey, D. 2016, The Journal of Open Source Software, 24,
 {Foreman-Mackey}, D., {Hogg}, D.~W., {Lang}, D., \& {Goodman}, J. 2013, \pasp,
   125, 306, \dodoi{10.1086/670067}
 
-\bibitem[{{Fremling} {et~al.}(2019){Fremling}, {Miller}, {Sharma}, {Dugas},
+\bibitem[{{Fremling} {et~al.}(2020){Fremling}, {Miller}, {Sharma}, {Dugas},
   {Perley}, {Taggart}, {Sollerman}, {Goobar}, {Graham}, {Neill}, {Nordin},
   {Rigault}, {Walters}, {Andreoni}, {Bagdasaryan}, {Belicki}, {Cannella},
   {Bellm}, {Cenko}, {De}, {Dekany}, {Frederick}, {Golkhou}, {Graham}, {Helou},
   {Ho}, {Kasliwal}, {Kupfer}, {Laher}, {Mahabal}, {Masci}, {Riddle},
-  {Rusholme}, {Schulze}, {Shupe}, {Smith}, {Yan}, {Yao}, {Zhuang}, \&
-  {Kulkarni}}]{Fremling19a}
-{Fremling}, U.~C., {Miller}, A.~A., {Sharma}, Y., {et~al.} 2019, arXiv
-  e-prints, arXiv:1910.12973.
-\newblock \doarXiv{1910.12973}
+  {Rusholme}, {Schulze}, {Shupe}, {Smith}, {Velzen}, {Yan}, {Yao}, {Zhuang}, \&
+  {Kulkarni}}]{Fremling20}
+{Fremling}, C., {Miller}, A.~A., {Sharma}, Y., {et~al.} 2020, \apj, 895, 32,
+  \dodoi{10.3847/1538-4357/ab8943}
 
 \bibitem[{{Ganeshalingam} {et~al.}(2011){Ganeshalingam}, {Li}, \&
   {Filippenko}}]{Ganeshalingam11}
