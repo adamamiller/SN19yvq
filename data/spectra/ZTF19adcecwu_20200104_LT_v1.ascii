@@ -1,0 +1,688 @@
+# SIMPLE  =                    T / file does conform to FITS standard
+# BITPIX  =                   16 / number of bits per data pixel
+# NAXIS   =                    2 / number of data axes
+# NAXIS1  =                 1024 / length of data axis 1
+# NAXIS2  =                  254 / length of data axis 2
+# EXTEND  =                    T / FITS dataset may contain extensions
+# COMMENT   FITS (Flexible Image Transport System) format is defined in 'Astronomy
+# COMMENT   and Astrophysics', volume 376, page 359; bibcode: 2001A&A...376..359H
+# EXTNAME = 'L1_IMAGE'
+# BZERO   =     2922.81385060891 / Required FITS header
+# BSCALE  =    0.095378978769415 / Required FITS header
+# ORIGIN  = 'Liverpool JMU'
+# INSTRUME= 'SPRAT   '           / Instrument used.
+# CONFIGID=                25326 / Unique configuration ID.
+# CONFNAME= '0-sprat-red'        / The instrument configuration used.
+# DETECTOR= 'E2V CCD30-11 10333-02-26' / Andor iDus DU420A-BV
+# FILTER1 = '4020longpass'       / Edmund Optics 400nm longpass filter #84754
+# FILTERI1= 'Edmund Optics 400nm longpass filter #84754' / Edmund Optics 400nm lon
+# FILTER2 = 'clear   '           / The filter.
+# FILTERI2= 'Clear-01'           / The filter.
+# PRESCAN =                    0 / [pix] Number of pixels in pre bias strip
+# POSTSCAN=                    0 / [pix] Number of pixels in post bias strip
+# GAIN    =             2.450000 / [electrons/count] CCD Gain (20140904)
+# EPERDN  =             2.450000 / [electrons/count] CCD Gain (20140904)
+# CCDXPIXE=             0.000026 / [m] Size of pixels, in X
+# CCDYPIXE=             0.000026 / [m] Size of pixels, in X
+# CCDSCALE=                0.442 / [arcsec/binned pixel] pixel scale in imaging mo
+# SLITPOS = 'IN      '           / Whether the slit is in or out of the beam
+# GRATPOS = 'IN      '           / Whether the grism is in or out of the beam
+# GRATROT = '0       '           / The grating rotation position ['0'|'1']
+# GRATSET = 'red     '           / The grating rotation position
+# GRATANG =             0.000000 / [mm] Grism rear stop lateral displacement
+# WAVSET  =          5555.000000 / [Angstrom] Wavelength Setting.
+# WAVCENT =          5555.000000 / [Angstrom] Central Wavelength
+# WAVDISP =             4.710000 / [Angstrom/pixel] Dispersion (per binned pixel).
+# WAVRESOL=            18.000000 / [Angstrom] Resolution at central wavelength.
+# WAVSHORT=                 4020 / [Angstrom] Shortest wavelength on CCD.
+# WAVLONG =                 7960 / [Angstrom] Longest wavelength on CCD.
+# WAVERR  =            99.900000 / Error
+# WAVCAL  = 'None    '
+# COLID   = '150mm_f3.0'         / Edmund Optics achromatic doublet #49391
+# CAMID   = '85mm_f1.8'          / Nikon AF Nikkor 85mm f/1.8D
+# COLFOC  =             6.250000 / [mm] Collimator focus. Scale reading.
+# CAMFOC  =             0.000000 / [mm] Camera focus (infinity)
+# GRATID  = 'Wasatch600'         / Wasatch VPH transmission grating
+# LAMP1TYP= 'Xe      '           / LOT Oriel xenon penlight type 6033
+# LAMP1SET=                    F / Is the Xenon lamp on?
+# LAMP2TYP= 'W       '           / Bosch 434 12v tungsten halide
+# LAMP2SET=                    F / Is the Tungsten lamp on?
+# ENVTEMP0=           280.350000 / [Kelvin] Air temperature outside instrument
+# ENVTEMP1=            -1.000000 / [Kelvin] Air temperature inside instrument
+# ENVHUM0 =             4.100000 / [percent] Relative humidity outside instrument
+# ENVHUM1 =             0.000000 / [percent] Relative humidity inside instrument
+# ORIENT1 =          -246.000000 / [adu] Gyro position (X)
+# ORIENT2 =            36.000000 / [adu] Gyro position (Y)
+# ORIENT3 =          -176.000000 / [adu] Gyro position (Z)
+# FOVTYPE = 'slit    '           / Type of field of view
+# FOVDIM1 =                    0 / [arcsec] Size of field of view (dimension 1)
+# FOVDIM2 =                    0 / [arcsec] Size of field of view (dimension 2)
+# TELESCOP= 'Liverpool Telescope' / The Name of the Telescope
+# TELMODE = 'ROBOTIC '           / Telescope mode
+# TAGID   = 'JMU     '           / Telescope Allocation Committee ID
+# USERID  = 'Prentice.Simon'     / User login ID
+# PROGID  = 'XJL16A07'           / Program ID
+# PROPID  = 'JL19B07b'           / Proposal ID
+# GROUPID = '2019yvq_s'          / Group Id
+# OBSID   = 'EXPOSURE'           / Observation Id
+# GRPTIMNG= 'REPEATABLE'         / Group timing constraint class
+# GRPUID  =               229266 / Group unique ID
+# GRPMONP =         61200.000000 / [secs] Group monitor period
+# GRPNUMOB=                    2 / Number of observations in group
+# GRPSEECO=             1.500000 / [arcsec] Maximum seeing
+# GRPSKYCO= '2.0 MAG '           / Sky brightness category
+# GRPEXTCO= 'NONE    '           / Extinction category
+# GRPAIRCO=             2.000000 / Maximum airmass
+# GRPMINHA= 'NONE    '           / [degs] Minimum hour angle
+# GRPMAXHA= 'UNKNOWN '           / [degs] Maximum hour angle
+# GRPEDATE= '2020-01-30 T 08:45:00 UTC' / [date] Group expiry date
+# GRPNOMEX=          1430.000000 / [secs] Group nominal exec time
+# USRDEFOC=             0.000000 / [mm] Requested defocus
+# LATITUDE=            28.762400 / [degrees] Observatory Latitude
+# LONGITUD=           -17.879200 / [degrees West] Observatory Longitude
+# RA      = '12:27:21.836'       / [HH:MM:SS.ss] Apparent RA where telescope is po
+# DEC     = '64:47:59.87'        / [DD:MM:SS.ss] Apparent Dec where telescope is p
+# RADECSYS= 'FK5     '           / [{FK4, FK5}] Fundamental coordinate system of c
+# EQUINOX =          2000.000000 / [Years] Date of the coordinate system for curre
+# LST     = '7:27:8.00'          / [HH:MM:SS] Local sidereal time at start of curr
+# CAT-RA  = '12:27:21.836'       / [HH:MM:SS.sss] RA of the current observation so
+# CAT-DEC = '64:47:59.87'        / [DD:MM:SS.sss] Declination of the current obser
+# CAT-EQUI=          2000.000000 / [Year] Catalog date of the coordinate system fo
+# CAT-EPOC=          2000.000000 / [Year] Catalog date of the epoch
+# CAT-NAME= '2019yvq '           / Catalog name of the current observation source
+# OBJECT  = '2019yvq '           / Actual name of the current observation source
+# SRCTYPE = 'EXTRASOLAR'         / Type of source
+# PM-RA   =             0.000000 / [sec/year] Proper motion in RA of the current o
+# PM-DEC  =             0.000000 / [arcsec/year] Proper motion in declination  of
+# PARALLAX=             0.000000 / [arcsec] Parallax of the current observation so
+# RADVEL  =             0.000000 / [km/s] Radial velocity of the current observati
+# RATRACK =             0.000000 / [sec/sec] Non-sidereal tracking in RA of the cu
+# DECTRACK=             0.000000 / [arcsec/sec] Non-sidereal tracking in declinati
+# NETSTATE= 'ENABLED '           / Network control state
+# ENGSTATE= 'DISABLED'           / Engineering override state
+# TELSTAT = 'WARN    '           / Current telescope status
+# TCSSTATE= 'OKAY    '           / TCS state
+# PWRESTRT=                    F / Power will be cycled imminently
+# PWSHUTDN=                    F / Power will be shutdown imminently
+# AZDMD   =            32.767400 / [degrees] Azimuth demand
+# AZIMUTH =            32.767300 / [degrees] Azimuth axis position
+# AZSTAT  = 'TRACKING'           / Azimuth axis state
+# ALTDMD  =            32.228100 / [degrees] Altitude axis demand
+# ALTITUDE=            32.228100 / [degrees] Altitude axis position
+# ALTSTAT = 'TRACKING'           / Altitude axis state
+# AIRMASS =             1.881168 / [n/a] Airmass
+# ROTDMD  =            12.270700 / Rotator axis demand
+# ROTANGLE=            12.270800 / [degrees] Rotator mount angle
+# ROTMODE = 'FLOAT   '           / [{SKY, MOUNT, VFLOAT, VERTICAL, FLOAT}] Cassegr
+# ROTSKYPA=           270.332200 / [degrees] Rotator position angle
+# ROTSTATE= 'TRACKING'           / Rotator axis state
+# ENC1DMD = 'OPEN    '           / Enc 1 demand
+# ENC1POS = 'OPEN    '           / Enc 1 position
+# ENC1STAT= 'IN POSN '           / Enc 1 state
+# ENC2DMD = 'OPEN    '           / Enc 2 demand
+# ENC2POS = 'OPEN    '           / Enc 2 position
+# ENC2STAT= 'IN POSN '           / Enc 2 state
+# FOLDDMD = 'UNKNOWN '           / Fold mirror demand
+# FOLDPOS = 'UNKNOWN '           / Fold mirror position
+# FOLDSTAT= 'UNKNOWN '           / Fold mirror state
+# PMCDMD  = 'OPEN    '           / Primary mirror cover demand
+# PMCPOS  = 'OPEN    '           / Primary mirror cover position
+# PMCSTAT = 'IN POSN '           / Primary mirror cover state
+# FOCDMD  =            21.199000 / [mm] Focus demand
+# TELFOCUS=            21.199000 / [mm] Focus position
+# DFOCUS  =             0.000000 / [mm] Focus offset
+# FOCSTAT = 'TRACKING'           / Focus state
+# MIRSYSST= 'UNKNOWN '           / Primary mirror support state
+# WMSSTATE= 'OKAY    '           / WMS system state
+# WMSRAIN = 'CLEAR   '           / Rain alert
+# WMSMOIST=             0.030000 / Moisture level
+# TEMPTUBE=             5.540000 / [degrees C] Temperature of the telescope tube
+# WMOILTMP=             6.900000 / Oil temperature
+# WMSPMT  =             0.000000 / Primary mirror temperature
+# WMFOCTMP=             0.000000 / Focus temperature
+# WMAGBTMP=             9.070000 / AG Box temperature
+# WMSTEMP =           278.750000 / [Kelvin] Current (external) temperature
+# WMSDEWPT=           -35.300000 / Dewpoint
+# WINDSPEE=             6.900000 / [m/s] Windspeed
+# WMSPRES =           779.000000 / [mbar] Current pressure
+# WMSHUMID=             3.000000 / [0.00% - 100.00%] Current percentage humidity
+# WINDDIR =           189.000000 / [degrees E of N] Wind direction
+# CLOUD   =            73.700000 / [degrees C] Cloud tdiff measure
+# REFPRES =           770.000000 / [mbar] Pressure used in refraction calculation
+# REFTEMP =           283.150000 / [Kelvin] Temperature used in refraction calcula
+# REFHUMID=            30.000000 / Percentage humidity used in refraction calculat
+# AUTOGUID= 'LOCKED  '           / [{LOCKED, UNLOCKED SUSPENDED}] Autoguider lock
+# AGSTATE = 'OKAY    '           / Autoguider sw state
+# AGMODE  = 'UNKNOWN '           / Autoguider mode
+# AGGMAG  =            12.708000 / [mag] Autoguider guide star mag
+# AGFWHM  =             4.043000 / [arcsec] Autoguider FWHM
+# AGMIRDMD=             0.000000 / [mm] Autoguider mirror demand
+# AGMIRPOS=             0.000000 / [mm] Autoguider mirror position
+# AGMIRST = 'IN POSN '           / Autoguider mirror state
+# AGFOCDMD=            14.625000 / [mm] Autoguider focus demand
+# AGFOCUS =            14.625000 / [mm] Autoguider focus position
+# AGFOCST = 'TRACKING'           / Autoguider focus state
+# AGFILDMD= 'RETRACT '           / Autoguider filter demand
+# AGFILPOS= 'RETRACT '           / Autoguider filter position
+# AGFILST = 'IN POSN '           / Autoguider filter state
+# SCHEDSEE=             1.000000 / [(arcsec)] Predicted seeing when group schedule
+# SCHEDPHT= 'PHOTOMETRIC'        / Predicted photom when group scheduled
+# SCHEDSKY=             0.750000 / Predicted sky when group scheduled
+# ESTSEE  =             1.593815 / [(arcsec)] Estimated seeing at start of observa
+# MOONFRAC=             0.577366 / [(0 - 1)] Lunar illuminated fraction
+# MOONDIST=           110.636127 / [(degs)] Lunar Distance from Target
+# MOONALT =             2.035987 / [(degs)] Lunar altitude
+# SUNALT  =           -80.797452 / [(degs)] Solar altitude
+# ACQIMG  = '/icc/sprat-data/v_q_20200103_35_1_0_2.fits' / Acquisitioni image file
+# ACQMODE = 'WCS_FIT '           / Acquisition mode
+# ACQXPIX =           479.000000 / [pixels] Acquisition X pixel
+# ACQYPIX =           179.000000 / [pixels] Acquisition Y pixel
+# ACQINST = 'SPRAT   '           / Acquisition instrument
+# BFOCCTRL= 'UNKNOWN '           / Beam control instrument
+# OBSTYPE = 'EXPOSE  '
+# EXPTOTAL=                    1 / The total number of exposures in a Multrun.
+# DATE    = '2020-01-04'
+# DATE-OBS= '2020-01-04T01:46:09.769'
+# UTSTART = '01:46:09.769'
+# MJD     =         58852.073724
+# CCDXBIN =                    1 / [pixels] X binning factor
+# CCDYBIN =                    1 / [pixels] Y binning factor
+# CCDWMODE=                    F
+# CCDWXOFF=                    0
+# CCDWYOFF=                    0
+# CCDWXSIZ=                 1024
+# CCDWYSIZ=                  254
+# CCDXIMSI=                 1024
+# CCDYIMSI=                  255
+# EXPTIME =          1200.000000
+# ACCUM   =                    0
+# SERIES  =                    0
+# RUNNUM  =                   37
+# EXPNUM  =                    1
+# CCDATEMP=           213.671000 / Cached temperature of CCD
+# TEMPSTAT= 'OK      '           / CCD Temperature status at cache point.
+# TEMPDATE= '2020-01-04T01:46:09.765'
+# CCDSTEMP=           213.150000 / Target temperature setpoint of CCD
+# EXPID   = 'v_e_20200103_37_1_0_0' / Original raw LT FITS filename
+# SATURATN=                63036 / [ADU] Approx saturation level
+# PIXSCALE=                0.442
+# L1MEDIAN=             28.67075 / [counts] median of frame background in counts
+# L1MEAN  =             33.23224 / [counts] mean of frame background in counts
+# L1STATOV=                    1 / Status flag for DP(RT) overscan correction
+# L1STATZE=                   -1 / Status flag for DP(RT) bias frame (zero) correc
+# L1STATZM=                    0 / Mode flag for DP(RT) bias frame subtraction
+# L1ZEROSC=                   1. / Scaling factor applied to zero frame
+# L1STATDA=                    1 / Status flag for DP(RT) dark frame correction
+# L1STATDM=                    1 / Mode for DP(RT) dark frame subtraction
+# L1DARKSC=                   2. / Scaling factor applied to dark frame
+# L1STATTR=                    1 / Status flag for DP(RT) overscan trimming
+# L1STATFL=                    1 / Status flag for DP(RT) flatfield correction
+# L1STATFR=                   -1 / Status flag for DP(RT) defringing correction
+# L1STATFM=                    3 / Mode flag for DP(RT) fringe frame subtraction
+# L1FRINSC=                   0. / Scaling factor applied to fringe frame
+# L1XPIX  =             596.4262 / Coordinate of brightest object in frame after t
+# L1YPIX  =             140.9348 / Coordinate of brightest object in frame after t
+# L1ELPMEA=                   0. / mean of ellipticities
+# L1ELPVAR=                   0. / RMS of ellipticities
+# L1ORIMEA=                   0. / mean of orientations
+# L1ORIVAR=         5.729578E+10 / RMS of orientations
+# L1ORISER=                   0. / Standard error of orientations
+# L1DARK  = 'v_dark_1.fits.20200104' / Dark used
+# L1FLAT  = 'v_slit_both_1.fits.20181205' / Flat used
+# L1COUNTS=             2288560. / [counts] Counts in brightest object (sky subtra
+# L1SKYBRT=                 99.9 / [mag/arcsec^2] Estimated sky brightness
+# L1PHOTOM=                -999. / [mag] Estimated extinction for standards images
+# L1EXTRMS=                 999. / RMS on multiple extinction estimates in image
+# L1SAT   =                    F / [logical] TRUE if brightest object is saturated
+# BACKGRD =             28.67075 / [counts] frame background level in counts
+# STDDEV  =             37.12425 / [counts] Standard deviation of Backgrd in count
+# L1SEEING=                 999. / [Dummy] Unable to calculate
+# L1SEESEC=                 999. / [Dummy] Unable to calculate
+# SEEING  =                 999. / [Dummy] Unable to calculate
+# L1DATE  = '2020-01-04 10:38:19 GMT' / When this reduction was performed
+# ACQIMAGE= 'v_q_20200103_35_1_0_1.fits' / Final acquisition image
+# ACQFAPER=              1654.58 / [sprat ADU/sec] Brightness in acq. image
+# ACQFAUTO=              5111.13 / [sprat ADU/sec] Brightness in acq. image
+# ACQSAT  =                    F / Is acquisition image saturated
+# ACQ_XIMG=              477.838 / X coordinate in acq. image
+# ACQ_YIMG=              179.663 / Y coordinate in acq. image
+# ACQFLAGS=                    3 / SExtractor flags
+# CHECKSUM= '1gXL3gWI1gWI1gWI'   / HDU checksum updated 2020-01-04T10:38:36
+# DATASUM = '3875956505'         / data unit checksum updated 2020-01-04T10:38:36
+# L2MINLAM=              3504.54 / Min wavelength in primary image
+# L2MAXLAM=              8165.88 / Max wavelength in primary image
+# END
+# # wavelength  flux
+4020.0 0.625424823756604
+4029.2 0.6705239155475201
+4038.4 0.8237356567921462
+4047.6 0.5608687330285853
+4056.8 0.6574224103345594
+4066.0 0.6626879151373595
+4075.2 0.6623479045285531
+4084.4 0.6410557832244482
+4093.6 0.7069778129555778
+4102.8 0.5992453945743916
+4112.0 0.5432480730726414
+4121.2 0.5348459863637861
+4130.4 0.5748296827566587
+4139.6 0.5729469138699542
+4148.8 0.63916207245048
+4158.0 0.5530536023460765
+4167.2 0.4179110405120446
+4176.4 0.5318350678359475
+4185.6 0.5153578339438836
+4194.8 0.42531991528984503
+4204.0 0.33124242885809335
+4213.2 0.3844678607154412
+4222.4 0.3639466521485866
+4231.6 0.20454439802364868
+4240.8 0.29607239641276395
+4250.0 0.2534694895990946
+4259.2 0.30886407410531597
+4268.4 0.35631280795172965
+4277.6 0.4230531181382795
+4286.8 0.44866506885116814
+4296.0 0.4719937793389773
+4305.2 0.40572145604779003
+4314.4 0.7229536404045104
+4323.6 0.6694372198368712
+4332.8 0.679179681100851
+4342.0 0.7071057478033439
+4351.2 0.7296931892028796
+4360.4 0.712749261607873
+4369.6 0.7772346460481792
+4378.8 0.7804944928715398
+4388.0 0.7320238534783257
+4397.2 0.7140416364228462
+4406.4 0.7003631216467626
+4415.6 0.6336767599255005
+4424.8 0.6818299692407601
+4434.0 0.7158329895291844
+4443.2 0.6910285108282918
+4452.4 0.706725220848892
+4461.6 0.701604786697422
+4470.8 0.6415166407989339
+4480.0 0.6211277929527904
+4489.2 0.6662224805130429
+4498.4 0.6716446019059823
+4507.6 0.5542224169002803
+4516.8 0.6102917648632592
+4526.0 0.6272642011066674
+4535.2 0.6529558306969473
+4544.4 0.662248824674604
+4553.6 0.6784866271833175
+4562.8 0.7107490462344844
+4572.0 0.6746258760593848
+4581.2 0.6953761376936928
+4590.4 0.6491073278132193
+4599.6 0.6513936914219405
+4608.8 0.6197172852115307
+4618.0 0.6193911637840667
+4627.2 0.6022543112512662
+4636.4 0.562660703594524
+4645.6 0.6288863380812189
+4654.8 0.5850638583763541
+4664.0 0.632197751648685
+4673.2 0.5397184008695386
+4682.4 0.535751991818053
+4691.6 0.5220069541811433
+4700.8 0.47194371346014297
+4710.0 0.4845034041683896
+4719.2 0.49814866132013996
+4728.4 0.4651151127842675
+4737.6 0.4420760494791529
+4746.8 0.4350047201426986
+4756.0 0.366731844657089
+4765.2 0.3348869070145893
+4774.4 0.34435812202142935
+4783.6 0.3349342962288612
+4792.8 0.29967625883624716
+4802.0 0.2825469808058268
+4811.2 0.27272049523191183
+4820.4 0.25071771345700017
+4829.6 0.24633039266797194
+4838.8 0.24673547632263984
+4848.0 0.2967522465657027
+4857.2 0.37153809795375803
+4866.4 0.3937361429079471
+4875.6 0.360670180770182
+4884.8 0.4301115010809286
+4894.0 0.45107607051890003
+4903.2 0.4469630644354284
+4912.4 0.44387414428495114
+4921.6 0.4861498192473934
+4930.8 0.4851419654235508
+4940.0 0.4778000039134591
+4949.2 0.46523830457067167
+4958.4 0.5327810484189655
+4967.6 0.5242515291279571
+4976.8 0.5226626888013649
+4986.0 0.52836261470601
+4995.2 0.5106416473405605
+5004.4 0.5173087267047434
+5013.6 0.5436976847798961
+5022.8 0.598091978270461
+5032.0 0.5738492124846652
+5041.2 0.5972190236934934
+5050.4 0.5772879163903117
+5059.6 0.5833958353581302
+5068.8 0.6037068328047394
+5078.0 0.5891553903151493
+5087.2 0.5956325059553615
+5096.4 0.5539789758650937
+5105.6 0.5204151815718726
+5114.8 0.5159245666518514
+5124.0 0.574251575127235
+5133.2 0.5745080941235255
+5142.4 0.6207931365056308
+5151.6 0.6711614612190093
+5160.8 0.673429241834122
+5170.0 0.60013486480277
+5179.2 0.6063592455522419
+5188.4 0.5728789721777826
+5197.6 0.5534597940498207
+5206.8 0.49755791285893725
+5216.0 0.46457488659362434
+5225.2 0.4453618135015272
+5234.4 0.4674669865463601
+5243.6 0.44027564837447525
+5252.8 0.4408548293655245
+5262.0 0.42004954454936355
+5271.2 0.4552507205800005
+5280.4 0.42182580761349714
+5289.6 0.44969680286188607
+5298.8 0.46217180767035626
+5308.0 0.462475793546102
+5317.2 0.4239049776597091
+5326.4 0.4402676190297404
+5335.6 0.4160020537402231
+5344.8 0.4261303867565716
+5354.0 0.35844189081907246
+5363.2 0.4024999082287233
+5372.4 0.39586190793202075
+5381.6 0.3769031194177686
+5390.8 0.35039984100565064
+5400.0 0.34016552978129266
+5409.2 0.34406241407124777
+5418.4 0.3282686302517083
+5427.6 0.33650362197505224
+5436.8 0.383076080837919
+5446.0 0.40411488348429714
+5455.2 0.3946112869235676
+5464.4 0.400188828496805
+5473.6 0.4344686436347008
+5482.8 0.4497462988801679
+5492.0 0.4479565025025314
+5501.2 0.5012313140780309
+5510.4 0.47805102182526377
+5519.6 0.5079556964260399
+5528.8 0.5048548224291763
+5538.0 0.5201861831720381
+5547.2 0.5067642388151335
+5556.4 0.5022709864432626
+5565.6 0.4967907513627432
+5574.8 0.4915706342710177
+5584.0 0.47624088350497573
+5593.2 0.4605889925251185
+5602.4 0.4567000631938997
+5611.6 0.4438905421917304
+5620.8 0.43480411827556437
+5630.0 0.4102831277489881
+5639.2 0.390436974720188
+5648.4 0.3139488907370302
+5657.6 0.32961749805566454
+5666.8 0.2781856739295428
+5676.0 0.31297256610684043
+5685.2 0.2732854014729863
+5694.4 0.26602448727189937
+5703.6 0.3157882416418621
+5712.8 0.33150790850747675
+5722.0 0.3482743715633599
+5731.2 0.35160300137709444
+5740.4 0.36280428443900065
+5749.6 0.40000478371471293
+5758.8 0.4087269863112283
+5768.0 0.42695648570694433
+5777.2 0.44361018537317093
+5786.4 0.4684887334775645
+5795.6 0.4741447033232439
+5804.8 0.4865549367984568
+5814.0 0.49462649068968534
+5823.2 0.5221020585173272
+5832.4 0.5377054265208216
+5841.6 0.5128451435911037
+5850.8 0.5509869834419929
+5860.0 0.5400296547873716
+5869.2 0.5674495844041546
+5878.4 0.541859578271953
+5887.6 0.5400518255651381
+5896.8 0.49797057604435574
+5906.0 0.43431540591796036
+5915.2 0.4071707670676051
+5924.4 0.38063533028591756
+5933.6 0.33324519306953787
+5942.8 0.28446857516839735
+5952.0 0.270251268190694
+5961.2 0.24620160354390327
+5970.4 0.2233007358959162
+5979.6 0.21323941229761492
+5988.8 0.20670261827084793
+5998.0 0.17732410869002255
+6007.2 0.17195515353054133
+6016.4 0.1580815510887225
+6025.6 0.18076736916385602
+6034.8 0.1738340327387888
+6044.0 0.18032956264826924
+6053.2 0.1685212500405983
+6062.4 0.17819276494850111
+6071.6 0.2037710810738474
+6080.8 0.20150543005193342
+6090.0 0.22022695596596017
+6099.2 0.2347456421089542
+6108.4 0.24206844760777532
+6117.6 0.27426569618088686
+6126.8 0.261763169508704
+6136.0 0.302574933515176
+6145.2 0.3211217979007625
+6154.4 0.3454051810715876
+6163.6 0.38993959433722136
+6172.8 0.39329188160423656
+6182.0 0.39762210237836304
+6191.2 0.432056766582733
+6200.4 0.4244905684676697
+6209.6 0.4564271332070985
+6218.8 0.46859473504525245
+6228.0 0.4913776511941737
+6237.2 0.5164538851868785
+6246.4 0.5244745328517697
+6255.6 0.5277217349502119
+6264.8 0.5371742464858229
+6274.0 0.5242091672520215
+6283.2 0.5292163811648894
+6292.4 0.5408070818307761
+6301.6 0.534660694157705
+6310.8 0.508910301164459
+6320.0 0.5117793784363321
+6329.2 0.498608198318076
+6338.4 0.5145017560369644
+6347.6 0.5280061285329399
+6356.8 0.4870897774710762
+6366.0 0.5313785768697071
+6375.2 0.4842962984310586
+6384.4 0.4928309770893982
+6393.6 0.4733669608960926
+6402.8 0.44188211288468976
+6412.0 0.4524290165727891
+6421.2 0.4601805175183686
+6430.4 0.45359452041807297
+6439.6 0.4227752089041226
+6448.8 0.4083052411282025
+6458.0 0.43058742412520695
+6467.2 0.41796202082834083
+6476.4 0.4004196958623479
+6485.6 0.38164069532787104
+6494.8 0.4021068131632744
+6504.0 0.4319090248985427
+6513.2 0.38009840810394696
+6522.4 0.3996722439354352
+6531.6 0.4026949144498877
+6540.8 0.4151223326037553
+6550.0 0.4087838166920998
+6559.2 0.4159200459852186
+6568.4 0.3877482374551124
+6577.6 0.4139279326910355
+6586.8 0.40541912320642176
+6596.0 0.40656971943273773
+6605.2 0.39781436461919256
+6614.4 0.40237994369565
+6623.6 0.3924141210139225
+6632.8 0.39254388857574773
+6642.0 0.39544402731445283
+6651.2 0.3857081453707653
+6660.4 0.3888826969479048
+6669.6 0.3656911468267422
+6678.8 0.3918281439352249
+6688.0 0.3674480978559056
+6697.2 0.3646877470740142
+6706.4 0.3689026787064014
+6715.6 0.3557869711546904
+6724.8 0.38121090942226343
+6734.0 0.38267282307193734
+6743.2 0.3668866523493773
+6752.4 0.3221053870116308
+6761.6 0.3723445325294193
+6770.8 0.3781200675041865
+6780.0 0.36533426146117853
+6789.2 0.4459812526691467
+6798.4 0.38364738212829064
+6807.6 0.3699982166272792
+6816.8 0.3711699982333694
+6826.0 0.35252019438857535
+6835.2 0.35217867754370763
+6844.4 0.3882849972235398
+6853.6 0.33497838304026883
+6862.8 0.3224996350904505
+6872.0 0.327018060192078
+6881.2 0.35912563600731984
+6890.4 0.3469929096486651
+6899.6 0.3637430976870079
+6908.8 0.3586299322807078
+6918.0 0.3791184406946132
+6927.2 0.3300116913735809
+6936.4 0.35361059441510684
+6945.6 0.3469374798374791
+6954.8 0.33696503915395526
+6964.0 0.32282454521009446
+6973.2 0.35154098651268
+6982.4 0.3266705898374453
+6991.6 0.3066803904192744
+7000.8 0.3149033935102208
+7010.0 0.36060391876520065
+7019.2 0.3015143733087717
+7028.4 0.32274629737408206
+7037.6 0.33970824319158
+7046.8 0.32867929499274723
+7056.0 0.33623448412576534
+7065.2 0.3073524266528379
+7074.4 0.3301512493629055
+7083.6 0.3371947099504643
+7092.8 0.2980607234622748
+7102.0 0.3216147125763763
+7111.2 0.3195382283929078
+7120.4 0.32511506695037273
+7129.6 0.320868736568066
+7138.8 0.3134558965865765
+7148.0 0.32017460427610944
+7157.2 0.28793408072618965
+7166.4 0.2636038235503601
+7175.6 0.28840667130919223
+7184.8 0.27859473115385985
+7194.0 0.28339135872546334
+7203.2 0.28551495994391607
+7212.4 0.2839329588008718
+7221.6 0.2672848080565664
+7230.8 0.23116811503826007
+7240.0 0.23633540546961015
+7249.2 0.25796113840702806
+7258.4 0.2406886891798272
+7267.6 0.23040446958679295
+7276.8 0.22766938228951394
+7286.0 0.18330203034106066
+7295.2 0.19516452284687405
+7304.4 0.1754213022938525
+7313.6 0.13384525428116528
+7322.8 0.1831936979528143
+7332.0 0.15755015374642117
+7341.2 0.12516117640006313
+7350.4 0.15206215615053773
+7359.6 0.1089149192360205
+7368.8 0.12078032028296157
+7378.0 0.1082242237410029
+7387.2 0.13363510563578732
+7396.4 0.16711762391232693
+7405.6 0.15009772892112422
+7414.8 0.1531036246009061
+7424.0 0.16244691265393646
+7433.2 0.17105350515415507
+7442.4 0.14942379246035833
+7451.6 0.1691462659017525
+7460.8 0.17545157616075902
+7470.0 0.1633797886924802
+7479.2 0.18375588108469926
+7488.4 0.19396057992680021
+7497.6 0.18995455708636033
+7506.8 0.18600311811210457
+7516.0 0.19770506155405695
+7525.2 0.2236751977527088
+7534.4 0.22678034165365088
+7543.6 0.23977006886665694
+7552.8 0.20962157554425076
+7562.0 0.22575329331460425
+7571.2 0.25502988407484917
+7580.4 0.24122333459769885
+7589.6 0.1784390905861599
+7598.8 0.13056239756468993
+7608.0 0.24938931974683587
+7617.2 0.29666281430328995
+7626.4 0.22492477917353496
+7635.6 0.26388856885363243
+7644.8 0.2675079777017948
+7654.0 0.32691672284967405
+7663.2 0.3156465346299162
+7672.4 0.26673533063473853
+7681.6 0.2626846293404565
+7690.8 0.29338559441896717
+7700.0 0.26923535170730273
+7709.2 0.3019669379545954
+7718.4 0.2650457554868365
+7727.6 0.27147437092775006
+7736.8 0.2667548922804307
+7746.0 0.2801443327096976
+7755.2 0.22356226137060553
+7764.4 0.2115010576867028
+7773.6 0.2398680829707858
+7782.8 0.2254566324631645
+7792.0 0.1933238815386193
+7801.2 0.1916811853761723
+7810.4 0.18755053553716694
+7819.6 0.169225239137557
+7828.8 0.15507487649721174
+7838.0 0.13217767817500983
+7847.2 0.14988272412186945
+7856.4 0.1315625333503999
+7865.6 0.13507272378816235
+7874.8 0.1114179647702435
+7884.0 0.14352112651792232
+7893.2 0.12172522950505377
+7902.4 0.11363925960076857
+7911.6 0.1182689638681402
+7920.8 0.09207895440203241
+7930.0 0.10718737818898502
+7939.2 0.09826390690090182
+7948.4 0.10798770423852468
+7957.6 0.16231218321293445
+7966.8 0.13642998490268213
+7976.0 0.09315869497147639
+7985.2 0.09531690960552212
+7994.4 0.08883239654567053
