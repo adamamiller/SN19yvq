@@ -1095,6 +1095,24 @@ SNe\,Ia.
 
 \subsection{Color Evolution}
 
+\begin{figure}
+    \centering
+    \includegraphics[width=3.35in]{./figures/P48_colors.pdf}
+    %
+    \caption{Photometric color evolution of \sn\ relative to \tfl\ (the
+    timescale relative to \tbmax\ shown along the top axis only applies to
+    \sn). Bottom: \gztf$ - $\rztf\ evolution of \sn\ (solid green squares),
+    corrected for the total interstellar extinction (see \S\ref{sec:host}),
+    and compared with the evolution of 62 normal SNe Ia (open circles)
+    observed within 5\,d of \tfl\ by ZTF (from \citealt{Bulla20}). \sn\ is the
+    reddest SN in the group, and it exhibits the fastest evolution to red
+    colors post-\tbmax. Top: the $uvm2 - uvw1$ (purple crosses), \gztf$ -
+    $\rztf\ (solid, green squares), and \rztf$ - $\iztf\ (open, red squares)
+    color evolution of \sn.}
+    %
+    \label{fig:colors}
+\end{figure}
+
 \sn\ is further distinguished from normal SNe Ia by its unusual color
 evolution (Figure~\ref{fig:colors}). The lower panel of
 Figure~\ref{fig:colors} shows the \gztf$ - $\rztf\ evolution of 62
@@ -1118,23 +1136,7 @@ that normal SNe\,Ia are reddest at $\sim$+30\,d, while 91bg-like SNe are
 reddest between $\sim$+10 and 15\,d \citep{Burns14}. \sn\ reaches a
 \gztf$-$\rztf\ maximum at an intermediate time of $\sim$+20\,d.
 
-\begin{figure}
-    \centering
-    \includegraphics[width=3.35in]{./figures/P48_colors.pdf}
-    %
-    \caption{Photometric color evolution of \sn\ relative to \tfl\ (the
-    timescale relative to \tbmax\ shown along the top axis only applies to
-    \sn). Bottom: \gztf$ - $\rztf\ evolution of \sn\ (solid green squares),
-    corrected for the total interstellar extinction (see \S\ref{sec:host}),
-    and compared with the evolution of 62 normal SNe Ia (open circles)
-    observed within 5\,d of \tfl\ by ZTF (from \citealt{Bulla20}). \sn\ is the
-    reddest SN in the group, and it exhibits the fastest evolution to red
-    colors post-\tbmax. Top: the $uvm2 - uvw1$ (purple crosses), \gztf$ -
-    $\rztf\ (solid, green squares), and \rztf$ - $\iztf\ (open, red squares)
-    color evolution of \sn.}
-    %
-    \label{fig:colors}
-\end{figure}
+
 
 The offset in the \gztf$ - $\rztf\ color evolution of \sn\ relative to normal
 SNe\,Ia would be reduced if the reddening toward \sn\ has been significantly
@@ -1180,6 +1182,8 @@ Figure~\ref{fig:spec_evo}. The absorption features in \sn\ are typical of
 SNe\,Ia, including IMEs, primarily Si, Ca, and O, as well as iron-group
 elements (IGEs).
 
+\input{./tables/tardis.tex}
+
 \subsection{TARDIS Models}\label{sec:tardis}
 
 To determine the structure of the ejecta and relative contributions of
@@ -1195,8 +1199,6 @@ Nevertheless, our models should provide a reasonable approximation of the
 plasma state within the ejecta. The parameters of our \texttt{TARDIS} models
 are given in Table~\ref{tab:tardis}.
 
-\input{./tables/tardis.tex}
-
 The first spectrum of \sn\ at $-$14.9\,d (2.6\,d after \tfl, 3.0\,d after the
 \texttt{TARDIS}-inferred $t_\mathrm{exp}$) shows shallow features consistent
 with IMEs moving at extremely high velocities ($>$\,20,000\,\kms,
@@ -1210,7 +1212,17 @@ match the data. Our model also confirms the high velocities of the ejecta --
 we find the spectral features and temperature are best reproduced with a
 photospheric velocity of $\sim$25,000\,\kms.
 
-\begin{figure*}
+Similarly, for the $-12.0$\,d spectrum we find that a model that does not
+contain IGE above $\sim$16,500\,\kms\ reproduces the majority of the
+spectroscopic features. Again, our model contains a uniform composition of O,
+Mg, Si, and S, and is shown in Figure~\ref{fig:tardis}. At this phase the
+model suggests the photospheric temperature has not significantly changed,
+however, the features have become much more prominent. Compared to modeling of
+the spectroscopically similar SN\,2002bo (see \S\ref{sec:spec_comp}) at the
+same epoch \citep{Stehle05}, we find \sn\ has a lower photospheric temperature
+($\sim$8000\,K, compared to $\sim$9500\,K for SN\,2002bo).
+
+\begin{figure*}[htb!]
     \centering
     \includegraphics[width=\textwidth]{./figures/tardis.pdf}
     %
@@ -1230,16 +1242,6 @@ photospheric velocity of $\sim$25,000\,\kms.
     %
     \label{fig:tardis}
 \end{figure*}
-
-Similarly, for the $-12.0$\,d spectrum we find that a model that does not
-contain IGE above $\sim$16,500\,\kms\ reproduces the majority of the
-spectroscopic features. Again, our model contains a uniform composition of O,
-Mg, Si, and S, and is shown in Figure~\ref{fig:tardis}. At this phase the
-model suggests the photospheric temperature has not significantly changed,
-however, the features have become much more prominent. Compared to modeling of
-the spectroscopically similar SN\,2002bo (see \S\ref{sec:spec_comp}) at the
-same epoch \citep{Stehle05}, we find \sn\ has a lower photospheric temperature
-($\sim$8000\,K, compared to $\sim$9500\,K for SN\,2002bo).
 
 While the early spectra of \sn\ are dominated by IMEs, there is no evidence in
 the observed spectra for \ion{C}{II} absorption. However, in our
@@ -1269,6 +1271,7 @@ little mixing in the SN ejecta). Additionally, the earliest phases show little
 change in temperature (see Table~\ref{tab:tardis}), as expected from the color
 evolution.
 
+% \vspace{-4em}
 \subsection{\ion{Si}{II} Evolution}\label{sec:SiII}
 
 We have measured the velocity of the \ion{Si}{II} $\lambda$6355 absorption
@@ -1292,7 +1295,7 @@ updated definition relative to \citet{Nugent95}.
     diamonds. The median velocity evolution of each of the spectroscopic
     classes defined by \citet[][Shallow Silicon, Core Normal, Broad Line, and
     Cool]{Branch06} are shown via solid lines. It is clear that \sn\ has
-    exceptionally high-velocity ejecta relative to typical SNe Ia.}
+    exceptionally high-velocity ejecta.}% relative to most SNe Ia.}
     %
     \label{fig:vel_evo}
 \end{figure}
@@ -1321,22 +1324,6 @@ at $\sim$23,500\,\kms. Within the PTF sample only one other SN (PTF\,09dnp)
 has a \ion{Ca}{II} high-velocity component with a similarly large velocity at
 the same phase.
 
-As first noted by \citet{Nugent95}, and later confirmed by
-\citet{Hachinger08}, $\mathcal{R}($\ion{Si}{II}$)$ is a luminosity indicator,
-with larger values of $\mathcal{R}($\ion{Si}{II}$)$ corresponding to lower
-luminosities. This correlation is driven by the ionization balance of
-\ion{Si}{II}/\ion{Si}{III}, with cooler objects having stronger \ion{Si}{II}
-$\lambda$5972 features. In Figure~\ref{fig:r_evo} we show the evolution of
-$\mathcal{R}($\ion{Si}{II}$)$ as a function of time for \sn, compared to
-SN\,2011fe, SN\,2002bo, SN\,2017erp, and five SNe with multiple measurements
-over a long baseline from the PTF SN\,Ia spectral sample.
-Figure~\ref{fig:r_evo} shows that most SNe\,Ia have a relatively flat
-evolution in $\mathcal{R}($\ion{Si}{II}$)$ in the time leading up to \tbmax\
-\citep[see also][]{Riess98a}. \sn\ and SN\,2002bo, however, feature a very
-different evolution with initially large values of
-$\mathcal{R}($\ion{Si}{II}$)$ that rapidly decrease to very low values between
-$\sim$10 and $\sim$5\,d before \tbmax.
-
 \begin{figure}
     \centering
     \includegraphics[width=3.35in]{./figures/R_evolution.pdf}
@@ -1355,6 +1342,22 @@ $\sim$10 and $\sim$5\,d before \tbmax.
     %
     \label{fig:r_evo}
 \end{figure}
+
+As first noted by \citet{Nugent95}, and later confirmed by
+\citet{Hachinger08}, $\mathcal{R}($\ion{Si}{II}$)$ is a luminosity indicator,
+with larger values of $\mathcal{R}($\ion{Si}{II}$)$ corresponding to lower
+luminosities. This correlation is driven by the ionization balance of
+\ion{Si}{II}/\ion{Si}{III}, with cooler objects having stronger \ion{Si}{II}
+$\lambda$5972 features. In Figure~\ref{fig:r_evo} we show the evolution of
+$\mathcal{R}($\ion{Si}{II}$)$ as a function of time for \sn, compared to
+SN\,2011fe, SN\,2002bo, SN\,2017erp, and five SNe with multiple measurements
+over a long baseline from the PTF SN\,Ia spectral sample.
+Figure~\ref{fig:r_evo} shows that most SNe\,Ia have a relatively flat
+evolution in $\mathcal{R}($\ion{Si}{II}$)$ in the time leading up to \tbmax\
+\citep[see also][]{Riess98a}. \sn\ and SN\,2002bo, however, feature a very
+different evolution with initially large values of
+$\mathcal{R}($\ion{Si}{II}$)$ that rapidly decrease to very low values between
+$\sim$10 and $\sim$5\,d before \tbmax.
 
 At face value, the $\mathcal{R}($\ion{Si}{II}$)$ evolution in
 Figure~\ref{fig:r_evo} suggests that the effective temperature of \sn\
@@ -1598,6 +1601,11 @@ Gaussian likelihood and flat priors using an affine-invariant
 
 \input{./tables/companion.tex}
 
+The results of this procedure are shown in Figure~\ref{fig:companion}, where
+it is clear that the model presented in \citet{Kasen10a} does an adequate job
+of explaining the early UV/optical emission from \sn\ (constraints on the
+model parameters are reported in Table~\ref{tab:companion}).
+
 \begin{figure}
     \centering
     \includegraphics[width=3.35in]{./figures/sn_companion_models.pdf}
@@ -1617,11 +1625,6 @@ Gaussian likelihood and flat priors using an affine-invariant
     %
     \label{fig:companion}
 \end{figure}
-
-The results of this procedure are shown in Figure~\ref{fig:companion}, where
-it is clear that the model presented in \citet{Kasen10a} does an adequate job
-of explaining the early UV/optical emission from \sn\ (constraints on the
-model parameters are reported in Table~\ref{tab:companion}).
 
 While the interaction models roughly approximate the SN emission in the
 $\sim$3\,d after explosion, they significantly \textit{overestimate} the flux
@@ -2125,6 +2128,9 @@ Laboratories, the TANGO Consortium of Taiwan, the University of Wisconsin at
 Milwaukee, and Lawrence Berkeley National Laboratories. Operations are
 conducted by COO, IPAC, and UW.
 
+SED Machine is based upon work supported by the National Science Foundation
+under grant No 1106171.
+
 This research made use of \texttt{TARDIS}, a community-developed software
 package for spectral synthesis in SNe \citep{Kerzendorf14}. The development of
 \texttt{TARDIS} received support from the Google Summer of Code initiative and
@@ -2176,7 +2182,7 @@ Centre at the University of Leicester.
 %% pdflatex sample63.tex
 
 \bibliography{/Users/adamamiller/Documents/tex_stuff/papers}
-\bibliographystyle{aasjournal}
+\bibliographystyle{aas_arxiv}
 
 %% This command is needed to show the entire author+affiliation list when
 %% the collaboration and author truncation commands are used.  It has to
